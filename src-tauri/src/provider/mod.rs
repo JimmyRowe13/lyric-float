@@ -1,1 +1,123 @@
-Ly8hIEZlZWQgbGF5ZXIuCi8vIQovLyEgVGhlIG92ZXJsYXkgbmV2ZXIgdGFsa3MgdG8gYSBwbGF5ZXIgZGlyZWN0bHk6IGl0IHBvbGxzIGBQcm92aWRlcmBzIGFuZCByZW5kZXJzCi8vISB3aGF0ZXZlciB0aGUgYmVzdCBvbmUgY3VycmVudGx5IHJlcG9ydHMuIFNNVEMgaXMgdGhlIHplcm8tY29uZmlnIGRlZmF1bHQ7IENEUAovLyEgaXMgdGhlIHByZWNpc2lvbiB1cGdyYWRlOyBhIG1hbnVhbCBwcm92aWRlciBsZXRzIHRoZSB1c2VyIHBhc3RlIGx5cmljcy4KCnB1YiBtb2QgY2RwOwpwdWIgbW9kIGV4dGVuc2lvbjsKcHViIG1vZCBzbXRjOwoKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07CgojW2Rlcml2ZShEZWJ1ZywgQ2xvbmUsIFBhcnRpYWxFcSwgRXEsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpwdWIgc3RydWN0IFRyYWNrSW5mbyB7CiAgICBwdWIgdGl0bGU6IFN0cmluZywKICAgIHB1YiBhcnRpc3Q6IFN0cmluZywKICAgIHB1YiBhbGJ1bTogU3RyaW5nLAogICAgcHViIGFwcF9pZDogU3RyaW5nLAogICAgLy8vIENhdGFsb2cgaWQsIHdoZW4gdGhlIHByb3ZpZGVyIGNhbiBzZWUgaXQgKENEUCByZWFkcyBpdCBvZmYgTXVzaWNLaXQpLgogICAgLy8vIE5lZWRlZCB0byBhc2sgQXBwbGUgZm9yIHRoYXQgc29uZydzIFRUTUwgbHlyaWNzLgogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIHB1YiBzb25nX2lkOiBPcHRpb248U3RyaW5nPiwKfQoKI1tkZXJpdmUoRGVidWcsIENsb25lLCBDb3B5LCBQYXJ0aWFsRXEsIEVxLCBTZXJpYWxpemUsIERlc2VyaWFsaXplKV0KI1tzZXJkZShyZW5hbWVfYWxsID0gInNuYWtlX2Nhc2UiKV0KcHViIGVudW0gUGxheWJhY2tTdGF0ZSB7CiAgICBQbGF5aW5nLAogICAgUGF1c2VkLAogICAgU3RvcHBlZCwKICAgIFVua25vd24sCn0KCmltcGwgUGxheWJhY2tTdGF0ZSB7CiAgICBwdWIgZm4gaXNfcGxheWluZyhzZWxmKSAtPiBib29sIHsKICAgICAgICBtYXRjaGVzIShzZWxmLCBQbGF5YmFja1N0YXRlOjpQbGF5aW5nKQogICAgfQp9CgojW2Rlcml2ZShEZWJ1ZywgQ2xvbmUsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpwdWIgc3RydWN0IFBsYXliYWNrU25hcHNob3QgewogICAgcHViIHRyYWNrOiBPcHRpb248VHJhY2tJbmZvPiwKICAgIHB1YiBzdGF0ZTogUGxheWJhY2tTdGF0ZSwKICAgIC8vLyBTZWNvbmRzLCBhbHJlYWR5IGV4dHJhcG9sYXRlZCB0byAibm93IiAoc2VlIGRvY3MvbTAtc210Yy1wcm9iZS5tZCkuCiAgICBwdWIgcG9zaXRpb25fc2VjczogZjY0LAogICAgcHViIGR1cmF0aW9uX3NlY3M6IGY2NCwKICAgIC8vLyBIb3cgc3RhbGUgdGhlIHVuZGVybHlpbmcgcmVwb3J0IHdhcywgaW4gbWlsbGlzLiBUaGUgVUkgdXNlcyB0aGlzIHRvIGRlY2lkZQogICAgLy8vIGJldHdlZW4gInRydXN0IiBhbmQgInNob3cgbm90LWNvbm5lY3RlZCIgaW5zdGVhZCBvZiBkcmlmdGluZyBzaWxlbnRseS4KICAgIHB1YiByZXBvcnRfYWdlX21zOiB1NjQsCiAgICBwdWIgc291cmNlOiBTdHJpbmcsCn0KCmltcGwgUGxheWJhY2tTbmFwc2hvdCB7CiAgICBwdWIgZm4gaXNfdXNhYmxlKCZzZWxmKSAtPiBib29sIHsKICAgICAgICBzZWxmLnRyYWNrLmlzX3NvbWUoKSAmJiBzZWxmLmR1cmF0aW9uX3NlY3MgPiAwLjAgJiYgc2VsZi5yZXBvcnRfYWdlX21zIDwgMzAwMAogICAgfQp9CgpwdWIgdHJhaXQgUHJvdmlkZXI6IFNlbmQgKyBTeW5jIHsKICAgIC8vLyBTdGFibGUgaWQsIGFsc28gdXNlZCBhcyBgUGxheWJhY2tTbmFwc2hvdDo6c291cmNlYC4KICAgIGZuIGlkKCZzZWxmKSAtPiAmJ3N0YXRpYyBzdHI7CgogICAgLy8vIEJlc3Qgc25hcHNob3QgdGhpcyBwcm92aWRlciBjYW4gcHJvZHVjZSByaWdodCBub3csIG9yIGBOb25lYC4KICAgIGZuIHBvbGwoJnNlbGYpIC0+IE9wdGlvbjxQbGF5YmFja1NuYXBzaG90PjsKCiAgICAvLy8gMCA9IGxpbmUtbGV2ZWwgb25seSwgMSA9IHN1Yi0xMDAgbXMsIDIgPSB3b3JkLWxldmVsIGNhcGFibGUuCiAgICBmbiBwcmVjaXNpb24oJnNlbGYpIC0+IHU4IHsgMCB9Cn0KCi8vLyBQaWNrIHRoZSBzZXNzaW9uIHdvcnRoIGZvbGxvd2luZy4KLy8vCi8vLyBNMCBmaW5kaW5nOiBgU291cmNlQXBwVXNlck1vZGVsSWRgIGxvb2tzIGxpa2UgYENocm9tZS5BQVpTM0E2VE1XWVBJN05CV0lNTkZVQUhTUWAgYW5kCi8vLyBjYXJyaWVzICoqbm8gVVJMKiosIHNvIGEgZG9tYWluIGNoZWNrIGlzIGltcG9zc2libGUgaGVyZSAoc2VlIGRvY3MvZGVjaXNpb25zLm1kICM4KS4KLy8vIFdlIHRoZXJlZm9yZSByYW5rIGJ5OiBwbGF5aW5nIGZpcnN0LCB0aGVuIGZyZXNoZXN0IHJlcG9ydCwgdGhlbiBkdXJhdGlvbiA+IDAuCnB1YiBmbiByYW5rPCdhLCBUPigKICAgIGNhbmRpZGF0ZXM6IGltcGwgSW50b0l0ZXJhdG9yPEl0ZW0gPSAoJidhIFQsIFBsYXliYWNrU3RhdGUsIHU2NCwgZjY0KT4sCikgLT4gT3B0aW9uPCYnYSBUPiB7CiAgICBsZXQgbXV0IGJlc3Q6IE9wdGlvbjwoJidhIFQsIHU4LCBpNjQsIHU2NCk+ID0gTm9uZTsKICAgIGZvciAoaXRlbSwgc3RhdGUsIGFnZV9tcywgZHVyYXRpb24pIGluIGNhbmRpZGF0ZXMgewogICAgICAgIGxldCBwbGF5aW5nID0gaWYgc3RhdGUuaXNfcGxheWluZygpIHsgMXU4IH0gZWxzZSB7IDAgfTsKICAgICAgICBsZXQgaGFzX2R1cmF0aW9uID0gaWYgZHVyYXRpb24gPiAwLjAgeyAxaTY0IH0gZWxzZSB7IDAgfTsKICAgICAgICAvLyBIaWdoZXIgc2NvcmUgd2luczogcGxheWluZywgdGhlbiBoYXMgZHVyYXRpb24sIHRoZW4gZnJlc2hlciAoaW52ZXJ0IGFnZSkuCiAgICAgICAgbGV0IHNjb3JlID0gKHBsYXlpbmcsIGhhc19kdXJhdGlvbiwgLShhZ2VfbXMgYXMgaTY0KSk7CiAgICAgICAgbGV0IGJldHRlciA9IG1hdGNoIGJlc3QgewogICAgICAgICAgICBOb25lID0+IHRydWUsCiAgICAgICAgICAgIFNvbWUoKF8sIGJfcGxheSwgYl9kdXIsIGJfYWdlKSkgPT4gewogICAgICAgICAgICAgICAgbGV0IGJfc2NvcmUgPSAoYl9wbGF5LCBiX2R1ciwgLShiX2FnZSBhcyBpNjQpKTsKICAgICAgICAgICAgICAgIHNjb3JlID4gYl9zY29yZQogICAgICAgICAgICB9CiAgICAgICAgfTsKICAgICAgICBpZiBiZXR0ZXIgewogICAgICAgICAgICBiZXN0ID0gU29tZSgoaXRlbSwgcGxheWluZywgaGFzX2R1cmF0aW9uLCBhZ2VfbXMpKTsKICAgICAgICB9CiAgICB9CiAgICBiZXN0Lm1hcCh8KGl0ZW0sIF8sIF8sIF8pfCBpdGVtKQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBwcmVmZXJzX3BsYXlpbmdfb3Zlcl9mcmVzaGVyX3BhdXNlZCgpIHsKICAgICAgICBsZXQgYSA9ICJwYXVzZWQtYnV0LWZyZXNoIjsKICAgICAgICBsZXQgYiA9ICJwbGF5aW5nLW9sZGVyIjsKICAgICAgICBsZXQgY2hvc2VuID0gcmFuayh2ZWMhWwogICAgICAgICAgICAoJmEsIFBsYXliYWNrU3RhdGU6OlBhdXNlZCwgNTAsIDIwMC4wKSwKICAgICAgICAgICAgKCZiLCBQbGF5YmFja1N0YXRlOjpQbGF5aW5nLCA4MDAsIDIwMC4wKSwKICAgICAgICBdKTsKICAgICAgICBhc3NlcnRfZXEhKGNob3NlbiwgU29tZSgmInBsYXlpbmctb2xkZXIiKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gd2l0aGluX3NhbWVfc3RhdGVfcHJlZmVyc19mcmVzaGVyKCkgewogICAgICAgIGxldCBhID0gInN0YWxlIjsKICAgICAgICBsZXQgYiA9ICJmcmVzaCI7CiAgICAgICAgbGV0IGNob3NlbiA9IHJhbmsodmVjIVsKICAgICAgICAgICAgKCZhLCBQbGF5YmFja1N0YXRlOjpQbGF5aW5nLCA5MDAsIDIwMC4wKSwKICAgICAgICAgICAgKCZiLCBQbGF5YmFja1N0YXRlOjpQbGF5aW5nLCAxMDAsIDIwMC4wKSwKICAgICAgICBdKTsKICAgICAgICBhc3NlcnRfZXEhKGNob3NlbiwgU29tZSgmImZyZXNoIikpOwogICAgfQp9Cg==
+//! Feed layer.
+//!
+//! The overlay never talks to a player directly: it polls `Provider`s and renders
+//! whatever the best one currently reports. SMTC is the zero-config default; CDP
+//! is the precision upgrade; a manual provider lets the user paste lyrics.
+
+pub mod cdp;
+pub mod extension;
+pub mod smtc;
+
+use serde::{Deserialize, Serialize};
+
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+pub struct TrackInfo {
+    pub title: String,
+    pub artist: String,
+    pub album: String,
+    pub app_id: String,
+    /// Catalog id, when the provider can see it (CDP reads it off MusicKit).
+    /// Needed to ask Apple for that song's TTML lyrics.
+    #[serde(default)]
+    pub song_id: Option<String>,
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
+pub enum PlaybackState {
+    Playing,
+    Paused,
+    Stopped,
+    Unknown,
+}
+
+impl PlaybackState {
+    pub fn is_playing(self) -> bool {
+        matches!(self, PlaybackState::Playing)
+    }
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct PlaybackSnapshot {
+    pub track: Option<TrackInfo>,
+    pub state: PlaybackState,
+    /// Seconds, already extrapolated to "now" (see docs/m0-smtc-probe.md).
+    pub position_secs: f64,
+    pub duration_secs: f64,
+    /// How stale the underlying report was, in millis. The UI uses this to decide
+    /// between "trust" and "show not-connected" instead of drifting silently.
+    pub report_age_ms: u64,
+    pub source: String,
+}
+
+impl PlaybackSnapshot {
+    pub fn is_usable(&self) -> bool {
+        self.track.is_some() && self.duration_secs > 0.0 && self.report_age_ms < 3000
+    }
+}
+
+pub trait Provider: Send + Sync {
+    /// Stable id, also used as `PlaybackSnapshot::source`.
+    fn id(&self) -> &'static str;
+
+    /// Best snapshot this provider can produce right now, or `None`.
+    fn poll(&self) -> Option<PlaybackSnapshot>;
+
+    /// 0 = line-level only, 1 = sub-100 ms, 2 = word-level capable.
+    fn precision(&self) -> u8 { 0 }
+}
+
+/// Pick the session worth following.
+///
+/// M0 finding: `SourceAppUserModelId` looks like `Chrome.AAZS3A6TMWYPI7NBWIMNFUAHSQ` and
+/// carries **no URL**, so a domain check is impossible here (see docs/decisions.md #8).
+/// We therefore rank by: playing first, then freshest report, then duration > 0.
+pub fn rank<'a, T>(
+    candidates: impl IntoIterator<Item = (&'a T, PlaybackState, u64, f64)>,
+) -> Option<&'a T> {
+    let mut best: Option<(&'a T, u8, i64, u64)> = None;
+    for (item, state, age_ms, duration) in candidates {
+        let playing = if state.is_playing() { 1u8 } else { 0 };
+        let has_duration = if duration > 0.0 { 1i64 } else { 0 };
+        // Higher score wins: playing, then has duration, then fresher (invert age).
+        let score = (playing, has_duration, -(age_ms as i64));
+        let better = match best {
+            None => true,
+            Some((_, b_play, b_dur, b_age)) => {
+                let b_score = (b_play, b_dur, -(b_age as i64));
+                score > b_score
+            }
+        };
+        if better {
+            best = Some((item, playing, has_duration, age_ms));
+        }
+    }
+    best.map(|(item, _, _, _)| item)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn prefers_playing_over_fresher_paused() {
+        let a = "paused-but-fresh";
+        let b = "playing-older";
+        let chosen = rank(vec![
+            (&a, PlaybackState::Paused, 50, 200.0),
+            (&b, PlaybackState::Playing, 800, 200.0),
+        ]);
+        assert_eq!(chosen, Some(&"playing-older"));
+    }
+
+    #[test]
+    fn within_same_state_prefers_fresher() {
+        let a = "stale";
+        let b = "fresh";
+        let chosen = rank(vec![
+            (&a, PlaybackState::Playing, 900, 200.0),
+            (&b, PlaybackState::Playing, 100, 200.0),
+        ]);
+        assert_eq!(chosen, Some(&"fresh"));
+    }
+}

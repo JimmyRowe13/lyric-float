@@ -1,1 +1,141 @@
-Ly8gTHlyaWNGbG9hdCBCcmlkZ2Ug4oCUIHBhZ2Ugd29ybGQgKHdvcmxkOiAiTUFJTiIpLgovLwovLyBSZWFkcyB3aGF0IHRoZSBDRFAgZWRpdGlvbiByZWFkcyBvdmVyIERldlRvb2xzLCBidXQgZnJvbSBpbnNpZGUgdGhlIHBhZ2U6Ci8vICAgKiBjbG9jazogIG1lZGlhSXRlbVBsYXliYWNrLl9jdXJyZW50UGxheWVyLl9idWZmZXIKLy8gICAgICAgICAgICAgc29uZ1BvcyA9IF9jdXJyZW50VGltZSAtIGN1cnJlbnRUaW1lc3RhbXBPZmZzZXQgICAoYSBjb25jZXJ0IGFsYnVtIGlzIE9ORSBzdHJlYW0pCi8vICAgKiB0cmFjazogIGN1cnJlbnRQbGF5YmFjay5hc3NldC5pZCAvIGl0ZW0uYXR0cmlidXRlcyAvIG1lZGlhU2Vzc2lvbgovLyAgICogbHlyaWNzOiAvdjEvY2F0YWxvZy97c2Z9L3NvbmdzL3tpZH0vc3lsbGFibGUtbHlyaWNzICAoTk9UIC9seXJpY3MsIHdoaWNoIDQwNHMgb24KLy8gICAgICAgICAgICAgb2xkZXIgcGF0aHM7IC9seXJpY3MgaXMga2VwdCBhcyBhIGZhbGxiYWNrIGFuZCBjYXJyaWVzIGF0dHJpYnV0ZXMudHRtbCkKLy8KLy8gSXQgY2Fubm90IG9wZW4gdGhlIFdlYlNvY2tldCBpdHNlbGY6IGEgTUFJTi13b3JsZCBzY3JpcHQgbGl2ZXMgdW5kZXIgdGhlIHBhZ2UncyBDU1AsCi8vIGFuZCBtdXNpYy5hcHBsZS5jb20ncyBjb25uZWN0LXNyYyBkb2VzIG5vdCBhbGxvdyB3czovLzEyNy4wLjAuMS4gU28gZXZlcnl0aGluZyBpcwovLyBoYW5kZWQgdG8gYnJpZGdlLmpzIChpc29sYXRlZCB3b3JsZCkgdGhyb3VnaCB3aW5kb3cucG9zdE1lc3NhZ2UuCgooKCkgPT4gewogIGlmICh3aW5kb3cuX19sZlBhZ2VJbnN0YWxsZWQpIHJldHVybjsKICB3aW5kb3cuX19sZlBhZ2VJbnN0YWxsZWQgPSB0cnVlOwoKICBjb25zdCB0aWNrTXMgPSAyMDA7CiAgY29uc3QgcmV0cnlNcyA9IDgwMDA7CgogIGxldCBseXJpY0RvbmVGb3IgPSBudWxsOyAgIC8vIHNvbmcgaWQgd2hvc2UgbHlyaWNzIHdlcmUgZGVsaXZlcmVkIHN1Y2Nlc3NmdWxseQogIGxldCBseXJpY1RyaWVkQXQgPSAwOyAgICAgIC8vIGxhc3QgYXR0ZW1wdCwgZm9yIHRoZSByZXRyeSBjb29sZG93bgogIGxldCBidXN5ID0gZmFsc2U7CgogIGNvbnN0IHBvc3QgPSAobXNnKSA9PiB7CiAgICB0cnkgewogICAgICB3aW5kb3cucG9zdE1lc3NhZ2UoeyBfX2xmQnJpZGdlOiB0cnVlLCBtc2cgfSwgIioiKTsKICAgIH0gY2F0Y2ggKGUpIHsgLyogaWdub3JlICovIH0KICB9OwoKICBmdW5jdGlvbiByZWFkU3RhdGUoKSB7CiAgICBjb25zdCBraXQgPSB3aW5kb3cuTXVzaWNLaXQgJiYgd2luZG93Lk11c2ljS2l0LmdldEluc3RhbmNlID8gd2luZG93Lk11c2ljS2l0LmdldEluc3RhbmNlKCkgOiBudWxsOwogICAgaWYgKCFraXQpIHJldHVybiBudWxsOwogICAgY29uc3Qgc2VydmljZXMgPSBraXQuX3BsYXliYWNrQ29udHJvbGxlciAmJiBraXQuX3BsYXliYWNrQ29udHJvbGxlci5zZXJ2aWNlczsKICAgIGNvbnN0IG1pcCA9IHNlcnZpY2VzICYmIHNlcnZpY2VzLm1lZGlhSXRlbVBsYXliYWNrOwogICAgaWYgKCFtaXApIHJldHVybiBudWxsOwoKICAgIGNvbnN0IHBsYXliYWNrID0gbWlwLmN1cnJlbnRQbGF5YmFjayB8fCBudWxsOwogICAgY29uc3QgcGxheWVyID0gbWlwLl9jdXJyZW50UGxheWVyIHx8IG51bGw7CiAgICBjb25zdCBidWZmZXIgPSBwbGF5ZXIgJiYgcGxheWVyLl9idWZmZXIgPyBwbGF5ZXIuX2J1ZmZlciA6IG51bGw7CiAgICBjb25zdCBhdHRycyA9IHBsYXliYWNrICYmIHBsYXliYWNrLml0ZW0gJiYgcGxheWJhY2suaXRlbS5hdHRyaWJ1dGVzID8gcGxheWJhY2suaXRlbS5hdHRyaWJ1dGVzIDogbnVsbDsKICAgIGNvbnN0IG1ldGEgPSBuYXZpZ2F0b3IubWVkaWFTZXNzaW9uICYmIG5hdmlnYXRvci5tZWRpYVNlc3Npb24ubWV0YWRhdGE7CgogICAgbGV0IHBvc2l0aW9uID0gbnVsbDsKICAgIGlmIChidWZmZXIgJiYgTnVtYmVyLmlzRmluaXRlKGJ1ZmZlci5fY3VycmVudFRpbWUpICYmIE51bWJlci5pc0Zpbml0ZShidWZmZXIuY3VycmVudFRpbWVzdGFtcE9mZnNldCkpIHsKICAgICAgcG9zaXRpb24gPSBNYXRoLm1heCgwLCBidWZmZXIuX2N1cnJlbnRUaW1lIC0gYnVmZmVyLmN1cnJlbnRUaW1lc3RhbXBPZmZzZXQpOwogICAgfQoKICAgIHJldHVybiB7CiAgICAgIHBsYXlpbmc6IHBsYXllciA/ICFwbGF5ZXIuX3BhdXNlZCA6IGZhbHNlLAogICAgICBwb3NpdGlvbiwKICAgICAgZHVyYXRpb246IGJ1ZmZlciAmJiBOdW1iZXIuaXNGaW5pdGUoYnVmZmVyLmR1cmF0aW9uKSA/IGJ1ZmZlci5kdXJhdGlvbiA6IG51bGwsCiAgICAgIHRpdGxlOiAoYXR0cnMgJiYgYXR0cnMubmFtZSkgfHwgKG1ldGEgJiYgbWV0YS50aXRsZSkgfHwgbnVsbCwKICAgICAgYXJ0aXN0OiAoYXR0cnMgJiYgYXR0cnMuYXJ0aXN0TmFtZSkgfHwgKG1ldGEgJiYgbWV0YS5hcnRpc3QpIHx8IG51bGwsCiAgICAgIGFsYnVtOiAoYXR0cnMgJiYgYXR0cnMuYWxidW1OYW1lKSB8fCAobWV0YSAmJiBtZXRhLmFsYnVtKSB8fCBudWxsLAogICAgICBzb25nSWQ6IHBsYXliYWNrICYmIHBsYXliYWNrLmFzc2V0ICYmIHBsYXliYWNrLmFzc2V0LmlkID8gU3RyaW5nKHBsYXliYWNrLmFzc2V0LmlkKSA6IG51bGwsCiAgICAgIHN0b3JlZnJvbnQ6IGtpdC5zdG9yZWZyb250SWQgfHwgImNuIiwKICAgIH07CiAgfQoKICBhc3luYyBmdW5jdGlvbiBnZXRKc29uKHVybCwgaGVhZGVycykgewogICAgY29uc3QgY3RybCA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsKICAgIGNvbnN0IHRpbWVyID0gc2V0VGltZW91dCgoKSA9PiBjdHJsLmFib3J0KCksIDYwMDApOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2godXJsLCB7IGhlYWRlcnMsIHNpZ25hbDogY3RybC5zaWduYWwgfSk7CiAgICAgIGlmICghcmVzLm9rKSByZXR1cm4gbnVsbDsKICAgICAgcmV0dXJuIGF3YWl0IHJlcy5qc29uKCk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHJldHVybiBudWxsOwogICAgfSBmaW5hbGx5IHsKICAgICAgY2xlYXJUaW1lb3V0KHRpbWVyKTsKICAgIH0KICB9CgogIC8vIFJldHVybnMgVFRNTCB0ZXh0IG9yIG51bGwuIFR3byBzaGFwZXM6IHN5bGxhYmxlLWx5cmljcyAtPiBhdHRyaWJ1dGVzLnR0bWxMb2NhbGl6YXRpb25zLAogIC8vIHBsYWluIGx5cmljcyAtPiBhdHRyaWJ1dGVzLnR0bWwuCiAgYXN5bmMgZnVuY3Rpb24gZmV0Y2hMeXJpY3Moc29uZ0lkLCBzdG9yZWZyb250KSB7CiAgICBjb25zdCBraXQgPSB3aW5kb3cuTXVzaWNLaXQgJiYgd2luZG93Lk11c2ljS2l0LmdldEluc3RhbmNlID8gd2luZG93Lk11c2ljS2l0LmdldEluc3RhbmNlKCkgOiBudWxsOwogICAgaWYgKCFraXQgfHwgIXNvbmdJZCkgcmV0dXJuIG51bGw7CiAgICBjb25zdCBzZiA9IHN0b3JlZnJvbnQgfHwgImNuIjsKICAgIGNvbnN0IGhlYWRlcnMgPSB7CiAgICAgIEF1dGhvcml6YXRpb246ICJCZWFyZXIgIiArIGtpdC5kZXZlbG9wZXJUb2tlbiwKICAgICAgIm1lZGlhLXVzZXItdG9rZW4iOiBraXQubXVzaWNVc2VyVG9rZW4gfHwgIiIsCiAgICAgIE9yaWdpbjogImh0dHBzOi8vbXVzaWMuYXBwbGUuY29tIiwKICAgIH07CiAgICBjb25zdCBiYXNlID0gImh0dHBzOi8vYW1wLWFwaS5tdXNpYy5hcHBsZS5jb20vdjEvY2F0YWxvZy8iICsgc2YgKyAiL3NvbmdzLyIgKyBzb25nSWQ7CgogICAgY29uc3Qgc3lsbGFibGUgPSBhd2FpdCBnZXRKc29uKAogICAgICBiYXNlICsgIi9zeWxsYWJsZS1seXJpY3M/bCU1Qmx5cmljcyU1RD16aC1oYW5zLWNuJmwlNUJzY3JpcHQlNUQ9emgtSGFucyZleHRlbmQ9dHRtbExvY2FsaXphdGlvbnMiLAogICAgICBoZWFkZXJzLAogICAgKTsKICAgIGNvbnN0IGZyb21TeWxsYWJsZSA9IHN5bGxhYmxlICYmIHN5bGxhYmxlLmRhdGEgJiYgc3lsbGFibGUuZGF0YVswXSAmJiBzeWxsYWJsZS5kYXRhWzBdLmF0dHJpYnV0ZXMKICAgICAgPyBzeWxsYWJsZS5kYXRhWzBdLmF0dHJpYnV0ZXMudHRtbExvY2FsaXphdGlvbnMKICAgICAgOiBudWxsOwogICAgaWYgKHR5cGVvZiBmcm9tU3lsbGFibGUgPT09ICJzdHJpbmciICYmIGZyb21TeWxsYWJsZS5sZW5ndGggPiAzMikgcmV0dXJuIGZyb21TeWxsYWJsZTsKCiAgICBjb25zdCBwbGFpbiA9IGF3YWl0IGdldEpzb24oYmFzZSArICIvbHlyaWNzP2V4dGVuZD10dG1sTG9jYWxpemF0aW9ucyIsIGhlYWRlcnMpOwogICAgY29uc3QgZnJvbVBsYWluID0gcGxhaW4gJiYgcGxhaW4uZGF0YSAmJiBwbGFpbi5kYXRhWzBdICYmIHBsYWluLmRhdGFbMF0uYXR0cmlidXRlcwogICAgICA/IHBsYWluLmRhdGFbMF0uYXR0cmlidXRlcy50dG1sCiAgICAgIDogbnVsbDsKICAgIGlmICh0eXBlb2YgZnJvbVBsYWluID09PSAic3RyaW5nIiAmJiBmcm9tUGxhaW4ubGVuZ3RoID4gMzIpIHJldHVybiBmcm9tUGxhaW47CgogICAgcmV0dXJuIG51bGw7CiAgfQoKICBhc3luYyBmdW5jdGlvbiB0aWNrKCkgewogICAgaWYgKGJ1c3kpIHJldHVybjsKICAgIGJ1c3kgPSB0cnVlOwogICAgdHJ5IHsKICAgICAgY29uc3Qgc3RhdGUgPSByZWFkU3RhdGUoKTsKICAgICAgaWYgKCFzdGF0ZSB8fCAhc3RhdGUudGl0bGUpIHJldHVybjsKICAgICAgcG9zdCh7IHR5cGU6ICJzdGF0ZSIsIHBheWxvYWQ6IHN0YXRlIH0pOwoKICAgICAgaWYgKCFzdGF0ZS5zb25nSWQgfHwgc3RhdGUuc29uZ0lkID09PSBseXJpY0RvbmVGb3IpIHJldHVybjsKICAgICAgLy8gUmV0cnkgY29vbGRvd246IGEgZmFpbHVyZSBtdXN0IG5vdCB0dXJuIGludG8gYSByZXF1ZXN0IGV2ZXJ5IDIwMCBtcywgYnV0IGl0IGFsc28KICAgICAgLy8gbXVzdCBub3QgYmUgcmVtZW1iZXJlZCBhcyBzdWNjZXNzICh0aGF0IHVzZWQgdG8gbGVhdmUgYSBzb25nIGx5cmljLWxlc3MgZm9yZXZlcikuCiAgICAgIGlmIChEYXRlLm5vdygpIC0gbHlyaWNUcmllZEF0IDwgcmV0cnlNcykgcmV0dXJuOwogICAgICBseXJpY1RyaWVkQXQgPSBEYXRlLm5vdygpOwoKICAgICAgY29uc3QgdHRtbCA9IGF3YWl0IGZldGNoTHlyaWNzKHN0YXRlLnNvbmdJZCwgc3RhdGUuc3RvcmVmcm9udCk7CiAgICAgIGlmICh0dG1sKSB7CiAgICAgICAgbHlyaWNEb25lRm9yID0gc3RhdGUuc29uZ0lkOwogICAgICAgIHBvc3QoeyB0eXBlOiAibHlyaWNzIiwgc29uZ0lkOiBzdGF0ZS5zb25nSWQsIHR0bWwgfSk7CiAgICAgIH0KICAgIH0gZmluYWxseSB7CiAgICAgIGJ1c3kgPSBmYWxzZTsKICAgIH0KICB9CgogIC8vIFRoZSBvdmVybGF5IHJlc3RhcnRzIG9yIHJlY29ubmVjdHM6IGl0IGhhcyBubyBseXJpY3MgaW4gbWVtb3J5LCBzbyBhbGxvdyBhIHJlc2VuZC4KICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigibWVzc2FnZSIsIChldmVudCkgPT4gewogICAgaWYgKGV2ZW50LnNvdXJjZSAhPT0gd2luZG93KSByZXR1cm47CiAgICBpZiAoZXZlbnQuZGF0YSAmJiBldmVudC5kYXRhLl9fbGZCcmlkZ2VDb25uZWN0ZWQpIHsKICAgICAgbHlyaWNEb25lRm9yID0gbnVsbDsKICAgICAgbHlyaWNUcmllZEF0ID0gMDsKICAgIH0KICB9KTsKCiAgc2V0SW50ZXJ2YWwodGljaywgdGlja01zKTsKICBjb25zb2xlLmluZm8oIltMeXJpY0Zsb2F0XSBwYWdlIGJyaWRnZSBpbnN0YWxsZWQiKTsKfSkoKTsK
+// LyricFloat Bridge — page world (world: "MAIN").
+//
+// Reads what the CDP edition reads over DevTools, but from inside the page:
+//   * clock:  mediaItemPlayback._currentPlayer._buffer
+//             songPos = _currentTime - currentTimestampOffset   (a concert album is ONE stream)
+//   * track:  currentPlayback.asset.id / item.attributes / mediaSession
+//   * lyrics: /v1/catalog/{sf}/songs/{id}/syllable-lyrics  (NOT /lyrics, which 404s on
+//             older paths; /lyrics is kept as a fallback and carries attributes.ttml)
+//
+// It cannot open the WebSocket itself: a MAIN-world script lives under the page's CSP,
+// and music.apple.com's connect-src does not allow ws://127.0.0.1. So everything is
+// handed to bridge.js (isolated world) through window.postMessage.
+
+(() => {
+  if (window.__lfPageInstalled) return;
+  window.__lfPageInstalled = true;
+
+  const tickMs = 200;
+  const retryMs = 8000;
+
+  let lyricDoneFor = null;   // song id whose lyrics were delivered successfully
+  let lyricTriedAt = 0;      // last attempt, for the retry cooldown
+  let busy = false;
+
+  const post = (msg) => {
+    try {
+      window.postMessage({ __lfBridge: true, msg }, "*");
+    } catch (e) { /* ignore */ }
+  };
+
+  function readState() {
+    const kit = window.MusicKit && window.MusicKit.getInstance ? window.MusicKit.getInstance() : null;
+    if (!kit) return null;
+    const services = kit._playbackController && kit._playbackController.services;
+    const mip = services && services.mediaItemPlayback;
+    if (!mip) return null;
+
+    const playback = mip.currentPlayback || null;
+    const player = mip._currentPlayer || null;
+    const buffer = player && player._buffer ? player._buffer : null;
+    const attrs = playback && playback.item && playback.item.attributes ? playback.item.attributes : null;
+    const meta = navigator.mediaSession && navigator.mediaSession.metadata;
+
+    let position = null;
+    if (buffer && Number.isFinite(buffer._currentTime) && Number.isFinite(buffer.currentTimestampOffset)) {
+      position = Math.max(0, buffer._currentTime - buffer.currentTimestampOffset);
+    }
+
+    return {
+      playing: player ? !player._paused : false,
+      position,
+      duration: buffer && Number.isFinite(buffer.duration) ? buffer.duration : null,
+      title: (attrs && attrs.name) || (meta && meta.title) || null,
+      artist: (attrs && attrs.artistName) || (meta && meta.artist) || null,
+      album: (attrs && attrs.albumName) || (meta && meta.album) || null,
+      songId: playback && playback.asset && playback.asset.id ? String(playback.asset.id) : null,
+      storefront: kit.storefrontId || "cn",
+    };
+  }
+
+  async function getJson(url, headers) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 6000);
+    try {
+      const res = await fetch(url, { headers, signal: ctrl.signal });
+      if (!res.ok) return null;
+      return await res.json();
+    } catch (e) {
+      return null;
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  // Returns TTML text or null. Two shapes: syllable-lyrics -> attributes.ttmlLocalizations,
+  // plain lyrics -> attributes.ttml.
+  async function fetchLyrics(songId, storefront) {
+    const kit = window.MusicKit && window.MusicKit.getInstance ? window.MusicKit.getInstance() : null;
+    if (!kit || !songId) return null;
+    const sf = storefront || "cn";
+    const headers = {
+      Authorization: "Bearer " + kit.developerToken,
+      "media-user-token": kit.musicUserToken || "",
+      Origin: "https://music.apple.com",
+    };
+    const base = "https://amp-api.music.apple.com/v1/catalog/" + sf + "/songs/" + songId;
+
+    const syllable = await getJson(
+      base + "/syllable-lyrics?l%5Blyrics%5D=zh-hans-cn&l%5Bscript%5D=zh-Hans&extend=ttmlLocalizations",
+      headers,
+    );
+    const fromSyllable = syllable && syllable.data && syllable.data[0] && syllable.data[0].attributes
+      ? syllable.data[0].attributes.ttmlLocalizations
+      : null;
+    if (typeof fromSyllable === "string" && fromSyllable.length > 32) return fromSyllable;
+
+    const plain = await getJson(base + "/lyrics?extend=ttmlLocalizations", headers);
+    const fromPlain = plain && plain.data && plain.data[0] && plain.data[0].attributes
+      ? plain.data[0].attributes.ttml
+      : null;
+    if (typeof fromPlain === "string" && fromPlain.length > 32) return fromPlain;
+
+    return null;
+  }
+
+  async function tick() {
+    if (busy) return;
+    busy = true;
+    try {
+      const state = readState();
+      if (!state || !state.title) return;
+      post({ type: "state", payload: state });
+
+      if (!state.songId || state.songId === lyricDoneFor) return;
+      // Retry cooldown: a failure must not turn into a request every 200 ms, but it also
+      // must not be remembered as success (that used to leave a song lyric-less forever).
+      if (Date.now() - lyricTriedAt < retryMs) return;
+      lyricTriedAt = Date.now();
+
+      const ttml = await fetchLyrics(state.songId, state.storefront);
+      if (ttml) {
+        lyricDoneFor = state.songId;
+        post({ type: "lyrics", songId: state.songId, ttml });
+      }
+    } finally {
+      busy = false;
+    }
+  }
+
+  // The overlay restarts or reconnects: it has no lyrics in memory, so allow a resend.
+  window.addEventListener("message", (event) => {
+    if (event.source !== window) return;
+    if (event.data && event.data.__lfBridgeConnected) {
+      lyricDoneFor = null;
+      lyricTriedAt = 0;
+    }
+  });
+
+  setInterval(tick, tickMs);
+  console.info("[LyricFloat] page bridge installed");
+})();

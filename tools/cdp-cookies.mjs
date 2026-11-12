@@ -1,1 +1,47 @@
-Ly8gUmVhZHMgdGhlIGxpdmUgY29va2llIGphciBvZiB0aGUgZGVidWdnZWQgQ2hyb21lIHRocm91Z2ggQ0RQLgovLyBVc2VkIHRvIGFuc3dlciAiZG9lcyB0aGUgZGVkaWNhdGVkIHByb2ZpbGUga2VlcCB0aGUgbG9naW4/IiB3aXRoIHJlYWwgZXhwaXJ5IGRhdGVzCi8vIGluc3RlYWQgb2YgZ3Vlc3NpbmcgKHRoZSBTUUxpdGUgZmlsZSBpdHNlbGYgaXMgZXhjbHVzaXZlbHkgbG9ja2VkIHdoaWxlIENocm9tZSBydW5zKS4KLy8KLy8gVXNhZ2U6IG5vZGUgdG9vbHMvY2RwLWNvb2tpZXMubWpzIFtwb3J0XSBbZG9tYWluRmlsdGVyXQoKY29uc3QgcG9ydCA9IHByb2Nlc3MuYXJndlsyXSA/PyAiOTIyMiI7CmNvbnN0IGZpbHRlciA9IHByb2Nlc3MuYXJndlszXSA/PyAiYXBwbGUuY29tIjsKCmNvbnN0IHRhcmdldHMgPSBhd2FpdCAoYXdhaXQgZmV0Y2goYGh0dHA6Ly8xMjcuMC4wLjE6JHtwb3J0fS9qc29uYCkpLmpzb24oKTsKY29uc3QgcGFnZSA9IHRhcmdldHMuZmluZCgodCkgPT4gdC50eXBlID09PSAicGFnZSIpOwppZiAoIXBhZ2UpIHsKICBjb25zb2xlLmxvZygibm8gcGFnZSB0YXJnZXQiKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnN0IHdzID0gbmV3IFdlYlNvY2tldChwYWdlLndlYlNvY2tldERlYnVnZ2VyVXJsKTsKY29uc3Qgc2VuZCA9IChpZCwgbWV0aG9kLCBwYXJhbXMpID0+IHdzLnNlbmQoSlNPTi5zdHJpbmdpZnkoeyBpZCwgbWV0aG9kLCBwYXJhbXMgfSkpOwoKd3MuYWRkRXZlbnRMaXN0ZW5lcigib3BlbiIsICgpID0+IHsKICBzZW5kKDEsICJOZXR3b3JrLmVuYWJsZSIpOwogIHNlbmQoMiwgIk5ldHdvcmsuZ2V0Q29va2llcyIsIHsgdXJsczogW2BodHRwczovL211c2ljLmFwcGxlLmNvbS9gLCBgaHR0cHM6Ly9hbXAtYXBpLm11c2ljLmFwcGxlLmNvbS9gXSB9KTsKfSk7Cgp3cy5hZGRFdmVudExpc3RlbmVyKCJtZXNzYWdlIiwgKGV2ZW50KSA9PiB7CiAgY29uc3QgbXNnID0gSlNPTi5wYXJzZShldmVudC5kYXRhKTsKICBpZiAobXNnLmlkICE9PSAyKSByZXR1cm47CgogIGNvbnN0IGNvb2tpZXMgPSBtc2cucmVzdWx0Py5jb29raWVzID8/IFtdOwogIGNvbnN0IHdhbnRlZCA9IGNvb2tpZXMuZmlsdGVyKChjKSA9PiBjLmRvbWFpbi5pbmNsdWRlcyhmaWx0ZXIpKTsKICBjb25zb2xlLmxvZyhgY29va2llcyBmb3IgKiR7ZmlsdGVyfSo6ICR7d2FudGVkLmxlbmd0aH1gKTsKICBjb25zdCByb3dzID0gd2FudGVkCiAgICAubWFwKChjKSA9PiAoewogICAgICBuYW1lOiBjLm5hbWUsCiAgICAgIGRvbWFpbjogYy5kb21haW4sCiAgICAgIGV4cGlyZXM6IGMuZXhwaXJlcyA+IDAgPyBuZXcgRGF0ZShjLmV4cGlyZXMgKiAxMDAwKS50b0lTT1N0cmluZygpLnNsaWNlKDAsIDE2KS5yZXBsYWNlKCJUIiwgIiAiKSA6ICJzZXNzaW9uLW9ubHkiLAogICAgICBkYXlzOiBjLmV4cGlyZXMgPiAwID8gTWF0aC5yb3VuZCgoYy5leHBpcmVzICogMTAwMCAtIERhdGUubm93KCkpIC8gODY0MDAwMDApIDogbnVsbCwKICAgIH0pKQogICAgLnNvcnQoKGEsIGIpID0+IChiLmRheXMgPz8gLTEpIC0gKGEuZGF5cyA/PyAtMSkpOwogIGZvciAoY29uc3QgciBvZiByb3dzKSB7CiAgICBjb25zb2xlLmxvZyhgICAke3IubmFtZS5wYWRFbmQoMjgpfSAke3IuZG9tYWluLnBhZEVuZCgyNCl9ICR7ci5leHBpcmVzfSR7ci5kYXlzICE9PSBudWxsID8gYCAgKCR7ci5kYXlzfWQpYCA6ICIifWApOwogIH0KICB3cy5jbG9zZSgpOwogIHByb2Nlc3MuZXhpdCgwKTsKfSk7CgpzZXRUaW1lb3V0KCgpID0+IHByb2Nlc3MuZXhpdCgwKSwgODAwMCk7Cg==
+// Reads the live cookie jar of the debugged Chrome through CDP.
+// Used to answer "does the dedicated profile keep the login?" with real expiry dates
+// instead of guessing (the SQLite file itself is exclusively locked while Chrome runs).
+//
+// Usage: node tools/cdp-cookies.mjs [port] [domainFilter]
+
+const port = process.argv[2] ?? "9222";
+const filter = process.argv[3] ?? "apple.com";
+
+const targets = await (await fetch(`http://127.0.0.1:${port}/json`)).json();
+const page = targets.find((t) => t.type === "page");
+if (!page) {
+  console.log("no page target");
+  process.exit(1);
+}
+
+const ws = new WebSocket(page.webSocketDebuggerUrl);
+const send = (id, method, params) => ws.send(JSON.stringify({ id, method, params }));
+
+ws.addEventListener("open", () => {
+  send(1, "Network.enable");
+  send(2, "Network.getCookies", { urls: [`https://music.apple.com/`, `https://amp-api.music.apple.com/`] });
+});
+
+ws.addEventListener("message", (event) => {
+  const msg = JSON.parse(event.data);
+  if (msg.id !== 2) return;
+
+  const cookies = msg.result?.cookies ?? [];
+  const wanted = cookies.filter((c) => c.domain.includes(filter));
+  console.log(`cookies for *${filter}*: ${wanted.length}`);
+  const rows = wanted
+    .map((c) => ({
+      name: c.name,
+      domain: c.domain,
+      expires: c.expires > 0 ? new Date(c.expires * 1000).toISOString().slice(0, 16).replace("T", " ") : "session-only",
+      days: c.expires > 0 ? Math.round((c.expires * 1000 - Date.now()) / 86400000) : null,
+    }))
+    .sort((a, b) => (b.days ?? -1) - (a.days ?? -1));
+  for (const r of rows) {
+    console.log(`  ${r.name.padEnd(28)} ${r.domain.padEnd(24)} ${r.expires}${r.days !== null ? `  (${r.days}d)` : ""}`);
+  }
+  ws.close();
+  process.exit(0);
+});
+
+setTimeout(() => process.exit(0), 8000);

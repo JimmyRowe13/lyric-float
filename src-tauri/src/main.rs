@@ -1,1 +1,6 @@
-Ly8gUHJldmVudHMgYW4gZXh0cmEgY29uc29sZSB3aW5kb3cgb24gV2luZG93cyBpbiByZWxlYXNlIGJ1aWxkcy4KIyFbY2ZnX2F0dHIobm90KGRlYnVnX2Fzc2VydGlvbnMpLCB3aW5kb3dzX3N1YnN5c3RlbSA9ICJ3aW5kb3dzIildCgpmbiBtYWluKCkgewogICAgbHlyaWNfZmxvYXRfbGliOjpydW4oKQp9Cg==
+// Prevents an extra console window on Windows in release builds.
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+
+fn main() {
+    lyric_float_lib::run()
+}

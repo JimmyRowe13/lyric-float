@@ -1,1 +1,86 @@
-IyBNMiDigJQg5o6l55yf5a6e5pKt5pS+5Lya6K+d55qE6K6w5b2VCgrml6XmnJ/vvJoyMDI2LTExLTEwIDIyOjJ44oCTMjI6NHggKFVUQys4KQrmkq3mlL7mupDvvJrnvZHpobXniYggQXBwbGUgTXVzaWPvvIhDaHJvbWUgMTI477yJ77yM5puy55uu77ya5ZGo5p2w5Lym44CK5LiN6IO96K+055qE56eY5a+G44CL77yMMzc2LjQ1OHMKCiMjIOe7k+iuugoKfCDpobkgfCDnu5PmnpwgfAp8LS0tfC0tLXwKfCDmta7nqpflnKjmoYzpnaLkuIrnnJ/lrp7lj6/op4EgfCDinIUg5paH5a2X5rWu5ZyoIENocm9tZSDkuYvkuIrvvIzlj4zooYznu5PmnoTmraPluLggfAp8IFNNVEMg5ou/5Yiw5puy5ZCNL+atjOaJiy/mm7Lplb8gfCDinIUgfAp8IFNNVEMg5ou/5YiwIuWunuaXtiLov5vluqYgfCDinYwgKirlj6rlnKjkuovku7bngrnkuIrmiqXkuIDmrKEqKiB8Cnwg5q2M6K+N6Ieq5Yqo6I635Y+WIHwg4p2MIOS4ieWxgua6kOWFqOmDqOiQveepuu+8iOingeS4i++8iSB8CgojIyAxLiBTTVRDIOeahOi/m+W6puaYryLkuIDmrKHmgKflv6vnhaci77yM5LiN5piv5a6e5pe25rWBCgo0NSDnp5Lov57nu63ph4fmoLfvvIxgcG9zYCDkuIDnm7TmmK8gYDE1Ljg3M2DjgIFgbGFzdFVwZGF0ZWRgIOS4gOasoeayoeWIt+aWsO+8mgoKYGBgCmk9MCAgcG9zPTE1Ljg3MyAgYWdlPTEwLjlzCmk9OCAgcG9zPTE1Ljg3MyAgYWdlPTI3LjBzCmk9MTcgcG9zPTE1Ljg3MyAgYWdlPTQ1LjFzCmBgYAoK5a+554Wn5a6e6aqM77yI6Ieq5bu66aG16Z2i5q+PIDI1MG1zIOiwgyBgc2V0UG9zaXRpb25TdGF0ZWDvvInph4zov5vluqbmmK/ov57nu63liLfmlrDnmoTvvIzor7TmmI4qKuS4jeaYryBXaW5kb3dzIOeahArpmZDliLbvvIzmmK8gQXBwbGUgTXVzaWMg572R6aG154mI5LiN5oyB57ut5LiK5oqlKirjgIIKCuWboOatpOetlueVpeaUueS4uu+8muaKiiBgTGFzdFVwZGF0ZWRUaW1lYCDlvZPkvZzplJrngrnvvIzmkq3mlL7kuK3kuIDlvovlpJbmjqgKYHBvc2l0aW9uID0gcG9zICsgKG5vdyAtIGxhc3RVcGRhdGVkKSDDlyByYXRlYOOAgui/meaYryBgcHJvdmlkZXIvc210Yy5yc2Ag6YeM546w5Zyo55qE6KGM5Li6Cu+8iGBFWFRSQVBPTEFURV9BRlRFUl9NUyA9IDBg77yJ44CC5pqC5YGcL+i3s+i9rOaXtiBDaHJvbWUg5Lya6YeN5paw5LiK5oql5LiA5qyh77yM6ZSa54K56Ieq5Yqo5pu05paw44CCCgrlpJbmjqjnmoTku6Pku7fvvJrmlbTpppbmrYzpnaDkuIDkuKrplJrngrnorqHml7bvvIzpn7PpopHml7bpkp/kuI7ns7vnu5/ml7bpkp/nmoTlvq7lsI/lgY/lt67kvJrntK/np6/jgILpgJDooYzmrYzor43lpJ/nlKjvvIwK6YCQ5a2X5LuN54S26ZyA6KaBIENEUCDnmoQgYGF1ZGlvLmN1cnJlbnRUaW1lYOOAggoKIyMgMi4g5rWu56qXIueci+S4jeingSLnmoTkuKTkuKrnnJ8gYnVn77yI6YO95LiN5piv5riy5p+T6Zeu6aKY77yJCgojIyMgMi4xIFRhdXJpIDIg6buY6K6k5LiN57uZ5YmN56uv5Lu75L2V5p2D6ZmQIOKAlOKAlCBgZXZlbnQubGlzdGVuYCDooqvmi5IKCueOsOixoe+8mueql+WPo+WtmOWcqOOAgVdlYlZpZXcyIOWtkOi/m+eoi+ato+W4uOOAgXZpdGUg5Lmf6L+e5LiK5LqG77yM5L2G5bGP5bmV5LiK5rC46L+c56m655m944CCCgrnlKggV2ViVmlldzIg55qE6LCD6K+V56uv5Y+j77yIYC0tcmVtb3RlLWRlYnVnZ2luZy1wb3J0PTkzMzNg77yMZGVidWcg5p6E5bu65omN5pyJ77yJ6L+b6aG16Z2i5rGC5YC85omN5Y+R546w77yaCgpgYGAKZXJyOiAiZXZlbnQubGlzdGVuIG5vdCBhbGxvd2VkLiBQZXJtaXNzaW9ucyBhc3NvY2lhdGVkIHdpdGggdGhpcyBjb21tYW5kOgogICAgICBjb3JlOmV2ZW50OmFsbG93LWxpc3RlbiwgY29yZTpldmVudDpkZWZhdWx0IgpgYGAKCuayoeaciSBjYXBhYmlsaXRpZXMg5paH5Lu2IOKGkiBgbGlzdGVuKClgIOWFqOmDqOWksei0pSDihpIg5LiA5Liq5LqL5Lu26YO95pS25LiN5YiwIOKGkiDmsLjov5wgaWRsZe+8iG9wYWNpdHkgMO+8ieOAggoK5L+u5aSN77ya5paw5aKeIGBzcmMtdGF1cmkvY2FwYWJpbGl0aWVzL2RlZmF1bHQuanNvbmDvvIzmjojkuoggYGNvcmU6ZGVmYXVsdGDjgIFgY29yZTpldmVudDpkZWZhdWx0YOOAgQpgY29yZTp3aW5kb3c6ZGVmYXVsdGDjgIFgY29yZTphcHA6ZGVmYXVsdGDjgIIKCiMjIyAyLjIg5Y2g5L2N5paH5pys5riF56m65ZCO5LiN5Lya6YeN55S7CgrmlLbliLDnqbrmrYzor43ml7bmioogYCNsaW5lLWN1cnJlbnRgIOa4heepuu+8jOS9hiBgcGxhY2Vob2xkZXJTaG93bmAg57yT5a2Y5rKh6YeN572u77yMYHRpY2soKWAg6K6k5Li6CiLlt7Lnu4/nlLvov4fkuoYi5bCx6Lez6L+H77yM5LqO5piv5rC46L+c56m655m944CC5L+u5aSN77ya5ZyoIGBseXJpY3M6Ly9zZXRgIOWSjOabsuebruWPmOWMluaXtuaKiiBgcGxhY2Vob2xkZXJTaG93bmAK572u56m644CCCgojIyAzLiDmrYzor43mupDosIPmn6XvvIjov5nmmK/lvZPliY3nmoTnnJ/mraPpmLvloZ7vvIkKCnwg5rqQIHwg57uT5p6cIHwKfC0tLXwtLS18Cnwg572R5piT5LqRIGBtdXNpYy4xNjMuY29tL2FwaS9zZWFyY2gvZ2V0L3dlYmAgfCDinIUg5o6l5Y+j5Y+v55So77yM4p2MICoq5rKh5pyJ5ZGo5p2w5Lym54mI5p2DKirvvIgyMCDmnaHnu5PmnpzlhajmmK/nv7vllLHvvIkgfAp8IFFRIOmfs+S5kCBgdS55LnFxLmNvbS9jZ2ktYmluL211c2ljdS5mY2dgIHwg4p2MIGBjb2RlIDIwMDFg77yM5pyq562+5ZCN6K+35rGC5LiA5b6L5ouS57udIHwKfCBRUSDpn7PkuZDml6fmjqXlj6MgYGMueS5xcS5jb20vc29zby8uLi5gIHwg4p2MIDQwNO+8jOW3suW6n+W8gyB8CnwgbHJjbGliLm5ldCB8IOKaoO+4jyDmjqXlj6PmnKzouqvmraPluLjvvIjog73mn6XliLAgYOS4jeiDveivtOeahOenmOWvhiAvIOWRqOadsOS8piAvIDI5Ni41M3Ng77yJ77yM5L2G5LuO5pys5py6Kirpl7TmrYfmgKfov57kuI3pgJoqKu+8muS4gOasoSAyMDAgT0vjgIHkuIvkuIDmrKEgVENQIGNvbm5lY3QgdGltZW91dOOAgnJ1c3RscyDmi7/liLAgMjAwIOWQjiBib2R5IOa1geiiq+aOkOaWre+8m+aNoiBuYXRpdmUtdGxzIOebtOaOpei/nuS4jeS4iuOAguWxnuS6jue9kee7nC/pk77ot6/pl67popjvvIzkuI3mmK/ku6PnoIHpl67popggfAoK57uT6K6677yaKirlr7kgQXBwbGUgTXVzaWMg55qE5YaF5a6577yM5ZSv5LiA5Y+v6Z2g55qE5q2M6K+N5p2l5rqQ5pivIEFwcGxlIOiHquW3semCo+S7vSBUVE1MKirjgILlroPlkozmkq3mlL7lmajlkIzmupDjgIEK6YCQ5a2X6IqC5a+55b6X5LiK5pe26Ze06L2077yM5bm25LiU5piv6YCQ5a2X57qn5Yir44CC5ou/5a6D55qE5ZSv5LiA5bmy5YeA6Lev5b6E5pivIENEUOOAggoKIyMgNC4g5LiL5LiA5q2l77yaQ0RQIHByb3ZpZGVyCgoxLiBgdG9vbHMvc3RhcnQtY2hyb21lLWNkcC5wczFgIOeUqOeLrOeriyBwcm9maWxlICsgYC0tcmVtb3RlLWRlYnVnZ2luZy1wb3J0YCDmi4notbcgQ2hyb21lIOW5tuaJk+W8gAogICBgbXVzaWMuYXBwbGUuY29tYO+8iOW3suaPkOS+m++8ieOAggoyLiBgcHJvdmlkZXIvY2RwLnJzYO+8mui/niBgd3M6Ly8xMjcuMC4wLjE6OTIyMi9kZXZ0b29scy9wYWdlLzxpZD5g77yMCiAgIGBSdW50aW1lLmV2YWx1YXRlYCDor7sgYGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2F1ZGlvJykuY3VycmVudFRpbWVgIOaLv+avq+enkue6p+i/m+W6pu+8mwogICBgTmV0d29yay5lbmFibGVgIOWQjuaIqiBgYW1wLWFwaS5tdXNpYy5hcHBsZS5jb21gIOeahOatjOivjeWTjeW6lOaLvyBUVE1M44CCCjMuIFRUTUwg6Kej5p6Q5Zmo5bey57uP5YaZ5aW95bm25pyJ5Y2V5rWL77yIYGx5cmljcy90dG1sLnJzYO+8jDQg5Liq55So5L6L5ZCr5Lit5paH6YCQ5a2X77yJ77yM5Y+q562J5ZaC55yf5a6e5qC35pys44CCCgojIyDosIPor5Xlt6XlhbfvvIjlt7Lpmo/ku5PlupPvvIkKCnwg6ISa5pysIHwg55So6YCUIHwKfC0tLXwtLS18CnwgYHRvb2xzL2luc3BlY3Qtd2Vidmlldy5tanNgIHwg6K+75rWu56qX6aG16Z2i55qEIERPTSDnirbmgIHvvIhtb2RlIC8g5paH5pysIC8g5b+r54Wn6K6h5pWwIC8gSlMg6ZSZ6K+v77yJIHwKfCBgdG9vbHMvc2NyZWVuc2hvdC13ZWJ2aWV3Lm1qc2AgfCDorqnpobXpnaLoh6rlt7HmiKrlm77vvIzljLrliIYi6aG16Z2i5rKh55S7IuWSjCLnqpflj6PmsqHlkIjmiJAiIHwKfCBgdG9vbHMvY2RwLWV2YWwubWpzYCB8IOWcqOmhtemdoumHjOaJp+ihjOS7u+aEj+ihqOi+vuW8j++8iOS7juaWh+S7tuivu++8jOmBv+W8gOW8leWPt+WcsOeLse+8iSB8Cg==
+# M2 — 接真实播放会话的记录
+
+日期：2026-11-10 22:2x–22:4x (UTC+8)
+播放源：网页版 Apple Music（Chrome 128），曲目：周杰伦《不能说的秘密》，376.458s
+
+## 结论
+
+| 项 | 结果 |
+|---|---|
+| 浮窗在桌面上真实可见 | ✅ 文字浮在 Chrome 之上，双行结构正常 |
+| SMTC 拿到曲名/歌手/曲长 | ✅ |
+| SMTC 拿到"实时"进度 | ❌ **只在事件点上报一次** |
+| 歌词自动获取 | ❌ 三层源全部落空（见下） |
+
+## 1. SMTC 的进度是"一次性快照"，不是实时流
+
+45 秒连续采样，`pos` 一直是 `15.873`、`lastUpdated` 一次没刷新：
+
+```
+i=0  pos=15.873  age=10.9s
+i=8  pos=15.873  age=27.0s
+i=17 pos=15.873  age=45.1s
+```
+
+对照实验（自建页面每 250ms 调 `setPositionState`）里进度是连续刷新的，说明**不是 Windows 的
+限制，是 Apple Music 网页版不持续上报**。
+
+因此策略改为：把 `LastUpdatedTime` 当作锚点，播放中一律外推
+`position = pos + (now - lastUpdated) × rate`。这是 `provider/smtc.rs` 里现在的行为
+（`EXTRAPOLATE_AFTER_MS = 0`）。暂停/跳转时 Chrome 会重新上报一次，锚点自动更新。
+
+外推的代价：整首歌靠一个锚点计时，音频时钟与系统时钟的微小偏差会累积。逐行歌词够用，
+逐字仍然需要 CDP 的 `audio.currentTime`。
+
+## 2. 浮窗"看不见"的两个真 bug（都不是渲染问题）
+
+### 2.1 Tauri 2 默认不给前端任何权限 —— `event.listen` 被拒
+
+现象：窗口存在、WebView2 子进程正常、vite 也连上了，但屏幕上永远空白。
+
+用 WebView2 的调试端口（`--remote-debugging-port=9333`，debug 构建才有）进页面求值才发现：
+
+```
+err: "event.listen not allowed. Permissions associated with this command:
+      core:event:allow-listen, core:event:default"
+```
+
+没有 capabilities 文件 → `listen()` 全部失败 → 一个事件都收不到 → 永远 idle（opacity 0）。
+
+修复：新增 `src-tauri/capabilities/default.json`，授予 `core:default`、`core:event:default`、
+`core:window:default`、`core:app:default`。
+
+### 2.2 占位文本清空后不会重画
+
+收到空歌词时把 `#line-current` 清空，但 `placeholderShown` 缓存没重置，`tick()` 认为
+"已经画过了"就跳过，于是永远空白。修复：在 `lyrics://set` 和曲目变化时把 `placeholderShown`
+置空。
+
+## 3. 歌词源调查（这是当前的真正阻塞）
+
+| 源 | 结果 |
+|---|---|
+| 网易云 `music.163.com/api/search/get/web` | ✅ 接口可用，❌ **没有周杰伦版权**（20 条结果全是翻唱） |
+| QQ 音乐 `u.y.qq.com/cgi-bin/musicu.fcg` | ❌ `code 2001`，未签名请求一律拒绝 |
+| QQ 音乐旧接口 `c.y.qq.com/soso/...` | ❌ 404，已废弃 |
+| lrclib.net | ⚠️ 接口本身正常（能查到 `不能说的秘密 / 周杰伦 / 296.53s`），但从本机**间歇性连不通**：一次 200 OK、下一次 TCP connect timeout。rustls 拿到 200 后 body 流被掐断；换 native-tls 直接连不上。属于网络/链路问题，不是代码问题 |
+
+结论：**对 Apple Music 的内容，唯一可靠的歌词来源是 Apple 自己那份 TTML**。它和播放器同源、
+逐字节对得上时间轴，并且是逐字级别。拿它的唯一干净路径是 CDP。
+
+## 4. 下一步：CDP provider
+
+1. `tools/start-chrome-cdp.ps1` 用独立 profile + `--remote-debugging-port` 拉起 Chrome 并打开
+   `music.apple.com`（已提供）。
+2. `provider/cdp.rs`：连 `ws://127.0.0.1:9222/devtools/page/<id>`，
+   `Runtime.evaluate` 读 `document.querySelector('audio').currentTime` 拿毫秒级进度；
+   `Network.enable` 后截 `amp-api.music.apple.com` 的歌词响应拿 TTML。
+3. TTML 解析器已经写好并有单测（`lyrics/ttml.rs`，4 个用例含中文逐字），只等喂真实样本。
+
+## 调试工具（已随仓库）
+
+| 脚本 | 用途 |
+|---|---|
+| `tools/inspect-webview.mjs` | 读浮窗页面的 DOM 状态（mode / 文本 / 快照计数 / JS 错误） |
+| `tools/screenshot-webview.mjs` | 让页面自己截图，区分"页面没画"和"窗口没合成" |
+| `tools/cdp-eval.mjs` | 在页面里执行任意表达式（从文件读，避开引号地狱） |

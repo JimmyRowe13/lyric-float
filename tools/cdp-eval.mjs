@@ -1,1 +1,46 @@
-Ly8gUnVucyBvbmUgSlMgZXhwcmVzc2lvbiBpbnNpZGUgdGhlIG92ZXJsYXkgcGFnZSBvdmVyIHRoZSBXZWJWaWV3MiBEZXZUb29scyBwb3J0LgovLyBQYXNzaW5nIHRoZSBleHByZXNzaW9uIHZpYSBhIGZpbGUgYXZvaWRzIFBvd2VyU2hlbGwgcXVvdGluZyBoZWxsLgovLwovLyBVc2FnZTogbm9kZSB0b29scy9jZHAtZXZhbC5tanMgPGV4cHJlc3Npb24tZmlsZT4gW3BvcnRdCgppbXBvcnQgeyByZWFkRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKCmNvbnN0IGZpbGUgPSBwcm9jZXNzLmFyZ3ZbMl07CmNvbnN0IHBvcnQgPSBwcm9jZXNzLmFyZ3ZbM10gPz8gIjkzMzMiOwpjb25zdCB0aW1lb3V0TXMgPSBOdW1iZXIocHJvY2Vzcy5hcmd2WzRdID8/IDYwMDApOwppZiAoIWZpbGUpIHsKICBjb25zb2xlLmVycm9yKCJ1c2FnZTogbm9kZSBjZHAtZXZhbC5tanMgPGV4cHJlc3Npb24tZmlsZT4gW3BvcnRdIik7CiAgcHJvY2Vzcy5leGl0KDIpOwp9CmNvbnN0IGV4cHJlc3Npb24gPSByZWFkRmlsZVN5bmMoZmlsZSwgInV0ZjgiKTsKCmNvbnN0IHRhcmdldHMgPSBhd2FpdCAoYXdhaXQgZmV0Y2goYGh0dHA6Ly8xMjcuMC4wLjE6JHtwb3J0fS9qc29uYCkpLmpzb24oKTsKY29uc3QgcGFnZSA9IHRhcmdldHMuZmluZCgodCkgPT4gdC50eXBlID09PSAicGFnZSIpOwppZiAoIXBhZ2UpIHsKICBjb25zb2xlLmxvZygibm8gcGFnZSB0YXJnZXQiKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnN0IHdzID0gbmV3IFdlYlNvY2tldChwYWdlLndlYlNvY2tldERlYnVnZ2VyVXJsKTsKd3MuYWRkRXZlbnRMaXN0ZW5lcigib3BlbiIsICgpID0+IHsKICB3cy5zZW5kKAogICAgSlNPTi5zdHJpbmdpZnkoewogICAgICBpZDogMSwKICAgICAgbWV0aG9kOiAiUnVudGltZS5ldmFsdWF0ZSIsCiAgICAgIHBhcmFtczogeyBleHByZXNzaW9uLCByZXR1cm5CeVZhbHVlOiB0cnVlLCBhd2FpdFByb21pc2U6IHRydWUgfSwKICAgIH0pLAogICk7Cn0pOwp3cy5hZGRFdmVudExpc3RlbmVyKCJtZXNzYWdlIiwgKGV2ZW50KSA9PiB7CiAgY29uc3QgbXNnID0gSlNPTi5wYXJzZShldmVudC5kYXRhKTsKICBpZiAobXNnLmlkICE9PSAxKSByZXR1cm47CiAgaWYgKG1zZy5yZXN1bHQ/LmV4Y2VwdGlvbkRldGFpbHMpIHsKICAgIGNvbnNvbGUubG9nKCJFWENFUFRJT046IiwgSlNPTi5zdHJpbmdpZnkobXNnLnJlc3VsdC5leGNlcHRpb25EZXRhaWxzKS5zbGljZSgwLCA2MDApKTsKICB9IGVsc2UgewogICAgY29uc3QgdiA9IG1zZy5yZXN1bHQ/LnJlc3VsdD8udmFsdWU7CiAgICBjb25zb2xlLmxvZyh0eXBlb2YgdiA9PT0gInN0cmluZyIgPyB2IDogSlNPTi5zdHJpbmdpZnkodiwgbnVsbCwgMikpOwogIH0KICB3cy5jbG9zZSgpOwogIHByb2Nlc3MuZXhpdCgwKTsKfSk7CnNldFRpbWVvdXQoKCkgPT4gcHJvY2Vzcy5leGl0KDApLCB0aW1lb3V0TXMpOwo=
+// Runs one JS expression inside the overlay page over the WebView2 DevTools port.
+// Passing the expression via a file avoids PowerShell quoting hell.
+//
+// Usage: node tools/cdp-eval.mjs <expression-file> [port]
+
+import { readFileSync } from "node:fs";
+
+const file = process.argv[2];
+const port = process.argv[3] ?? "9333";
+const timeoutMs = Number(process.argv[4] ?? 6000);
+if (!file) {
+  console.error("usage: node cdp-eval.mjs <expression-file> [port]");
+  process.exit(2);
+}
+const expression = readFileSync(file, "utf8");
+
+const targets = await (await fetch(`http://127.0.0.1:${port}/json`)).json();
+const page = targets.find((t) => t.type === "page");
+if (!page) {
+  console.log("no page target");
+  process.exit(1);
+}
+
+const ws = new WebSocket(page.webSocketDebuggerUrl);
+ws.addEventListener("open", () => {
+  ws.send(
+    JSON.stringify({
+      id: 1,
+      method: "Runtime.evaluate",
+      params: { expression, returnByValue: true, awaitPromise: true },
+    }),
+  );
+});
+ws.addEventListener("message", (event) => {
+  const msg = JSON.parse(event.data);
+  if (msg.id !== 1) return;
+  if (msg.result?.exceptionDetails) {
+    console.log("EXCEPTION:", JSON.stringify(msg.result.exceptionDetails).slice(0, 600));
+  } else {
+    const v = msg.result?.result?.value;
+    console.log(typeof v === "string" ? v : JSON.stringify(v, null, 2));
+  }
+  ws.close();
+  process.exit(0);
+});
+setTimeout(() => process.exit(0), timeoutMs);

@@ -1,1 +1,84 @@
-IyBNMSDigJQg5a6e5py657yW6K+R5LiO6L+Q6KGM6K6w5b2VCgrml6XmnJ/vvJoyMDI2LTExLTEwIDIyOjB44oCTMjI6MnggKFVUQys4KQrmnLrlmajvvJpXaW5kb3dzIDEx77yIYnVpbGQgMjIwMDAg57O777yJ44CBQ2hyb21lIDEyOOOAgUVkZ2UvV2ViVmlldzIgUnVudGltZSAxMjguMC4yNzM5LjU0CuW3peWFt+mTvu+8mnJ1c3RjL2NhcmdvIDEuOTkuMe+8iGBEOlxydXN0YO+8ieOAgXBucG0gMTEuMjguNeOAgW5vZGUgMjQuMTUuMOOAgU1TVkMgMjAyMiAoRDpcVmlzdWFsU3R1ZGlvXDIwMjJcQ29tbXVuaXR5KSArIFdpbmRvd3MgU0RLIDEwLjAuMTkwNDEKCiMjIOe7k+aenAoKfCDpobkgfCDnirbmgIEgfAp8LS0tfC0tLXwKfCBgY2FyZ28gY2hlY2tgIHwg4pyFIOmAmui/h++8iDAgZXJyb3LvvIkgfAp8IGBjYXJnbyB0ZXN0YCB8IOKchSAxMy8xMyDpgJrov4fvvIhMUkMgN+OAgVRUTUwgNOOAgeS8muivneaOkuW6jyAy77yJIHwKfCDliY3nq68gYHRzYyAtLW5vRW1pdGAgKyBgdml0ZSBidWlsZGAgfCDinIUg6YCa6L+HIHwKfCDlupTnlKjlkK/liqggfCDinIUg6L+Q6KGM5Lit77yMV2ViVmlldzIg5a2Q6L+b56iLIDYg5LiqIHwKfCDnqpflj6PlsZ7mgKcgfCDinIUgYFdTX0VYX1RPUE1PU1RgICsgYFdTX0VYX1RSQU5TUEFSRU5UYO+8iOeCueWHu+epv+mAj++8iSsgYFdTX0VYX0xBWUVSRURg77yI6YCP5piO77yJ77yMUkVDVCA1MDAsNzYwIDkwMMOXMjAwIHwKfCDlhajlsYDng63plK4gfCDinIUgNiDkuKrlhajpg6jnu5HlrprvvIjlkKvlhrLnqoHlm57pgIDvvIkgfAp8IOecn+WunuatjOivjea4suafkyB8IOKblCDmnKrpqozor4HvvIjov5jmsqHmnInmjqXkuIrnnJ/lrp7mkq3mlL7kvJror53vvIkgfAoKIyMg6Lip5Yiw55qE5Z2R77yI6YO95bey5L+u77yM5YaZ5LiL5p2l5Yir5YaN6Lip77yJCgojIyMgMS4gV2ViVmlldzIg55qEIHVzZXIgZGF0YSDnm67lvZXlhrPlrprnlJ/mrbsKCueOsOixoe+8mmBzZXR1cGAg6YeM5oqlIGBGYWlsZWQgdG8gc2V0dXAgYXBwOiDmi5Lnu53orr/pl64gKG9zIGVycm9yIDUpYO+8jOmaj+WQjuaUueS4ugpgV2ViVmlldzIgZXJyb3I6IFdpbmRvd3NFcnJvcihIUkVTVUxUKDB4ODAwMEZGRkYpKWDvvIzkuovku7bml6Xlv5fph4wgYG1zZWRnZXdlYnZpZXcyLmV4ZWAK5LulIGBtc2VkZ2UuZGxsYCDltKnlnKggYDB4ODAwMDAwMDNg77yIU1RBVFVTX0JSRUFLUE9JTlTvvIzljbMgQ2hyb21pdW0g55qEIGBDSEVDS2Ag5aSx6LSl77yJ44CCCgrkuozliIbnu5PorrrvvIjnlKggYHRvb2xzLy4uLy50bXAtYnVpbGQvd3YydGVzdGAg6YeM55qEIDMwIOihjCAuTkVUIOWuv+S4u+WkjeeOsO+8jOS4jiBUYXVyaSDml6DlhbPvvInvvJoKCnwgdXNlciBkYXRhIOebruW9lSB8IOe7k+aenCB8CnwtLS18LS0tfAp8IOm7mOiupO+8iGV4ZSDml4HovrnvvIkgfCDinIUgfAp8IGBFOlx3c2xcY29kZXhwcm9qXC50bXAtYnVpbGRcd3YyZGF0YWAgfCDinIUg56iz5a6aIHwKfCBgJUxPQ0FMQVBQREFUQSVcZGV2Lmx5cmljZmxvYXQub3ZlcmxheWAgfCDinYwg56iz5a6a5aSx6LSlIHwKfCBgQzpcd3YyZGF0YWAgLyBgQzpcVXNlcnNcamltbXlcd3YyZGF0YWAgLyBgQzpcLi4uXFRlbXBcd3YyZGF0YWAgfCDinYwgfAp8IGBEOlx3djJkYXRhYCAvIGBEOlx3djJkYXRhMmAgfCDinYwgfAp8IGBFOlx3djJkYXRhYO+8iOebmOague+8iSB8IOKdjCB8CgrljbPvvJrlj6rmnInkvY3kuo4gYEU6XHdzbFxjb2RleHByb2pcLnRtcC1idWlsZGAg6L+Z57G7Kirlt7LooqvmspnnrrEgQUNMIOaYvuW8j+aOiOadg+eahOebruW9lSoq5omN5oiQ5YqfCu+8iOivpeebruW9leeahCBBQ0wg6YeM5pyJIGBSOUtQXENvZGV4U2FuZGJveFVzZXJzYCDku6Xlj4roi6XlubLnibnmroogU0lE77yJ44CC5Y6f5Zug6ZO+5LiO5pys5py6CmBDb2RleFNhbmRib3hTZXJ2aWNlYCDnmoTlj5fpmZDku6TniYzmnInlhbPvvIzlsZ7njq/looPnibnlvILpl67popjvvIzkuI3mmK/ku6PnoIHnvLrpmbfjgIIKCuW6lOWvue+8mlRhdXJpIOWcqCBXaW5kb3dzIOS4iioq5by65Yi2KirmioogV2ViVmlldzIg5pWw5o2u55uu5b2V6K6+5oiQIGBhcHBfbG9jYWxfZGF0YV9kaXIoKWDvvIwK5rKh5pyJ6YWN572u6aG55Y+v6KaG55uW44CC5omA5Lul5pS55oiQ5ZyoIGBzZXR1cGAg6YeM55SoIGBXZWJ2aWV3V2luZG93QnVpbGRlcjo6ZGF0YV9kaXJlY3RvcnkoKWAK6Ieq5bu656qX5Y+j77yM5bm25oqK6Lev5b6E5YGa5oiQ6YWN572u6aG5IGB3ZWJ2aWV3X2RhdGFfZGlyYOOAggoK5pys5py65a6e5rWL5Y+v55So55qEIGAlQVBQREFUQSVcbHlyaWMtZmxvYXRcY29uZmlnLmpzb25g77yaCgpgYGBqc29uCnsgIndlYnZpZXdfZGF0YV9kaXIiOiAiRTpcXHdzbFxcY29kZXhwcm9qXFwudG1wLWJ1aWxkXFxsZi13ZWJ2aWV3MiIgfQpgYGAKCj4g5rOo5oSP77yaUG93ZXJTaGVsbCA1LjEg55qEIGBTZXQtQ29udGVudCAtRW5jb2RpbmcgVVRGOGAg5Lya5YaZIEJPTe+8jGBzZXJkZV9qc29uYCDnm7TmjqUKPiDmiqUgYGV4cGVjdGVkIHZhbHVlIGF0IGxpbmUgMSBjb2x1bW4gMWDjgILlv4XpobvnlKggYFVURjhFbmNvZGluZygkZmFsc2UpYCDml6AgQk9NIOWGmeOAggoKIyMjIDIuIOeDremUru+8muS4gOS4qumUruWksei0peS4jeiDveavgeaOieWFqOmDqAoK5Y6f5a6e546w6YeMIGByZWdpc3Rlcl9ob3RrZXlzYCDov5Tlm54gYFJlc3VsdGDvvIznrKzkuIDkuKogYD9gIOWksei0peWwseaVtOS9k+i/lOWbnu+8jArlr7zoh7TlkI7pnaIgNSDkuKrng63plK7kuIDkuKrpg73msqHms6jlhozjgILnjrDlnKjmlLnmiJDpgJDkuKrnu5HlrprjgIHlpLHotKXlj6rorrDml6Xlv5fjgIHlubbmlK/mjIHlgJnpgInlm57pgIDjgIIKCuacrOacuiBgQWx0K1xgYO+8iEJhY2txdW90Ze+8ieW3suiiq+WIq+eahOeoi+W6j+WNoOeUqO+8iGBIb3RLZXkgYWxyZWFkeSByZWdpc3RlcmVkLCBpZCA2NTUzNmDvvInvvIwK6Ieq5Yqo5Zue6YCA5YiwIGBBbHQrTGDjgIIKCiMjIyAzLiBgQ29kZWAg5p6a5Li+5LiN6K6kIGAiTCJgCgpgdGF1cmlfcGx1Z2luX2dsb2JhbF9zaG9ydGN1dDo6Q29kZWAg55So55qE5pivIFdlYklETCDlkb3lkI3vvIhgS2V5TGDjgIFgRGlnaXQxYOOAgWBBcnJvd1VwYO+8ieOAggrphY3nva7mlofku7bph4zlhpkgYEFsdCtMYCDkvJrop6PmnpDlpLHotKXkuJQqKuayoeacieS7u+S9leaPkOekuioq77yIYGNvZGU/YCDpnZnpu5jov5Tlm54gTm9uZe+8ieOAggrlt7LliqAgYGNvZGVfZnJvbV90b2tlbigpYCDlgZrlvZLkuIDljJbvvIzlubblnKjop6PmnpDlpLHotKXml7bmiZPml6Xlv5fjgIIKCiMjIOacquino+WGswoKLSDnqpflj6MgYFdTX0VYX1RPT0xXSU5ET1dgIOacque9ruS9je+8jGBza2lwVGFza2JhcjogdHJ1ZWAg5Zyo6Ieq5bu656qX5Y+j6Lev5b6E5LiK5Y+v6IO95rKh55Sf5pWI77yMCiAg6KGo546w5Li65Y+v6IO95Ye6546w5ZyoIEFsdCtUYWIg6YeM44CC5b6F5p+l44CCCi0g5bqU55So5pyq5ZyoIHJlbGVhc2XvvIhgd2luZG93c19zdWJzeXN0ZW0gPSAid2luZG93cyJg77yJ5LiL6aqM6K+B77yMZGVidWcg5p6E5bu65Lya5bim5LiA5Liq5o6n5Yi25Y+w56qX5Y+j44CCCi0g5q2M6K+N5riy5p+T5LuN5Y+q5pyJ5YGH5pWw5o2u6Lev5b6E77yM5o6l5LiK55yf5a6eIFNNVEMg5Lya6K+d5ZCO5omN566XIE0yIOWujOaIkOOAggoKIyMg5aSN546wCgpgYGBwb3dlcnNoZWxsCiRlbnY6UlVTVFVQX0hPTUU9J0Q6XHJ1c3RccnVzdHVwJzsgJGVudjpDQVJHT19IT01FPSdEOlxydXN0XGNhcmdvJwokZW52OlRFTVA9J0U6XHdzbFxjb2RleHByb2pcLnRtcC1idWlsZCc7ICRlbnY6VE1QPSdFOlx3c2xcY29kZXhwcm9qXC50bXAtYnVpbGQnCiRlbnY6Q0FSR09fVEFSR0VUX0RJUj0nRTpcd3NsXGNvZGV4cHJvalxseXJpYy1mbG9hdFxzcmMtdGF1cmlcdGFyZ2V0JwpjYXJnbyB0ZXN0IC0tbWFuaWZlc3QtcGF0aCBFOlx3c2xcY29kZXhwcm9qXGx5cmljLWZsb2F0XHNyYy10YXVyaVxDYXJnby50b21sCnBvd2Vyc2hlbGwgLUZpbGUgRTpcd3NsXGNvZGV4cHJvalxseXJpYy1mbG9hdFx0b29sc1xkZXYtcnVuLnBzMSAtV2FpdFNlY29uZHMgMTIKYGBgCg==
+# M1 — 实机编译与运行记录
+
+日期：2026-11-10 22:0x–22:2x (UTC+8)
+机器：Windows 11（build 22000 系）、Chrome 128、Edge/WebView2 Runtime 128.0.2739.54
+工具链：rustc/cargo 1.99.1（`D:\rust`）、pnpm 11.28.5、node 24.15.0、MSVC 2022 (D:\VisualStudio\2022\Community) + Windows SDK 10.0.19041
+
+## 结果
+
+| 项 | 状态 |
+|---|---|
+| `cargo check` | ✅ 通过（0 error） |
+| `cargo test` | ✅ 13/13 通过（LRC 7、TTML 4、会话排序 2） |
+| 前端 `tsc --noEmit` + `vite build` | ✅ 通过 |
+| 应用启动 | ✅ 运行中，WebView2 子进程 6 个 |
+| 窗口属性 | ✅ `WS_EX_TOPMOST` + `WS_EX_TRANSPARENT`（点击穿透）+ `WS_EX_LAYERED`（透明），RECT 500,760 900×200 |
+| 全局热键 | ✅ 6 个全部绑定（含冲突回退） |
+| 真实歌词渲染 | ⛔ 未验证（还没有接上真实播放会话） |
+
+## 踩到的坑（都已修，写下来别再踩）
+
+### 1. WebView2 的 user data 目录决定生死
+
+现象：`setup` 里报 `Failed to setup app: 拒绝访问 (os error 5)`，随后改为
+`WebView2 error: WindowsError(HRESULT(0x8000FFFF))`，事件日志里 `msedgewebview2.exe`
+以 `msedge.dll` 崩在 `0x80000003`（STATUS_BREAKPOINT，即 Chromium 的 `CHECK` 失败）。
+
+二分结论（用 `tools/../.tmp-build/wv2test` 里的 30 行 .NET 宿主复现，与 Tauri 无关）：
+
+| user data 目录 | 结果 |
+|---|---|
+| 默认（exe 旁边） | ✅ |
+| `E:\wsl\codexproj\.tmp-build\wv2data` | ✅ 稳定 |
+| `%LOCALAPPDATA%\dev.lyricfloat.overlay` | ❌ 稳定失败 |
+| `C:\wv2data` / `C:\Users\jimmy\wv2data` / `C:\...\Temp\wv2data` | ❌ |
+| `D:\wv2data` / `D:\wv2data2` | ❌ |
+| `E:\wv2data`（盘根） | ❌ |
+
+即：只有位于 `E:\wsl\codexproj\.tmp-build` 这类**已被沙箱 ACL 显式授权的目录**才成功
+（该目录的 ACL 里有 `R9KP\CodexSandboxUsers` 以及若干特殊 SID）。原因链与本机
+`CodexSandboxService` 的受限令牌有关，属环境特异问题，不是代码缺陷。
+
+应对：Tauri 在 Windows 上**强制**把 WebView2 数据目录设成 `app_local_data_dir()`，
+没有配置项可覆盖。所以改成在 `setup` 里用 `WebviewWindowBuilder::data_directory()`
+自建窗口，并把路径做成配置项 `webview_data_dir`。
+
+本机实测可用的 `%APPDATA%\lyric-float\config.json`：
+
+```json
+{ "webview_data_dir": "E:\\wsl\\codexproj\\.tmp-build\\lf-webview2" }
+```
+
+> 注意：PowerShell 5.1 的 `Set-Content -Encoding UTF8` 会写 BOM，`serde_json` 直接
+> 报 `expected value at line 1 column 1`。必须用 `UTF8Encoding($false)` 无 BOM 写。
+
+### 2. 热键：一个键失败不能毁掉全部
+
+原实现里 `register_hotkeys` 返回 `Result`，第一个 `?` 失败就整体返回，
+导致后面 5 个热键一个都没注册。现在改成逐个绑定、失败只记日志、并支持候选回退。
+
+本机 `Alt+\``（Backquote）已被别的程序占用（`HotKey already registered, id 65536`），
+自动回退到 `Alt+L`。
+
+### 3. `Code` 枚举不认 `"L"`
+
+`tauri_plugin_global_shortcut::Code` 用的是 WebIDL 命名（`KeyL`、`Digit1`、`ArrowUp`）。
+配置文件里写 `Alt+L` 会解析失败且**没有任何提示**（`code?` 静默返回 None）。
+已加 `code_from_token()` 做归一化，并在解析失败时打日志。
+
+## 未解决
+
+- 窗口 `WS_EX_TOOLWINDOW` 未置位，`skipTaskbar: true` 在自建窗口路径上可能没生效，
+  表现为可能出现在 Alt+Tab 里。待查。
+- 应用未在 release（`windows_subsystem = "windows"`）下验证，debug 构建会带一个控制台窗口。
+- 歌词渲染仍只有假数据路径，接上真实 SMTC 会话后才算 M2 完成。
+
+## 复现
+
+```powershell
+$env:RUSTUP_HOME='D:\rust\rustup'; $env:CARGO_HOME='D:\rust\cargo'
+$env:TEMP='E:\wsl\codexproj\.tmp-build'; $env:TMP='E:\wsl\codexproj\.tmp-build'
+$env:CARGO_TARGET_DIR='E:\wsl\codexproj\lyric-float\src-tauri\target'
+cargo test --manifest-path E:\wsl\codexproj\lyric-float\src-tauri\Cargo.toml
+powershell -File E:\wsl\codexproj\lyric-float\tools\dev-run.ps1 -WaitSeconds 12
+```

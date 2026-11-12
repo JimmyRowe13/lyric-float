@@ -1,1 +1,364 @@
-Ly8hIFdpbmRvdyBiZWhhdmlvdXI6IGNsaWNrLXRocm91Z2gsIGVkaXQgbW9kZSB3aXRoIGEgZ3JhY2UgcGVyaW9kLCBkcmFnZ2luZy4NCi8vIQ0KLy8hIERlY2lzaW9uICM0OiB0aGUgb3ZlcmxheSBpcyBjbGljay10aHJvdWdoIGJ5IGRlZmF1bHQuIEEgaG90a2V5IGZsaXBzIGl0IGludG8NCi8vISAiZWRpdCIgbW9kZSBmb3IgYGVkaXRfZ3JhY2VfbXNgLCB0aGVuIGl0IGdvZXMgYmFjayBieSBpdHNlbGYsIGJlY2F1c2UgYSBmbG9hdGluZw0KLy8hIGJhciB5b3UgZm9yZ290IHRvIHVubG9jayBpcyB3b3JzZSB0aGFuIG9uZSB5b3UgaGF2ZSB0byB1bmxvY2sgYWdhaW4uDQoNCnVzZSBzdGQ6OnN5bmM6OmF0b21pYzo6e0F0b21pY0Jvb2wsIE9yZGVyaW5nfTsNCnVzZSBzdGQ6OnN5bmM6Ok11dGV4Ow0KdXNlIHN0ZDo6dGltZTo6e0R1cmF0aW9uLCBJbnN0YW50fTsNCnVzZSB0YXVyaTo6e0VtaXR0ZXIsIE1hbmFnZXIsIFBoeXNpY2FsUG9zaXRpb24sIFdlYnZpZXdXaW5kb3d9Ow0KDQpwdWIgc3RydWN0IEVkaXRTdGF0ZSB7DQogICAgcHViIGVkaXRpbmc6IGJvb2wsDQogICAgcHViIGRlYWRsaW5lOiBPcHRpb248SW5zdGFudD4sDQogICAgcHViIGRyYWdfb3JpZ2luOiBPcHRpb248KGkzMiwgaTMyKT4sDQp9DQoNCmltcGwgRGVmYXVsdCBmb3IgRWRpdFN0YXRlIHsNCiAgICBmbiBkZWZhdWx0KCkgLT4gU2VsZiB7DQogICAgICAgIFNlbGYgeyBlZGl0aW5nOiBmYWxzZSwgZGVhZGxpbmU6IE5vbmUsIGRyYWdfb3JpZ2luOiBOb25lIH0NCiAgICB9DQp9DQoNCnB1YiBzdHJ1Y3QgT3ZlcmxheSB7DQogICAgcHViIHN0YXRlOiBNdXRleDxFZGl0U3RhdGU+LA0KICAgIC8vLyBUaGUgc3RhdGUgd2Ugd2FudCB0aGUgKndob2xlIHdpbmRvdyB0cmVlKiB0byBiZSBpbiwgc28gdGhlIGd1YXJkIHRocmVhZCBjYW4NCiAgICAvLy8gcmVzdG9yZSBpdCBhZnRlciBXZWJWaWV3MiByZWNyZWF0ZXMgaXRzIGNoaWxkIHdpbmRvd3MuDQogICAgcHViIHBhc3N0aHJvdWdoOiBBdG9taWNCb29sLA0KfQ0KDQppbXBsIE92ZXJsYXkgew0KICAgIHB1YiBmbiBuZXcoKSAtPiBTZWxmIHsNCiAgICAgICAgU2VsZiB7IHN0YXRlOiBNdXRleDo6bmV3KEVkaXRTdGF0ZTo6ZGVmYXVsdCgpKSwgcGFzc3Rocm91Z2g6IEF0b21pY0Jvb2w6Om5ldyh0cnVlKSB9DQogICAgfQ0KfQ0KDQovLy8gRGlyZWN0IHVzZXIzMiBGRkkgb24gcHVycG9zZTogVGF1cmkncyBgSFdORGAgY29tZXMgZnJvbSBhIGRpZmZlcmVudCBgd2luZG93c2ANCi8vLyBjcmF0ZSB2ZXJzaW9uIHRoYW4gb3Vycywgc28gYHdpbmRvdy5od25kKClgIGNhbm5vdCBiZSBwYXNzZWQgYWNyb3NzIHdpdGhvdXQNCi8vLyBkcmFnZ2luZyBpbiBhIHZlcnNpb24gYnVtcC4gYC4wIGFzIGlzaXplYCB3b3JrcyBlaXRoZXIgd2F5Lg0KI1tjZmcod2luZG93cyldDQptb2Qgd2luIHsNCiAgICBwdWIgY29uc3QgR1dMX0VYU1RZTEU6IGkzMiA9IC0yMDsNCiAgICBwdWIgY29uc3QgV1NfRVhfVFJBTlNQQVJFTlQ6IGlzaXplID0gMHgwMDAwXzAwMjA7DQogICAgcHViIGNvbnN0IFdTX0VYX0xBWUVSRUQ6IGlzaXplID0gMHgwMDA4XzAwMDA7DQogICAgcHViIGNvbnN0IExXQV9BTFBIQTogdTMyID0gMHgwMDAwXzAwMDI7DQoNCiAgICAvLy8gYFdTX0VYX1RSQU5TUEFSRU5UYCBvbmx5IHJlbW92ZXMgYSB3aW5kb3cgZnJvbSBoaXQtdGVzdGluZyB3aGlsZSB0aGUgd2luZG93IGlzDQogICAgLy8vIGFsc28gYFdTX0VYX0xBWUVSRURgOyB3aXRob3V0IHRoZSBsYXllcmVkIGJpdCBpdCBpcyBqdXN0IGEgcGFpbnRpbmcgaGludCBhbmQNCiAgICAvLy8gY2xpY2tzIGtlZXAgbGFuZGluZyBvbiB0aGUgb3ZlcmxheS4gRWFybGllciBjb2RlIHdlbnQgdGhyb3VnaCB0YW8ncw0KICAgIC8vLyBgc2V0X2lnbm9yZV9jdXJzb3JfZXZlbnRzYCwgd2hpY2ggcmVjb21wdXRlcyB0aGUgc3R5bGUgc2V0IGFuZCBkcm9wcyB0aGUgbGF5ZXJlZA0KICAgIC8vLyBiaXQgVGF1cmkgbmVlZHMsIHNvIGl0IGlzIGFzc2VydGVkIGhlcmUgaW5zdGVhZCBvZiBhc3N1bWVkLg0KICAgIHB1YiB1bnNhZmUgZm4gZW5zdXJlX2xheWVyZWQoaHduZDogaXNpemUpIHsNCiAgICAgICAgbGV0IGV4ID0gR2V0V2luZG93TG9uZ1B0clcoaHduZCwgR1dMX0VYU1RZTEUpOw0KICAgICAgICBpZiBleCAmIFdTX0VYX0xBWUVSRUQgPT0gMCB7DQogICAgICAgICAgICBTZXRXaW5kb3dMb25nUHRyVyhod25kLCBHV0xfRVhTVFlMRSwgZXggfCBXU19FWF9MQVlFUkVEKTsNCiAgICAgICAgICAgIC8vIEEgbGF5ZXJlZCB3aW5kb3cgd2l0aCBubyBsYXllcmVkIGF0dHJpYnV0ZXMgaXMgbm90IGRyYXduIGF0IGFsbC4NCiAgICAgICAgICAgIFNldExheWVyZWRXaW5kb3dBdHRyaWJ1dGVzKGh3bmQsIDAsIDI1NSwgTFdBX0FMUEhBKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgICNbbGluayhuYW1lID0gInVzZXIzMiIpXQ0KICAgIGV4dGVybiAic3lzdGVtIiB7DQogICAgICAgIHB1YiBmbiBFbnVtQ2hpbGRXaW5kb3dzKA0KICAgICAgICAgICAgcGFyZW50OiBpc2l6ZSwNCiAgICAgICAgICAgIGNhbGxiYWNrOiBPcHRpb248dW5zYWZlIGV4dGVybiAic3lzdGVtIiBmbihpc2l6ZSwgaXNpemUpIC0+IGkzMj4sDQogICAgICAgICAgICBscGFyYW06IGlzaXplLA0KICAgICAgICApIC0+IGkzMjsNCiAgICAgICAgcHViIGZuIEdldFdpbmRvd0xvbmdQdHJXKGh3bmQ6IGlzaXplLCBpbmRleDogaTMyKSAtPiBpc2l6ZTsNCiAgICAgICAgcHViIGZuIFNldFdpbmRvd0xvbmdQdHJXKGh3bmQ6IGlzaXplLCBpbmRleDogaTMyLCB2YWx1ZTogaXNpemUpIC0+IGlzaXplOw0KICAgICAgICBwdWIgZm4gU2V0TGF5ZXJlZFdpbmRvd0F0dHJpYnV0ZXMoaHduZDogaXNpemUsIGtleTogdTMyLCBhbHBoYTogdTgsIGZsYWdzOiB1MzIpIC0+IGkzMjsNCiAgICAgICAgcHViIGZuIEdldEN1cnNvclBvcyhwb2ludDogKm11dCBQb2ludCkgLT4gaTMyOw0KICAgIH0NCg0KICAgICNbcmVwcihDKV0NCiAgICAjW2Rlcml2ZShEZWZhdWx0KV0NCiAgICBwdWIgc3RydWN0IFBvaW50IHsNCiAgICAgICAgcHViIHg6IGkzMiwNCiAgICAgICAgcHViIHk6IGkzMiwNCiAgICB9DQoNCiAgICAvLy8gQ3Vyc29yIHBvc2l0aW9uIGluIHZpcnR1YWwtc2NyZWVuIGNvb3JkaW5hdGVzIOKAlCB0aGUgc2FtZSBzcGFjZSB0aGUgbW9uaXRvcg0KICAgIC8vLyByZWN0YW5nbGVzIHVzZSwgc28gY29vcmRpbmF0ZXMgYXJlIG5lZ2F0aXZlIG9uIGEgbW9uaXRvciBwbGFjZWQgbGVmdCBvZiB0aGUNCiAgICAvLy8gcHJpbWFyeSBvbmUuDQogICAgcHViIHVuc2FmZSBmbiBjdXJzb3JfcG9zaXRpb24oKSAtPiBPcHRpb248KGkzMiwgaTMyKT4gew0KICAgICAgICBsZXQgbXV0IHBvaW50ID0gUG9pbnQ6OmRlZmF1bHQoKTsNCiAgICAgICAgaWYgR2V0Q3Vyc29yUG9zKCZtdXQgcG9pbnQpICE9IDAgew0KICAgICAgICAgICAgU29tZSgocG9pbnQueCwgcG9pbnQueSkpDQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBOb25lDQogICAgICAgIH0NCiAgICB9DQoNCiAgICAvLy8gRmxpcCB0aGUgY2xpY2stdGhyb3VnaCBiaXQuIERlbGliZXJhdGVseSBubyBTZXRXaW5kb3dQb3MoU1dQX0ZSQU1FQ0hBTkdFRCkgaGVyZToNCiAgICAvLy8gZG9pbmcgdGhhdCBvbiBXZWJWaWV3MidzIENocm9taXVtIGNoaWxkIHdpbmRvd3MgZGVzdHJveXMgdGhlaXIgY29tcG9zaXRpb24NCiAgICAvLy8gc3VyZmFjZSwgYW5kIHRoZSBvdmVybGF5IHJlbmRlcnMgbm90aGluZyB1bnRpbCB0aGUgYml0IGlzIGZsaXBwZWQgYmFjayDigJQNCiAgICAvLy8gd2hpY2ggbG9va2VkIGV4YWN0bHkgbGlrZSAicHJlc3NpbmcgQWx0K00gaGlkZXMgdGhlIGx5cmljcyIuDQogICAgcHViIHVuc2FmZSBleHRlcm4gInN5c3RlbSIgZm4gYXBwbHlfdG9fY2hpbGQoaHduZDogaXNpemUsIGxwYXJhbTogaXNpemUpIC0+IGkzMiB7DQogICAgICAgIGxldCB3YW50ID0gbHBhcmFtICE9IDA7DQogICAgICAgIGxldCBleCA9IEdldFdpbmRvd0xvbmdQdHJXKGh3bmQsIEdXTF9FWFNUWUxFKTsNCiAgICAgICAgbGV0IG5leHQgPSBpZiB3YW50IHsgZXggfCBXU19FWF9UUkFOU1BBUkVOVCB9IGVsc2UgeyBleCAmICFXU19FWF9UUkFOU1BBUkVOVCB9Ow0KICAgICAgICBpZiBuZXh0ICE9IGV4IHsNCiAgICAgICAgICAgIFNldFdpbmRvd0xvbmdQdHJXKGh3bmQsIEdXTF9FWFNUWUxFLCBuZXh0KTsNCiAgICAgICAgfQ0KICAgICAgICAxDQogICAgfQ0KfQ0KDQovLy8gQXBwbHkgY2xpY2stdGhyb3VnaCB0byB0aGUgd2hvbGUgd2luZG93IHRyZWUuDQovLy8NCi8vLyBTZXR0aW5nIGBXU19FWF9UUkFOU1BBUkVOVGAgb24gdGhlIHRvcC1sZXZlbCB3aW5kb3cgaXMgbm90IGVub3VnaCBvbiBXaW5kb3dzOg0KLy8vIFdlYlZpZXcyIGhvc3RzIGl0cyBjb250ZW50IGluICoqY2hpbGQqKiB3aW5kb3dzLCB3aGljaCBrZWVwIGhpdC10ZXN0aW5nIG5vcm1hbGx5DQovLy8gYW5kIHN3YWxsb3cgY2xpY2tzLiBNZWFzdXJlZCB3aXRoIGBXaW5kb3dGcm9tUG9pbnRgIGJlZm9yZSB0aGlzIGZpeDogcG9pbnRzIGluc2lkZQ0KLy8vIHRoZSBvdmVybGF5IHJlc29sdmVkIHRvIGEgY2hpbGQgSFdORCBvZiBvdXIgb3duIHByb2Nlc3MsIGkuZS4gY2xpY2tzIG5ldmVyIHJlYWNoZWQNCi8vLyB0aGUgYnJvd3NlciB1bmRlcm5lYXRoLg0KcHViIGZuIHNldF9wYXNzdGhyb3VnaCh3aW5kb3c6ICZXZWJ2aWV3V2luZG93LCBwYXNzdGhyb3VnaDogYm9vbCkgew0KICAgICNbY2ZnKHdpbmRvd3MpXQ0KICAgIHsNCiAgICAgICAgaWYgbGV0IE9rKGh3bmQpID0gd2luZG93Lmh3bmQoKSB7DQogICAgICAgICAgICBsZXQgcmF3OiBpc2l6ZSA9IGh3bmQuMCBhcyBpc2l6ZTsNCiAgICAgICAgICAgIGxldCB3YW50ID0gaWYgcGFzc3Rocm91Z2ggeyAxIH0gZWxzZSB7IDAgfTsNCiAgICAgICAgICAgIHVuc2FmZSB7DQogICAgICAgICAgICAgICAgLy8gRGVsaWJlcmF0ZWx5IE5PVCB0YW8ncyBgc2V0X2lnbm9yZV9jdXJzb3JfZXZlbnRzKClgOiBpdCByZWNvbXB1dGVzIHRoZQ0KICAgICAgICAgICAgICAgIC8vIHdob2xlIGV4dGVuZGVkIHN0eWxlIGZyb20gaXRzIG93biBmbGFnIHNldCwgd2hpY2ggZG9lcyBub3QgaW5jbHVkZSB0aGUNCiAgICAgICAgICAgICAgICAvLyBXU19FWF9MQVlFUkVEIHRoYXQgY2xpY2stdGhyb3VnaCBuZWVkcyAoYW5kIHRoYXQgVGF1cmkgdXNlcyBmb3Igd2luZG93DQogICAgICAgICAgICAgICAgLy8gdHJhbnNwYXJlbmN5KS4gRmxpcHBpbmcgdGhlIGJpdCB0aHJvdWdoIHRoYXQgcGF0aCBhbHNvIGNsZWFyZWQgTEFZRVJFRCwNCiAgICAgICAgICAgICAgICAvLyB3aGljaCBzaWxlbnRseSB0dXJuZWQgdGhlIG92ZXJsYXkgYmFjayBpbnRvIGEgY2xpY2sgbWFnbmV0Lg0KICAgICAgICAgICAgICAgIHdpbjo6ZW5zdXJlX2xheWVyZWQocmF3KTsNCiAgICAgICAgICAgICAgICB3aW46OmFwcGx5X3RvX2NoaWxkKHJhdywgd2FudCk7DQogICAgICAgICAgICAgICAgd2luOjpFbnVtQ2hpbGRXaW5kb3dzKHJhdywgU29tZSh3aW46OmFwcGx5X3RvX2NoaWxkKSwgd2FudCk7DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9DQogICAgI1tjZmcobm90KHdpbmRvd3MpKV0NCiAgICB7DQogICAgICAgIGlmIGxldCBFcnIoZXJyKSA9IHdpbmRvdy5zZXRfaWdub3JlX2N1cnNvcl9ldmVudHMocGFzc3Rocm91Z2gpIHsNCiAgICAgICAgICAgIGVwcmludGxuISgiW292ZXJsYXldIHNldF9pZ25vcmVfY3Vyc29yX2V2ZW50cyBmYWlsZWQ6IHtlcnJ9Iik7DQogICAgICAgIH0NCiAgICB9DQp9DQoNCi8vLyBXZWJWaWV3MiByZWJ1aWxkcyBpdHMgY2hpbGQgd2luZG93cyBvbiBuYXZpZ2F0aW9uL3JlbG9hZCwgd2hpY2ggc2lsZW50bHkgZHJvcHMgb3VyDQovLy8gc3R5bGUgYml0cywgc28gcmUtYXNzZXJ0IHRoZSB3YW50ZWQgc3RhdGUgYSBmZXcgdGltZXMgcGVyIHNlY29uZC4NCnB1YiBmbiBzcGF3bl9wYXNzdGhyb3VnaF9ndWFyZChhcHA6IHRhdXJpOjpBcHBIYW5kbGUpIHsNCiAgICBzdGQ6OnRocmVhZDo6c3Bhd24obW92ZSB8fCBsb29wIHsNCiAgICAgICAgLy8gV2ViVmlldzIgY3JlYXRlcyBhbmQgZGVzdHJveXMgY2hpbGQgd2luZG93cyB3aGVuZXZlciBpdCBuYXZpZ2F0ZXMgb3Igc3dhcHMgaXRzDQogICAgICAgIC8vIHJlbmRlcmluZyBzdXJmYWNlLiBBIG5ld2x5IGNyZWF0ZWQgY2hpbGQgc3RhcnRzICp3aXRob3V0KiB0aGUgY2xpY2stdGhyb3VnaA0KICAgICAgICAvLyBiaXQsIGFuZCBkdXJpbmcgdGhhdCBnYXAgY2xpY2tzIGxhbmQgb24gdGhlIG92ZXJsYXkgaW5zdGVhZCBvZiB0aGUgd2luZG93DQogICAgICAgIC8vIHVuZGVybmVhdGgsIHdoaWNoIGZlZWxzIGxpa2UgInRoaXMgc3BvdCBpcyBub3QgY2xpY2stdGhyb3VnaCIuIDEyMCBtcyBrZWVwcw0KICAgICAgICAvLyB0aGUgZ2FwIGJlbG93IGEgaHVtYW4gY2xpY2ssIGFuZCB0aGUgc3R5bGUgd3JpdGUgaXMgYSBuby1vcCB3aGVuIGl0IGFscmVhZHkNCiAgICAgICAgLy8gbWF0Y2hlcywgc28gdGhlIGNvc3QgaXMgb25lIEVudW1DaGlsZFdpbmRvd3MgcGVyIHRpY2suDQogICAgICAgIHN0ZDo6dGhyZWFkOjpzbGVlcChEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMTIwKSk7DQogICAgICAgIGxldCBTb21lKHdpbmRvdykgPSBhcHAuZ2V0X3dlYnZpZXdfd2luZG93KCJseXJpY3MiKSBlbHNlIHsgY29udGludWUgfTsNCiAgICAgICAgbGV0IHdhbnQgPSBhcHAuc3RhdGU6OjxPdmVybGF5PigpLnBhc3N0aHJvdWdoLmxvYWQoT3JkZXJpbmc6OlJlbGF4ZWQpOw0KICAgICAgICBzZXRfcGFzc3Rocm91Z2goJndpbmRvdywgd2FudCk7DQogICAgfSk7DQp9DQoNCi8vLyBBcHBseSBjbGljay10aHJvdWdoIHRvIHRoZSBvdmVybGF5IHdpbmRvdy4NCg0KcHViIGZuIGVudGVyX2VkaXQoYXBwOiAmdGF1cmk6OkFwcEhhbmRsZSwgZ3JhY2U6IER1cmF0aW9uKSB7DQogICAgbGV0IFNvbWUod2luZG93KSA9IGFwcC5nZXRfd2Vidmlld193aW5kb3coImx5cmljcyIpIGVsc2UgeyByZXR1cm4gfTsNCiAgICBsZXQgb3ZlcmxheSA9IGFwcC5zdGF0ZTo6PE92ZXJsYXk+KCk7DQogICAgew0KICAgICAgICBsZXQgbXV0IHN0ID0gb3ZlcmxheS5zdGF0ZS5sb2NrKCkudW53cmFwKCk7DQogICAgICAgIHN0LmVkaXRpbmcgPSB0cnVlOw0KICAgICAgICBzdC5kZWFkbGluZSA9IFNvbWUoSW5zdGFudDo6bm93KCkgKyBncmFjZSk7DQogICAgfQ0KICAgIC8vIFRoZSBvdmVybGF5IHN0YXlzIGNsaWNrLXRocm91Z2ggaW4gZXZlcnkgc3RhdGUuIENsZWFyaW5nIFdTX0VYX1RSQU5TUEFSRU5UIG1ha2VzDQogICAgLy8gdGhpcyB3aW5kb3cgc3RvcCBwcmVzZW50aW5nIGl0cyBXZWJWaWV3MiBzdXJmYWNlIGVudGlyZWx5ICh2ZXJpZmllZDogdGhlIHBhZ2UNCiAgICAvLyByZW5kZXJzIHJlZCwgdGhlIHNjcmVlbiBzaG93cyBub3RoaW5nKSwgc28gbW91c2UgaW5wdXQgaXMgbm90IGFuIG9wdGlvbiBoZXJlLg0KICAgIGxldCBfID0gd2luZG93LnNldF9mb2N1cygpOw0KICAgIGxldCBfID0gYXBwLmVtaXQoIm92ZXJsYXk6Ly9lZGl0LW1vZGUiLCB0cnVlKTsNCg0KICAgIC8vIFdhdGNoZG9nOiBsZWF2ZSBlZGl0IG1vZGUgd2hlbiB0aGUgZGVhZGxpbmUgcGFzc2VzLg0KICAgIGxldCBhcHBfaGFuZGxlID0gYXBwLmNsb25lKCk7DQogICAgc3RkOjp0aHJlYWQ6OnNwYXduKG1vdmUgfHwgew0KICAgICAgICBsb29wIHsNCiAgICAgICAgICAgIHN0ZDo6dGhyZWFkOjpzbGVlcChEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMjAwKSk7DQogICAgICAgICAgICBsZXQgb3ZlcmxheSA9IGFwcF9oYW5kbGUuc3RhdGU6OjxPdmVybGF5PigpOw0KICAgICAgICAgICAgbGV0IGV4cGlyZWQgPSB7DQogICAgICAgICAgICAgICAgbGV0IHN0ID0gb3ZlcmxheS5zdGF0ZS5sb2NrKCkudW53cmFwKCk7DQogICAgICAgICAgICAgICAgbWF0Y2ggc3QuZGVhZGxpbmUgew0KICAgICAgICAgICAgICAgICAgICBTb21lKGQpID0+IEluc3RhbnQ6Om5vdygpID49IGQsDQogICAgICAgICAgICAgICAgICAgIE5vbmUgPT4gIXN0LmVkaXRpbmcsDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIGlmIGV4cGlyZWQgew0KICAgICAgICAgICAgICAgIGxlYXZlX2VkaXQoJmFwcF9oYW5kbGUpOw0KICAgICAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfSk7DQp9DQoNCnB1YiBmbiBsZWF2ZV9lZGl0KGFwcDogJnRhdXJpOjpBcHBIYW5kbGUpIHsNCiAgICBsZXQgU29tZSh3aW5kb3cpID0gYXBwLmdldF93ZWJ2aWV3X3dpbmRvdygibHlyaWNzIikgZWxzZSB7IHJldHVybiB9Ow0KICAgIGxldCBvdmVybGF5ID0gYXBwLnN0YXRlOjo8T3ZlcmxheT4oKTsNCiAgICB7DQogICAgICAgIGxldCBtdXQgc3QgPSBvdmVybGF5LnN0YXRlLmxvY2soKS51bndyYXAoKTsNCiAgICAgICAgaWYgIXN0LmVkaXRpbmcgew0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQogICAgICAgIHN0LmVkaXRpbmcgPSBmYWxzZTsNCiAgICAgICAgc3QuZGVhZGxpbmUgPSBOb25lOw0KICAgICAgICBzdC5kcmFnX29yaWdpbiA9IE5vbmU7DQogICAgfQ0KICAgIG92ZXJsYXkucGFzc3Rocm91Z2guc3RvcmUodHJ1ZSwgT3JkZXJpbmc6OlJlbGF4ZWQpOw0KICAgIGxldCBfID0gYXBwLmVtaXQoIm92ZXJsYXk6Ly9lZGl0LW1vZGUiLCBmYWxzZSk7DQp9DQoNCi8vLyBNb3ZlIHRoZSBvdmVybGF5IGJ5IChkeCwgZHkpIGxvZ2ljYWwgcGl4ZWxzIGFuZCBwZXJzaXN0IHRoZSBwb3NpdGlvbi4NCnB1YiBmbiBudWRnZV9wb3NpdGlvbihhcHA6ICZ0YXVyaTo6QXBwSGFuZGxlLCBkeDogaTMyLCBkeTogaTMyKSB7DQogICAgdXNlIHRhdXJpOjpNYW5hZ2VyOw0KICAgIGxldCBTb21lKHdpbmRvdykgPSBhcHAuZ2V0X3dlYnZpZXdfd2luZG93KCJseXJpY3MiKSBlbHNlIHsgcmV0dXJuIH07DQogICAgbGV0IE9rKHBvcykgPSB3aW5kb3cub3V0ZXJfcG9zaXRpb24oKSBlbHNlIHsgcmV0dXJuIH07DQogICAgbGV0IHNjYWxlID0gd2luZG93LnNjYWxlX2ZhY3RvcigpLnVud3JhcF9vcigxLjApOw0KICAgIGxldCB4ID0gcG9zLnggKyAoZHggYXMgZjY0ICogc2NhbGUpIGFzIGkzMjsNCiAgICBsZXQgeSA9IHBvcy55ICsgKGR5IGFzIGY2NCAqIHNjYWxlKSBhcyBpMzI7DQogICAgbGV0IF8gPSB3aW5kb3cuc2V0X3Bvc2l0aW9uKHRhdXJpOjpQb3NpdGlvbjo6UGh5c2ljYWwoUGh5c2ljYWxQb3NpdGlvbjo6bmV3KHgsIHkpKSk7DQogICAgc2F2ZV9nZW9tZXRyeShhcHAsICZ3aW5kb3cpOw0KfQ0KDQovLy8gUGVyc2lzdCB0aGUgd2luZG93IGdlb21ldHJ5IGluICoqbG9naWNhbCoqIHVuaXRzLg0KLy8vDQovLy8gVGhlIGJ1aWxkZXIgdGFrZXMgbG9naWNhbCBwb2ludHMgd2hpbGUgYG91dGVyX3Bvc2l0aW9uKClgL2BvdXRlcl9zaXplKClgIHJldHVybg0KLy8vIHBoeXNpY2FsIHBpeGVscy4gU3RvcmluZyB0aGUgcmF3IHZhbHVlcyBtYWRlIHRoZSBvdmVybGF5IGRyaWZ0IGEgbGl0dGxlIG9uIGV2ZXJ5DQovLy8gcmVzdGFydCBvbiBhIHNjYWxlZCBkaXNwbGF5LCBhbmQganVtcCBvdXRyaWdodCB3aGVuZXZlciB0aGUgbW9uaXRvciBzY2FsZSBjaGFuZ2VkLg0KcHViIGZuIHNhdmVfZ2VvbWV0cnkoYXBwOiAmdGF1cmk6OkFwcEhhbmRsZSwgd2luZG93OiAmV2Vidmlld1dpbmRvdykgew0KICAgIGxldCBzY2FsZSA9IHdpbmRvdy5zY2FsZV9mYWN0b3IoKS51bndyYXBfb3IoMS4wKTsNCiAgICBsZXQgT2socG9zKSA9IHdpbmRvdy5vdXRlcl9wb3NpdGlvbigpIGVsc2UgeyByZXR1cm4gfTsNCiAgICBsZXQgT2soc2l6ZSkgPSB3aW5kb3cub3V0ZXJfc2l6ZSgpIGVsc2UgeyByZXR1cm4gfTsNCiAgICBsZXQgbG9naWNhbF9wb3MgPSBwb3MudG9fbG9naWNhbDo6PGY2ND4oc2NhbGUpOw0KICAgIGxldCBsb2dpY2FsX3NpemUgPSBzaXplLnRvX2xvZ2ljYWw6OjxmNjQ+KHNjYWxlKTsNCg0KICAgIGxldCBzdGF0ZSA9IGFwcC5zdGF0ZTo6PGNyYXRlOjpBcHBTdGF0ZT4oKTsNCiAgICBsZXQgbXV0IGNmZyA9IHN0YXRlLmNmZy5sb2NrKCkudW53cmFwKCk7DQogICAgY2ZnLndpbmRvd194ID0gbG9naWNhbF9wb3MueC5yb3VuZCgpIGFzIGkzMjsNCiAgICBjZmcud2luZG93X3kgPSBsb2dpY2FsX3Bvcy55LnJvdW5kKCkgYXMgaTMyOw0KICAgIGNmZy53aW5kb3dfd2lkdGggPSBsb2dpY2FsX3NpemUud2lkdGgucm91bmQoKSBhcyB1MzI7DQogICAgY2ZnLndpbmRvd19oZWlnaHQgPSBsb2dpY2FsX3NpemUuaGVpZ2h0LnJvdW5kKCkgYXMgdTMyOw0KICAgIGlmIGxldCBFcnIoZXJyKSA9IGNmZy5zYXZlKCkgew0KICAgICAgICBlcHJpbnRsbiEoIltvdmVybGF5XSBjYW5ub3Qgc2F2ZSBnZW9tZXRyeToge2Vycn0iKTsNCiAgICB9DQp9DQoNCi8vLyBQdXQgdGhlIG92ZXJsYXkgYmFjayBvbiBhIG1vbml0b3IgYWZ0ZXIgdGhlIGRlc2t0b3AgbGF5b3V0IGNoYW5nZWQgKGEgbW9uaXRvciB3YXMNCi8vLyB1bnBsdWdnZWQsIHJlYXJyYW5nZWQsIG9yIHRoZSByZXNvbHV0aW9uIGNoYW5nZWQpLiBXaXRob3V0IHRoaXMgdGhlIHNhdmVkIHBvc2l0aW9uDQovLy8gY2FuIHBvaW50IGF0IGNvb3JkaW5hdGVzIHRoYXQgbm8gbG9uZ2VyIGV4aXN0LCBhbmQgdGhlIG92ZXJsYXkgaXMgc2ltcGx5IG5ldmVyIHNlZW4uDQpwdWIgZm4gZW5zdXJlX29uX3NjcmVlbihhcHA6ICZ0YXVyaTo6QXBwSGFuZGxlKSB7DQogICAgbGV0IFNvbWUod2luZG93KSA9IGFwcC5nZXRfd2Vidmlld193aW5kb3coImx5cmljcyIpIGVsc2UgeyByZXR1cm4gfTsNCiAgICBsZXQgT2socG9zKSA9IHdpbmRvdy5vdXRlcl9wb3NpdGlvbigpIGVsc2UgeyByZXR1cm4gfTsNCiAgICBsZXQgT2soc2l6ZSkgPSB3aW5kb3cub3V0ZXJfc2l6ZSgpIGVsc2UgeyByZXR1cm4gfTsNCiAgICBsZXQgbW9uaXRvcnMgPSB3aW5kb3cuYXZhaWxhYmxlX21vbml0b3JzKCkudW53cmFwX29yX2RlZmF1bHQoKTsNCiAgICBpZiBtb25pdG9ycy5pc19lbXB0eSgpIHsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGxldCBjZW50ZXIgPSAocG9zLnggKyBzaXplLndpZHRoIGFzIGkzMiAvIDIsIHBvcy55ICsgc2l6ZS5oZWlnaHQgYXMgaTMyIC8gMik7DQogICAgbGV0IG9uX3NjcmVlbiA9IG1vbml0b3JzLml0ZXIoKS5hbnkofG18IHsNCiAgICAgICAgbGV0IG1wID0gbS5wb3NpdGlvbigpOw0KICAgICAgICBsZXQgbXMgPSBtLnNpemUoKTsNCiAgICAgICAgY2VudGVyLjAgPj0gbXAueA0KICAgICAgICAgICAgJiYgY2VudGVyLjAgPCBtcC54ICsgbXMud2lkdGggYXMgaTMyDQogICAgICAgICAgICAmJiBjZW50ZXIuMSA+PSBtcC55DQogICAgICAgICAgICAmJiBjZW50ZXIuMSA8IG1wLnkgKyBtcy5oZWlnaHQgYXMgaTMyDQogICAgfSk7DQoNCiAgICBpZiBvbl9zY3JlZW4gew0KICAgICAgICAvLyBXaW5kb3dzIG1heSBhbHJlYWR5IGhhdmUgY2xhbXBlZCBhbiBpbXBvc3NpYmxlIHBvc2l0aW9uIG9uIGNyZWF0aW9uOyByZXdyaXRlDQogICAgICAgIC8vIHRoZSBjb25maWcgc28gaXQgc3RvcHMgY2Fycnlpbmcgc3RhbGUgY29vcmRpbmF0ZXMuDQogICAgICAgIHNhdmVfZ2VvbWV0cnkoYXBwLCAmd2luZG93KTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGlmIGxldCBTb21lKG1vbml0b3IpID0gd2luZG93LnByaW1hcnlfbW9uaXRvcigpLm9rKCkuZmxhdHRlbigpIHsNCiAgICAgICAgcGxhY2Vfb24oYXBwLCAmd2luZG93LCAmbW9uaXRvciwgc2l6ZSk7DQogICAgfQ0KfQ0KDQovLy8gQ2VudHJlIHRoZSBvdmVybGF5IG9uIHRoZSBtb25pdG9yIHRoYXQgY3VycmVudGx5IGhvbGRzIHRoZSBjdXJzb3IuDQpwdWIgZm4gcmVzZXRfcG9zaXRpb24oYXBwOiAmdGF1cmk6OkFwcEhhbmRsZSkgew0KICAgIGxldCBTb21lKHdpbmRvdykgPSBhcHAuZ2V0X3dlYnZpZXdfd2luZG93KCJseXJpY3MiKSBlbHNlIHsgcmV0dXJuIH07DQogICAgbGV0IE9rKHNpemUpID0gd2luZG93Lm91dGVyX3NpemUoKSBlbHNlIHsgcmV0dXJuIH07DQogICAgbGV0IG1vbml0b3JzID0gd2luZG93LmF2YWlsYWJsZV9tb25pdG9ycygpLnVud3JhcF9vcl9kZWZhdWx0KCk7DQogICAgaWYgbW9uaXRvcnMuaXNfZW1wdHkoKSB7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBsZXQgY3Vyc29yID0gdW5zYWZlIHsgd2luOjpjdXJzb3JfcG9zaXRpb24oKSB9Ow0KICAgIGxldCB0YXJnZXQgPSBjdXJzb3INCiAgICAgICAgLmFuZF90aGVuKHwoY3gsIGN5KXwgew0KICAgICAgICAgICAgbW9uaXRvcnMNCiAgICAgICAgICAgICAgICAuaXRlcigpDQogICAgICAgICAgICAgICAgLmZpbmQofG18IHsNCiAgICAgICAgICAgICAgICAgICAgbGV0IG1wID0gbS5wb3NpdGlvbigpOw0KICAgICAgICAgICAgICAgICAgICBsZXQgbXMgPSBtLnNpemUoKTsNCiAgICAgICAgICAgICAgICAgICAgY3ggPj0gbXAueCAmJiBjeCA8IG1wLnggKyBtcy53aWR0aCBhcyBpMzIgJiYgY3kgPj0gbXAueSAmJiBjeSA8IG1wLnkgKyBtcy5oZWlnaHQgYXMgaTMyDQogICAgICAgICAgICAgICAgfSkNCiAgICAgICAgICAgICAgICAuY2xvbmVkKCkNCiAgICAgICAgfSkNCiAgICAgICAgLm9yX2Vsc2UofHwgd2luZG93LnByaW1hcnlfbW9uaXRvcigpLm9rKCkuZmxhdHRlbigpKTsNCg0KICAgIGlmIGxldCBTb21lKG1vbml0b3IpID0gdGFyZ2V0IHsNCiAgICAgICAgcGxhY2Vfb24oYXBwLCAmd2luZG93LCAmbW9uaXRvciwgc2l6ZSk7DQogICAgICAgIGxldCBfID0gYXBwLmVtaXQoIm92ZXJsYXk6Ly9oaW50IiwgIuS9jee9ruW3sumHjee9ruWIsOm8oOagh+aJgOWcqOWxj+W5lSIpOw0KICAgIH0NCn0NCg0KZm4gcGxhY2Vfb24oDQogICAgYXBwOiAmdGF1cmk6OkFwcEhhbmRsZSwNCiAgICB3aW5kb3c6ICZXZWJ2aWV3V2luZG93LA0KICAgIG1vbml0b3I6ICZ0YXVyaTo6TW9uaXRvciwNCiAgICBzaXplOiB0YXVyaTo6UGh5c2ljYWxTaXplPHUzMj4sDQopIHsNCiAgICBsZXQgbXAgPSBtb25pdG9yLnBvc2l0aW9uKCk7DQogICAgbGV0IG1zID0gbW9uaXRvci5zaXplKCk7DQogICAgbGV0IHggPSBtcC54ICsgKG1zLndpZHRoIGFzIGkzMiAtIHNpemUud2lkdGggYXMgaTMyKSAvIDI7DQogICAgbGV0IHkgPSBtcC55ICsgODA7DQogICAgbGV0IF8gPSB3aW5kb3cuc2V0X3Bvc2l0aW9uKHRhdXJpOjpQb3NpdGlvbjo6UGh5c2ljYWwoUGh5c2ljYWxQb3NpdGlvbjo6bmV3KHgsIHkpKSk7DQogICAgc2F2ZV9nZW9tZXRyeShhcHAsIHdpbmRvdyk7DQogICAgcHJpbnRsbiEoDQogICAgICAgICJbb3ZlcmxheV0gcGxhY2VkIG9uIHt9IGF0IHt4fSx7eX0iLA0KICAgICAgICBtb25pdG9yLm5hbWUoKS5tYXAoU3RyaW5nOjphc19zdHIpLnVud3JhcF9vcigibW9uaXRvciIpDQogICAgKTsNCn0NCg0KcHViIGZuIHRvZ2dsZV9lZGl0KGFwcDogJnRhdXJpOjpBcHBIYW5kbGUsIGdyYWNlOiBEdXJhdGlvbikgew0KICAgIGxldCBlZGl0aW5nID0gYXBwLnN0YXRlOjo8T3ZlcmxheT4oKS5zdGF0ZS5sb2NrKCkudW53cmFwKCkuZWRpdGluZzsNCiAgICBpZiBlZGl0aW5nIHsNCiAgICAgICAgbGVhdmVfZWRpdChhcHApOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGVudGVyX2VkaXQoYXBwLCBncmFjZSk7DQogICAgfQ0KfQ0KDQovLy8gVHJ1ZSB3aGlsZSB0aGUgb3ZlcmxheSBpcyBpbiBhZGp1c3RtZW50IG1vZGUgKGFycm93cyBtb3ZlIGl0LCBvdXRsaW5lIGlzIGRyYXduKS4NCnB1YiBmbiBpc19lZGl0aW5nKGFwcDogJnRhdXJpOjpBcHBIYW5kbGUpIC0+IGJvb2wgew0KICAgIGFwcC5zdGF0ZTo6PE92ZXJsYXk+KCkuc3RhdGUubG9jaygpLnVud3JhcCgpLmVkaXRpbmcNCn0NCg0KLy8vIENhbGxlZCBmcm9tIHRoZSBVSSBvbiBtb3VzZWRvd24gd2hpbGUgaW4gZWRpdCBtb2RlOiByZW1lbWJlciB3aGVyZSB3ZSBzdGFydGVkLg0KcHViIGZuIGJlZ2luX2RyYWcoYXBwOiAmdGF1cmk6OkFwcEhhbmRsZSkgew0KICAgIGxldCBTb21lKHdpbmRvdykgPSBhcHAuZ2V0X3dlYnZpZXdfd2luZG93KCJseXJpY3MiKSBlbHNlIHsgcmV0dXJuIH07DQogICAgbGV0IG9yaWdpbiA9IHdpbmRvdy5vdXRlcl9wb3NpdGlvbigpLm9rKCkubWFwKHxwfCAocC54LCBwLnkpKTsNCiAgICBsZXQgb3ZlcmxheSA9IGFwcC5zdGF0ZTo6PE92ZXJsYXk+KCk7DQogICAgbGV0IG11dCBzdCA9IG92ZXJsYXkuc3RhdGUubG9jaygpLnVud3JhcCgpOw0KICAgIHN0LmRyYWdfb3JpZ2luID0gb3JpZ2luOw0KICAgIC8vIEFueSBkcmFnIGludGVyYWN0aW9uIHJlc2V0cyB0aGUgZ3JhY2UgdGltZXIuDQogICAgaWYgc3QuZWRpdGluZyB7DQogICAgICAgIHN0LmRlYWRsaW5lID0gU29tZShJbnN0YW50Ojpub3coKSArIER1cmF0aW9uOjpmcm9tX21pbGxpcyg1MDAwKSk7DQogICAgfQ0KfQ0KDQpwdWIgZm4gZHJhZ19ieShhcHA6ICZ0YXVyaTo6QXBwSGFuZGxlLCBkeDogaTMyLCBkeTogaTMyKSB7DQogICAgbGV0IFNvbWUod2luZG93KSA9IGFwcC5nZXRfd2Vidmlld193aW5kb3coImx5cmljcyIpIGVsc2UgeyByZXR1cm4gfTsNCiAgICBsZXQgb3ZlcmxheSA9IGFwcC5zdGF0ZTo6PE92ZXJsYXk+KCk7DQogICAgbGV0IG9yaWdpbiA9IHsNCiAgICAgICAgbGV0IHN0ID0gb3ZlcmxheS5zdGF0ZS5sb2NrKCkudW53cmFwKCk7DQogICAgICAgIHN0LmRyYWdfb3JpZ2luDQogICAgfTsNCiAgICBpZiBsZXQgU29tZSgob3gsIG95KSkgPSBvcmlnaW4gew0KICAgICAgICBsZXQgXyA9IHdpbmRvdy5zZXRfcG9zaXRpb24odGF1cmk6OlBvc2l0aW9uOjpQaHlzaWNhbChQaHlzaWNhbFBvc2l0aW9uOjpuZXcob3ggKyBkeCwgb3kgKyBkeSkpKTsNCiAgICB9DQp9DQo=
+//! Window behaviour: click-through, edit mode with a grace period, dragging.
+//!
+//! Decision #4: the overlay is click-through by default. A hotkey flips it into
+//! "edit" mode for `edit_grace_ms`, then it goes back by itself, because a floating
+//! bar you forgot to unlock is worse than one you have to unlock again.
+
+use std::sync::atomic::{AtomicBool, Ordering};
+use std::sync::Mutex;
+use std::time::{Duration, Instant};
+use tauri::{Emitter, Manager, PhysicalPosition, WebviewWindow};
+
+pub struct EditState {
+    pub editing: bool,
+    pub deadline: Option<Instant>,
+    pub drag_origin: Option<(i32, i32)>,
+}
+
+impl Default for EditState {
+    fn default() -> Self {
+        Self { editing: false, deadline: None, drag_origin: None }
+    }
+}
+
+pub struct Overlay {
+    pub state: Mutex<EditState>,
+    /// The state we want the *whole window tree* to be in, so the guard thread can
+    /// restore it after WebView2 recreates its child windows.
+    pub passthrough: AtomicBool,
+}
+
+impl Overlay {
+    pub fn new() -> Self {
+        Self { state: Mutex::new(EditState::default()), passthrough: AtomicBool::new(true) }
+    }
+}
+
+/// Direct user32 FFI on purpose: Tauri's `HWND` comes from a different `windows`
+/// crate version than ours, so `window.hwnd()` cannot be passed across without
+/// dragging in a version bump. `.0 as isize` works either way.
+#[cfg(windows)]
+mod win {
+    pub const GWL_EXSTYLE: i32 = -20;
+    pub const WS_EX_TRANSPARENT: isize = 0x0000_0020;
+    pub const WS_EX_LAYERED: isize = 0x0008_0000;
+    pub const LWA_ALPHA: u32 = 0x0000_0002;
+
+    /// `WS_EX_TRANSPARENT` only removes a window from hit-testing while the window is
+    /// also `WS_EX_LAYERED`; without the layered bit it is just a painting hint and
+    /// clicks keep landing on the overlay. Earlier code went through tao's
+    /// `set_ignore_cursor_events`, which recomputes the style set and drops the layered
+    /// bit Tauri needs, so it is asserted here instead of assumed.
+    pub unsafe fn ensure_layered(hwnd: isize) {
+        let ex = GetWindowLongPtrW(hwnd, GWL_EXSTYLE);
+        if ex & WS_EX_LAYERED == 0 {
+            SetWindowLongPtrW(hwnd, GWL_EXSTYLE, ex | WS_EX_LAYERED);
+            // A layered window with no layered attributes is not drawn at all.
+            SetLayeredWindowAttributes(hwnd, 0, 255, LWA_ALPHA);
+        }
+    }
+
+    #[link(name = "user32")]
+    extern "system" {
+        pub fn EnumChildWindows(
+            parent: isize,
+            callback: Option<unsafe extern "system" fn(isize, isize) -> i32>,
+            lparam: isize,
+        ) -> i32;
+        pub fn GetWindowLongPtrW(hwnd: isize, index: i32) -> isize;
+        pub fn SetWindowLongPtrW(hwnd: isize, index: i32, value: isize) -> isize;
+        pub fn SetLayeredWindowAttributes(hwnd: isize, key: u32, alpha: u8, flags: u32) -> i32;
+        pub fn GetCursorPos(point: *mut Point) -> i32;
+    }
+
+    #[repr(C)]
+    #[derive(Default)]
+    pub struct Point {
+        pub x: i32,
+        pub y: i32,
+    }
+
+    /// Cursor position in virtual-screen coordinates — the same space the monitor
+    /// rectangles use, so coordinates are negative on a monitor placed left of the
+    /// primary one.
+    pub unsafe fn cursor_position() -> Option<(i32, i32)> {
+        let mut point = Point::default();
+        if GetCursorPos(&mut point) != 0 {
+            Some((point.x, point.y))
+        } else {
+            None
+        }
+    }
+
+    /// Flip the click-through bit. Deliberately no SetWindowPos(SWP_FRAMECHANGED) here:
+    /// doing that on WebView2's Chromium child windows destroys their composition
+    /// surface, and the overlay renders nothing until the bit is flipped back —
+    /// which looked exactly like "pressing Alt+M hides the lyrics".
+    pub unsafe extern "system" fn apply_to_child(hwnd: isize, lparam: isize) -> i32 {
+        let want = lparam != 0;
+        let ex = GetWindowLongPtrW(hwnd, GWL_EXSTYLE);
+        let next = if want { ex | WS_EX_TRANSPARENT } else { ex & !WS_EX_TRANSPARENT };
+        if next != ex {
+            SetWindowLongPtrW(hwnd, GWL_EXSTYLE, next);
+        }
+        1
+    }
+}
+
+/// Apply click-through to the whole window tree.
+///
+/// Setting `WS_EX_TRANSPARENT` on the top-level window is not enough on Windows:
+/// WebView2 hosts its content in **child** windows, which keep hit-testing normally
+/// and swallow clicks. Measured with `WindowFromPoint` before this fix: points inside
+/// the overlay resolved to a child HWND of our own process, i.e. clicks never reached
+/// the browser underneath.
+pub fn set_passthrough(window: &WebviewWindow, passthrough: bool) {
+    #[cfg(windows)]
+    {
+        if let Ok(hwnd) = window.hwnd() {
+            let raw: isize = hwnd.0 as isize;
+            let want = if passthrough { 1 } else { 0 };
+            unsafe {
+                // Deliberately NOT tao's `set_ignore_cursor_events()`: it recomputes the
+                // whole extended style from its own flag set, which does not include the
+                // WS_EX_LAYERED that click-through needs (and that Tauri uses for window
+                // transparency). Flipping the bit through that path also cleared LAYERED,
+                // which silently turned the overlay back into a click magnet.
+                win::ensure_layered(raw);
+                win::apply_to_child(raw, want);
+                win::EnumChildWindows(raw, Some(win::apply_to_child), want);
+            }
+        }
+    }
+    #[cfg(not(windows))]
+    {
+        if let Err(err) = window.set_ignore_cursor_events(passthrough) {
+            eprintln!("[overlay] set_ignore_cursor_events failed: {err}");
+        }
+    }
+}
+
+/// WebView2 rebuilds its child windows on navigation/reload, which silently drops our
+/// style bits, so re-assert the wanted state a few times per second.
+pub fn spawn_passthrough_guard(app: tauri::AppHandle) {
+    std::thread::spawn(move || loop {
+        // WebView2 creates and destroys child windows whenever it navigates or swaps its
+        // rendering surface. A newly created child starts *without* the click-through
+        // bit, and during that gap clicks land on the overlay instead of the window
+        // underneath, which feels like "this spot is not click-through". 120 ms keeps
+        // the gap below a human click, and the style write is a no-op when it already
+        // matches, so the cost is one EnumChildWindows per tick.
+        std::thread::sleep(Duration::from_millis(120));
+        let Some(window) = app.get_webview_window("lyrics") else { continue };
+        let want = app.state::<Overlay>().passthrough.load(Ordering::Relaxed);
+        set_passthrough(&window, want);
+    });
+}
+
+/// Apply click-through to the overlay window.
+
+pub fn enter_edit(app: &tauri::AppHandle, grace: Duration) {
+    let Some(window) = app.get_webview_window("lyrics") else { return };
+    let overlay = app.state::<Overlay>();
+    {
+        let mut st = overlay.state.lock().unwrap();
+        st.editing = true;
+        st.deadline = Some(Instant::now() + grace);
+    }
+    // The overlay stays click-through in every state. Clearing WS_EX_TRANSPARENT makes
+    // this window stop presenting its WebView2 surface entirely (verified: the page
+    // renders red, the screen shows nothing), so mouse input is not an option here.
+    let _ = window.set_focus();
+    let _ = app.emit("overlay://edit-mode", true);
+
+    // Watchdog: leave edit mode when the deadline passes.
+    let app_handle = app.clone();
+    std::thread::spawn(move || {
+        loop {
+            std::thread::sleep(Duration::from_millis(200));
+            let overlay = app_handle.state::<Overlay>();
+            let expired = {
+                let st = overlay.state.lock().unwrap();
+                match st.deadline {
+                    Some(d) => Instant::now() >= d,
+                    None => !st.editing,
+                }
+            };
+            if expired {
+                leave_edit(&app_handle);
+                break;
+            }
+        }
+    });
+}
+
+pub fn leave_edit(app: &tauri::AppHandle) {
+    let Some(window) = app.get_webview_window("lyrics") else { return };
+    let overlay = app.state::<Overlay>();
+    {
+        let mut st = overlay.state.lock().unwrap();
+        if !st.editing {
+            return;
+        }
+        st.editing = false;
+        st.deadline = None;
+        st.drag_origin = None;
+    }
+    overlay.passthrough.store(true, Ordering::Relaxed);
+    let _ = app.emit("overlay://edit-mode", false);
+}
+
+/// Move the overlay by (dx, dy) logical pixels and persist the position.
+pub fn nudge_position(app: &tauri::AppHandle, dx: i32, dy: i32) {
+    use tauri::Manager;
+    let Some(window) = app.get_webview_window("lyrics") else { return };
+    let Ok(pos) = window.outer_position() else { return };
+    let scale = window.scale_factor().unwrap_or(1.0);
+    let x = pos.x + (dx as f64 * scale) as i32;
+    let y = pos.y + (dy as f64 * scale) as i32;
+    let _ = window.set_position(tauri::Position::Physical(PhysicalPosition::new(x, y)));
+    save_geometry(app, &window);
+}
+
+/// Persist the window geometry in **logical** units.
+///
+/// The builder takes logical points while `outer_position()`/`outer_size()` return
+/// physical pixels. Storing the raw values made the overlay drift a little on every
+/// restart on a scaled display, and jump outright whenever the monitor scale changed.
+pub fn save_geometry(app: &tauri::AppHandle, window: &WebviewWindow) {
+    let scale = window.scale_factor().unwrap_or(1.0);
+    let Ok(pos) = window.outer_position() else { return };
+    let Ok(size) = window.outer_size() else { return };
+    let logical_pos = pos.to_logical::<f64>(scale);
+    let logical_size = size.to_logical::<f64>(scale);
+
+    let state = app.state::<crate::AppState>();
+    let mut cfg = state.cfg.lock().unwrap();
+    cfg.window_x = logical_pos.x.round() as i32;
+    cfg.window_y = logical_pos.y.round() as i32;
+    cfg.window_width = logical_size.width.round() as u32;
+    cfg.window_height = logical_size.height.round() as u32;
+    if let Err(err) = cfg.save() {
+        eprintln!("[overlay] cannot save geometry: {err}");
+    }
+}
+
+/// Put the overlay back on a monitor after the desktop layout changed (a monitor was
+/// unplugged, rearranged, or the resolution changed). Without this the saved position
+/// can point at coordinates that no longer exist, and the overlay is simply never seen.
+pub fn ensure_on_screen(app: &tauri::AppHandle) {
+    let Some(window) = app.get_webview_window("lyrics") else { return };
+    let Ok(pos) = window.outer_position() else { return };
+    let Ok(size) = window.outer_size() else { return };
+    let monitors = window.available_monitors().unwrap_or_default();
+    if monitors.is_empty() {
+        return;
+    }
+
+    let center = (pos.x + size.width as i32 / 2, pos.y + size.height as i32 / 2);
+    let on_screen = monitors.iter().any(|m| {
+        let mp = m.position();
+        let ms = m.size();
+        center.0 >= mp.x
+            && center.0 < mp.x + ms.width as i32
+            && center.1 >= mp.y
+            && center.1 < mp.y + ms.height as i32
+    });
+
+    if on_screen {
+        // Windows may already have clamped an impossible position on creation; rewrite
+        // the config so it stops carrying stale coordinates.
+        save_geometry(app, &window);
+        return;
+    }
+
+    if let Some(monitor) = window.primary_monitor().ok().flatten() {
+        place_on(app, &window, &monitor, size);
+    }
+}
+
+/// Centre the overlay on the monitor that currently holds the cursor.
+pub fn reset_position(app: &tauri::AppHandle) {
+    let Some(window) = app.get_webview_window("lyrics") else { return };
+    let Ok(size) = window.outer_size() else { return };
+    let monitors = window.available_monitors().unwrap_or_default();
+    if monitors.is_empty() {
+        return;
+    }
+
+    let cursor = unsafe { win::cursor_position() };
+    let target = cursor
+        .and_then(|(cx, cy)| {
+            monitors
+                .iter()
+                .find(|m| {
+                    let mp = m.position();
+                    let ms = m.size();
+                    cx >= mp.x && cx < mp.x + ms.width as i32 && cy >= mp.y && cy < mp.y + ms.height as i32
+                })
+                .cloned()
+        })
+        .or_else(|| window.primary_monitor().ok().flatten());
+
+    if let Some(monitor) = target {
+        place_on(app, &window, &monitor, size);
+        let _ = app.emit("overlay://hint", "位置已重置到鼠标所在屏幕");
+    }
+}
+
+fn place_on(
+    app: &tauri::AppHandle,
+    window: &WebviewWindow,
+    monitor: &tauri::Monitor,
+    size: tauri::PhysicalSize<u32>,
+) {
+    let mp = monitor.position();
+    let ms = monitor.size();
+    let x = mp.x + (ms.width as i32 - size.width as i32) / 2;
+    let y = mp.y + 80;
+    let _ = window.set_position(tauri::Position::Physical(PhysicalPosition::new(x, y)));
+    save_geometry(app, window);
+    println!(
+        "[overlay] placed on {} at {x},{y}",
+        monitor.name().map(String::as_str).unwrap_or("monitor")
+    );
+}
+
+pub fn toggle_edit(app: &tauri::AppHandle, grace: Duration) {
+    let editing = app.state::<Overlay>().state.lock().unwrap().editing;
+    if editing {
+        leave_edit(app);
+    } else {
+        enter_edit(app, grace);
+    }
+}
+
+/// True while the overlay is in adjustment mode (arrows move it, outline is drawn).
+pub fn is_editing(app: &tauri::AppHandle) -> bool {
+    app.state::<Overlay>().state.lock().unwrap().editing
+}
+
+/// Called from the UI on mousedown while in edit mode: remember where we started.
+pub fn begin_drag(app: &tauri::AppHandle) {
+    let Some(window) = app.get_webview_window("lyrics") else { return };
+    let origin = window.outer_position().ok().map(|p| (p.x, p.y));
+    let overlay = app.state::<Overlay>();
+    let mut st = overlay.state.lock().unwrap();
+    st.drag_origin = origin;
+    // Any drag interaction resets the grace timer.
+    if st.editing {
+        st.deadline = Some(Instant::now() + Duration::from_millis(5000));
+    }
+}
+
+pub fn drag_by(app: &tauri::AppHandle, dx: i32, dy: i32) {
+    let Some(window) = app.get_webview_window("lyrics") else { return };
+    let overlay = app.state::<Overlay>();
+    let origin = {
+        let st = overlay.state.lock().unwrap();
+        st.drag_origin
+    };
+    if let Some((ox, oy)) = origin {
+        let _ = window.set_position(tauri::Position::Physical(PhysicalPosition::new(ox + dx, oy + dy)));
+    }
+}

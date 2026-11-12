@@ -1,1 +1,44 @@
-bmFtZTogcmVsZWFzZQoKb246CiAgcHVzaDoKICAgIHRhZ3M6IFsidioiXQogIHdvcmtmbG93X2Rpc3BhdGNoOgoKam9iczoKICB3aW5kb3dzOgogICAgcnVucy1vbjogd2luZG93cy1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKCiAgICAgIC0gdXNlczogcG5wbS9hY3Rpb24tc2V0dXBAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgdmVyc2lvbjogOQoKICAgICAgLSB1c2VzOiBhY3Rpb25zL3NldHVwLW5vZGVAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbm9kZS12ZXJzaW9uOiAyMAogICAgICAgICAgY2FjaGU6IHBucG0KCiAgICAgIC0gdXNlczogZHRvbG5heS9ydXN0LXRvb2xjaGFpbkBzdGFibGUKCiAgICAgIC0gdXNlczogc3dhdGluZW0vcnVzdC1jYWNoZUB2MgogICAgICAgIHdpdGg6CiAgICAgICAgICB3b3Jrc3BhY2VzOiBzcmMtdGF1cmkKCiAgICAgIC0gbmFtZTogSW5zdGFsbCBkZXBlbmRlbmNpZXMKICAgICAgICBydW46IHBucG0gaW5zdGFsbCAtLWZyb3plbi1sb2NrZmlsZQoKICAgICAgLSBuYW1lOiBVbml0IHRlc3RzIChwYXJzZXJzKQogICAgICAgIHJ1bjogY2FyZ28gdGVzdCAtLW1hbmlmZXN0LXBhdGggc3JjLXRhdXJpL0NhcmdvLnRvbWwKCiAgICAgIC0gbmFtZTogQnVpbGQKICAgICAgICBydW46IHBucG0gYXBwOmJ1aWxkCgogICAgICAtIHVzZXM6IGFjdGlvbnMvdXBsb2FkLWFydGlmYWN0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IGx5cmljLWZsb2F0LXdpbmRvd3MKICAgICAgICAgIHBhdGg6IHwKICAgICAgICAgICAgc3JjLXRhdXJpL3RhcmdldC9yZWxlYXNlL2J1bmRsZS9uc2lzLyouZXhlCiAgICAgICAgICAgIHNyYy10YXVyaS90YXJnZXQvcmVsZWFzZS9idW5kbGUvbXNpLyoubXNpCiAgICAgICAgICAgIHNyYy10YXVyaS90YXJnZXQvcmVsZWFzZS9seXJpYy1mbG9hdC5leGUK
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Unit tests (parsers)
+        run: cargo test --manifest-path src-tauri/Cargo.toml
+
+      - name: Build
+        run: pnpm app:build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lyric-float-windows
+          path: |
+            src-tauri/target/release/bundle/nsis/*.exe
+            src-tauri/target/release/bundle/msi/*.msi
+            src-tauri/target/release/lyric-float.exe

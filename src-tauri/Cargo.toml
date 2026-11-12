@@ -1,1 +1,51 @@
-W3BhY2thZ2VdCm5hbWUgPSAibHlyaWMtZmxvYXQiCnZlcnNpb24gPSAiMC4yLjAiCmRlc2NyaXB0aW9uID0gIkRlc2t0b3AgbHlyaWNzIG92ZXJsYXkgZm9yIEFwcGxlIE11c2ljIHdlYiBhbmQgYW55IFdpbmRvd3MgbWVkaWEgc2Vzc2lvbiIKZWRpdGlvbiA9ICIyMDIxIgpydXN0LXZlcnNpb24gPSAiMS43NyIKbGljZW5zZSA9ICJNSVQiCgpbbGliXQpuYW1lID0gImx5cmljX2Zsb2F0X2xpYiIKY3JhdGUtdHlwZSA9IFsic3RhdGljbGliIiwgImNkeWxpYiIsICJybGliIl0KCltidWlsZC1kZXBlbmRlbmNpZXNdCnRhdXJpLWJ1aWxkID0geyB2ZXJzaW9uID0gIjIiLCBmZWF0dXJlcyA9IFtdIH0KCltkZXBlbmRlbmNpZXNdCnRhdXJpID0geyB2ZXJzaW9uID0gIjIiLCBmZWF0dXJlcyA9IFsidHJheS1pY29uIl0gfQp0YXVyaS1wbHVnaW4tZ2xvYmFsLXNob3J0Y3V0ID0gIjIiCnNlcmRlID0geyB2ZXJzaW9uID0gIjEiLCBmZWF0dXJlcyA9IFsiZGVyaXZlIl0gfQpzZXJkZV9qc29uID0gIjEiCmFueWhvdyA9ICIxIgojIGJsb2NraW5nIGNsaWVudCBrZWVwcyB0aGUgcG9sbGVyIHRocmVhZCBzaW1wbGU7IG5vIGFzeW5jIHJ1bnRpbWUgbmVlZGVkIHlldApyZXF3ZXN0ID0geyB2ZXJzaW9uID0gIjAuMTIiLCBkZWZhdWx0LWZlYXR1cmVzID0gZmFsc2UsIGZlYXR1cmVzID0gWwogICAgImpzb24iLAogICAgImJsb2NraW5nIiwKICAgICMgU2NoYW5uZWwgaW5zdGVhZCBvZiBydXN0bHM6IHJ1c3RscyBicm9rZSB0aGUgY2h1bmtlZCBib2R5IHN0cmVhbSBhZ2FpbnN0CiAgICAjIGxyY2xpYi5uZXQgb24gdGhlIGRldmVsb3BtZW50IG1hY2hpbmUgKDIwMCBPSywgdGhlbiAiZXJyb3IgZGVjb2RpbmcgYm9keSIpLgogICAgIm5hdGl2ZS10bHMiLAogICAgImd6aXAiLAogICAgImJyb3RsaSIsCiAgICAiZGVmbGF0ZSIsCl0gfQpxdWljay14bWwgPSAiMC4zNiIKdXJsZW5jb2RpbmcgPSAiMiIKIyBMb2NhbGhvc3QgV2ViU29ja2V0IG9ubHkgKHdzOi8vLCBubyBUTFMpLCB1c2VkIHRvIHRhbGsgdG8gQ2hyb21lIERldlRvb2xzLgp0dW5nc3Rlbml0ZSA9ICIwLjI0IgoKW3RhcmdldC4nY2ZnKHdpbmRvd3MpJy5kZXBlbmRlbmNpZXNdCndpbmRvd3MgPSB7IHZlcnNpb24gPSAiMC41OCIsIGZlYXR1cmVzID0gWwogICAgIkZvdW5kYXRpb24iLAogICAgIkZvdW5kYXRpb25fQ29sbGVjdGlvbnMiLAogICAgIk1lZGlhX0NvbnRyb2wiLAogICAgIkFwcGxpY2F0aW9uTW9kZWwiLApdIH0KCltwcm9maWxlLnJlbGVhc2VdCmNvZGVnZW4tdW5pdHMgPSAxCmx0byA9IHRydWUKb3B0LWxldmVsID0gInMiCnBhbmljID0gImFib3J0IgpzdHJpcCA9IHRydWUK
+[package]
+name = "lyric-float"
+version = "0.2.0"
+description = "Desktop lyrics overlay for Apple Music web and any Windows media session"
+edition = "2021"
+rust-version = "1.77"
+license = "MIT"
+
+[lib]
+name = "lyric_float_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-global-shortcut = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+# blocking client keeps the poller thread simple; no async runtime needed yet
+reqwest = { version = "0.12", default-features = false, features = [
+    "json",
+    "blocking",
+    # Schannel instead of rustls: rustls broke the chunked body stream against
+    # lrclib.net on the development machine (200 OK, then "error decoding body").
+    "native-tls",
+    "gzip",
+    "brotli",
+    "deflate",
+] }
+quick-xml = "0.36"
+urlencoding = "2"
+# Localhost WebSocket only (ws://, no TLS), used to talk to Chrome DevTools.
+tungstenite = "0.24"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.58", features = [
+    "Foundation",
+    "Foundation_Collections",
+    "Media_Control",
+    "ApplicationModel",
+] }
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = true

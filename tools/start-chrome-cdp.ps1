@@ -1,1 +1,69 @@
-IyBMYXVuY2hlcyBDaHJvbWUgd2l0aCB0aGUgRGV2VG9vbHMgcHJvdG9jb2wgZW5hYmxlZCBhbmQgb3BlbnMgQXBwbGUgTXVzaWMgd2ViLgojIFVzZWQgYnkgTHlyaWNGbG9hdCdzIENEUCBwcm92aWRlciAobWlsZXN0b25lIE0zKSB0byByZWFkIHByZWNpc2UgcGxheWJhY2sKIyBwb3NpdGlvbiBhbmQgdG8gY2FwdHVyZSBBcHBsZSdzIG93biB3b3JkLWxldmVsIFRUTUwgbHlyaWNzLgojCiMgVGhlIHByb2ZpbGUgaXMgc2VwYXJhdGUgb24gcHVycG9zZTogQ2hyb21lIHJlZnVzZXMgLS1yZW1vdGUtZGVidWdnaW5nLXBvcnQgd2hlbgojIGl0IHdvdWxkIGhhdmUgdG8gc2hhcmUgYSBwcm9maWxlIHdpdGggYW4gYWxyZWFkeSBydW5uaW5nIGluc3RhbmNlLgojCiMgQVNDSUkgb25seSAoV2luZG93cyBQb3dlclNoZWxsIDUuMSBkZWNvZGVzIEJPTS1sZXNzIHNjcmlwdHMgYXMgQU5TSSkuCgpwYXJhbSgKICAgIFtpbnRdJFBvcnQgPSA5MjIyLAogICAgW3N0cmluZ10kUHJvZmlsZURpciA9ICIiLAogICAgW3N0cmluZ10kVXJsID0gImh0dHBzOi8vbXVzaWMuYXBwbGUuY29tLyIsCiAgICBbc3dpdGNoXSRXYWl0CikKCiRFcnJvckFjdGlvblByZWZlcmVuY2UgPSAnU3RvcCcKCiRjYW5kaWRhdGVzID0gQCgKICAgICIkZW52OlByb2dyYW1GaWxlc1xHb29nbGVcQ2hyb21lXEFwcGxpY2F0aW9uXGNocm9tZS5leGUiLAogICAgIiR7ZW52OlByb2dyYW1GaWxlcyh4ODYpfVxHb29nbGVcQ2hyb21lXEFwcGxpY2F0aW9uXGNocm9tZS5leGUiLAogICAgIiRlbnY6TE9DQUxBUFBEQVRBXEdvb2dsZVxDaHJvbWVcQXBwbGljYXRpb25cY2hyb21lLmV4ZSIsCiAgICAiJGVudjpQcm9ncmFtRmlsZXNcTWljcm9zb2Z0XEVkZ2VcQXBwbGljYXRpb25cbXNlZGdlLmV4ZSIsCiAgICAiJHtlbnY6UHJvZ3JhbUZpbGVzKHg4Nil9XE1pY3Jvc29mdFxFZGdlXEFwcGxpY2F0aW9uXG1zZWRnZS5leGUiCikKJGJyb3dzZXIgPSAkbnVsbApmb3JlYWNoICgkYyBpbiAkY2FuZGlkYXRlcykgeyBpZiAoVGVzdC1QYXRoICRjKSB7ICRicm93c2VyID0gJGM7IGJyZWFrIH0gfQppZiAoLW5vdCAkYnJvd3NlcikgeyB0aHJvdyAnbm8gY2hyb21lL21zZWRnZSBmb3VuZCcgfQoKaWYgKFtzdHJpbmddOjpJc051bGxPcldoaXRlU3BhY2UoJFByb2ZpbGVEaXIpKSB7CiAgICAkYmFzZSA9IGlmICgkZW52OkFQUERBVEEpIHsgJGVudjpBUFBEQVRBIH0gZWxzZSB7ICIuIiB9CiAgICAkUHJvZmlsZURpciA9IEpvaW4tUGF0aCAkYmFzZSAnbHlyaWMtZmxvYXRcY2hyb21lLWNkcC1wcm9maWxlJwp9CmlmICgtbm90IChUZXN0LVBhdGggJFByb2ZpbGVEaXIpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLUZvcmNlIC1QYXRoICRQcm9maWxlRGlyIHwgT3V0LU51bGwgfQoKJGNocm9tZUFyZ3MgPSBAKAogICAgIi0tcmVtb3RlLWRlYnVnZ2luZy1wb3J0PSRQb3J0IiwKICAgICItLXVzZXItZGF0YS1kaXI9JFByb2ZpbGVEaXIiLAogICAgJy0tbm8tZmlyc3QtcnVuJywKICAgICctLW5vLWRlZmF1bHQtYnJvd3Nlci1jaGVjaycsCiAgICAnLS1kaXNhYmxlLWZlYXR1cmVzPVRyYW5zbGF0ZScsCiAgICAnLS1uZXctd2luZG93JywKICAgICRVcmwKKQoKV3JpdGUtT3V0cHV0ICgiYnJvd3NlcjogIiArICRicm93c2VyKQpXcml0ZS1PdXRwdXQgKCJwcm9maWxlOiAiICsgJFByb2ZpbGVEaXIpCldyaXRlLU91dHB1dCAoImNkcDogICAgIGh0dHA6Ly8xMjcuMC4wLjE6IiArICRQb3J0ICsgIi9qc29uIikKCiRwcm9jID0gU3RhcnQtUHJvY2VzcyAtRmlsZVBhdGggJGJyb3dzZXIgLUFyZ3VtZW50TGlzdCAkY2hyb21lQXJncyAtUGFzc1RocnUKCmlmICgkV2FpdCkgewogICAgV3JpdGUtT3V0cHV0ICd3YWl0aW5nIGZvciB0aGUgZGV2dG9vbHMgZW5kcG9pbnQuLi4nCiAgICBmb3IgKCRpID0gMDsgJGkgLWx0IDQwOyAkaSsrKSB7CiAgICAgICAgU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyA1MDAKICAgICAgICB0cnkgewogICAgICAgICAgICAkdGFyZ2V0cyA9IEludm9rZS1SZXN0TWV0aG9kIC1VcmkgImh0dHA6Ly8xMjcuMC4wLjE6JFBvcnQvanNvbiIgLVRpbWVvdXRTZWMgMgogICAgICAgICAgICAkcGFnZSA9ICR0YXJnZXRzIHwgV2hlcmUtT2JqZWN0IHsgJF8udHlwZSAtZXEgJ3BhZ2UnIH0gfCBTZWxlY3QtT2JqZWN0IC1GaXJzdCAxCiAgICAgICAgICAgIGlmICgkcGFnZSkgewogICAgICAgICAgICAgICAgV3JpdGUtT3V0cHV0ICgidGFyZ2V0OiAiICsgJHBhZ2UudXJsKQogICAgICAgICAgICAgICAgV3JpdGUtT3V0cHV0ICgid3M6ICAgICAiICsgJHBhZ2Uud2ViU29ja2V0RGVidWdnZXJVcmwpCiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCB7IH0KICAgIH0KfQoKIyBSZW1pbmRlcjogdXNlIHRoZSBzYW1lIHByb2ZpbGUgbmV4dCB0aW1lLCBvdGhlcndpc2UgYSBzZWNvbmQgaW5zdGFuY2UgaXMgc3RhcnRlZAojIGFuZCB0aGUgZGVidWcgcG9ydCBtb3ZlcyB0byB0aGUgbmV3ZXIgcHJvY2Vzcy4K
+# Launches Chrome with the DevTools protocol enabled and opens Apple Music web.
+# Used by LyricFloat's CDP provider (milestone M3) to read precise playback
+# position and to capture Apple's own word-level TTML lyrics.
+#
+# The profile is separate on purpose: Chrome refuses --remote-debugging-port when
+# it would have to share a profile with an already running instance.
+#
+# ASCII only (Windows PowerShell 5.1 decodes BOM-less scripts as ANSI).
+
+param(
+    [int]$Port = 9222,
+    [string]$ProfileDir = "",
+    [string]$Url = "https://music.apple.com/",
+    [switch]$Wait
+)
+
+$ErrorActionPreference = 'Stop'
+
+$candidates = @(
+    "$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
+    "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe",
+    "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe",
+    "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe",
+    "${env:ProgramFiles(x86)}\Microsoft\Edge\Application\msedge.exe"
+)
+$browser = $null
+foreach ($c in $candidates) { if (Test-Path $c) { $browser = $c; break } }
+if (-not $browser) { throw 'no chrome/msedge found' }
+
+if ([string]::IsNullOrWhiteSpace($ProfileDir)) {
+    $base = if ($env:APPDATA) { $env:APPDATA } else { "." }
+    $ProfileDir = Join-Path $base 'lyric-float\chrome-cdp-profile'
+}
+if (-not (Test-Path $ProfileDir)) { New-Item -ItemType Directory -Force -Path $ProfileDir | Out-Null }
+
+$chromeArgs = @(
+    "--remote-debugging-port=$Port",
+    "--user-data-dir=$ProfileDir",
+    '--no-first-run',
+    '--no-default-browser-check',
+    '--disable-features=Translate',
+    '--new-window',
+    $Url
+)
+
+Write-Output ("browser: " + $browser)
+Write-Output ("profile: " + $ProfileDir)
+Write-Output ("cdp:     http://127.0.0.1:" + $Port + "/json")
+
+$proc = Start-Process -FilePath $browser -ArgumentList $chromeArgs -PassThru
+
+if ($Wait) {
+    Write-Output 'waiting for the devtools endpoint...'
+    for ($i = 0; $i -lt 40; $i++) {
+        Start-Sleep -Milliseconds 500
+        try {
+            $targets = Invoke-RestMethod -Uri "http://127.0.0.1:$Port/json" -TimeoutSec 2
+            $page = $targets | Where-Object { $_.type -eq 'page' } | Select-Object -First 1
+            if ($page) {
+                Write-Output ("target: " + $page.url)
+                Write-Output ("ws:     " + $page.webSocketDebuggerUrl)
+                break
+            }
+        } catch { }
+    }
+}
+
+# Reminder: use the same profile next time, otherwise a second instance is started
+# and the debug port moves to the newer process.

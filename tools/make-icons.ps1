@@ -1,1 +1,66 @@
-IyBHZW5lcmF0ZXMgYXNzZXRzL2xvZ28ucG5nICg1MTJ4NTEyKSBzbyBgcG5wbSB0YXVyaSBpY29uIGFzc2V0cy9sb2dvLnBuZ2AgaGFzCiMgc29tZXRoaW5nIHRvIGNoZXcgb24uIFNoYXBlZCBsaWtlIHR3byBseXJpYyBiYXJzOiBhIGxvbmcgb25lIGFuZCBhIHNob3J0IG9uZS4KIyBBU0NJSS1vbmx5IChXaW5kb3dzIFBvd2VyU2hlbGwgNS4xIGRlY29kZXMgQk9NLWxlc3Mgc2NyaXB0cyBhcyBBTlNJKS4KCnBhcmFtKAogICAgW2ludF0kU2l6ZSA9IDUxMiwKICAgIFtzdHJpbmddJE91dCA9ICIiCikKCiRFcnJvckFjdGlvblByZWZlcmVuY2UgPSAnU3RvcCcKQWRkLVR5cGUgLUFzc2VtYmx5TmFtZSBTeXN0ZW0uRHJhd2luZwoKJHJvb3QgPSBTcGxpdC1QYXRoIC1QYXJlbnQgJE15SW52b2NhdGlvbi5NeUNvbW1hbmQuUGF0aAokcHJvalJvb3QgPSBTcGxpdC1QYXRoIC1QYXJlbnQgJHJvb3QKJGFzc2V0cyA9IEpvaW4tUGF0aCAkcHJvalJvb3QgJ2Fzc2V0cycKaWYgKC1ub3QgKFRlc3QtUGF0aCAkYXNzZXRzKSkgeyBOZXctSXRlbSAtSXRlbVR5cGUgRGlyZWN0b3J5IC1QYXRoICRhc3NldHMgfCBPdXQtTnVsbCB9CmlmIChbc3RyaW5nXTo6SXNOdWxsT3JXaGl0ZVNwYWNlKCRPdXQpKSB7ICRPdXQgPSBKb2luLVBhdGggJGFzc2V0cyAnbG9nby5wbmcnIH0KCiRibXAgPSBOZXctT2JqZWN0IFN5c3RlbS5EcmF3aW5nLkJpdG1hcCAkU2l6ZSwgJFNpemUKJGcgPSBbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NdOjpGcm9tSW1hZ2UoJGJtcCkKJGcuU21vb3RoaW5nTW9kZSA9IFtTeXN0ZW0uRHJhd2luZy5EcmF3aW5nMkQuU21vb3RoaW5nTW9kZV06OkFudGlBbGlhcwoKIyB0cmFuc3BhcmVudCBiYWNrZ3JvdW5kIHdpdGggYSBkYXJrIHJvdW5kZWQgc3F1YXJlCiRnLkNsZWFyKFtTeXN0ZW0uRHJhd2luZy5Db2xvcl06OlRyYW5zcGFyZW50KQokYmcgPSBOZXctT2JqZWN0IFN5c3RlbS5EcmF3aW5nLlNvbGlkQnJ1c2ggKFtTeXN0ZW0uRHJhd2luZy5Db2xvcl06OkZyb21BcmdiKDI1NSwgMTgsIDIwLCAyOCkpCiRyYWRpdXMgPSBbaW50XSgkU2l6ZSAqIDAuMjIpCiRwYXRoID0gTmV3LU9iamVjdCBTeXN0ZW0uRHJhd2luZy5EcmF3aW5nMkQuR3JhcGhpY3NQYXRoCiRkID0gJHJhZGl1cyAqIDIKJHBhdGguQWRkQXJjKDAsIDAsICRkLCAkZCwgMTgwLCA5MCkKJHBhdGguQWRkQXJjKCRTaXplIC0gJGQsIDAsICRkLCAkZCwgMjcwLCA5MCkKJHBhdGguQWRkQXJjKCRTaXplIC0gJGQsICRTaXplIC0gJGQsICRkLCAkZCwgMCwgOTApCiRwYXRoLkFkZEFyYygwLCAkU2l6ZSAtICRkLCAkZCwgJGQsIDkwLCA5MCkKJHBhdGguQ2xvc2VGaWd1cmUoKQokZy5GaWxsUGF0aCgkYmcsICRwYXRoKQoKIyB0d28gbHlyaWMgYmFycwokYmFyQ29sb3IgPSBOZXctT2JqZWN0IFN5c3RlbS5EcmF3aW5nLlNvbGlkQnJ1c2ggKFtTeXN0ZW0uRHJhd2luZy5Db2xvcl06OkZyb21BcmdiKDI1NSwgMTI0LCAyMjcsIDI1NSkpCiRtdXRlZCA9IE5ldy1PYmplY3QgU3lzdGVtLkRyYXdpbmcuU29saWRCcnVzaCAoW1N5c3RlbS5EcmF3aW5nLkNvbG9yXTo6RnJvbUFyZ2IoMTQwLCAyNTUsIDI1NSwgMjU1KSkKJGJhckggPSBbaW50XSgkU2l6ZSAqIDAuMDg1KQokYmFyUiA9ICRiYXJIIC8gMgokeCA9IFtpbnRdKCRTaXplICogMC4xOCkKJHcxID0gW2ludF0oJFNpemUgKiAwLjY0KQokdzIgPSBbaW50XSgkU2l6ZSAqIDAuNDApCiR5MSA9IFtpbnRdKCRTaXplICogMC40MikKJHkyID0gJHkxICsgJGJhckggKiAyCgpmdW5jdGlvbiBOZXctQmFyKCRieCwgJGJ5LCAkYncsICRiaCwgJGJydXNoKSB7CiAgICAkcCA9IE5ldy1PYmplY3QgU3lzdGVtLkRyYXdpbmcuRHJhd2luZzJELkdyYXBoaWNzUGF0aAogICAgJHIgPSAkYmggLyAyCiAgICAkcC5BZGRBcmMoJGJ4LCAkYnksICRiaCwgJGJoLCA5MCwgMTgwKQogICAgJHAuQWRkQXJjKCRieCArICRidyAtICRiaCwgJGJ5LCAkYmgsICRiaCwgMjcwLCAxODApCiAgICAkcC5DbG9zZUZpZ3VyZSgpCiAgICByZXR1cm4gJHAKfQoKJHAxID0gTmV3LUJhciAkeCAkeTEgJHcxICRiYXJIICRiYXJDb2xvcgokZy5GaWxsUGF0aCgkYmFyQ29sb3IsICRwMSkKJHAyID0gTmV3LUJhciAkeCAkeTIgJHcyICRiYXJIICRtdXRlZAokZy5GaWxsUGF0aCgkbXV0ZWQsICRwMikKCiRnLkRpc3Bvc2UoKQokYm1wLlNhdmUoJE91dCwgW1N5c3RlbS5EcmF3aW5nLkltYWdpbmcuSW1hZ2VGb3JtYXRdOjpQbmcpCiRibXAuRGlzcG9zZSgpCgpXcml0ZS1PdXRwdXQgKCJ3cm90ZSAiICsgJE91dCArICIgKCIgKyAkU2l6ZSArICJ4IiArICRTaXplICsgIikiKQpXcml0ZS1PdXRwdXQgIm5leHQ6IHBucG0gdGF1cmkgaWNvbiBhc3NldHMvbG9nby5wbmciCg==
+# Generates assets/logo.png (512x512) so `pnpm tauri icon assets/logo.png` has
+# something to chew on. Shaped like two lyric bars: a long one and a short one.
+# ASCII-only (Windows PowerShell 5.1 decodes BOM-less scripts as ANSI).
+
+param(
+    [int]$Size = 512,
+    [string]$Out = ""
+)
+
+$ErrorActionPreference = 'Stop'
+Add-Type -AssemblyName System.Drawing
+
+$root = Split-Path -Parent $MyInvocation.MyCommand.Path
+$projRoot = Split-Path -Parent $root
+$assets = Join-Path $projRoot 'assets'
+if (-not (Test-Path $assets)) { New-Item -ItemType Directory -Path $assets | Out-Null }
+if ([string]::IsNullOrWhiteSpace($Out)) { $Out = Join-Path $assets 'logo.png' }
+
+$bmp = New-Object System.Drawing.Bitmap $Size, $Size
+$g = [System.Drawing.Graphics]::FromImage($bmp)
+$g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
+
+# transparent background with a dark rounded square
+$g.Clear([System.Drawing.Color]::Transparent)
+$bg = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(255, 18, 20, 28))
+$radius = [int]($Size * 0.22)
+$path = New-Object System.Drawing.Drawing2D.GraphicsPath
+$d = $radius * 2
+$path.AddArc(0, 0, $d, $d, 180, 90)
+$path.AddArc($Size - $d, 0, $d, $d, 270, 90)
+$path.AddArc($Size - $d, $Size - $d, $d, $d, 0, 90)
+$path.AddArc(0, $Size - $d, $d, $d, 90, 90)
+$path.CloseFigure()
+$g.FillPath($bg, $path)
+
+# two lyric bars
+$barColor = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(255, 124, 227, 255))
+$muted = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(140, 255, 255, 255))
+$barH = [int]($Size * 0.085)
+$barR = $barH / 2
+$x = [int]($Size * 0.18)
+$w1 = [int]($Size * 0.64)
+$w2 = [int]($Size * 0.40)
+$y1 = [int]($Size * 0.42)
+$y2 = $y1 + $barH * 2
+
+function New-Bar($bx, $by, $bw, $bh, $brush) {
+    $p = New-Object System.Drawing.Drawing2D.GraphicsPath
+    $r = $bh / 2
+    $p.AddArc($bx, $by, $bh, $bh, 90, 180)
+    $p.AddArc($bx + $bw - $bh, $by, $bh, $bh, 270, 180)
+    $p.CloseFigure()
+    return $p
+}
+
+$p1 = New-Bar $x $y1 $w1 $barH $barColor
+$g.FillPath($barColor, $p1)
+$p2 = New-Bar $x $y2 $w2 $barH $muted
+$g.FillPath($muted, $p2)
+
+$g.Dispose()
+$bmp.Save($Out, [System.Drawing.Imaging.ImageFormat]::Png)
+$bmp.Dispose()
+
+Write-Output ("wrote " + $Out + " (" + $Size + "x" + $Size + ")")
+Write-Output "next: pnpm tauri icon assets/logo.png"

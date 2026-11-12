@@ -1,1 +1,48 @@
-Ly8gU2ltdWxhdGVzIHRoZSBMeXJpY0Zsb2F0IEJyaWRnZSBleHRlbnNpb246IGNvbm5lY3RzIHRvIHRoZSBvdmVybGF5J3MgbG9jYWwgc29ja2V0LAovLyBzZW5kcyBvbmUgcGxheWJhY2sgc3RhdGUgYW5kIG9uZSBUVE1MIHBheWxvYWQuIFVzZWQgdG8gdmVyaWZ5IHRoZSBleHRlbnNpb24gZmVlZAovLyB3aXRob3V0IGxvYWRpbmcgdGhlIHJlYWwgZXh0ZW5zaW9uIGludG8gQ2hyb21lLgovLwovLyBVc2FnZTogbm9kZSB0b29scy9zaW11bGF0ZS1leHRlbnNpb24ubWpzIFtwb3J0XSBbdG9rZW5dIFt0dG1sUGF0aF0KCmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwoKY29uc3QgcG9ydCA9IHByb2Nlc3MuYXJndlsyXSA/PyAiODc4NyI7CmNvbnN0IHRva2VuID0gcHJvY2Vzcy5hcmd2WzNdID8/ICJseXJpY2Zsb2F0IjsKY29uc3QgdHRtbFBhdGggPSBwcm9jZXNzLmFyZ3ZbNF0gPz8gIiI7Cgpjb25zdCB3cyA9IG5ldyBXZWJTb2NrZXQoYHdzOi8vMTI3LjAuMC4xOiR7cG9ydH0vJHt0b2tlbn1gKTsKCndzLmFkZEV2ZW50TGlzdGVuZXIoIm9wZW4iLCAoKSA9PiB7CiAgY29uc29sZS5sb2coImNvbm5lY3RlZCIpOwogIGNvbnN0IHN0YXRlID0gewogICAgdHlwZTogInN0YXRlIiwKICAgIHBheWxvYWQ6IHsKICAgICAgcGxheWluZzogdHJ1ZSwKICAgICAgcG9zaXRpb246IDQyLjUsCiAgICAgIGR1cmF0aW9uOiAxOTYuNiwKICAgICAgdGl0bGU6ICLov57pgJrmgKfmtYvor5UiLAogICAgICBhcnRpc3Q6ICJMeXJpY0Zsb2F0IiwKICAgICAgYWxidW06ICJwcm9iZSIsCiAgICAgIHNvbmdJZDogInByb2JlLTEiLAogICAgICBzdG9yZWZyb250OiAiY24iLAogICAgfSwKICB9OwogIHdzLnNlbmQoSlNPTi5zdHJpbmdpZnkoc3RhdGUpKTsKICBjb25zb2xlLmxvZygic2VudCBzdGF0ZSIpOwoKICBpZiAodHRtbFBhdGgpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHR0bWwgPSByZWFkRmlsZVN5bmModHRtbFBhdGgsICJ1dGY4Iik7CiAgICAgIHdzLnNlbmQoSlNPTi5zdHJpbmdpZnkoeyB0eXBlOiAibHlyaWNzIiwgc29uZ0lkOiAicHJvYmUtMSIsIHR0bWwgfSkpOwogICAgICBjb25zb2xlLmxvZygic2VudCBseXJpY3MiLCB0dG1sLmxlbmd0aCwgImNoYXJzIik7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIGNvbnNvbGUubG9nKCJjYW5ub3QgcmVhZCB0dG1sOiIsIGUubWVzc2FnZSk7CiAgICB9CiAgfQp9KTsKCndzLmFkZEV2ZW50TGlzdGVuZXIoImVycm9yIiwgKGUpID0+IGNvbnNvbGUubG9nKCJ3cyBlcnJvciIsIGUubWVzc2FnZSkpOwpzZXRUaW1lb3V0KCgpID0+IHsKICB0cnkgeyB3cy5jbG9zZSgpOyB9IGNhdGNoIHt9CiAgcHJvY2Vzcy5leGl0KDApOwp9LCA2MDAwKTsK
+// Simulates the LyricFloat Bridge extension: connects to the overlay's local socket,
+// sends one playback state and one TTML payload. Used to verify the extension feed
+// without loading the real extension into Chrome.
+//
+// Usage: node tools/simulate-extension.mjs [port] [token] [ttmlPath]
+
+import { readFileSync } from "node:fs";
+
+const port = process.argv[2] ?? "8787";
+const token = process.argv[3] ?? "lyricfloat";
+const ttmlPath = process.argv[4] ?? "";
+
+const ws = new WebSocket(`ws://127.0.0.1:${port}/${token}`);
+
+ws.addEventListener("open", () => {
+  console.log("connected");
+  const state = {
+    type: "state",
+    payload: {
+      playing: true,
+      position: 42.5,
+      duration: 196.6,
+      title: "连通性测试",
+      artist: "LyricFloat",
+      album: "probe",
+      songId: "probe-1",
+      storefront: "cn",
+    },
+  };
+  ws.send(JSON.stringify(state));
+  console.log("sent state");
+
+  if (ttmlPath) {
+    try {
+      const ttml = readFileSync(ttmlPath, "utf8");
+      ws.send(JSON.stringify({ type: "lyrics", songId: "probe-1", ttml }));
+      console.log("sent lyrics", ttml.length, "chars");
+    } catch (e) {
+      console.log("cannot read ttml:", e.message);
+    }
+  }
+});
+
+ws.addEventListener("error", (e) => console.log("ws error", e.message));
+setTimeout(() => {
+  try { ws.close(); } catch {}
+  process.exit(0);
+}, 6000);

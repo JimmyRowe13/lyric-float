@@ -1,1 +1,17 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAidml0ZSI7CgovLyBUYXVyaSBleHBlY3RzIGEgZml4ZWQgZGV2IHBvcnQgYW5kIG5vIGNsZWFyaW5nIG9mIHRoZSB0ZXJtaW5hbC4KZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICBjbGVhclNjcmVlbjogZmFsc2UsCiAgc2VydmVyOiB7CiAgICBwb3J0OiAxNDIwLAogICAgc3RyaWN0UG9ydDogdHJ1ZSwKICAgIGhvc3Q6ICIxMjcuMC4wLjEiLAogICAgd2F0Y2g6IHsgaWdub3JlZDogWyIqKi9zcmMtdGF1cmkvKioiXSB9LAogIH0sCiAgYnVpbGQ6IHsKICAgIHRhcmdldDogImVzbmV4dCIsCiAgICBtaW5pZnk6ICJlc2J1aWxkIiwKICAgIHNvdXJjZW1hcDogZmFsc2UsCiAgfSwKfSk7Cg==
+import { defineConfig } from "vite";
+
+// Tauri expects a fixed dev port and no clearing of the terminal.
+export default defineConfig({
+  clearScreen: false,
+  server: {
+    port: 1420,
+    strictPort: true,
+    host: "127.0.0.1",
+    watch: { ignored: ["**/src-tauri/**"] },
+  },
+  build: {
+    target: "esnext",
+    minify: "esbuild",
+    sourcemap: false,
+  },
+});

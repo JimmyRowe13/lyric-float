@@ -1,1 +1,122 @@
-Ly8hIFRpZXIgMiBseXJpY3Mgc291cmNlOiBscmNsaWIubmV0IChmcmVlLCBubyBhdXRoLCBzeW5jZWQgTFJDKS4KLy8hCi8vISBgL2FwaS9zZWFyY2hgIGluc3RlYWQgb2YgYC9hcGkvZ2V0YDogZXhhY3QtbWF0Y2ggcmVxdWVzdHMgZmFpbCBvbiByZW1hc3RlcnMsCi8vISBmZWF0dXJlZCBhcnRpc3RzIGFuZCAiZmVhdC4iIHN1ZmZpeGVzLCBzbyB3ZSBzZWFyY2ggYW5kIHRoZW4gcGljayB0aGUgY2FuZGlkYXRlCi8vISB3aG9zZSBkdXJhdGlvbiBpcyBjbG9zZXN0IHRvIHdoYXQgdGhlIHBsYXllciByZXBvcnRzLiBEdXJhdGlvbiBpcyB0aGUgc2luZ2xlIG1vc3QKLy8hIHJlbGlhYmxlIGRpc2NyaW1pbmF0b3IgYmV0d2VlbiBhIHN0dWRpbyBjdXQsIGEgbGl2ZSB2ZXJzaW9uIGFuZCBhIGNvdmVyLgoKdXNlIHN1cGVyOjpRdWVyeTsKdXNlIHNlcmRlOjpEZXNlcmlhbGl6ZTsKdXNlIHN0ZDo6dGltZTo6RHVyYXRpb247Cgpjb25zdCBFTkRQT0lOVDogJnN0ciA9ICJodHRwczovL2xyY2xpYi5uZXQvYXBpL3NlYXJjaCI7CgpmbiB1c2VyX2FnZW50KCkgLT4gU3RyaW5nIHsKICAgIGZvcm1hdCEoIkx5cmljRmxvYXQve30gKGRlc2t0b3AgbHlyaWNzIG92ZXJsYXkpIiwgZW52ISgiQ0FSR09fUEtHX1ZFUlNJT04iKSkKfQoKI1tkZXJpdmUoRGVidWcsIERlc2VyaWFsaXplKV0Kc3RydWN0IEhpdCB7CiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgdHJhY2tfbmFtZTogU3RyaW5nLAogICAgI1tzZXJkZShkZWZhdWx0KV0KICAgIGFydGlzdF9uYW1lOiBTdHJpbmcsCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgZHVyYXRpb246IGY2NCwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBpbnN0cnVtZW50YWw6IGJvb2wsCiAgICAjW3NlcmRlKGRlZmF1bHQpXQogICAgc3luY2VkX2x5cmljczogT3B0aW9uPFN0cmluZz4sCn0KCi8vLyBSZXR1cm5zIHRoZSBiZXN0IHN5bmNlZCBMUkMgdGV4dCBmb3IgYSBxdWVyeSwgaWYgYW55LgpwdWIgZm4gZmV0Y2hfc3luY2VkKHF1ZXJ5OiAmUXVlcnkpIC0+IE9wdGlvbjxTdHJpbmc+IHsKICAgIGxldCBjbGllbnQgPSByZXF3ZXN0OjpibG9ja2luZzo6Q2xpZW50OjpidWlsZGVyKCkKICAgICAgICAudGltZW91dChEdXJhdGlvbjo6ZnJvbV9zZWNzKDgpKQogICAgICAgIC51c2VyX2FnZW50KHVzZXJfYWdlbnQoKSkKICAgICAgICAvLyBDbG91ZGZsYXJlICsgcnVzdGxzIG92ZXIgaDIgaGFzIGJlZW4gb2JzZXJ2ZWQgdG8gYnJlYWsgdGhlIGJvZHkgc3RyZWFtCiAgICAgICAgLy8gbWlkLWZsaWdodDsgSFRUUC8xLjEgaXMgYm9yaW5nIGFuZCByZWxpYWJsZSBoZXJlLgogICAgICAgIC5odHRwMV9vbmx5KCkKICAgICAgICAuYnVpbGQoKQogICAgICAgIC5vaygpPzsKCiAgICBsZXQgdXJsID0gZm9ybWF0ISgKICAgICAgICAie30/dHJhY2tfbmFtZT17fSZhcnRpc3RfbmFtZT17fSIsCiAgICAgICAgRU5EUE9JTlQsCiAgICAgICAgdXJsZW5jb2Rpbmc6OmVuY29kZSgmcXVlcnkudGl0bGUpLAogICAgICAgIHVybGVuY29kaW5nOjplbmNvZGUoJnF1ZXJ5LmFydGlzdCkKICAgICk7CgogICAgbGV0IHJlc3BvbnNlID0gbWF0Y2ggY2xpZW50LmdldCgmdXJsKS5zZW5kKCkgewogICAgICAgIE9rKHIpID0+IHIsCiAgICAgICAgRXJyKGVycikgPT4gewogICAgICAgICAgICBlcHJpbnRsbiEoIltscmNsaWJdIHJlcXVlc3QgZmFpbGVkOiB7ZXJyfSIpOwogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICB9OwogICAgbGV0IHN0YXR1cyA9IHJlc3BvbnNlLnN0YXR1cygpOwogICAgaWYgIXN0YXR1cy5pc19zdWNjZXNzKCkgewogICAgICAgIGVwcmludGxuISgiW2xyY2xpYl0gSFRUUCB7c3RhdHVzfSBmb3Ige3VybH0iKTsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIGVwcmludGxuISgKICAgICAgICAiW2xyY2xpYl0gR0VUIHt1cmx9IC0+IHtzdGF0dXN9IGVuYz17Oj99IGxlbj17Oj99IHRlPXs6P30iLAogICAgICAgIHJlc3BvbnNlLmhlYWRlcnMoKS5nZXQoImNvbnRlbnQtZW5jb2RpbmciKSwKICAgICAgICByZXNwb25zZS5oZWFkZXJzKCkuZ2V0KCJjb250ZW50LWxlbmd0aCIpLAogICAgICAgIHJlc3BvbnNlLmhlYWRlcnMoKS5nZXQoInRyYW5zZmVyLWVuY29kaW5nIiksCiAgICApOwogICAgbGV0IGJ5dGVzID0gbWF0Y2ggcmVzcG9uc2UuYnl0ZXMoKSB7CiAgICAgICAgT2soYikgPT4gYiwKICAgICAgICBFcnIoZXJyKSA9PiB7CiAgICAgICAgICAgIGVwcmludGxuISgiW2xyY2xpYl0gY2Fubm90IHJlYWQgYm9keToge2Vycn0iKTsKICAgICAgICAgICAgcmV0dXJuIE5vbmU7CiAgICAgICAgfQogICAgfTsKICAgIGxldCBoZWFkX2J5dGVzOiBWZWM8U3RyaW5nPiA9IGJ5dGVzLml0ZXIoKS50YWtlKDE2KS5tYXAofGJ8IGZvcm1hdCEoIntiOjAyeH0iKSkuY29sbGVjdCgpOwogICAgZXByaW50bG4hKCJbbHJjbGliXSBib2R5IHt9IGJ5dGVzLCBoZWFkPXt9IiwgYnl0ZXMubGVuKCksIGhlYWRfYnl0ZXMuam9pbigiICIpKTsKICAgIGxldCBib2R5ID0gU3RyaW5nOjpmcm9tX3V0ZjhfbG9zc3koJmJ5dGVzKTsKICAgIGxldCBoaXRzOiBWZWM8SGl0PiA9IG1hdGNoIHNlcmRlX2pzb246OmZyb21fc3RyKCZib2R5KSB7CiAgICAgICAgT2sodikgPT4gdiwKICAgICAgICBFcnIoZXJyKSA9PiB7CiAgICAgICAgICAgIGxldCBoZWFkOiBTdHJpbmcgPSBib2R5LmNoYXJzKCkudGFrZSgyMDApLmNvbGxlY3QoKTsKICAgICAgICAgICAgZXByaW50bG4hKCJbbHJjbGliXSBjYW5ub3QgZGVjb2RlIGJvZHkgKHtlcnJ9KTsgaGVhZD17aGVhZDo/fSIpOwogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICB9OwogICAgZXByaW50bG4hKCJbbHJjbGliXSB7fSBoaXRzIGZvciAne30nIC8gJ3t9JyIsIGhpdHMubGVuKCksIHF1ZXJ5LnRpdGxlLCBxdWVyeS5hcnRpc3QpOwoKICAgIGxldCBtdXQgYmVzdDogT3B0aW9uPCgmSGl0LCBmNjQpPiA9IE5vbmU7CiAgICBmb3IgaGl0IGluIGhpdHMuaXRlcigpIHsKICAgICAgICBpZiBoaXQuaW5zdHJ1bWVudGFsIHx8IGhpdC5zeW5jZWRfbHlyaWNzLmlzX25vbmUoKSB7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICAvLyBUaXRsZSBtdXN0IHBsYXVzaWJseSBtYXRjaDsgbHJjbGliIHNlYXJjaCBpcyBmdXp6eS4KICAgICAgICBpZiAhaGl0LnRyYWNrX25hbWUudG9fbG93ZXJjYXNlKCkuY29udGFpbnMoJnF1ZXJ5LnRpdGxlLnRvX2xvd2VyY2FzZSgpKQogICAgICAgICAgICAmJiAhcXVlcnkudGl0bGUudG9fbG93ZXJjYXNlKCkuY29udGFpbnMoJmhpdC50cmFja19uYW1lLnRvX2xvd2VyY2FzZSgpKQogICAgICAgIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBkZWx0YSA9IGlmIGhpdC5kdXJhdGlvbiA+IDAuMCAmJiBxdWVyeS5kdXJhdGlvbl9zZWNzID4gMC4wIHsKICAgICAgICAgICAgKGhpdC5kdXJhdGlvbiAtIHF1ZXJ5LmR1cmF0aW9uX3NlY3MpLmFicygpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZjY0OjpNQVggLyAyLjAKICAgICAgICB9OwogICAgICAgIGlmIGRlbHRhID4gOC4wIHsKICAgICAgICAgICAgY29udGludWU7IC8vIG1vcmUgdGhhbiA4cyBvZmY6IGFsbW9zdCBjZXJ0YWlubHkgYSBkaWZmZXJlbnQgdmVyc2lvbgogICAgICAgIH0KICAgICAgICBsZXQgYmV0dGVyID0gbWF0Y2ggYmVzdCB7CiAgICAgICAgICAgIE5vbmUgPT4gdHJ1ZSwKICAgICAgICAgICAgU29tZSgoXywgYmVzdF9kZWx0YSkpID0+IGRlbHRhIDwgYmVzdF9kZWx0YSwKICAgICAgICB9OwogICAgICAgIGlmIGJldHRlciB7CiAgICAgICAgICAgIGJlc3QgPSBTb21lKChoaXQsIGRlbHRhKSk7CiAgICAgICAgfQogICAgfQoKICAgIGxldCAoaGl0LCBkZWx0YSkgPSBiZXN0PzsKICAgIGVwcmludGxuISgKICAgICAgICAiW2xyY2xpYl0gbWF0Y2hlZCAne30nIC0gJ3t9JyAoZGVsdGEgezouMX1zKSIsCiAgICAgICAgaGl0LnRyYWNrX25hbWUsIGhpdC5hcnRpc3RfbmFtZSwgZGVsdGEKICAgICk7CiAgICBoaXQuc3luY2VkX2x5cmljcy5jbG9uZSgpCn0K
+//! Tier 2 lyrics source: lrclib.net (free, no auth, synced LRC).
+//!
+//! `/api/search` instead of `/api/get`: exact-match requests fail on remasters,
+//! featured artists and "feat." suffixes, so we search and then pick the candidate
+//! whose duration is closest to what the player reports. Duration is the single most
+//! reliable discriminator between a studio cut, a live version and a cover.
+
+use super::Query;
+use serde::Deserialize;
+use std::time::Duration;
+
+const ENDPOINT: &str = "https://lrclib.net/api/search";
+
+fn user_agent() -> String {
+    format!("LyricFloat/{} (desktop lyrics overlay)", env!("CARGO_PKG_VERSION"))
+}
+
+#[derive(Debug, Deserialize)]
+struct Hit {
+    #[serde(default)]
+    track_name: String,
+    #[serde(default)]
+    artist_name: String,
+    #[serde(default)]
+    duration: f64,
+    #[serde(default)]
+    instrumental: bool,
+    #[serde(default)]
+    synced_lyrics: Option<String>,
+}
+
+/// Returns the best synced LRC text for a query, if any.
+pub fn fetch_synced(query: &Query) -> Option<String> {
+    let client = reqwest::blocking::Client::builder()
+        .timeout(Duration::from_secs(8))
+        .user_agent(user_agent())
+        // Cloudflare + rustls over h2 has been observed to break the body stream
+        // mid-flight; HTTP/1.1 is boring and reliable here.
+        .http1_only()
+        .build()
+        .ok()?;
+
+    let url = format!(
+        "{}?track_name={}&artist_name={}",
+        ENDPOINT,
+        urlencoding::encode(&query.title),
+        urlencoding::encode(&query.artist)
+    );
+
+    let response = match client.get(&url).send() {
+        Ok(r) => r,
+        Err(err) => {
+            eprintln!("[lrclib] request failed: {err}");
+            return None;
+        }
+    };
+    let status = response.status();
+    if !status.is_success() {
+        eprintln!("[lrclib] HTTP {status} for {url}");
+        return None;
+    }
+    eprintln!(
+        "[lrclib] GET {url} -> {status} enc={:?} len={:?} te={:?}",
+        response.headers().get("content-encoding"),
+        response.headers().get("content-length"),
+        response.headers().get("transfer-encoding"),
+    );
+    let bytes = match response.bytes() {
+        Ok(b) => b,
+        Err(err) => {
+            eprintln!("[lrclib] cannot read body: {err}");
+            return None;
+        }
+    };
+    let head_bytes: Vec<String> = bytes.iter().take(16).map(|b| format!("{b:02x}")).collect();
+    eprintln!("[lrclib] body {} bytes, head={}", bytes.len(), head_bytes.join(" "));
+    let body = String::from_utf8_lossy(&bytes);
+    let hits: Vec<Hit> = match serde_json::from_str(&body) {
+        Ok(v) => v,
+        Err(err) => {
+            let head: String = body.chars().take(200).collect();
+            eprintln!("[lrclib] cannot decode body ({err}); head={head:?}");
+            return None;
+        }
+    };
+    eprintln!("[lrclib] {} hits for '{}' / '{}'", hits.len(), query.title, query.artist);
+
+    let mut best: Option<(&Hit, f64)> = None;
+    for hit in hits.iter() {
+        if hit.instrumental || hit.synced_lyrics.is_none() {
+            continue;
+        }
+        // Title must plausibly match; lrclib search is fuzzy.
+        if !hit.track_name.to_lowercase().contains(&query.title.to_lowercase())
+            && !query.title.to_lowercase().contains(&hit.track_name.to_lowercase())
+        {
+            continue;
+        }
+        let delta = if hit.duration > 0.0 && query.duration_secs > 0.0 {
+            (hit.duration - query.duration_secs).abs()
+        } else {
+            f64::MAX / 2.0
+        };
+        if delta > 8.0 {
+            continue; // more than 8s off: almost certainly a different version
+        }
+        let better = match best {
+            None => true,
+            Some((_, best_delta)) => delta < best_delta,
+        };
+        if better {
+            best = Some((hit, delta));
+        }
+    }
+
+    let (hit, delta) = best?;
+    eprintln!(
+        "[lrclib] matched '{}' - '{}' (delta {:.1}s)",
+        hit.track_name, hit.artist_name, delta
+    );
+    hit.synced_lyrics.clone()
+}

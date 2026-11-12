@@ -1,1 +1,17 @@
-ewogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAidGFyZ2V0IjogIkVTMjAyMiIsCiAgICAibW9kdWxlIjogIkVTTmV4dCIsCiAgICAibW9kdWxlUmVzb2x1dGlvbiI6ICJidW5kbGVyIiwKICAgICJsaWIiOiBbIkVTMjAyMiIsICJET00iLCAiRE9NLkl0ZXJhYmxlIl0sCiAgICAidHlwZXMiOiBbInZpdGUvY2xpZW50Il0sCiAgICAic3RyaWN0IjogdHJ1ZSwKICAgICJub1VudXNlZExvY2FscyI6IHRydWUsCiAgICAibm9VbnVzZWRQYXJhbWV0ZXJzIjogdHJ1ZSwKICAgICJub0ZhbGx0aHJvdWdoQ2FzZXNJblN3aXRjaCI6IHRydWUsCiAgICAic2tpcExpYkNoZWNrIjogdHJ1ZSwKICAgICJpc29sYXRlZE1vZHVsZXMiOiB0cnVlLAogICAgIm5vRW1pdCI6IHRydWUKICB9LAogICJpbmNsdWRlIjogWyJzcmMiLCAidml0ZS5jb25maWcudHMiXQp9Cg==
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["vite/client"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": ["src", "vite.config.ts"]
+}

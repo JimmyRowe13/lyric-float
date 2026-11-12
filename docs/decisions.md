@@ -1,1 +1,40 @@
-IyDorr7orqHlhrPnrZborrDlvZUKCuacrOaWh+S7tuiusOW9lSBMeXJpY0Zsb2F0IOWcqOiuvuiuoeaLt+mXrumYtuauteWumuS4i+eahOavj+S4quWIhuaUr++8jOS7peWPiuW9k+aXtuiiq+WQpuWGs+eahOmAiemhueOAguaUueWKqOimgeWcqOi/memHjOeVmeeXleOAggoK54q25oCB77yaYOW3suWummAgLyBg5b6F6aqM6K+BYCAvIGDlt7Lmjqjnv7tgCgp8ICMgfCDliIbmlK8gfCDlhrPlrpogfCDlpIfpgInkuI7ooqvlkKbljp/lm6AgfCDnirbmgIEgfAp8LS0tfC0tLXwtLS18LS0tfC0tLXwKfCAxIHwg5p625p6E5YiG5bGCIHwg5rWu56qX77yI5Y6f55Sf77yJ5LiO5L6b5paZ77yIcHJvdmlkZXLvvInop6PogKbvvIzkvpvmlpnlj6/mj5Lmi5QgfCDljZXkuIDkvpvmlpnot6/lvoTkuI3ooYzvvJpTTVRDIOeyvuW6puWtmOeWkeOAgUNEUCDkvp3otZbmtY/op4jlmajlkK/liqjmlrnlvI/vvIzku7vkuIDlpLHmiYvmlbTkuKrpobnnm67lgZzmkYYgfCDlt7LlrpogfAp8IDIgfCDlt6XnqIvmoIggfCBUYXVyaSAyICsgV2ViVmlldzIgfCBFbGVjdHJvbiDkvZPnp68v5YaF5a2Y57+75YCN77ybQyMvV1BGIOWBmuS4jeS6humAkOWtl+a4kOWPmO+8iGBiYWNrZ3JvdW5kLWNsaXA6IHRleHRg77yJIHwg5bey5a6aIHwKfCAzIHwg5q2M6K+N5rqQIHwg5LiJ5bGC54CR5biD77yaQXBwbGUgVFRNTCDihpIgbHJjbGliIOKGkiDmiYvliqjnspjotLQgfCDlj6rnlKggbHJjbGliIOe8uumAkOWtl++8m+WPqueUqCBUVE1MIOayoeeJiOadg+WwseepuueZve+8m+WKoOe9keaYk+S6kS9RUSDpnZ7lrpjmlrnmjqXlj6Pnu7TmiqTmiJDmnKzov4fpq5ggfCDlt7LlrpogfAp8IDQgfCDmta7nqpfkuqTkupIgfCDlj4zmgIHvvJrpu5jorqTpvKDmoIfnqb/pgI/vvIzng63plK7kuLTml7bmjqXnrqHvvIzlgZzmiYsgNSDnp5Llm57okL0gfCDlp4vnu4jlj6/kuqTkupLkvJrmjKHkvY/kuIvpnaLnmoTmtY/op4jlmajvvJvlp4vnu4jnqb/pgI/mlLnkvY3nva7opoHlvIDorr7nva7nqpcgfCDlt7LlrpogfAp8IDUgfCDmmL7npLrop4TmoLwgfCDlj4zooYzvvJrlvZPliY3ooYzpgJDlrZfmuJDlj5ggKyDkuIvkuIDooYzpooTlkYrvvJvml6AgVFRNTCDml7bpgIDljJbkuLrmlbTooYzngrnkuq4gfCDljZXooYznnIvkuI3liLDkuIvmlofvvJvlpJrooYzmu5rliqjlrp7njrDmnIDph40gfCDlt7LlrpogfAp8IDYgfCDng63plK4gfCDkuKTplK7kuIDlpZfvvJpgYCBBbHQrYCBgYCDmmL7pmpDjgIFgQWx0K01gIOWIh+epv+mAj+OAgWBBbHQrW2AgYEFsdCtdYCDlrZflj7fjgIFgQWx0KyxgIGBBbHQrLmAg5YGP56e744CBYEFsdCtQYCDmkq3mlL7mmoLlgZzvvJvpnaLmnb/lj6/mlLkgfCBgQ3RybCtcYGAg6KKrIFZTQ29kZS/ovpPlhaXms5XmiqLvvJtgQWx0K1NwYWNlYCDmmK/ns7vnu5/nqpflj6Poj5zljZXvvJvoh6rnlLHlvZXliLYgVUkg5aSa5LiA5aSp5bel5L2c6YePIHwg5bey5a6aIHwKfCA3IHwgQ0RQIOaOpeWFpSB8IOWGhee9ruaMiemSrueUqOS4k+eUqCBwcm9maWxlICsg6LCD6K+V56uv5Y+j5ouJ6LW3IENocm9tZe+8jOebtOaOpeaJk+W8gCBtdXNpYy5hcHBsZS5jb23vvIznmbvlvZXmgIHkuIDmrKHkv53nlZkgfCDlpI3nlKjml6XluLggcHJvZmlsZSDpnIDlrozlhajpgIDlh7ogQ2hyb21l77yM5LiO5pel5bi45L2/55So5LqS55u45bmy5omwIHwg5bey5a6aIHwKfCA4IHwg5Lya6K+d5raI5q2nIHwg5LyY5YWIIEFwcGxlIE11c2ljIOS8muivne+8jOWkmuS4quWPliLlnKjmkq3kuJTmnIDov5Hmm7TmlrAi77yM5omY55uY5Y+v5omL5Yqo6ZKJ5L2PIHwg6KeB5LiL5pa55L+u6K6iIHwgKirlt7Lmjqjnv7sqKiB8CnwgOSB8IOS6pOS7mOW9ouaAgSB8IOW8gOa6kOS7k+W6kyArIOWuieijheWMhSArIOS+v+aQuueJiO+8jENJIOWHuuWMhSB8IOWPquWBmiBkZXYg5bel56iL5Lul5ZCO6KaB6L+U5bel55uu5b2V57uT5p6EIHwg5bey5a6aIHwKfCAxMCB8IOWRveWQjSB8IOS7k+W6kyBgbHlyaWMtZmxvYXRg77yM5pi+56S65ZCN44CM5rWu6K+N44CNIHwg5ZCN5a2X6YeM5bimIEFwcGxlIE11c2ljIOacieWVhuagh+mjjumZqSB8IOW3suWumiB8CnwgMTEgfCDpooTorr7pu5jorqQgfCDphY3nva7lrZggYCVBUFBEQVRBJVxseXJpYy1mbG9hdFxjb25maWcuanNvbmAg5Y+v5omL5pS544CB5byA5py66Ieq5ZCv5YWz44CB5omY55uY5bi46am744CB5Y2V5a6e5L6L44CBTUlU44CB5Y+z5LiL6KeS44CB6YCP5piO5bqmIDAuODXjgIHmgJ3mupDpu5HkvZPihpLlvq7ova/pm4Xpu5HjgIEycHgg5o+P6L65IHwg4oCUIHwg5bey5a6aIHwKCiMjIOS/ruiuouiusOW9lQoKIyMjICM4IOa2iOatp++8muW3suaOqOe/u++8jE0wIOWunua1i+WvvOiHtAoK5Y6f6KeE5YiZIuS8mOWFiOWPluadpea6kOS4uiBgbXVzaWMuYXBwbGUuY29tYCDnmoTkvJror50i5ZyoIFNNVEMg5qih5byP5LiLKirml6Dms5Xlrp7njrAqKu+8mgpgU291cmNlQXBwVXNlck1vZGVsSWRgIOWPquaciSBgQ2hyb21lLjxoYXNoPmDvvIzkuI3lkKsgVVJM77yb5LiU5Li7IENocm9tZSDkuI7pmpTnprsgcHJvZmlsZSDnmoQgQ2hyb21lCuaLv+WIsOeahOaYr+WQjOS4gOS4qiBoYXNo77yI6KeBIGBkb2NzL20wLXNtdGMtcHJvYmUubWRg77yJ44CCCgrmlrDop4TliJnvvJoKCjEuIOWPquaOpeWPlyBBVU1JRCDliY3nvIDkuLogYENocm9tZS5gIC8gYE1zRWRnZS5gIOeahOS8muivne+8mwoyLiDlpJrkuKrlgJnpgInml7bvvIzlj5YgYFBsYXliYWNrU3RhdHVzID09IFBsYXlpbmdgIOS4lCBgTGFzdFVwZGF0ZWRUaW1lYCDmnIDmlrDnmoTkuIDkuKrvvJsKMy4g5omY55uY6I+c5Y2V5YiX5Ye65YWo6YOo5Lya6K+d77yI5bqU55So5ZCNICsg5puy5ZCN77yJ77yM5YWB6K645omL5Yqo6ZKJ5L2P77yM6ZKJ5L2P5LyY5YWI5LqO6Ieq5Yqo5Yik5pat77ybCjQuIENEUCDmqKHlvI/lj6/nlKjml7bvvIznlKjnnJ/lrp4gVVJMIOimhuebluS7peS4iuWIpOaWre+8iOWfn+WQjee6p+eyvuehru+8ieOAggoKIyMg5pyq5Yaz6aG5CgotICoqQXBwbGUgTXVzaWMg572R6aG154mI5piv5ZCm55yf55qE6LCDIGBzZXRQb3NpdGlvblN0YXRlYCoqIOKAlOKAlCBNMCDllK/kuIDliankuIvnmoTmnKrnn6XvvIwxIOWIhumSn+WPr+mqjO+8iOingSBtMCDmlofmoaPvvInjgIIKICDkuI3pgJrov4fliJkgU01UQyDpmY3nuqfkuLoi5Y+q5o+Q5L6b5puy5ZCNL+eKtuaAgSLvvIzov5vluqbkuIDlvovotbAgQ0RQ44CCCi0g6YCQ5a2X5q2M6K+N55qEIFRUTUwg6Kej5p6Q57KS5bqm77yIc3lsbGFibGUgdnMgd29yZO+8ie+8jOmcgOimgeaKk+WIsOecn+WuniBUVE1MIOagt+acrOaJjeiDveWumuOAggo=
+# 设计决策记录
+
+本文件记录 LyricFloat 在设计拷问阶段定下的每个分支，以及当时被否决的选项。改动要在这里留痕。
+
+状态：`已定` / `待验证` / `已推翻`
+
+| # | 分支 | 决定 | 备选与被否原因 | 状态 |
+|---|---|---|---|---|
+| 1 | 架构分层 | 浮窗（原生）与供料（provider）解耦，供料可插拔 | 单一供料路径不行：SMTC 精度存疑、CDP 依赖浏览器启动方式，任一失手整个项目停摆 | 已定 |
+| 2 | 工程栈 | Tauri 2 + WebView2 | Electron 体积/内存翻倍；C#/WPF 做不了逐字渐变（`background-clip: text`） | 已定 |
+| 3 | 歌词源 | 三层瀑布：Apple TTML → lrclib → 手动粘贴 | 只用 lrclib 缺逐字；只用 TTML 没版权就空白；加网易云/QQ 非官方接口维护成本过高 | 已定 |
+| 4 | 浮窗交互 | 双态：默认鼠标穿透，热键临时接管，停手 5 秒回落 | 始终可交互会挡住下面的浏览器；始终穿透改位置要开设置窗 | 已定 |
+| 5 | 显示规格 | 双行：当前行逐字渐变 + 下一行预告；无 TTML 时退化为整行点亮 | 单行看不到下文；多行滚动实现最重 | 已定 |
+| 6 | 热键 | 两键一套：`` Alt+` `` 显隐、`Alt+M` 切穿透、`Alt+[` `Alt+]` 字号、`Alt+,` `Alt+.` 偏移、`Alt+P` 播放暂停；面板可改 | `Ctrl+\`` 被 VSCode/输入法抢；`Alt+Space` 是系统窗口菜单；自由录制 UI 多一天工作量 | 已定 |
+| 7 | CDP 接入 | 内置按钮用专用 profile + 调试端口拉起 Chrome，直接打开 music.apple.com，登录态一次保留 | 复用日常 profile 需完全退出 Chrome，与日常使用互相干扰 | 已定 |
+| 8 | 会话消歧 | 优先 Apple Music 会话，多个取"在播且最近更新"，托盘可手动钉住 | 见下方修订 | **已推翻** |
+| 9 | 交付形态 | 开源仓库 + 安装包 + 便携版，CI 出包 | 只做 dev 工程以后要返工目录结构 | 已定 |
+| 10 | 命名 | 仓库 `lyric-float`，显示名「浮词」 | 名字里带 Apple Music 有商标风险 | 已定 |
+| 11 | 预设默认 | 配置存 `%APPDATA%\lyric-float\config.json` 可手改、开机自启关、托盘常驻、单实例、MIT、右下角、透明度 0.85、思源黑体→微软雅黑、2px 描边 | — | 已定 |
+
+## 修订记录
+
+### #8 消歧：已推翻，M0 实测导致
+
+原规则"优先取来源为 `music.apple.com` 的会话"在 SMTC 模式下**无法实现**：
+`SourceAppUserModelId` 只有 `Chrome.<hash>`，不含 URL；且主 Chrome 与隔离 profile 的 Chrome
+拿到的是同一个 hash（见 `docs/m0-smtc-probe.md`）。
+
+新规则：
+
+1. 只接受 AUMID 前缀为 `Chrome.` / `MsEdge.` 的会话；
+2. 多个候选时，取 `PlaybackStatus == Playing` 且 `LastUpdatedTime` 最新的一个；
+3. 托盘菜单列出全部会话（应用名 + 曲名），允许手动钉住，钉住优先于自动判断；
+4. CDP 模式可用时，用真实 URL 覆盖以上判断（域名级精确）。
+
+## 未决项
+
+- **Apple Music 网页版是否真的调 `setPositionState`** —— M0 唯一剩下的未知，1 分钟可验（见 m0 文档）。
+  不通过则 SMTC 降级为"只提供曲名/状态"，进度一律走 CDP。
+- 逐字歌词的 TTML 解析粒度（syllable vs word），需要抓到真实 TTML 样本才能定。

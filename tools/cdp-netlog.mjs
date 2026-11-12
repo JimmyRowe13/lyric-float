@@ -1,1 +1,103 @@
-Ly8gUmVjb3JkcyB0aGUgbHlyaWNzLXJlbGF0ZWQgbmV0d29yayB0cmFmZmljIG9mIGEgQ2hyb21lIHBhZ2Ugb3ZlciBDRFAuCi8vIFB1cnBvc2U6IGZpbmQgb3V0IGV4YWN0bHkgd2hpY2ggVVJML2hlYWRlcnMgQXBwbGUgTXVzaWMncyBvd24gcGxheWVyIHVzZXMgZm9yCi8vIGx5cmljcywgYW5kIGNhcHR1cmUgdGhlIHJlYWwgcGF5bG9hZCAoZXhwZWN0ZWQgdG8gYmUgVFRNTCkuCi8vCi8vIFVzYWdlOiBub2RlIHRvb2xzL2NkcC1uZXRsb2cubWpzIDxvdXQuanNvbmw+IFtwb3J0XSBbZHVyYXRpb25TZWNvbmRzXQoKaW1wb3J0IHsgYXBwZW5kRmlsZVN5bmMsIHdyaXRlRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKCmNvbnN0IG91dCA9IHByb2Nlc3MuYXJndlsyXSA/PyAibmV0bG9nLmpzb25sIjsKY29uc3QgcG9ydCA9IHByb2Nlc3MuYXJndlszXSA/PyAiOTIyMiI7CmNvbnN0IGR1cmF0aW9uID0gTnVtYmVyKHByb2Nlc3MuYXJndls0XSA/PyAxODApOwoKY29uc3QgaW50ZXJlc3RpbmcgPSAodXJsKSA9PgogIC9seXJpY3x0dG1sL2kudGVzdCh1cmwpIHx8IC9hbXAtYXBpXC5tdXNpY1wuYXBwbGVcLmNvbS8udGVzdCh1cmwpOwoKLy8gQ29uc29sZSBvbmx5IHNob3dzIHRoZSBwYXlsb2FkIHdlIGFjdHVhbGx5IGNhcmUgYWJvdXQ7IHRoZSBKU09OTCBrZWVwcyBldmVyeXRoaW5nLgpjb25zdCBsb3VkID0gKHVybCkgPT4gL2x5cmljfHR0bWwvaS50ZXN0KHVybCk7Cgpjb25zdCB0YXJnZXRzID0gYXdhaXQgKGF3YWl0IGZldGNoKGBodHRwOi8vMTI3LjAuMC4xOiR7cG9ydH0vanNvbmApKS5qc29uKCk7CmNvbnN0IHBhZ2UgPSB0YXJnZXRzLmZpbmQoKHQpID0+IHQudHlwZSA9PT0gInBhZ2UiICYmIC9tdXNpY1wuYXBwbGVcLmNvbS8udGVzdCh0LnVybCkpID8/CiAgdGFyZ2V0cy5maW5kKCh0KSA9PiB0LnR5cGUgPT09ICJwYWdlIik7CmlmICghcGFnZSkgewogIGNvbnNvbGUubG9nKCJubyBwYWdlIHRhcmdldCIpOwogIHByb2Nlc3MuZXhpdCgxKTsKfQpjb25zb2xlLmxvZygiYXR0YWNoZWQgdG86IiwgcGFnZS51cmwpOwpjb25zb2xlLmxvZygid3JpdGluZyB0bzoiLCBvdXQsICJmb3IiLCBkdXJhdGlvbiwgInMiKTsKCndyaXRlRmlsZVN5bmMob3V0LCAiIik7CmNvbnN0IHJlY29yZCA9IChvYmopID0+IGFwcGVuZEZpbGVTeW5jKG91dCwgSlNPTi5zdHJpbmdpZnkob2JqKSArICJcbiIpOwoKY29uc3Qgd3MgPSBuZXcgV2ViU29ja2V0KHBhZ2Uud2ViU29ja2V0RGVidWdnZXJVcmwpOwpjb25zdCBwZW5kaW5nID0gbmV3IE1hcCgpOwpsZXQgbmV4dElkID0gMTsKCmNvbnN0IHNlbmQgPSAobWV0aG9kLCBwYXJhbXMgPSB7fSkgPT4KICBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gewogICAgY29uc3QgaWQgPSBuZXh0SWQrKzsKICAgIHBlbmRpbmcuc2V0KGlkLCByZXNvbHZlKTsKICAgIHdzLnNlbmQoSlNPTi5zdHJpbmdpZnkoeyBpZCwgbWV0aG9kLCBwYXJhbXMgfSkpOwogIH0pOwoKd3MuYWRkRXZlbnRMaXN0ZW5lcigib3BlbiIsIGFzeW5jICgpID0+IHsKICBhd2FpdCBzZW5kKCJOZXR3b3JrLmVuYWJsZSIpOwogIGF3YWl0IHNlbmQoIlBhZ2UuZW5hYmxlIik7CiAgY29uc29sZS5sb2coIm5ldHdvcmsgZG9tYWluIGVuYWJsZWQiKTsKfSk7Cgp3cy5hZGRFdmVudExpc3RlbmVyKCJtZXNzYWdlIiwgYXN5bmMgKGV2ZW50KSA9PiB7CiAgY29uc3QgbXNnID0gSlNPTi5wYXJzZShldmVudC5kYXRhKTsKICBpZiAobXNnLmlkICYmIHBlbmRpbmcuaGFzKG1zZy5pZCkpIHsKICAgIHBlbmRpbmcuZ2V0KG1zZy5pZCkobXNnLnJlc3VsdCk7CiAgICBwZW5kaW5nLmRlbGV0ZShtc2cuaWQpOwogICAgcmV0dXJuOwogIH0KCiAgaWYgKG1zZy5tZXRob2QgPT09ICJOZXR3b3JrLnJlcXVlc3RXaWxsQmVTZW50IikgewogICAgY29uc3QgeyByZXF1ZXN0SWQsIHJlcXVlc3QgfSA9IG1zZy5wYXJhbXM7CiAgICBpZiAoaW50ZXJlc3RpbmcocmVxdWVzdC51cmwpKSB7CiAgICAgIHJlY29yZCh7IGtpbmQ6ICJyZXF1ZXN0IiwgcmVxdWVzdElkLCB1cmw6IHJlcXVlc3QudXJsLCBtZXRob2Q6IHJlcXVlc3QubWV0aG9kLCBoZWFkZXJzOiByZXF1ZXN0LmhlYWRlcnMgfSk7CiAgICAgIGlmIChsb3VkKHJlcXVlc3QudXJsKSkgY29uc29sZS5sb2coIlJFUSIsIHJlcXVlc3QubWV0aG9kLCByZXF1ZXN0LnVybC5zbGljZSgwLCAyMDApKTsKICAgIH0KICAgIHJldHVybjsKICB9CgogIGlmIChtc2cubWV0aG9kID09PSAiTmV0d29yay5yZXNwb25zZVJlY2VpdmVkIikgewogICAgY29uc3QgeyByZXF1ZXN0SWQsIHJlc3BvbnNlIH0gPSBtc2cucGFyYW1zOwogICAgaWYgKCFpbnRlcmVzdGluZyhyZXNwb25zZS51cmwpKSByZXR1cm47CiAgICByZWNvcmQoewogICAgICBraW5kOiAicmVzcG9uc2UiLAogICAgICByZXF1ZXN0SWQsCiAgICAgIHVybDogcmVzcG9uc2UudXJsLAogICAgICBzdGF0dXM6IHJlc3BvbnNlLnN0YXR1cywKICAgICAgbWltZVR5cGU6IHJlc3BvbnNlLm1pbWVUeXBlLAogICAgICBoZWFkZXJzOiByZXNwb25zZS5oZWFkZXJzLAogICAgfSk7CiAgICBpZiAobG91ZChyZXNwb25zZS51cmwpKSBjb25zb2xlLmxvZygiUkVTIiwgcmVzcG9uc2Uuc3RhdHVzLCByZXNwb25zZS5taW1lVHlwZSwgcmVzcG9uc2UudXJsLnNsaWNlKDAsIDIwMCkpOwogICAgdHJ5IHsKICAgICAgY29uc3QgYm9keSA9IGF3YWl0IHNlbmQoIk5ldHdvcmsuZ2V0UmVzcG9uc2VCb2R5IiwgeyByZXF1ZXN0SWQgfSk7CiAgICAgIGlmIChib2R5ICYmIGJvZHkuYm9keSkgewogICAgICAgIHJlY29yZCh7CiAgICAgICAgICBraW5kOiAiYm9keSIsCiAgICAgICAgICByZXF1ZXN0SWQsCiAgICAgICAgICB1cmw6IHJlc3BvbnNlLnVybCwKICAgICAgICAgIGJhc2U2NDogISFib2R5LmJhc2U2NEVuY29kZWQsCiAgICAgICAgICBsZW5ndGg6IGJvZHkuYm9keS5sZW5ndGgsCiAgICAgICAgICBib2R5OiBib2R5LmJvZHkuc2xpY2UoMCwgMjAwXzAwMCksCiAgICAgICAgfSk7CiAgICAgICAgaWYgKGxvdWQocmVzcG9uc2UudXJsKSkgY29uc29sZS5sb2coIkJPRFkiLCBib2R5LmJvZHkubGVuZ3RoLCAiY2hhcnMiKTsKICAgICAgfQogICAgfSBjYXRjaCAoZSkgewogICAgICByZWNvcmQoeyBraW5kOiAiYm9keS1lcnJvciIsIHJlcXVlc3RJZCwgdXJsOiByZXNwb25zZS51cmwsIGVycm9yOiBTdHJpbmcoZSkgfSk7CiAgICB9CiAgfQp9KTsKCnNldFRpbWVvdXQoKCkgPT4gewogIGNvbnNvbGUubG9nKCJkb25lIik7CiAgdHJ5IHsKICAgIHdzLmNsb3NlKCk7CiAgfSBjYXRjaCB7fQogIHByb2Nlc3MuZXhpdCgwKTsKfSwgZHVyYXRpb24gKiAxMDAwKTsK
+// Records the lyrics-related network traffic of a Chrome page over CDP.
+// Purpose: find out exactly which URL/headers Apple Music's own player uses for
+// lyrics, and capture the real payload (expected to be TTML).
+//
+// Usage: node tools/cdp-netlog.mjs <out.jsonl> [port] [durationSeconds]
+
+import { appendFileSync, writeFileSync } from "node:fs";
+
+const out = process.argv[2] ?? "netlog.jsonl";
+const port = process.argv[3] ?? "9222";
+const duration = Number(process.argv[4] ?? 180);
+
+const interesting = (url) =>
+  /lyric|ttml/i.test(url) || /amp-api\.music\.apple\.com/.test(url);
+
+// Console only shows the payload we actually care about; the JSONL keeps everything.
+const loud = (url) => /lyric|ttml/i.test(url);
+
+const targets = await (await fetch(`http://127.0.0.1:${port}/json`)).json();
+const page = targets.find((t) => t.type === "page" && /music\.apple\.com/.test(t.url)) ??
+  targets.find((t) => t.type === "page");
+if (!page) {
+  console.log("no page target");
+  process.exit(1);
+}
+console.log("attached to:", page.url);
+console.log("writing to:", out, "for", duration, "s");
+
+writeFileSync(out, "");
+const record = (obj) => appendFileSync(out, JSON.stringify(obj) + "\n");
+
+const ws = new WebSocket(page.webSocketDebuggerUrl);
+const pending = new Map();
+let nextId = 1;
+
+const send = (method, params = {}) =>
+  new Promise((resolve) => {
+    const id = nextId++;
+    pending.set(id, resolve);
+    ws.send(JSON.stringify({ id, method, params }));
+  });
+
+ws.addEventListener("open", async () => {
+  await send("Network.enable");
+  await send("Page.enable");
+  console.log("network domain enabled");
+});
+
+ws.addEventListener("message", async (event) => {
+  const msg = JSON.parse(event.data);
+  if (msg.id && pending.has(msg.id)) {
+    pending.get(msg.id)(msg.result);
+    pending.delete(msg.id);
+    return;
+  }
+
+  if (msg.method === "Network.requestWillBeSent") {
+    const { requestId, request } = msg.params;
+    if (interesting(request.url)) {
+      record({ kind: "request", requestId, url: request.url, method: request.method, headers: request.headers });
+      if (loud(request.url)) console.log("REQ", request.method, request.url.slice(0, 200));
+    }
+    return;
+  }
+
+  if (msg.method === "Network.responseReceived") {
+    const { requestId, response } = msg.params;
+    if (!interesting(response.url)) return;
+    record({
+      kind: "response",
+      requestId,
+      url: response.url,
+      status: response.status,
+      mimeType: response.mimeType,
+      headers: response.headers,
+    });
+    if (loud(response.url)) console.log("RES", response.status, response.mimeType, response.url.slice(0, 200));
+    try {
+      const body = await send("Network.getResponseBody", { requestId });
+      if (body && body.body) {
+        record({
+          kind: "body",
+          requestId,
+          url: response.url,
+          base64: !!body.base64Encoded,
+          length: body.body.length,
+          body: body.body.slice(0, 200_000),
+        });
+        if (loud(response.url)) console.log("BODY", body.body.length, "chars");
+      }
+    } catch (e) {
+      record({ kind: "body-error", requestId, url: response.url, error: String(e) });
+    }
+  }
+});
+
+setTimeout(() => {
+  console.log("done");
+  try {
+    ws.close();
+  } catch {}
+  process.exit(0);
+}, duration * 1000);

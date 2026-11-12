@@ -1,1 +1,97 @@
-IyBseXJpYy1mbG9hdCBNMCBoYXJuZXNzOiBydW4gYSBjb250cm9sbGVkIGxvY2FsIHdlYiBwbGF5ZXIgYW5kIHdhdGNoIFNNVEMuCiMgQW5zd2Vyczogd2hpbGUgYSBDaHJvbWl1bSBwYWdlIGlzIGFjdGl2ZWx5IHBsYXlpbmcgYW5kIHB1Ymxpc2hpbmcKIyBzZXRQb3NpdGlvblN0YXRlKCksIGRvZXMgdGhlIFdpbmRvd3MgU01UQyB0aW1lbGluZSAoUG9zaXRpb24gLyBMYXN0VXBkYXRlZFRpbWUpCiMgYWN0dWFsbHkgYWR2YW5jZSBhbmQgcmVmcmVzaD8KIwojIFVzZXMgYW4gaXNvbGF0ZWQgQ2hyb21lIHByb2ZpbGUgc28gdGhlIHVzZXIncyBvd24gYnJvd3NlciBpcyB1bnRvdWNoZWQuCiMgQVNDSUkgb25seSAoV2luZG93cyBQb3dlclNoZWxsIDUuMSBBTlNJIGRlY29kaW5nIG9mIEJPTS1sZXNzIHNjcmlwdHMpLgoKcGFyYW0oCiAgICBbaW50XSRTYW1wbGVzID0gMTIsCiAgICBbaW50XSRJbnRlcnZhbE1zID0gNzAwLAogICAgW2ludF0kU2Vjb25kcyA9IDE1CikKCiRFcnJvckFjdGlvblByZWZlcmVuY2UgPSAnU3RvcCcKJHJvb3QgPSBTcGxpdC1QYXRoIC1QYXJlbnQgJE15SW52b2NhdGlvbi5NeUNvbW1hbmQuUGF0aAokc2FuZGJveCA9IEpvaW4tUGF0aCAkcm9vdCAnc2FuZGJveCcKJHdhdiA9IEpvaW4tUGF0aCAkc2FuZGJveCAndG9uZS53YXYnCiRwYWdlID0gSm9pbi1QYXRoICRzYW5kYm94ICdwbGF5ZXIuaHRtbCcKCmlmICgtbm90IChUZXN0LVBhdGggJHNhbmRib3gpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLVBhdGggJHNhbmRib3ggfCBPdXQtTnVsbCB9CgppZiAoLW5vdCAoVGVzdC1QYXRoICR3YXYpKSB7CiAgICBXcml0ZS1PdXRwdXQgIkdFTiB3YXYgc2Vjb25kcz0kU2Vjb25kcyIKICAgICRzciA9IDgwMDAKICAgICRuID0gJHNyICogJFNlY29uZHMKICAgICRtcyA9IE5ldy1PYmplY3QgU3lzdGVtLklPLk1lbW9yeVN0cmVhbQogICAgJGJ3ID0gTmV3LU9iamVjdCBTeXN0ZW0uSU8uQmluYXJ5V3JpdGVyKCRtcykKICAgICRidy5Xcml0ZShbU3lzdGVtLlRleHQuRW5jb2RpbmddOjpBU0NJSS5HZXRCeXRlcygnUklGRicpKQogICAgJGJ3LldyaXRlKFtpbnRdKDM2ICsgJG4gKiAyKSkKICAgICRidy5Xcml0ZShbU3lzdGVtLlRleHQuRW5jb2RpbmddOjpBU0NJSS5HZXRCeXRlcygnV0FWRScpKQogICAgJGJ3LldyaXRlKFtTeXN0ZW0uVGV4dC5FbmNvZGluZ106OkFTQ0lJLkdldEJ5dGVzKCdmbXQgJykpCiAgICAkYncuV3JpdGUoW2ludF0xNikKICAgICRidy5Xcml0ZShbaW50MTZdMSkKICAgICRidy5Xcml0ZShbaW50MTZdMSkKICAgICRidy5Xcml0ZShbaW50XSRzcikKICAgICRidy5Xcml0ZShbaW50XSgkc3IgKiAyKSkKICAgICRidy5Xcml0ZShbaW50MTZdMikKICAgICRidy5Xcml0ZShbaW50MTZdMTYpCiAgICAkYncuV3JpdGUoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6QVNDSUkuR2V0Qnl0ZXMoJ2RhdGEnKSkKICAgICRidy5Xcml0ZShbaW50XSgkbiAqIDIpKQogICAgJHR3b1BpID0gMiAqIFttYXRoXTo6UEkKICAgIGZvciAoJGkgPSAwOyAkaSAtbHQgJG47ICRpKyspIHsKICAgICAgICAkdiA9IFtpbnQxNl0oMzAwMCAqIFttYXRoXTo6U2luKCR0d29QaSAqIDQ0MCAqICRpIC8gJHNyKSkKICAgICAgICAkYncuV3JpdGUoJHYpCiAgICB9CiAgICAkYncuRmx1c2goKQogICAgW1N5c3RlbS5JTy5GaWxlXTo6V3JpdGVBbGxCeXRlcygkd2F2LCAkbXMuVG9BcnJheSgpKQogICAgJG1zLkRpc3Bvc2UoKQp9CgokcHJvZmlsZSA9IEpvaW4tUGF0aCAkZW52OlRFTVAgJ2x5cmljLWZsb2F0LW0wLXByb2ZpbGUnCiRjYW5kaWRhdGVzID0gQCgKICAgICIkZW52OlByb2dyYW1GaWxlc1xHb29nbGVcQ2hyb21lXEFwcGxpY2F0aW9uXGNocm9tZS5leGUiLAogICAgIiR7ZW52OlByb2dyYW1GaWxlcyh4ODYpfVxHb29nbGVcQ2hyb21lXEFwcGxpY2F0aW9uXGNocm9tZS5leGUiLAogICAgIiRlbnY6TE9DQUxBUFBEQVRBXEdvb2dsZVxDaHJvbWVcQXBwbGljYXRpb25cY2hyb21lLmV4ZSIsCiAgICAiJGVudjpQcm9ncmFtRmlsZXNcTWljcm9zb2Z0XEVkZ2VcQXBwbGljYXRpb25cbXNlZGdlLmV4ZSIsCiAgICAiJHtlbnY6UHJvZ3JhbUZpbGVzKHg4Nil9XE1pY3Jvc29mdFxFZGdlXEFwcGxpY2F0aW9uXG1zZWRnZS5leGUiCikKJGJyb3dzZXIgPSAkbnVsbApmb3JlYWNoICgkYyBpbiAkY2FuZGlkYXRlcykgeyBpZiAoVGVzdC1QYXRoICRjKSB7ICRicm93c2VyID0gJGM7IGJyZWFrIH0gfQppZiAoLW5vdCAkYnJvd3NlcikgeyB0aHJvdyAnbm8gY2hyb21lL21zZWRnZSBmb3VuZCcgfQoKJHVybCA9IChbU3lzdGVtLlVyaV0kcGFnZSkuQWJzb2x1dGVVcmkKJGNocm9tZUFyZ3MgPSBAKAogICAgIi0tdXNlci1kYXRhLWRpcj0kcHJvZmlsZSIsCiAgICAnLS1hdXRvcGxheS1wb2xpY3k9bm8tdXNlci1nZXN0dXJlLXJlcXVpcmVkJywKICAgICctLW5vLWZpcnN0LXJ1bicsCiAgICAnLS1uby1kZWZhdWx0LWJyb3dzZXItY2hlY2snLAogICAgJy0tZGlzYWJsZS1mZWF0dXJlcz1UcmFuc2xhdGUnLAogICAgJy0tbmV3LXdpbmRvdycsCiAgICAkdXJsCikKCldyaXRlLU91dHB1dCAoIkJST1dTRVIgIiArICRicm93c2VyKQpXcml0ZS1PdXRwdXQgKCJQUk9GSUxFICIgKyAkcHJvZmlsZSkKV3JpdGUtT3V0cHV0ICgiVVJMICIgKyAkdXJsKQoKU3RhcnQtUHJvY2VzcyAtRmlsZVBhdGggJGJyb3dzZXIgLUFyZ3VtZW50TGlzdCAkY2hyb21lQXJncyB8IE91dC1OdWxsCgp0cnkgewogICAgV3JpdGUtT3V0cHV0ICdXQUlUIHdhcm11cCA2cycKICAgIFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDYKCiAgICAmIChKb2luLVBhdGggJHJvb3QgJ3Byb2JlLnBzMScpIC1TYW1wbGVzICRTYW1wbGVzIC1JbnRlcnZhbE1zICRJbnRlcnZhbE1zCn0KZmluYWxseSB7CiAgICBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDMwMAogICAgJGtpbGxlZCA9IDAKICAgIEdldC1DaW1JbnN0YW5jZSBXaW4zMl9Qcm9jZXNzIC1GaWx0ZXIgIk5hbWU9J2Nocm9tZS5leGUnIE9SIE5hbWU9J21zZWRnZS5leGUnIiAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8CiAgICAgICAgV2hlcmUtT2JqZWN0IHsgJF8uQ29tbWFuZExpbmUgLWFuZCAkXy5Db21tYW5kTGluZS5Db250YWlucygkcHJvZmlsZSkgfSB8CiAgICAgICAgRm9yRWFjaC1PYmplY3QgewogICAgICAgICAgICBTdG9wLVByb2Nlc3MgLUlkICRfLlByb2Nlc3NJZCAtRm9yY2UgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKICAgICAgICAgICAgJGtpbGxlZCsrCiAgICAgICAgfQogICAgV3JpdGUtT3V0cHV0ICgiQ0xFQU5VUCBraWxsZWQ9IiArICRraWxsZWQpCn0K
+# lyric-float M0 harness: run a controlled local web player and watch SMTC.
+# Answers: while a Chromium page is actively playing and publishing
+# setPositionState(), does the Windows SMTC timeline (Position / LastUpdatedTime)
+# actually advance and refresh?
+#
+# Uses an isolated Chrome profile so the user's own browser is untouched.
+# ASCII only (Windows PowerShell 5.1 ANSI decoding of BOM-less scripts).
+
+param(
+    [int]$Samples = 12,
+    [int]$IntervalMs = 700,
+    [int]$Seconds = 15
+)
+
+$ErrorActionPreference = 'Stop'
+$root = Split-Path -Parent $MyInvocation.MyCommand.Path
+$sandbox = Join-Path $root 'sandbox'
+$wav = Join-Path $sandbox 'tone.wav'
+$page = Join-Path $sandbox 'player.html'
+
+if (-not (Test-Path $sandbox)) { New-Item -ItemType Directory -Path $sandbox | Out-Null }
+
+if (-not (Test-Path $wav)) {
+    Write-Output "GEN wav seconds=$Seconds"
+    $sr = 8000
+    $n = $sr * $Seconds
+    $ms = New-Object System.IO.MemoryStream
+    $bw = New-Object System.IO.BinaryWriter($ms)
+    $bw.Write([System.Text.Encoding]::ASCII.GetBytes('RIFF'))
+    $bw.Write([int](36 + $n * 2))
+    $bw.Write([System.Text.Encoding]::ASCII.GetBytes('WAVE'))
+    $bw.Write([System.Text.Encoding]::ASCII.GetBytes('fmt '))
+    $bw.Write([int]16)
+    $bw.Write([int16]1)
+    $bw.Write([int16]1)
+    $bw.Write([int]$sr)
+    $bw.Write([int]($sr * 2))
+    $bw.Write([int16]2)
+    $bw.Write([int16]16)
+    $bw.Write([System.Text.Encoding]::ASCII.GetBytes('data'))
+    $bw.Write([int]($n * 2))
+    $twoPi = 2 * [math]::PI
+    for ($i = 0; $i -lt $n; $i++) {
+        $v = [int16](3000 * [math]::Sin($twoPi * 440 * $i / $sr))
+        $bw.Write($v)
+    }
+    $bw.Flush()
+    [System.IO.File]::WriteAllBytes($wav, $ms.ToArray())
+    $ms.Dispose()
+}
+
+$profile = Join-Path $env:TEMP 'lyric-float-m0-profile'
+$candidates = @(
+    "$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
+    "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe",
+    "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe",
+    "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe",
+    "${env:ProgramFiles(x86)}\Microsoft\Edge\Application\msedge.exe"
+)
+$browser = $null
+foreach ($c in $candidates) { if (Test-Path $c) { $browser = $c; break } }
+if (-not $browser) { throw 'no chrome/msedge found' }
+
+$url = ([System.Uri]$page).AbsoluteUri
+$chromeArgs = @(
+    "--user-data-dir=$profile",
+    '--autoplay-policy=no-user-gesture-required',
+    '--no-first-run',
+    '--no-default-browser-check',
+    '--disable-features=Translate',
+    '--new-window',
+    $url
+)
+
+Write-Output ("BROWSER " + $browser)
+Write-Output ("PROFILE " + $profile)
+Write-Output ("URL " + $url)
+
+Start-Process -FilePath $browser -ArgumentList $chromeArgs | Out-Null
+
+try {
+    Write-Output 'WAIT warmup 6s'
+    Start-Sleep -Seconds 6
+
+    & (Join-Path $root 'probe.ps1') -Samples $Samples -IntervalMs $IntervalMs
+}
+finally {
+    Start-Sleep -Milliseconds 300
+    $killed = 0
+    Get-CimInstance Win32_Process -Filter "Name='chrome.exe' OR Name='msedge.exe'" -ErrorAction SilentlyContinue |
+        Where-Object { $_.CommandLine -and $_.CommandLine.Contains($profile) } |
+        ForEach-Object {
+            Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue
+            $killed++
+        }
+    Write-Output ("CLEANUP killed=" + $killed)
+}

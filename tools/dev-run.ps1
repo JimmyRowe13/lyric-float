@@ -1,1 +1,49 @@
-IyBCdWlsZCArIGxhdW5jaCArIG9ic2VydmUsIGZvciBiaXNlY3Rpbmcgc3RhcnR1cCBwcm9ibGVtcy4KIyBBbGwgcGF0aHMgYXJlIGRlcml2ZWQgZnJvbSB0aGlzIGZpbGUncyBsb2NhdGlvbjsgbm90aGluZyBpcyBtYWNoaW5lLXNwZWNpZmljLgojCiMgVXNhZ2U6IHBvd2Vyc2hlbGwgLUZpbGUgdG9vbHMvZGV2LXJ1bi5wczEgWy1XYWl0U2Vjb25kcyAxMF0KIwojIEV4cGVjdHMgdGhlIHVzdWFsIFJ1c3QgdG9vbGNoYWluIG9uIFBBVEggKG9yIENBUkdPX0hPTUUgc2V0IGluIHRoZSBlbnZpcm9ubWVudCkuCgpwYXJhbSgKICAgIFtpbnRdJFdhaXRTZWNvbmRzID0gMTAsCiAgICBbc3RyaW5nXSRMb2cgPSAiIgopCgokRXJyb3JBY3Rpb25QcmVmZXJlbmNlID0gJ0NvbnRpbnVlJwoKJHJlcG9Sb290ID0gU3BsaXQtUGF0aCAtUGFyZW50ICRQU1NjcmlwdFJvb3QKJHNyY1RhdXJpID0gSm9pbi1QYXRoICRyZXBvUm9vdCAnc3JjLXRhdXJpJwppZiAoW3N0cmluZ106OklzTnVsbE9yV2hpdGVTcGFjZSgkTG9nKSkgewogICAgJExvZyA9IEpvaW4tUGF0aCAoW1N5c3RlbS5JTy5QYXRoXTo6R2V0VGVtcFBhdGgoKSkgJ2x5cmljLWZsb2F0LXJ1bi5sb2cnCn0KCiRjYXJnbyA9IChHZXQtQ29tbWFuZCBjYXJnby5leGUgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUpLlNvdXJjZQppZiAoLW5vdCAkY2FyZ28pIHsgdGhyb3cgJ2NhcmdvIG5vdCBmb3VuZCBvbiBQQVRIJyB9CgpQdXNoLUxvY2F0aW9uICRzcmNUYXVyaQomICRjYXJnbyBidWlsZCAyPiYxIHwgU2VsZWN0LVN0cmluZyAtUGF0dGVybiAnZXJyb3J8RmluaXNoZWR8Q29tcGlsaW5nIGx5cmljJyB8IFNlbGVjdC1PYmplY3QgLUxhc3QgNgokYnVpbGRFeGl0ID0gJExBU1RFWElUQ09ERQpQb3AtTG9jYXRpb24KIkJVSUxEX0VYSVQ9JGJ1aWxkRXhpdCIKaWYgKCRidWlsZEV4aXQgLW5lIDApIHsgcmV0dXJuIH0KCiRleGUgPSBKb2luLVBhdGggJHNyY1RhdXJpICd0YXJnZXRcZGVidWdcbHlyaWMtZmxvYXQuZXhlJwppZiAoLW5vdCAoVGVzdC1QYXRoICRleGUpKSB7IHRocm93ICJidWlsdCBiaW5hcnkgbm90IGZvdW5kOiAkZXhlIiB9CgppZiAoVGVzdC1QYXRoICRMb2cpIHsgUmVtb3ZlLUl0ZW0gJExvZyAtRm9yY2UgfQokcCA9IFN0YXJ0LVByb2Nlc3MgLUZpbGVQYXRoICRleGUgLVBhc3NUaHJ1IC1SZWRpcmVjdFN0YW5kYXJkRXJyb3IgJExvZwpTdGFydC1TbGVlcCAtU2Vjb25kcyAkV2FpdFNlY29uZHMKCmlmICgkcC5IYXNFeGl0ZWQpIHsKICAgICJFWElURUQgY29kZT0kKCRwLkV4aXRDb2RlKSBhZnRlciAke1dhaXRTZWNvbmRzfXMiCiAgICBpZiAoVGVzdC1QYXRoICRMb2cpIHsKICAgICAgICAnLS0gc3RkZXJyIC0tJwogICAgICAgIEdldC1Db250ZW50ICRMb2cgfCBTZWxlY3QtT2JqZWN0IC1GaXJzdCA4CiAgICB9Cn0gZWxzZSB7CiAgICAkcHJvYyA9IEdldC1Qcm9jZXNzIC1JZCAkcC5JZCAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQogICAgIkFMSVZFIHBpZD0kKCRwLklkKSB0aXRsZT0nJCgkcHJvYy5NYWluV2luZG93VGl0bGUpJyIKICAgIFN0b3AtUHJvY2VzcyAtSWQgJHAuSWQgLUZvcmNlIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAna2lsbGVkJwp9Cg==
+# Build + launch + observe, for bisecting startup problems.
+# All paths are derived from this file's location; nothing is machine-specific.
+#
+# Usage: powershell -File tools/dev-run.ps1 [-WaitSeconds 10]
+#
+# Expects the usual Rust toolchain on PATH (or CARGO_HOME set in the environment).
+
+param(
+    [int]$WaitSeconds = 10,
+    [string]$Log = ""
+)
+
+$ErrorActionPreference = 'Continue'
+
+$repoRoot = Split-Path -Parent $PSScriptRoot
+$srcTauri = Join-Path $repoRoot 'src-tauri'
+if ([string]::IsNullOrWhiteSpace($Log)) {
+    $Log = Join-Path ([System.IO.Path]::GetTempPath()) 'lyric-float-run.log'
+}
+
+$cargo = (Get-Command cargo.exe -ErrorAction SilentlyContinue).Source
+if (-not $cargo) { throw 'cargo not found on PATH' }
+
+Push-Location $srcTauri
+& $cargo build 2>&1 | Select-String -Pattern 'error|Finished|Compiling lyric' | Select-Object -Last 6
+$buildExit = $LASTEXITCODE
+Pop-Location
+"BUILD_EXIT=$buildExit"
+if ($buildExit -ne 0) { return }
+
+$exe = Join-Path $srcTauri 'target\debug\lyric-float.exe'
+if (-not (Test-Path $exe)) { throw "built binary not found: $exe" }
+
+if (Test-Path $Log) { Remove-Item $Log -Force }
+$p = Start-Process -FilePath $exe -PassThru -RedirectStandardError $Log
+Start-Sleep -Seconds $WaitSeconds
+
+if ($p.HasExited) {
+    "EXITED code=$($p.ExitCode) after ${WaitSeconds}s"
+    if (Test-Path $Log) {
+        '-- stderr --'
+        Get-Content $Log | Select-Object -First 8
+    }
+} else {
+    $proc = Get-Process -Id $p.Id -ErrorAction SilentlyContinue
+    "ALIVE pid=$($p.Id) title='$($proc.MainWindowTitle)'"
+    Stop-Process -Id $p.Id -Force -ErrorAction SilentlyContinue
+    'killed'
+}

@@ -1,1 +1,535 @@
-Ly8hIENEUCBwcm92aWRlciDigJQgcHJlY2lzZSBwbGF5YmFjayBwb3NpdGlvbiBhbmQgQXBwbGUncyBvd24gbHlyaWNzLgovLyEKLy8hIEhvdyBpdCB3b3JrcyAodmVyaWZpZWQgYWdhaW5zdCBhIGxpdmUgQXBwbGUgTXVzaWMgcGFnZSk6Ci8vISAgICogQ2hyb21lIGlzIHN0YXJ0ZWQgd2l0aCBgLS1yZW1vdGUtZGVidWdnaW5nLXBvcnQ9UE9SVGAgYW5kIGFuIGlzb2xhdGVkIHByb2ZpbGUKLy8hICAgICAoYHRvb2xzL3N0YXJ0LWNocm9tZS1jZHAucHMxYCkuCi8vISAgICogYEdFVCBodHRwOi8vMTI3LjAuMC4xOlBPUlQvanNvbmAgbGlzdHMgdGhlIHBhZ2VzOyB3ZSBwaWNrIHRoZSBtdXNpYy5hcHBsZS5jb20gb25lCi8vISAgICAgYW5kIGNvbm5lY3QgdG8gaXRzIGB3ZWJTb2NrZXREZWJ1Z2dlclVybGAuCi8vISAgICogYFJ1bnRpbWUuZXZhbHVhdGVgIHJ1bnMgYSBzbWFsbCBleHByZXNzaW9uICppbnNpZGUqIHRoZSBwYWdlIGFuZCByZXR1cm5zIEpTT04uCi8vIQovLyEgV2h5IHRoaXMgZXhpc3RzOiBBcHBsZSBNdXNpYyBwdWJsaXNoZXMgaXRzIE1lZGlhU2Vzc2lvbiB0aW1lbGluZSBleGFjdGx5IG9uY2UgcGVyCi8vISBwbGF5YmFjayBldmVudCwgc28gU01UQyBjYW4gb25seSBleHRyYXBvbGF0ZSBmcm9tIGFuIGFuY2hvciAoc2VlIGRvY3MvbTItc2Vzc2lvbi1ub3Rlcy5tZCkuCi8vISBJbnNpZGUgdGhlIHBhZ2UsIGBhdWRpby5jdXJyZW50VGltZWAgaXMgZXhhY3QuCi8vIQovLyEgTm90ZXMgZnJvbSBwcm9iaW5nIHRoZSBsaXZlIHBhZ2U6Ci8vISAgICogYHdpbmRvdy5NdXNpY0tpdC5nZXRJbnN0YW5jZSgpLmRldmVsb3BlclRva2VuYCBpcyByZWFkYWJsZSAoYSBKV1QsIH4yNjggY2hhcnMpLgovLyEgICAqIGAvdjEvY2F0YWxvZy97c2Z9L3NlYXJjaD90eXBlcz1zb25nc2Agd29ya3Mgd2l0aCB0aGF0IHRva2VuLgovLyEgICAqIGAvdjEvY2F0YWxvZy97c2Z9L3NvbmdzL3tpZH0vbHlyaWNzYCByZXR1cm5zIDQwNCAiTm8gcmVsYXRlZCByZXNvdXJjZXMiLCBzbyB0aGUKLy8hICAgICBseXJpY3MgcGF5bG9hZCBpcyBjYXB0dXJlZCBmcm9tIHRoZSBwbGF5ZXIncyBvd24gdHJhZmZpYyBpbnN0ZWFkCi8vISAgICAgKGB0b29scy9jZHAtbmV0bG9nLm1qc2AgY29sbGVjdHMgaXQpLgoKdXNlIHN1cGVyOjp7UGxheWJhY2tTbmFwc2hvdCwgUGxheWJhY2tTdGF0ZSwgUHJvdmlkZXIsIFRyYWNrSW5mb307CnVzZSBzZXJkZV9qc29uOjp7anNvbiwgVmFsdWV9Owp1c2Ugc3RkOjpzeW5jOjpNdXRleDsKdXNlIHN0ZDo6dGltZTo6e0R1cmF0aW9uLCBJbnN0YW50fTsKdXNlIHR1bmdzdGVuaXRlOjp7Y29ubmVjdCwgTWVzc2FnZSwgV2ViU29ja2V0fTsKdXNlIHR1bmdzdGVuaXRlOjpzdHJlYW06Ok1heWJlVGxzU3RyZWFtOwp1c2Ugc3RkOjpuZXQ6OlRjcFN0cmVhbTsKCnR5cGUgU29ja2V0ID0gV2ViU29ja2V0PE1heWJlVGxzU3RyZWFtPFRjcFN0cmVhbT4+OwoKLy8vIFJ1bnMgaW5zaWRlIHRoZSBwYWdlLiBNdXN0IHN0YXkgZGVwZW5kZW5jeS1mcmVlIGFuZCBjaGVhcDogaXQgaXMgY2FsbGVkIH41eC9zLgovLy8KLy8vIEFwcGxlJ3MgcGxheWVyIGtlZXBzIHNldmVyYWwgYDxhdWRpbz5gIGVsZW1lbnRzIGFsaXZlIChwcmV2aWV3cyBmb3IgdGhlIHNoZWx2ZXMpCi8vLyBhbmQgb25seSBvbmUgb2YgdGhlbSBpcyB0aGUgcmVhbCBzdHJlYW0sIHNvIHBpY2sgdGhlIHBsYXlpbmcgb25lIHJhdGhlciB0aGFuIHRoZQovLy8gZmlyc3QgbWF0Y2guCmNvbnN0IFBST0JFX0VYUFI6ICZzdHIgPSByIyIoKCkgPT4gewogIHRyeSB7CiAgICBjb25zdCBraXQgPSB3aW5kb3cuTXVzaWNLaXQgJiYgd2luZG93Lk11c2ljS2l0LmdldEluc3RhbmNlID8gd2luZG93Lk11c2ljS2l0LmdldEluc3RhbmNlKCkgOiBudWxsOwogICAgY29uc3QgbWlwID0ga2l0ICYmIGtpdC5fcGxheWJhY2tDb250cm9sbGVyICYmIGtpdC5fcGxheWJhY2tDb250cm9sbGVyLnNlcnZpY2VzCiAgICAgID8ga2l0Ll9wbGF5YmFja0NvbnRyb2xsZXIuc2VydmljZXMubWVkaWFJdGVtUGxheWJhY2sgOiBudWxsOwogICAgY29uc3QgY3AgPSBtaXAgJiYgbWlwLmN1cnJlbnRQbGF5YmFjayA/IG1pcC5jdXJyZW50UGxheWJhY2sgOiBudWxsOwogICAgY29uc3QgcGxheWVyID0gbWlwICYmIG1pcC5fY3VycmVudFBsYXllciA/IG1pcC5fY3VycmVudFBsYXllciA6IG51bGw7CiAgICBjb25zdCBidWYgPSBwbGF5ZXIgJiYgcGxheWVyLl9idWZmZXIgPyBwbGF5ZXIuX2J1ZmZlciA6IG51bGw7CgogICAgLy8gQSBsaXZlL2NvbmNlcnQgYWxidW0gaXMgc3RyZWFtZWQgYXMgT05FIEhMUyB0aW1lbGluZSwgc28gdGhlIG1lZGlhIGVsZW1lbnQncwogICAgLy8gY3VycmVudFRpbWUgaXMgY29uY2VydCB0aW1lLCBub3Qgc29uZyB0aW1lLiBBcHBsZSBrZWVwcyB0aGUgc29uZydzIHN0YXJ0IGluCiAgICAvLyBgY3VycmVudFRpbWVzdGFtcE9mZnNldGA7IHZlcmlmaWVkIGxpdmU6IDYwNy4zMjI0NDYgLSA1MDIuMzIyNDQ2ID0gMTA1LjAwMC4KICAgIGxldCBwb3MgPSBudWxsOwogICAgbGV0IGR1ciA9IG51bGw7CiAgICBpZiAoYnVmICYmIE51bWJlci5pc0Zpbml0ZShidWYuX2N1cnJlbnRUaW1lKSAmJiBOdW1iZXIuaXNGaW5pdGUoYnVmLmN1cnJlbnRUaW1lc3RhbXBPZmZzZXQpKSB7CiAgICAgIHBvcyA9IE1hdGgubWF4KDAsIGJ1Zi5fY3VycmVudFRpbWUgLSBidWYuY3VycmVudFRpbWVzdGFtcE9mZnNldCk7CiAgICB9CiAgICBpZiAoYnVmICYmIE51bWJlci5pc0Zpbml0ZShidWYuZHVyYXRpb24pKSBkdXIgPSBidWYuZHVyYXRpb247CgogICAgY29uc3QgbWV0YSA9IG5hdmlnYXRvci5tZWRpYVNlc3Npb24gJiYgbmF2aWdhdG9yLm1lZGlhU2Vzc2lvbi5tZXRhZGF0YTsKICAgIGNvbnN0IGF0dHJzID0gY3AgJiYgY3AuaXRlbSAmJiBjcC5pdGVtLmF0dHJpYnV0ZXMgPyBjcC5pdGVtLmF0dHJpYnV0ZXMgOiBudWxsOwogICAgY29uc3Qgc29uZ0lkID0gY3AgJiYgY3AuYXNzZXQgJiYgY3AuYXNzZXQuaWQgPyBTdHJpbmcoY3AuYXNzZXQuaWQpIDogbnVsbDsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoewogICAgICBoYXNNZWRpYTogISEoYnVmIHx8IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2F1ZGlvJykpLAogICAgICBwb3MsCiAgICAgIGR1ciwKICAgICAgcGF1c2VkOiBwbGF5ZXIgPyAhIXBsYXllci5fcGF1c2VkIDogbnVsbCwKICAgICAgdGl0bGU6IChhdHRycyAmJiBhdHRycy5uYW1lKSB8fCAobWV0YSA/IG1ldGEudGl0bGUgOiBudWxsKSwKICAgICAgYXJ0aXN0OiAoYXR0cnMgJiYgYXR0cnMuYXJ0aXN0TmFtZSkgfHwgKG1ldGEgPyBtZXRhLmFydGlzdCA6IG51bGwpLAogICAgICBhbGJ1bTogKGF0dHJzICYmIGF0dHJzLmFsYnVtTmFtZSkgfHwgKG1ldGEgPyBtZXRhLmFsYnVtIDogbnVsbCksCiAgICAgIHNvbmdJZAogICAgfSk7CiAgfSBjYXRjaCAoZSkgewogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHsgZXJyb3I6IFN0cmluZyhlKS5zbGljZSgwLCAyMDApIH0pOwogIH0KfSkoKSIjOwoKLy8vIFJlc29sdmVzIHRoZSBwbGF5aW5nIHNvbmcncyBseXJpY3MuCi8vLwovLy8gYF9fU09OR19JRF9fYCBpcyB0aGUgY2F0YWxvZyBpZCByZWFkIG9mZiBgY3VycmVudFBsYXliYWNrLmFzc2V0LmlkYCwgc28gdGhlIG5vcm1hbAovLy8gcGF0aCBuZWVkcyBubyBzZWFyY2ggYXQgYWxsLiBUaGUgc2VhcmNoIGJyYW5jaCBzdGF5cyBhcyBhIGZhbGxiYWNrIGZvciBidWlsZHMgd2hlcmUKLy8vIHRoYXQgaWQgaXMgbm90IGV4cG9zZWQuCmNvbnN0IExZUklDU19FWFBSOiAmc3RyID0gciMiKGFzeW5jICgpID0+IHsKICB0cnkgewogICAgY29uc3Qga2l0ID0gd2luZG93Lk11c2ljS2l0LmdldEluc3RhbmNlKCk7CiAgICBjb25zdCB0b2tlbiA9IGtpdC5kZXZlbG9wZXJUb2tlbjsKICAgIGNvbnN0IHVzZXJUb2tlbiA9IGtpdC5tdXNpY1VzZXJUb2tlbjsKICAgIGNvbnN0IHNmID0ga2l0LnN0b3JlZnJvbnRJZCB8fCAnY24nOwogICAgY29uc3Qgd2FudFRpdGxlID0gX19USVRMRV9fOwogICAgY29uc3Qgd2FudEFydGlzdCA9IF9fQVJUSVNUX187CiAgICBjb25zdCBoZWFkZXJzID0gewogICAgICBBdXRob3JpemF0aW9uOiAnQmVhcmVyICcgKyB0b2tlbiwKICAgICAgJ21lZGlhLXVzZXItdG9rZW4nOiB1c2VyVG9rZW4sCiAgICAgIE9yaWdpbjogJ2h0dHBzOi8vbXVzaWMuYXBwbGUuY29tJwogICAgfTsKICAgIGNvbnN0IG5vcm0gPSAocykgPT4gKHMgfHwgJycpLnRvTG93ZXJDYXNlKCkucmVwbGFjZSgvXHMrL2csICcnKTsKCiAgICBjb25zdCBkb0ZldGNoID0gYXN5bmMgKHVybCkgPT4gewogICAgICBjb25zdCBjdHJsID0gbmV3IEFib3J0Q29udHJvbGxlcigpOwogICAgICBjb25zdCB0aW1lciA9IHNldFRpbWVvdXQoKCkgPT4gY3RybC5hYm9ydCgpLCA2MDAwKTsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCh1cmwsIHsgaGVhZGVycywgc2lnbmFsOiBjdHJsLnNpZ25hbCB9KTsKICAgICAgICBpZiAoIXJlcy5vaykgcmV0dXJuIHsgc3RhdHVzOiByZXMuc3RhdHVzIH07CiAgICAgICAgcmV0dXJuIHsgc3RhdHVzOiAyMDAsIGpzb246IGF3YWl0IHJlcy5qc29uKCkgfTsKICAgICAgfSBmaW5hbGx5IHsKICAgICAgICBjbGVhclRpbWVvdXQodGltZXIpOwogICAgICB9CiAgICB9OwoKICAgIGxldCBpZCA9IF9fU09OR19JRF9fOwogICAgaWYgKCFpZCkgewogICAgICBjb25zdCBzZWFyY2hVcmwgPSAnaHR0cHM6Ly9hbXAtYXBpLm11c2ljLmFwcGxlLmNvbS92MS9jYXRhbG9nLycgKyBzZiArICcvc2VhcmNoP3Rlcm09JyArCiAgICAgICAgZW5jb2RlVVJJQ29tcG9uZW50KCh3YW50VGl0bGUgfHwgJycpICsgJyAnICsgKHdhbnRBcnRpc3QgfHwgJycpKSArICcmdHlwZXM9c29uZ3MmbGltaXQ9MTAnOwogICAgICBjb25zdCBmb3VuZCA9IGF3YWl0IGRvRmV0Y2goc2VhcmNoVXJsKTsKICAgICAgaWYgKGZvdW5kLnN0YXR1cyAhPT0gMjAwKSByZXR1cm4gSlNPTi5zdHJpbmdpZnkoeyBzdGF0dXM6IGZvdW5kLnN0YXR1cywgc3RhZ2U6ICdzZWFyY2gnIH0pOwogICAgICBjb25zdCBzb25ncyA9IChmb3VuZC5qc29uLnJlc3VsdHMgJiYgZm91bmQuanNvbi5yZXN1bHRzLnNvbmdzICYmIGZvdW5kLmpzb24ucmVzdWx0cy5zb25ncy5kYXRhKSB8fCBbXTsKICAgICAgbGV0IGJlc3QgPSBudWxsOwogICAgICBsZXQgYmVzdFNjb3JlID0gLTFlOTsKICAgICAgZm9yIChjb25zdCBzIG9mIHNvbmdzKSB7CiAgICAgICAgY29uc3QgYSA9IHMuYXR0cmlidXRlcyB8fCB7fTsKICAgICAgICBjb25zdCBuYW1lID0gbm9ybShhLm5hbWUpOwogICAgICAgIGNvbnN0IGFydGlzdCA9IG5vcm0oYS5hcnRpc3ROYW1lKTsKICAgICAgICBsZXQgc2NvcmUgPSAwOwogICAgICAgIGlmIChuYW1lID09PSBub3JtKHdhbnRUaXRsZSkpIHNjb3JlICs9IDEwMDsgZWxzZSBpZiAobmFtZS5pbmNsdWRlcyhub3JtKHdhbnRUaXRsZSkpKSBzY29yZSArPSA0MDsgZWxzZSBjb250aW51ZTsKICAgICAgICBpZiAoYXJ0aXN0LmluY2x1ZGVzKG5vcm0od2FudEFydGlzdCkpIHx8IG5vcm0od2FudEFydGlzdCkuaW5jbHVkZXMoYXJ0aXN0KSkgc2NvcmUgKz0gNjA7CiAgICAgICAgaWYgKGEuaGFzTHlyaWNzKSBzY29yZSArPSAyMDsKICAgICAgICBpZiAoc2NvcmUgPiBiZXN0U2NvcmUpIHsgYmVzdFNjb3JlID0gc2NvcmU7IGJlc3QgPSBzOyB9CiAgICAgIH0KICAgICAgaWYgKCFiZXN0KSByZXR1cm4gSlNPTi5zdHJpbmdpZnkoeyBzdGF0dXM6IDIwMCwgdHRtbDogbnVsbCwgcmVhc29uOiAnbm8tbWF0Y2gnIH0pOwogICAgICBpZCA9IGJlc3QuaWQ7CiAgICB9CgogICAgY29uc3QgbHlyaWNVcmwgPSAnaHR0cHM6Ly9hbXAtYXBpLm11c2ljLmFwcGxlLmNvbS92MS9jYXRhbG9nLycgKyBzZiArICcvc29uZ3MvJyArIGlkICsKICAgICAgJy9zeWxsYWJsZS1seXJpY3M/bCU1Qmx5cmljcyU1RD16aC1oYW5zLWNuJmwlNUJzY3JpcHQlNUQ9emgtSGFucyZleHRlbmQ9dHRtbExvY2FsaXphdGlvbnMnOwogICAgY29uc3QgZ290ID0gYXdhaXQgZG9GZXRjaChseXJpY1VybCk7CiAgICBpZiAoZ290LnN0YXR1cyAhPT0gMjAwKSByZXR1cm4gSlNPTi5zdHJpbmdpZnkoeyBzdGF0dXM6IGdvdC5zdGF0dXMsIHN0YWdlOiAnbHlyaWNzJywgaWQgfSk7CiAgICBjb25zdCBpdGVtID0gZ290Lmpzb24uZGF0YSAmJiBnb3QuanNvbi5kYXRhWzBdOwogICAgY29uc3QgYXR0cnMgPSBpdGVtICYmIGl0ZW0uYXR0cmlidXRlcyA/IGl0ZW0uYXR0cmlidXRlcyA6IG51bGw7CiAgICBjb25zdCB0dG1sID0gYXR0cnMgPyBhdHRycy50dG1sTG9jYWxpemF0aW9ucyA6IG51bGw7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoeyBzdGF0dXM6IDIwMCwgaWQsIHR0bWw6IHR5cGVvZiB0dG1sID09PSAnc3RyaW5nJyA/IHR0bWwgOiBudWxsIH0pOwogIH0gY2F0Y2ggKGUpIHsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeSh7IGVycm9yOiBTdHJpbmcoZSkuc2xpY2UoMCwgMjAwKSB9KTsKICB9Cn0pKCkiIzsKCi8vLyBJcyBhICpwbGF5YmFjayogYnJvd3NlciBzcGVha2luZyB0aGUgRGV2VG9vbHMgcHJvdG9jb2wgb24gdGhpcyBwb3J0PwovLy8KLy8vIGAvanNvbi92ZXJzaW9uYCBhbG9uZSBpcyBub3QgZW5vdWdoOiBkZWJ1ZyBidWlsZHMgZXhwb3NlIHRoZSBvdmVybGF5J3Mgb3duIFdlYlZpZXcyCi8vLyBvbiBhIGRldnRvb2xzIHBvcnQgdG9vLCBhbmQgdGhhdCBlbmRwb2ludCBhbnN3ZXJzIGhhcHBpbHkuIFNvIHdlIGxvb2sgYXQgdGhlIHBhZ2UKLy8vIHRhcmdldHMgYW5kIGlnbm9yZSBlbmRwb2ludHMgd2hvc2Ugb25seSBwYWdlIGlzIHRoZSBvdmVybGF5IGl0c2VsZi4KcHViIGZuIGJyb3dzZXJfYWxpdmUocG9ydDogdTE2KSAtPiBib29sIHsKICAgIGxldCBTb21lKHRhcmdldHMpID0gbGlzdF90YXJnZXRzKHBvcnQpIGVsc2UgeyByZXR1cm4gZmFsc2UgfTsKICAgIGxldCBwYWdlczogVmVjPCZzZXJkZV9qc29uOjpWYWx1ZT4gPSB0YXJnZXRzCiAgICAgICAgLml0ZXIoKQogICAgICAgIC5maWx0ZXIofHR8IHQuZ2V0KCJ0eXBlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikgPT0gU29tZSgicGFnZSIpKQogICAgICAgIC5jb2xsZWN0KCk7CgogICAgaWYgcGFnZXMuaXNfZW1wdHkoKSB7CiAgICAgICAgLy8gQnJvd3NlciBpcyB1cCBidXQgbm90aGluZyBvcGVuZWQgeWV0OyB0cmVhdCBpdCBhcyBvdXJzLgogICAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIHBhZ2VzLml0ZXIoKS5hbnkofHR8IHsKICAgICAgICBsZXQgdXJsID0gdC5nZXQoInVybCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgIXVybC5zdGFydHNfd2l0aCgiaHR0cDovLzEyNy4wLjAuMToxNDIwIikgJiYgIXVybC5zdGFydHNfd2l0aCgidGF1cmk6Ly8iKQogICAgfSkKfQoKZm4gbGlzdF90YXJnZXRzKHBvcnQ6IHUxNikgLT4gT3B0aW9uPFZlYzxWYWx1ZT4+IHsKICAgIGxldCBjbGllbnQgPSByZXF3ZXN0OjpibG9ja2luZzo6Q2xpZW50OjpidWlsZGVyKCkKICAgICAgICAudGltZW91dChEdXJhdGlvbjo6ZnJvbV9taWxsaXMoOTAwKSkKICAgICAgICAuYnVpbGQoKQogICAgICAgIC5vaygpPzsKICAgIGxldCByZXNwb25zZSA9IGNsaWVudC5nZXQoZm9ybWF0ISgiaHR0cDovLzEyNy4wLjAuMTp7cG9ydH0vanNvbiIpKS5zZW5kKCkub2soKT87CiAgICBpZiAhcmVzcG9uc2Uuc3RhdHVzKCkuaXNfc3VjY2VzcygpIHsKICAgICAgICByZXR1cm4gTm9uZTsKICAgIH0KICAgIHJlc3BvbnNlLmpzb246OjxWZWM8VmFsdWU+PigpLm9rKCkKfQoKZm4gZGVmYXVsdF9jaHJvbWVfY2FuZGlkYXRlcygpIC0+IFZlYzxzdGQ6OnBhdGg6OlBhdGhCdWY+IHsKICAgIGxldCBtdXQgb3V0ID0gVmVjOjpuZXcoKTsKICAgIC8vIENocm9tZSBmaXJzdCwgcGVyLXVzZXIgaW5zdGFsbCBiZWZvcmUgbWFjaGluZS13aWRlOiBhIHBlci11c2VyIENocm9tZSBpcyBjb21tb24KICAgIC8vIGFuZCBtdXN0IG5vdCBsb3NlIHRvIGFuIEVkZ2UgdGhhdCBoYXBwZW5zIHRvIGxpdmUgaW4gUHJvZ3JhbSBGaWxlcy4KICAgIGlmIGxldCBPayhsb2NhbCkgPSBzdGQ6OmVudjo6dmFyKCJMT0NBTEFQUERBVEEiKSB7CiAgICAgICAgb3V0LnB1c2goc3RkOjpwYXRoOjpQYXRoOjpuZXcoJmxvY2FsKS5qb2luKCJHb29nbGUvQ2hyb21lL0FwcGxpY2F0aW9uL2Nocm9tZS5leGUiKSk7CiAgICB9CiAgICBpZiBsZXQgT2socGYpID0gc3RkOjplbnY6OnZhcigiUHJvZ3JhbUZpbGVzIikgewogICAgICAgIG91dC5wdXNoKHN0ZDo6cGF0aDo6UGF0aDo6bmV3KCZwZikuam9pbigiR29vZ2xlL0Nocm9tZS9BcHBsaWNhdGlvbi9jaHJvbWUuZXhlIikpOwogICAgfQogICAgaWYgbGV0IE9rKHBmODYpID0gc3RkOjplbnY6OnZhcigiUHJvZ3JhbUZpbGVzKHg4NikiKSB7CiAgICAgICAgb3V0LnB1c2goc3RkOjpwYXRoOjpQYXRoOjpuZXcoJnBmODYpLmpvaW4oIkdvb2dsZS9DaHJvbWUvQXBwbGljYXRpb24vY2hyb21lLmV4ZSIpKTsKICAgICAgICBvdXQucHVzaChzdGQ6OnBhdGg6OlBhdGg6Om5ldygmcGY4Nikuam9pbigiTWljcm9zb2Z0L0VkZ2UvQXBwbGljYXRpb24vbXNlZGdlLmV4ZSIpKTsKICAgIH0KICAgIGlmIGxldCBPayhwZikgPSBzdGQ6OmVudjo6dmFyKCJQcm9ncmFtRmlsZXMiKSB7CiAgICAgICAgb3V0LnB1c2goc3RkOjpwYXRoOjpQYXRoOjpuZXcoJnBmKS5qb2luKCJNaWNyb3NvZnQvRWRnZS9BcHBsaWNhdGlvbi9tc2VkZ2UuZXhlIikpOwogICAgfQogICAgb3V0Cn0KCmZuIGRlZmF1bHRfcHJvZmlsZV9kaXIoKSAtPiBPcHRpb248c3RkOjpwYXRoOjpQYXRoQnVmPiB7CiAgICBzdGQ6OmVudjo6dmFyX29zKCJBUFBEQVRBIikKICAgICAgICAubWFwKHxiYXNlfCBzdGQ6OnBhdGg6OlBhdGhCdWY6OmZyb20oYmFzZSkuam9pbigibHlyaWMtZmxvYXQiKS5qb2luKCJjaHJvbWUtY2RwLXByb2ZpbGUiKSkKfQoKLy8vIEJyaW5nIHVwIHRoZSBkZWJ1ZyBicm93c2VyIGlmIGl0IGlzIG5vdCBhbHJlYWR5IHRoZXJlLgovLy8KLy8vIFRoZSBEZXZUb29scyBwb3J0IGNhbiBvbmx5IGJlIG9wZW5lZCBhdCBsYXVuY2ggdGltZSwgc28gYW4gYWxyZWFkeSBydW5uaW5nIENocm9tZQovLy8gY2FuIG5ldmVyIGJlIGF0dGFjaGVkIHRvLiBUaGlzIG1ha2VzIHRoYXQgY29uc3RyYWludCBpbnZpc2libGUgdG8gdGhlIHVzZXI6IHRoZQovLy8gb3ZlcmxheSBzdGFydHMgaXRzIG93biBicm93c2VyIGluc3RlYWQgb2YgYXNraW5nIHRoZW0gdG8gcmVtZW1iZXIgYSBzY3JpcHQuCnB1YiBmbiBsYXVuY2hfYnJvd3Nlcihwb3J0OiB1MTYsIGNocm9tZV9wYXRoOiBPcHRpb248JnN0cj4sIHByb2ZpbGVfZGlyOiBPcHRpb248JnN0cj4sIHVybDogJnN0cikgLT4gYm9vbCB7CiAgICBpZiBicm93c2VyX2FsaXZlKHBvcnQpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICBsZXQgY2hyb21lID0gY2hyb21lX3BhdGgKICAgICAgICAubWFwKHN0ZDo6cGF0aDo6UGF0aEJ1Zjo6ZnJvbSkKICAgICAgICAuZmlsdGVyKHxwfCBwLmV4aXN0cygpKQogICAgICAgIC5vcl9lbHNlKHx8IGRlZmF1bHRfY2hyb21lX2NhbmRpZGF0ZXMoKS5pbnRvX2l0ZXIoKS5maW5kKHxwfCBwLmV4aXN0cygpKSk7CiAgICBsZXQgU29tZShjaHJvbWUpID0gY2hyb21lIGVsc2UgewogICAgICAgIGVwcmludGxuISgiW2NkcF0gbm8gY2hyb21lL2VkZ2UgZXhlY3V0YWJsZSBmb3VuZDsgc2V0IGNkcF9jaHJvbWVfcGF0aCIpOwogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH07CgogICAgbGV0IHByb2ZpbGUgPSBwcm9maWxlX2RpcgogICAgICAgIC5tYXAoc3RkOjpwYXRoOjpQYXRoQnVmOjpmcm9tKQogICAgICAgIC5maWx0ZXIofHB8ICFwLmFzX29zX3N0cigpLmlzX2VtcHR5KCkpCiAgICAgICAgLm9yX2Vsc2UoZGVmYXVsdF9wcm9maWxlX2Rpcik7CiAgICBpZiBsZXQgU29tZShkaXIpID0gJnByb2ZpbGUgewogICAgICAgIGxldCBfID0gc3RkOjpmczo6Y3JlYXRlX2Rpcl9hbGwoZGlyKTsKICAgIH0KCiAgICAvLyBMYXVuY2ggdGhyb3VnaCBTaGVsbEV4ZWN1dGUgcmF0aGVyIHRoYW4gQ3JlYXRlUHJvY2Vzcy4KICAgIC8vCiAgICAvLyBNZWFzdXJlZCBvbiB0aGUgZGV2ZWxvcG1lbnQgbWFjaGluZTogdGhpcyBwcm9jZXNzIHJ1bnMgaW5zaWRlIGEgV2luZG93cyBqb2IKICAgIC8vIG9iamVjdCAodGhlIGhhcm5lc3Mgc2FuZGJveCkuIFRoZSBleGFjdCBzYW1lIGNvbW1hbmQgbGluZSBoYW5kZWQgdG8gQ3JlYXRlUHJvY2VzcwogICAgLy8gbWFkZSBDaHJvbWUgZXhpdCBpbW1lZGlhdGVseSB3aXRoIFNUQVRVU19CUkVBS1BPSU5UICgweDgwMDAwMDAzLCBhIENocm9taXVtIENIRUNLCiAgICAvLyBmYWlsdXJlKSwgd2hpbGUgc2hlbGwtc3RhcnRlZCBDaHJvbWUgKFN0YXJ0LVByb2Nlc3MgLyBFeHBsb3JlcikgbGF1bmNoZWQgZmluZS4KICAgIC8vIFNoZWxsRXhlY3V0ZSBhbHNvIGtlZXBzIG91ciBzdGRpbyBoYW5kbGVzIG91dCBvZiB0aGUgYnJvd3NlcidzIGVudmlyb25tZW50LgogICAgLy8gRXZlcnkgc3dpdGNoIG11c3QgY29tZSBiZWZvcmUgdGhlIFVSTDogQ2hyb21lIHRyZWF0cyB0aGUgZmlyc3Qgbm9uLXN3aXRjaAogICAgLy8gYXJndW1lbnQgYXMgdGhlIHN0YXJ0IG9mIHRoZSBVUkwgbGlzdCwgc28gYSB0cmFpbGluZyBgLS11c2VyLWRhdGEtZGlyYCBpcwogICAgLy8gc2lsZW50bHkgZHJvcHBlZCBhbmQgdGhlIGxhdW5jaCBpcyBmb3J3YXJkZWQgdG8gYW4gYWxyZWFkeSBydW5uaW5nIGluc3RhbmNlCiAgICAvLyAod2hpY2ggbmV2ZXIgb3BlbnMgYSBkZWJ1ZyBwb3J0KS4KICAgIGxldCBtdXQgcGFyYW1zID0gZm9ybWF0ISgiLS1yZW1vdGUtZGVidWdnaW5nLXBvcnQ9e3BvcnR9Iik7CiAgICBpZiBsZXQgU29tZShkaXIpID0gJnByb2ZpbGUgewogICAgICAgIHBhcmFtcy5wdXNoX3N0cigmZm9ybWF0ISgiIC0tdXNlci1kYXRhLWRpcj1cInt9XCIiLCBkaXIuZGlzcGxheSgpKSk7CiAgICB9CiAgICBwYXJhbXMucHVzaF9zdHIoIiAtLW5vLWZpcnN0LXJ1biAtLW5vLWRlZmF1bHQtYnJvd3Nlci1jaGVjayAtLW5ldy13aW5kb3ciKTsKICAgIHBhcmFtcy5wdXNoX3N0cigmZm9ybWF0ISgiIFwie3VybH1cIiIpKTsKCiAgICBtYXRjaCBzaGVsbF9leGVjdXRlKCZjaHJvbWUsICZwYXJhbXMpIHsKICAgICAgICB0cnVlID0+IHsKICAgICAgICAgICAgcHJpbnRsbiEoIltjZHBdIGxhdW5jaCByZXF1ZXN0ZWQ6IHt9IChwb3J0IHtwb3J0fSkiLCBjaHJvbWUuZGlzcGxheSgpKTsKICAgICAgICAgICAgdHJ1ZQogICAgICAgIH0KICAgICAgICBmYWxzZSA9PiB7CiAgICAgICAgICAgIGVwcmludGxuISgiW2NkcF0gc2hlbGwgbGF1bmNoIGZhaWxlZCBmb3Ige30iLCBjaHJvbWUuZGlzcGxheSgpKTsKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9Cn0KCiNbY2ZnKHdpbmRvd3MpXQpmbiBzaGVsbF9leGVjdXRlKGV4ZTogJnN0ZDo6cGF0aDo6UGF0aCwgcGFyYW1zOiAmc3RyKSAtPiBib29sIHsKICAgIHVzZSBzdGQ6Om9zOjp3aW5kb3dzOjpmZmk6Ok9zU3RyRXh0OwoKICAgICNbbGluayhuYW1lID0gInNoZWxsMzIiKV0KICAgIGV4dGVybiAic3lzdGVtIiB7CiAgICAgICAgZm4gU2hlbGxFeGVjdXRlVygKICAgICAgICAgICAgaHduZDogaXNpemUsCiAgICAgICAgICAgIG9wZXJhdGlvbjogKmNvbnN0IHUxNiwKICAgICAgICAgICAgZmlsZTogKmNvbnN0IHUxNiwKICAgICAgICAgICAgcGFyYW1ldGVyczogKmNvbnN0IHUxNiwKICAgICAgICAgICAgZGlyZWN0b3J5OiAqY29uc3QgdTE2LAogICAgICAgICAgICBzaG93OiBpMzIsCiAgICAgICAgKSAtPiBpc2l6ZTsKICAgIH0KCiAgICBmbiB3aWRlKHM6ICZbdTE2XSkgLT4gVmVjPHUxNj4gewogICAgICAgIHMuaXRlcigpLmNvcGllZCgpLmNoYWluKHN0ZDo6aXRlcjo6b25jZSgwKSkuY29sbGVjdCgpCiAgICB9CgogICAgbGV0IG9wOiBWZWM8dTE2PiA9ICJvcGVuIi5lbmNvZGVfdXRmMTYoKS5jb2xsZWN0KCk7CiAgICBsZXQgZmlsZTogVmVjPHUxNj4gPSBleGUuYXNfb3Nfc3RyKCkuZW5jb2RlX3dpZGUoKS5jb2xsZWN0KCk7CiAgICBsZXQgcGFyOiBWZWM8dTE2PiA9IHBhcmFtcy5lbmNvZGVfdXRmMTYoKS5jb2xsZWN0KCk7CgogICAgbGV0IG9wID0gd2lkZSgmb3ApOwogICAgbGV0IGZpbGUgPSB3aWRlKCZmaWxlKTsKICAgIGxldCBwYXIgPSB3aWRlKCZwYXIpOwoKICAgIGxldCByZXN1bHQgPSB1bnNhZmUgewogICAgICAgIFNoZWxsRXhlY3V0ZVcoCiAgICAgICAgICAgIDAsCiAgICAgICAgICAgIG9wLmFzX3B0cigpLAogICAgICAgICAgICBmaWxlLmFzX3B0cigpLAogICAgICAgICAgICBwYXIuYXNfcHRyKCksCiAgICAgICAgICAgIHN0ZDo6cHRyOjpudWxsKCksCiAgICAgICAgICAgIDEsIC8vIFNXX1NIT1dOT1JNQUwKICAgICAgICApCiAgICB9OwogICAgLy8gU2hlbGxFeGVjdXRlIHJldHVybnMgYSB2YWx1ZSA+IDMyIG9uIHN1Y2Nlc3MuCiAgICByZXN1bHQgPiAzMgp9CgojW2NmZyhub3Qod2luZG93cykpXQpmbiBzaGVsbF9leGVjdXRlKGV4ZTogJnN0ZDo6cGF0aDo6UGF0aCwgX3BhcmFtczogJnN0cikgLT4gYm9vbCB7CiAgICBzdGQ6OnByb2Nlc3M6OkNvbW1hbmQ6Om5ldyhleGUpLnNwYXduKCkuaXNfb2soKQp9CgpwdWIgc3RydWN0IENkcFByb3ZpZGVyIHsgICAgcG9ydDogdTE2LAogICAgZW5hYmxlZDogYm9vbCwKICAgIHNvY2tldDogTXV0ZXg8T3B0aW9uPFNvY2tldD4+LAogICAgbGFzdF9lcnJvcjogTXV0ZXg8T3B0aW9uPFN0cmluZz4+LAp9CgppbXBsIENkcFByb3ZpZGVyIHsKICAgIHB1YiBmbiBuZXcocG9ydDogdTE2LCBlbmFibGVkOiBib29sKSAtPiBTZWxmIHsKICAgICAgICBTZWxmIHsKICAgICAgICAgICAgcG9ydCwKICAgICAgICAgICAgZW5hYmxlZCwKICAgICAgICAgICAgc29ja2V0OiBNdXRleDo6bmV3KE5vbmUpLAogICAgICAgICAgICBsYXN0X2Vycm9yOiBNdXRleDo6bmV3KE5vbmUpLAogICAgICAgIH0KICAgIH0KCiAgICBmbiBub3RlX2Vycm9yKCZzZWxmLCBlcnI6IGltcGwgc3RkOjpmbXQ6OkRpc3BsYXkpIHsKICAgICAgICBsZXQgdGV4dCA9IGVyci50b19zdHJpbmcoKTsKICAgICAgICBsZXQgbXV0IHNsb3QgPSBzZWxmLmxhc3RfZXJyb3IubG9jaygpLnVud3JhcCgpOwogICAgICAgIC8vIE9ubHkgbG9nIG9uIGNoYW5nZSwgb3RoZXJ3aXNlIGEgbWlzc2luZyBicm93c2VyIGZsb29kcyB0aGUgY29uc29sZS4KICAgICAgICBpZiBzbG90LmFzX2RlcmVmKCkgIT0gU29tZSh0ZXh0LmFzX3N0cigpKSB7CiAgICAgICAgICAgIGVwcmludGxuISgiW2NkcF0ge3RleHR9Iik7CiAgICAgICAgICAgICpzbG90ID0gU29tZSh0ZXh0KTsKICAgICAgICB9CiAgICB9CgogICAgZm4gcGFnZV93c191cmwoJnNlbGYpIC0+IFJlc3VsdDxTdHJpbmcsIFN0cmluZz4gewogICAgICAgIGxldCB1cmwgPSBmb3JtYXQhKCJodHRwOi8vMTI3LjAuMC4xOnt9L2pzb24iLCBzZWxmLnBvcnQpOwogICAgICAgIGxldCByZXNwb25zZSA9IHJlcXdlc3Q6OmJsb2NraW5nOjpDbGllbnQ6OmJ1aWxkZXIoKQogICAgICAgICAgICAudGltZW91dChEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMTIwMCkpCiAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlfCBlLnRvX3N0cmluZygpKT8KICAgICAgICAgICAgLmdldCgmdXJsKQogICAgICAgICAgICAuc2VuZCgpCiAgICAgICAgICAgIC5tYXBfZXJyKHxlfCBmb3JtYXQhKCJkZXZ0b29scyBlbmRwb2ludCB1bnJlYWNoYWJsZToge2V9IikpPzsKCiAgICAgICAgbGV0IHRhcmdldHM6IFZhbHVlID0gcmVzcG9uc2UuanNvbigpLm1hcF9lcnIofGV8IGUudG9fc3RyaW5nKCkpPzsKICAgICAgICBsZXQgbGlzdCA9IHRhcmdldHMuYXNfYXJyYXkoKS5va19vcigidW5leHBlY3RlZCAvanNvbiBwYXlsb2FkIik/OwogICAgICAgIGZvciB0YXJnZXQgaW4gbGlzdCB7CiAgICAgICAgICAgIGxldCBwYWdlX3VybCA9IHRhcmdldC5nZXQoInVybCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICAgICAgICAgIGlmIHBhZ2VfdXJsLmNvbnRhaW5zKCJtdXNpYy5hcHBsZS5jb20iKSB7CiAgICAgICAgICAgICAgICBpZiBsZXQgU29tZSh3cykgPSB0YXJnZXQuZ2V0KCJ3ZWJTb2NrZXREZWJ1Z2dlclVybCIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gT2sod3MudG9fc3RyaW5nKCkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIEVycigibm8gbXVzaWMuYXBwbGUuY29tIHBhZ2UgaW4gdGhlIGRlYnVnZ2VkIGJyb3dzZXIiLmludG8oKSkKICAgIH0KCiAgICBmbiBlbnN1cmVfc29ja2V0KCZzZWxmKSAtPiBPcHRpb248c3RkOjpzeW5jOjpNdXRleEd1YXJkPCdfLCBPcHRpb248U29ja2V0Pj4+IHsKICAgICAgICBsZXQgbXV0IGd1YXJkID0gc2VsZi5zb2NrZXQubG9jaygpLm9rKCk/OwogICAgICAgIGlmIGd1YXJkLmlzX25vbmUoKSB7CiAgICAgICAgICAgIG1hdGNoIHNlbGYucGFnZV93c191cmwoKSB7CiAgICAgICAgICAgICAgICBPayh1cmwpID0+IG1hdGNoIGNvbm5lY3QoJnVybCkgewogICAgICAgICAgICAgICAgICAgIE9rKCh3cywgXykpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgZXByaW50bG4hKCJbY2RwXSBjb25uZWN0ZWQgdG8ge3VybH0iKTsKICAgICAgICAgICAgICAgICAgICAgICAgKmd1YXJkID0gU29tZSh3cyk7CiAgICAgICAgICAgICAgICAgICAgICAgICpzZWxmLmxhc3RfZXJyb3IubG9jaygpLnVud3JhcCgpID0gTm9uZTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgRXJyKGVycikgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBzZWxmLm5vdGVfZXJyb3IoZm9ybWF0ISgid2Vic29ja2V0IGNvbm5lY3QgZmFpbGVkOiB7ZXJyfSIpKTsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIE5vbmU7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIEVycihlcnIpID0+IHsKICAgICAgICAgICAgICAgICAgICBzZWxmLm5vdGVfZXJyb3IoZXJyKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBTb21lKGd1YXJkKQogICAgfQoKICAgIGZuIGV2YWx1YXRlKCZzZWxmLCBzb2NrZXQ6ICZtdXQgU29ja2V0LCBleHByZXNzaW9uOiAmc3RyLCB0aW1lb3V0OiBEdXJhdGlvbikgLT4gUmVzdWx0PFZhbHVlLCBTdHJpbmc+IHsKICAgICAgICBsZXQgcGF5bG9hZCA9IGpzb24hKHsKICAgICAgICAgICAgImlkIjogMSwKICAgICAgICAgICAgIm1ldGhvZCI6ICJSdW50aW1lLmV2YWx1YXRlIiwKICAgICAgICAgICAgInBhcmFtcyI6IHsgImV4cHJlc3Npb24iOiBleHByZXNzaW9uLCAicmV0dXJuQnlWYWx1ZSI6IHRydWUsICJhd2FpdFByb21pc2UiOiB0cnVlIH0KICAgICAgICB9KTsKICAgICAgICBzb2NrZXQKICAgICAgICAgICAgLnNlbmQoTWVzc2FnZTo6VGV4dChwYXlsb2FkLnRvX3N0cmluZygpKSkKICAgICAgICAgICAgLm1hcF9lcnIofGV8IGZvcm1hdCEoInNlbmQgZmFpbGVkOiB7ZX0iKSk/OwoKICAgICAgICBsZXQgZGVhZGxpbmUgPSBJbnN0YW50Ojpub3coKSArIHRpbWVvdXQ7CiAgICAgICAgd2hpbGUgSW5zdGFudDo6bm93KCkgPCBkZWFkbGluZSB7CiAgICAgICAgICAgIGxldCBtZXNzYWdlID0gc29ja2V0LnJlYWQoKS5tYXBfZXJyKHxlfCBmb3JtYXQhKCJyZWFkIGZhaWxlZDoge2V9IikpPzsKICAgICAgICAgICAgbGV0IHRleHQgPSBtYXRjaCBtZXNzYWdlIHsKICAgICAgICAgICAgICAgIE1lc3NhZ2U6OlRleHQodCkgPT4gdC50b19zdHJpbmcoKSwKICAgICAgICAgICAgICAgIE1lc3NhZ2U6OkJpbmFyeShiKSA9PiBTdHJpbmc6OmZyb21fdXRmOF9sb3NzeSgmYikudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICBNZXNzYWdlOjpDbG9zZShfKSA9PiByZXR1cm4gRXJyKCJzb2NrZXQgY2xvc2VkIi5pbnRvKCkpLAogICAgICAgICAgICAgICAgXyA9PiBjb250aW51ZSwKICAgICAgICAgICAgfTsKICAgICAgICAgICAgbGV0IHZhbHVlOiBWYWx1ZSA9IHNlcmRlX2pzb246OmZyb21fc3RyKCZ0ZXh0KS5tYXBfZXJyKHxlfCBlLnRvX3N0cmluZygpKT87CiAgICAgICAgICAgIGlmIHZhbHVlLmdldCgiaWQiKS5hbmRfdGhlbihWYWx1ZTo6YXNfaTY0KSAhPSBTb21lKDEpIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlOyAvLyBzb21lIG90aGVyIGV2ZW50CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgbGV0IFNvbWUoZXJyb3IpID0gdmFsdWUuZ2V0KCJlcnJvciIpIHsKICAgICAgICAgICAgICAgIHJldHVybiBFcnIoZm9ybWF0ISgiY2RwIGVycm9yOiB7ZXJyb3J9IikpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGxldCByZXN1bHQgPSB2YWx1ZQogICAgICAgICAgICAgICAgLmdldCgicmVzdWx0IikKICAgICAgICAgICAgICAgIC5hbmRfdGhlbih8cnwgci5nZXQoInJlc3VsdCIpKQogICAgICAgICAgICAgICAgLmFuZF90aGVuKHxyfCByLmdldCgidmFsdWUiKSkKICAgICAgICAgICAgICAgIC5jbG9uZWQoKQogICAgICAgICAgICAgICAgLnVud3JhcF9vcihWYWx1ZTo6TnVsbCk7CiAgICAgICAgICAgIGlmIGxldCBTb21lKHRleHQpID0gcmVzdWx0LmFzX3N0cigpIHsKICAgICAgICAgICAgICAgIHJldHVybiBzZXJkZV9qc29uOjpmcm9tX3N0cih0ZXh0KS5tYXBfZXJyKHxlfCBmb3JtYXQhKCJiYWQgcHJvYmUganNvbjoge2V9IikpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBFcnIoInByb2JlIHJldHVybmVkIG5vIHZhbHVlIi5pbnRvKCkpOwogICAgICAgIH0KICAgICAgICBFcnIoInByb2JlIHRpbWVkIG91dCIuaW50bygpKQogICAgfQoKICAgIC8vLyBGZXRjaCBBcHBsZSdzIG93biBUVE1MIGZvciB0aGUgcGxheWluZyB0cmFjay4KICAgIC8vLwogICAgLy8vIFRoZSByZXF1ZXN0IHJ1bnMgKippbnNpZGUgdGhlIHBhZ2UqKiwgcmV1c2luZyBNdXNpY0tpdCdzIGRldmVsb3BlciB0b2tlbiBhbmQKICAgIC8vLyB0aGUgc2lnbmVkLWluIGBtdXNpY1VzZXJUb2tlbmAuIFRoYXQgaXMgYm90aCB0aGUgb25seSB3YXkgdG8gZ2V0IHRoZSBwYXlsb2FkCiAgICAvLy8gKHRoZSBSdXN0IHByb2Nlc3MgaGFzIG5vIGNyZWRlbnRpYWxzKSBhbmQgYSB3YXkgYXJvdW5kIHRoZSBmbGFreSBkaXJlY3QKICAgIC8vLyBuZXR3b3JrIHBhdGggZG9jdW1lbnRlZCBpbiBkb2NzL20yLXNlc3Npb24tbm90ZXMubWQuCiAgICBwdWIgZm4gZmV0Y2hfdHRtbCgmc2VsZiwgc29uZ19pZDogT3B0aW9uPCZzdHI+LCB0aXRsZTogJnN0ciwgYXJ0aXN0OiAmc3RyKSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICAgICAgaWYgIXNlbGYuZW5hYmxlZCB8fCAoc29uZ19pZC5pc19ub25lKCkgJiYgdGl0bGUuaXNfZW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICAgICAgbGV0IG11dCBndWFyZCA9IHNlbGYuZW5zdXJlX3NvY2tldCgpPzsKICAgICAgICBsZXQgc29ja2V0ID0gZ3VhcmQuYXNfbXV0KCk/OwoKICAgICAgICBsZXQgaWRfbGl0ID0gc2VyZGVfanNvbjo6dG9fc3RyaW5nKCZzb25nX2lkKS5vaygpPzsKICAgICAgICBsZXQgdGl0bGVfbGl0ID0gc2VyZGVfanNvbjo6dG9fc3RyaW5nKHRpdGxlKS5vaygpPzsKICAgICAgICBsZXQgYXJ0aXN0X2xpdCA9IHNlcmRlX2pzb246OnRvX3N0cmluZyhhcnRpc3QpLm9rKCk/OwogICAgICAgIGxldCBleHByZXNzaW9uID0gTFlSSUNTX0VYUFIKICAgICAgICAgICAgLnJlcGxhY2UoIl9fU09OR19JRF9fIiwgJmlkX2xpdCkKICAgICAgICAgICAgLnJlcGxhY2UoIl9fVElUTEVfXyIsICZ0aXRsZV9saXQpCiAgICAgICAgICAgIC5yZXBsYWNlKCJfX0FSVElTVF9fIiwgJmFydGlzdF9saXQpOwoKICAgICAgICBtYXRjaCBzZWxmLmV2YWx1YXRlKHNvY2tldCwgJmV4cHJlc3Npb24sIER1cmF0aW9uOjpmcm9tX21pbGxpcygxNDAwMCkpIHsKICAgICAgICAgICAgT2sodmFsdWUpID0+IHsKICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKGVycm9yKSA9IHZhbHVlLmdldCgiZXJyb3IiKS5hbmRfdGhlbihWYWx1ZTo6YXNfc3RyKSB7CiAgICAgICAgICAgICAgICAgICAgc2VsZi5ub3RlX2Vycm9yKGZvcm1hdCEoImx5cmljcyBwcm9iZToge2Vycm9yfSIpKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHN0YXR1cykgPSB2YWx1ZS5nZXQoInN0YXR1cyIpLmFuZF90aGVuKFZhbHVlOjphc19pNjQpIHsKICAgICAgICAgICAgICAgICAgICBpZiBzdGF0dXMgIT0gMjAwIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5ub3RlX2Vycm9yKGZvcm1hdCEoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAibHlyaWNzIEhUVFAge3N0YXR1c30gYXQgc3RhZ2Uge30gZm9yICd7dGl0bGV9JyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZS5nZXQoInN0YWdlIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCI/IikKICAgICAgICAgICAgICAgICAgICAgICAgKSk7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxldCB0dG1sID0gdmFsdWUuZ2V0KCJ0dG1sIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cik/OwogICAgICAgICAgICAgICAgaWYgdHRtbC5sZW4oKSA8IDMyIHsKICAgICAgICAgICAgICAgICAgICBzZWxmLm5vdGVfZXJyb3IoImx5cmljcyBwYXlsb2FkIGxvb2tlZCBlbXB0eSIpOwogICAgICAgICAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgU29tZSh0dG1sLnRvX3N0cmluZygpKQogICAgICAgICAgICB9CiAgICAgICAgICAgIEVycihlcnIpID0+IHsKICAgICAgICAgICAgICAgIHNlbGYubm90ZV9lcnJvcihmb3JtYXQhKCJseXJpY3MgcmVxdWVzdCBmYWlsZWQ6IHtlcnJ9IikpOwogICAgICAgICAgICAgICAgKmd1YXJkID0gTm9uZTsKICAgICAgICAgICAgICAgIE5vbmUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKaW1wbCBQcm92aWRlciBmb3IgQ2RwUHJvdmlkZXIgeyAgICBmbiBpZCgmc2VsZikgLT4gJidzdGF0aWMgc3RyIHsKICAgICAgICAiY2RwIgogICAgfQoKICAgIGZuIHByZWNpc2lvbigmc2VsZikgLT4gdTggewogICAgICAgIDIKICAgIH0KCiAgICBmbiBwb2xsKCZzZWxmKSAtPiBPcHRpb248UGxheWJhY2tTbmFwc2hvdD4gewogICAgICAgIGlmICFzZWxmLmVuYWJsZWQgewogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICAgICAgbGV0IG11dCBndWFyZCA9IHNlbGYuZW5zdXJlX3NvY2tldCgpPzsKICAgICAgICBsZXQgc29ja2V0ID0gZ3VhcmQuYXNfbXV0KCk/OwogICAgICAgIGxldCBwcm9iZSA9IG1hdGNoIHNlbGYuZXZhbHVhdGUoc29ja2V0LCBQUk9CRV9FWFBSLCBEdXJhdGlvbjo6ZnJvbV9taWxsaXMoMTUwMCkpIHsKICAgICAgICAgICAgT2sodikgPT4gdiwKICAgICAgICAgICAgRXJyKGVycikgPT4gewogICAgICAgICAgICAgICAgc2VsZi5ub3RlX2Vycm9yKGVycik7CiAgICAgICAgICAgICAgICAqZ3VhcmQgPSBOb25lOyAvLyBmb3JjZSBhIHJlY29ubmVjdCBuZXh0IHRpY2sKICAgICAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgICAgICB9CiAgICAgICAgfTsKCiAgICAgICAgbGV0IHBvcyA9IHByb2JlLmdldCgicG9zIikuYW5kX3RoZW4oVmFsdWU6OmFzX2Y2NCk/OwogICAgICAgIGxldCBkdXIgPSBwcm9iZS5nZXQoImR1ciIpLmFuZF90aGVuKFZhbHVlOjphc19mNjQpLnVud3JhcF9vcigwLjApOwogICAgICAgIGxldCBwYXVzZWQgPSBwcm9iZS5nZXQoInBhdXNlZCIpLmFuZF90aGVuKFZhbHVlOjphc19ib29sKS51bndyYXBfb3IodHJ1ZSk7CiAgICAgICAgbGV0IHRpdGxlID0gcHJvYmUuZ2V0KCJ0aXRsZSIpLmFuZF90aGVuKFZhbHVlOjphc19zdHIpLnVud3JhcF9vcigiIikudG9fc3RyaW5nKCk7CiAgICAgICAgbGV0IGFydGlzdCA9IHByb2JlLmdldCgiYXJ0aXN0IikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKS50b19zdHJpbmcoKTsKICAgICAgICBsZXQgYWxidW0gPSBwcm9iZS5nZXQoImFsYnVtIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikudW53cmFwX29yKCIiKS50b19zdHJpbmcoKTsKICAgICAgICBsZXQgc29uZ19pZCA9IHByb2JlLmdldCgic29uZ0lkIikuYW5kX3RoZW4oVmFsdWU6OmFzX3N0cikubWFwKHN0cjo6dG9fc3RyaW5nKTsKCiAgICAgICAgaWYgdGl0bGUuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgIHJldHVybiBOb25lOyAvLyBub3RoaW5nIHBsYXlpbmc7IGxldCBTTVRDL1VJIGRlY2lkZQogICAgICAgIH0KCiAgICAgICAgU29tZShQbGF5YmFja1NuYXBzaG90IHsKICAgICAgICAgICAgdHJhY2s6IFNvbWUoVHJhY2tJbmZvIHsKICAgICAgICAgICAgICAgIHRpdGxlLAogICAgICAgICAgICAgICAgYXJ0aXN0LAogICAgICAgICAgICAgICAgYWxidW0sCiAgICAgICAgICAgICAgICBhcHBfaWQ6ICJjZHAiLmludG8oKSwKICAgICAgICAgICAgICAgIHNvbmdfaWQsCiAgICAgICAgICAgIH0pLAogICAgICAgICAgICBzdGF0ZTogaWYgcGF1c2VkIHsgUGxheWJhY2tTdGF0ZTo6UGF1c2VkIH0gZWxzZSB7IFBsYXliYWNrU3RhdGU6OlBsYXlpbmcgfSwKICAgICAgICAgICAgcG9zaXRpb25fc2VjczogcG9zLAogICAgICAgICAgICBkdXJhdGlvbl9zZWNzOiBkdXIsCiAgICAgICAgICAgIC8vIFRoZSBwYWdlIHJlcG9ydHMgbGl2ZSB2YWx1ZXMsIHNvIHRoZSByZXBvcnQgaXMgbmV2ZXIgc3RhbGUuCiAgICAgICAgICAgIHJlcG9ydF9hZ2VfbXM6IDAsCiAgICAgICAgICAgIHNvdXJjZTogImNkcCIuaW50bygpLAogICAgICAgIH0pCiAgICB9Cn0KCiNbY2ZnKHRlc3QpXQptb2QgdGVzdHMgewogICAgdXNlIHN1cGVyOjpQUk9CRV9FWFBSOwoKICAgICNbdGVzdF0KICAgIGZuIHByb2JlX2V4cHJlc3Npb25faXNfYV9zaW5nbGVfZXhwcmVzc2lvbigpIHsKICAgICAgICAvLyBBIHN0cmF5IG5ld2xpbmUgb3Igc2VtaWNvbG9uIGF0IHRvcCBsZXZlbCB3b3VsZCBtYWtlIFJ1bnRpbWUuZXZhbHVhdGUKICAgICAgICAvLyByZXR1cm4gdW5kZWZpbmVkIGFuZCB0aGUgcHJvdmlkZXIgd291bGQgc2lsZW50bHkgbmV2ZXIgcmVwb3J0LgogICAgICAgIGFzc2VydCEoUFJPQkVfRVhQUi50cmltX3N0YXJ0KCkuc3RhcnRzX3dpdGgoIigoKSIpKTsKICAgICAgICBhc3NlcnQhKFBST0JFX0VYUFIudHJpbV9lbmQoKS5lbmRzX3dpdGgoIikoKSIpKTsKICAgIH0KfQo=
+//! CDP provider — precise playback position and Apple's own lyrics.
+//!
+//! How it works (verified against a live Apple Music page):
+//!   * Chrome is started with `--remote-debugging-port=PORT` and an isolated profile
+//!     (`tools/start-chrome-cdp.ps1`).
+//!   * `GET http://127.0.0.1:PORT/json` lists the pages; we pick the music.apple.com one
+//!     and connect to its `webSocketDebuggerUrl`.
+//!   * `Runtime.evaluate` runs a small expression *inside* the page and returns JSON.
+//!
+//! Why this exists: Apple Music publishes its MediaSession timeline exactly once per
+//! playback event, so SMTC can only extrapolate from an anchor (see docs/m2-session-notes.md).
+//! Inside the page, `audio.currentTime` is exact.
+//!
+//! Notes from probing the live page:
+//!   * `window.MusicKit.getInstance().developerToken` is readable (a JWT, ~268 chars).
+//!   * `/v1/catalog/{sf}/search?types=songs` works with that token.
+//!   * `/v1/catalog/{sf}/songs/{id}/lyrics` returns 404 "No related resources", so the
+//!     lyrics payload is captured from the player's own traffic instead
+//!     (`tools/cdp-netlog.mjs` collects it).
+
+use super::{PlaybackSnapshot, PlaybackState, Provider, TrackInfo};
+use serde_json::{json, Value};
+use std::sync::Mutex;
+use std::time::{Duration, Instant};
+use tungstenite::{connect, Message, WebSocket};
+use tungstenite::stream::MaybeTlsStream;
+use std::net::TcpStream;
+
+type Socket = WebSocket<MaybeTlsStream<TcpStream>>;
+
+/// Runs inside the page. Must stay dependency-free and cheap: it is called ~5x/s.
+///
+/// Apple's player keeps several `<audio>` elements alive (previews for the shelves)
+/// and only one of them is the real stream, so pick the playing one rather than the
+/// first match.
+const PROBE_EXPR: &str = r#"(() => {
+  try {
+    const kit = window.MusicKit && window.MusicKit.getInstance ? window.MusicKit.getInstance() : null;
+    const mip = kit && kit._playbackController && kit._playbackController.services
+      ? kit._playbackController.services.mediaItemPlayback : null;
+    const cp = mip && mip.currentPlayback ? mip.currentPlayback : null;
+    const player = mip && mip._currentPlayer ? mip._currentPlayer : null;
+    const buf = player && player._buffer ? player._buffer : null;
+
+    // A live/concert album is streamed as ONE HLS timeline, so the media element's
+    // currentTime is concert time, not song time. Apple keeps the song's start in
+    // `currentTimestampOffset`; verified live: 607.322446 - 502.322446 = 105.000.
+    let pos = null;
+    let dur = null;
+    if (buf && Number.isFinite(buf._currentTime) && Number.isFinite(buf.currentTimestampOffset)) {
+      pos = Math.max(0, buf._currentTime - buf.currentTimestampOffset);
+    }
+    if (buf && Number.isFinite(buf.duration)) dur = buf.duration;
+
+    const meta = navigator.mediaSession && navigator.mediaSession.metadata;
+    const attrs = cp && cp.item && cp.item.attributes ? cp.item.attributes : null;
+    const songId = cp && cp.asset && cp.asset.id ? String(cp.asset.id) : null;
+
+    return JSON.stringify({
+      hasMedia: !!(buf || document.querySelector('audio')),
+      pos,
+      dur,
+      paused: player ? !!player._paused : null,
+      title: (attrs && attrs.name) || (meta ? meta.title : null),
+      artist: (attrs && attrs.artistName) || (meta ? meta.artist : null),
+      album: (attrs && attrs.albumName) || (meta ? meta.album : null),
+      songId
+    });
+  } catch (e) {
+    return JSON.stringify({ error: String(e).slice(0, 200) });
+  }
+})()"#;
+
+/// Resolves the playing song's lyrics.
+///
+/// `__SONG_ID__` is the catalog id read off `currentPlayback.asset.id`, so the normal
+/// path needs no search at all. The search branch stays as a fallback for builds where
+/// that id is not exposed.
+const LYRICS_EXPR: &str = r#"(async () => {
+  try {
+    const kit = window.MusicKit.getInstance();
+    const token = kit.developerToken;
+    const userToken = kit.musicUserToken;
+    const sf = kit.storefrontId || 'cn';
+    const wantTitle = __TITLE__;
+    const wantArtist = __ARTIST__;
+    const headers = {
+      Authorization: 'Bearer ' + token,
+      'media-user-token': userToken,
+      Origin: 'https://music.apple.com'
+    };
+    const norm = (s) => (s || '').toLowerCase().replace(/\s+/g, '');
+
+    const doFetch = async (url) => {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 6000);
+      try {
+        const res = await fetch(url, { headers, signal: ctrl.signal });
+        if (!res.ok) return { status: res.status };
+        return { status: 200, json: await res.json() };
+      } finally {
+        clearTimeout(timer);
+      }
+    };
+
+    let id = __SONG_ID__;
+    if (!id) {
+      const searchUrl = 'https://amp-api.music.apple.com/v1/catalog/' + sf + '/search?term=' +
+        encodeURIComponent((wantTitle || '') + ' ' + (wantArtist || '')) + '&types=songs&limit=10';
+      const found = await doFetch(searchUrl);
+      if (found.status !== 200) return JSON.stringify({ status: found.status, stage: 'search' });
+      const songs = (found.json.results && found.json.results.songs && found.json.results.songs.data) || [];
+      let best = null;
+      let bestScore = -1e9;
+      for (const s of songs) {
+        const a = s.attributes || {};
+        const name = norm(a.name);
+        const artist = norm(a.artistName);
+        let score = 0;
+        if (name === norm(wantTitle)) score += 100; else if (name.includes(norm(wantTitle))) score += 40; else continue;
+        if (artist.includes(norm(wantArtist)) || norm(wantArtist).includes(artist)) score += 60;
+        if (a.hasLyrics) score += 20;
+        if (score > bestScore) { bestScore = score; best = s; }
+      }
+      if (!best) return JSON.stringify({ status: 200, ttml: null, reason: 'no-match' });
+      id = best.id;
+    }
+
+    const lyricUrl = 'https://amp-api.music.apple.com/v1/catalog/' + sf + '/songs/' + id +
+      '/syllable-lyrics?l%5Blyrics%5D=zh-hans-cn&l%5Bscript%5D=zh-Hans&extend=ttmlLocalizations';
+    const got = await doFetch(lyricUrl);
+    if (got.status !== 200) return JSON.stringify({ status: got.status, stage: 'lyrics', id });
+    const item = got.json.data && got.json.data[0];
+    const attrs = item && item.attributes ? item.attributes : null;
+    const ttml = attrs ? attrs.ttmlLocalizations : null;
+    return JSON.stringify({ status: 200, id, ttml: typeof ttml === 'string' ? ttml : null });
+  } catch (e) {
+    return JSON.stringify({ error: String(e).slice(0, 200) });
+  }
+})()"#;
+
+/// Is a *playback* browser speaking the DevTools protocol on this port?
+///
+/// `/json/version` alone is not enough: debug builds expose the overlay's own WebView2
+/// on a devtools port too, and that endpoint answers happily. So we look at the page
+/// targets and ignore endpoints whose only page is the overlay itself.
+pub fn browser_alive(port: u16) -> bool {
+    let Some(targets) = list_targets(port) else { return false };
+    let pages: Vec<&serde_json::Value> = targets
+        .iter()
+        .filter(|t| t.get("type").and_then(Value::as_str) == Some("page"))
+        .collect();
+
+    if pages.is_empty() {
+        // Browser is up but nothing opened yet; treat it as ours.
+        return true;
+    }
+
+    pages.iter().any(|t| {
+        let url = t.get("url").and_then(Value::as_str).unwrap_or_default();
+        !url.starts_with("http://127.0.0.1:1420") && !url.starts_with("tauri://")
+    })
+}
+
+fn list_targets(port: u16) -> Option<Vec<Value>> {
+    let client = reqwest::blocking::Client::builder()
+        .timeout(Duration::from_millis(900))
+        .build()
+        .ok()?;
+    let response = client.get(format!("http://127.0.0.1:{port}/json")).send().ok()?;
+    if !response.status().is_success() {
+        return None;
+    }
+    response.json::<Vec<Value>>().ok()
+}
+
+fn default_chrome_candidates() -> Vec<std::path::PathBuf> {
+    let mut out = Vec::new();
+    // Chrome first, per-user install before machine-wide: a per-user Chrome is common
+    // and must not lose to an Edge that happens to live in Program Files.
+    if let Ok(local) = std::env::var("LOCALAPPDATA") {
+        out.push(std::path::Path::new(&local).join("Google/Chrome/Application/chrome.exe"));
+    }
+    if let Ok(pf) = std::env::var("ProgramFiles") {
+        out.push(std::path::Path::new(&pf).join("Google/Chrome/Application/chrome.exe"));
+    }
+    if let Ok(pf86) = std::env::var("ProgramFiles(x86)") {
+        out.push(std::path::Path::new(&pf86).join("Google/Chrome/Application/chrome.exe"));
+        out.push(std::path::Path::new(&pf86).join("Microsoft/Edge/Application/msedge.exe"));
+    }
+    if let Ok(pf) = std::env::var("ProgramFiles") {
+        out.push(std::path::Path::new(&pf).join("Microsoft/Edge/Application/msedge.exe"));
+    }
+    out
+}
+
+fn default_profile_dir() -> Option<std::path::PathBuf> {
+    std::env::var_os("APPDATA")
+        .map(|base| std::path::PathBuf::from(base).join("lyric-float").join("chrome-cdp-profile"))
+}
+
+/// Bring up the debug browser if it is not already there.
+///
+/// The DevTools port can only be opened at launch time, so an already running Chrome
+/// can never be attached to. This makes that constraint invisible to the user: the
+/// overlay starts its own browser instead of asking them to remember a script.
+pub fn launch_browser(port: u16, chrome_path: Option<&str>, profile_dir: Option<&str>, url: &str) -> bool {
+    if browser_alive(port) {
+        return true;
+    }
+
+    let chrome = chrome_path
+        .map(std::path::PathBuf::from)
+        .filter(|p| p.exists())
+        .or_else(|| default_chrome_candidates().into_iter().find(|p| p.exists()));
+    let Some(chrome) = chrome else {
+        eprintln!("[cdp] no chrome/edge executable found; set cdp_chrome_path");
+        return false;
+    };
+
+    let profile = profile_dir
+        .map(std::path::PathBuf::from)
+        .filter(|p| !p.as_os_str().is_empty())
+        .or_else(default_profile_dir);
+    if let Some(dir) = &profile {
+        let _ = std::fs::create_dir_all(dir);
+    }
+
+    // Launch through ShellExecute rather than CreateProcess.
+    //
+    // Measured on the development machine: this process runs inside a Windows job
+    // object (the harness sandbox). The exact same command line handed to CreateProcess
+    // made Chrome exit immediately with STATUS_BREAKPOINT (0x80000003, a Chromium CHECK
+    // failure), while shell-started Chrome (Start-Process / Explorer) launched fine.
+    // ShellExecute also keeps our stdio handles out of the browser's environment.
+    // Every switch must come before the URL: Chrome treats the first non-switch
+    // argument as the start of the URL list, so a trailing `--user-data-dir` is
+    // silently dropped and the launch is forwarded to an already running instance
+    // (which never opens a debug port).
+    let mut params = format!("--remote-debugging-port={port}");
+    if let Some(dir) = &profile {
+        params.push_str(&format!(" --user-data-dir=\"{}\"", dir.display()));
+    }
+    params.push_str(" --no-first-run --no-default-browser-check --new-window");
+    params.push_str(&format!(" \"{url}\""));
+
+    match shell_execute(&chrome, &params) {
+        true => {
+            println!("[cdp] launch requested: {} (port {port})", chrome.display());
+            true
+        }
+        false => {
+            eprintln!("[cdp] shell launch failed for {}", chrome.display());
+            false
+        }
+    }
+}
+
+#[cfg(windows)]
+fn shell_execute(exe: &std::path::Path, params: &str) -> bool {
+    use std::os::windows::ffi::OsStrExt;
+
+    #[link(name = "shell32")]
+    extern "system" {
+        fn ShellExecuteW(
+            hwnd: isize,
+            operation: *const u16,
+            file: *const u16,
+            parameters: *const u16,
+            directory: *const u16,
+            show: i32,
+        ) -> isize;
+    }
+
+    fn wide(s: &[u16]) -> Vec<u16> {
+        s.iter().copied().chain(std::iter::once(0)).collect()
+    }
+
+    let op: Vec<u16> = "open".encode_utf16().collect();
+    let file: Vec<u16> = exe.as_os_str().encode_wide().collect();
+    let par: Vec<u16> = params.encode_utf16().collect();
+
+    let op = wide(&op);
+    let file = wide(&file);
+    let par = wide(&par);
+
+    let result = unsafe {
+        ShellExecuteW(
+            0,
+            op.as_ptr(),
+            file.as_ptr(),
+            par.as_ptr(),
+            std::ptr::null(),
+            1, // SW_SHOWNORMAL
+        )
+    };
+    // ShellExecute returns a value > 32 on success.
+    result > 32
+}
+
+#[cfg(not(windows))]
+fn shell_execute(exe: &std::path::Path, _params: &str) -> bool {
+    std::process::Command::new(exe).spawn().is_ok()
+}
+
+pub struct CdpProvider {    port: u16,
+    enabled: bool,
+    socket: Mutex<Option<Socket>>,
+    last_error: Mutex<Option<String>>,
+}
+
+impl CdpProvider {
+    pub fn new(port: u16, enabled: bool) -> Self {
+        Self {
+            port,
+            enabled,
+            socket: Mutex::new(None),
+            last_error: Mutex::new(None),
+        }
+    }
+
+    fn note_error(&self, err: impl std::fmt::Display) {
+        let text = err.to_string();
+        let mut slot = self.last_error.lock().unwrap();
+        // Only log on change, otherwise a missing browser floods the console.
+        if slot.as_deref() != Some(text.as_str()) {
+            eprintln!("[cdp] {text}");
+            *slot = Some(text);
+        }
+    }
+
+    fn page_ws_url(&self) -> Result<String, String> {
+        let url = format!("http://127.0.0.1:{}/json", self.port);
+        let response = reqwest::blocking::Client::builder()
+            .timeout(Duration::from_millis(1200))
+            .build()
+            .map_err(|e| e.to_string())?
+            .get(&url)
+            .send()
+            .map_err(|e| format!("devtools endpoint unreachable: {e}"))?;
+
+        let targets: Value = response.json().map_err(|e| e.to_string())?;
+        let list = targets.as_array().ok_or("unexpected /json payload")?;
+        for target in list {
+            let page_url = target.get("url").and_then(Value::as_str).unwrap_or_default();
+            if page_url.contains("music.apple.com") {
+                if let Some(ws) = target.get("webSocketDebuggerUrl").and_then(Value::as_str) {
+                    return Ok(ws.to_string());
+                }
+            }
+        }
+        Err("no music.apple.com page in the debugged browser".into())
+    }
+
+    fn ensure_socket(&self) -> Option<std::sync::MutexGuard<'_, Option<Socket>>> {
+        let mut guard = self.socket.lock().ok()?;
+        if guard.is_none() {
+            match self.page_ws_url() {
+                Ok(url) => match connect(&url) {
+                    Ok((ws, _)) => {
+                        eprintln!("[cdp] connected to {url}");
+                        *guard = Some(ws);
+                        *self.last_error.lock().unwrap() = None;
+                    }
+                    Err(err) => {
+                        self.note_error(format!("websocket connect failed: {err}"));
+                        return None;
+                    }
+                },
+                Err(err) => {
+                    self.note_error(err);
+                    return None;
+                }
+            }
+        }
+        Some(guard)
+    }
+
+    fn evaluate(&self, socket: &mut Socket, expression: &str, timeout: Duration) -> Result<Value, String> {
+        let payload = json!({
+            "id": 1,
+            "method": "Runtime.evaluate",
+            "params": { "expression": expression, "returnByValue": true, "awaitPromise": true }
+        });
+        socket
+            .send(Message::Text(payload.to_string()))
+            .map_err(|e| format!("send failed: {e}"))?;
+
+        let deadline = Instant::now() + timeout;
+        while Instant::now() < deadline {
+            let message = socket.read().map_err(|e| format!("read failed: {e}"))?;
+            let text = match message {
+                Message::Text(t) => t.to_string(),
+                Message::Binary(b) => String::from_utf8_lossy(&b).to_string(),
+                Message::Close(_) => return Err("socket closed".into()),
+                _ => continue,
+            };
+            let value: Value = serde_json::from_str(&text).map_err(|e| e.to_string())?;
+            if value.get("id").and_then(Value::as_i64) != Some(1) {
+                continue; // some other event
+            }
+            if let Some(error) = value.get("error") {
+                return Err(format!("cdp error: {error}"));
+            }
+            let result = value
+                .get("result")
+                .and_then(|r| r.get("result"))
+                .and_then(|r| r.get("value"))
+                .cloned()
+                .unwrap_or(Value::Null);
+            if let Some(text) = result.as_str() {
+                return serde_json::from_str(text).map_err(|e| format!("bad probe json: {e}"));
+            }
+            return Err("probe returned no value".into());
+        }
+        Err("probe timed out".into())
+    }
+
+    /// Fetch Apple's own TTML for the playing track.
+    ///
+    /// The request runs **inside the page**, reusing MusicKit's developer token and
+    /// the signed-in `musicUserToken`. That is both the only way to get the payload
+    /// (the Rust process has no credentials) and a way around the flaky direct
+    /// network path documented in docs/m2-session-notes.md.
+    pub fn fetch_ttml(&self, song_id: Option<&str>, title: &str, artist: &str) -> Option<String> {
+        if !self.enabled || (song_id.is_none() && title.is_empty()) {
+            return None;
+        }
+        let mut guard = self.ensure_socket()?;
+        let socket = guard.as_mut()?;
+
+        let id_lit = serde_json::to_string(&song_id).ok()?;
+        let title_lit = serde_json::to_string(title).ok()?;
+        let artist_lit = serde_json::to_string(artist).ok()?;
+        let expression = LYRICS_EXPR
+            .replace("__SONG_ID__", &id_lit)
+            .replace("__TITLE__", &title_lit)
+            .replace("__ARTIST__", &artist_lit);
+
+        match self.evaluate(socket, &expression, Duration::from_millis(14000)) {
+            Ok(value) => {
+                if let Some(error) = value.get("error").and_then(Value::as_str) {
+                    self.note_error(format!("lyrics probe: {error}"));
+                    return None;
+                }
+                if let Some(status) = value.get("status").and_then(Value::as_i64) {
+                    if status != 200 {
+                        self.note_error(format!(
+                            "lyrics HTTP {status} at stage {} for '{title}'",
+                            value.get("stage").and_then(Value::as_str).unwrap_or("?")
+                        ));
+                        return None;
+                    }
+                }
+                let ttml = value.get("ttml").and_then(Value::as_str)?;
+                if ttml.len() < 32 {
+                    self.note_error("lyrics payload looked empty");
+                    return None;
+                }
+                Some(ttml.to_string())
+            }
+            Err(err) => {
+                self.note_error(format!("lyrics request failed: {err}"));
+                *guard = None;
+                None
+            }
+        }
+    }
+}
+
+impl Provider for CdpProvider {    fn id(&self) -> &'static str {
+        "cdp"
+    }
+
+    fn precision(&self) -> u8 {
+        2
+    }
+
+    fn poll(&self) -> Option<PlaybackSnapshot> {
+        if !self.enabled {
+            return None;
+        }
+        let mut guard = self.ensure_socket()?;
+        let socket = guard.as_mut()?;
+        let probe = match self.evaluate(socket, PROBE_EXPR, Duration::from_millis(1500)) {
+            Ok(v) => v,
+            Err(err) => {
+                self.note_error(err);
+                *guard = None; // force a reconnect next tick
+                return None;
+            }
+        };
+
+        let pos = probe.get("pos").and_then(Value::as_f64)?;
+        let dur = probe.get("dur").and_then(Value::as_f64).unwrap_or(0.0);
+        let paused = probe.get("paused").and_then(Value::as_bool).unwrap_or(true);
+        let title = probe.get("title").and_then(Value::as_str).unwrap_or("").to_string();
+        let artist = probe.get("artist").and_then(Value::as_str).unwrap_or("").to_string();
+        let album = probe.get("album").and_then(Value::as_str).unwrap_or("").to_string();
+        let song_id = probe.get("songId").and_then(Value::as_str).map(str::to_string);
+
+        if title.is_empty() {
+            return None; // nothing playing; let SMTC/UI decide
+        }
+
+        Some(PlaybackSnapshot {
+            track: Some(TrackInfo {
+                title,
+                artist,
+                album,
+                app_id: "cdp".into(),
+                song_id,
+            }),
+            state: if paused { PlaybackState::Paused } else { PlaybackState::Playing },
+            position_secs: pos,
+            duration_secs: dur,
+            // The page reports live values, so the report is never stale.
+            report_age_ms: 0,
+            source: "cdp".into(),
+        })
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::PROBE_EXPR;
+
+    #[test]
+    fn probe_expression_is_a_single_expression() {
+        // A stray newline or semicolon at top level would make Runtime.evaluate
+        // return undefined and the provider would silently never report.
+        assert!(PROBE_EXPR.trim_start().starts_with("(()"));
+        assert!(PROBE_EXPR.trim_end().ends_with(")()"));
+    }
+}

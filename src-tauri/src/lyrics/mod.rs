@@ -1,1 +1,101 @@
-Ly8hIEx5cmljcyBtb2RlbCArIHRoZSB0aHJlZS10aWVyIHdhdGVyZmFsbCAoQXBwbGUgVFRNTCAtPiBscmNsaWIgLT4gbWFudWFsKS4KCnB1YiBtb2QgbHJjOwpwdWIgbW9kIGxyY2xpYjsKcHViIG1vZCBuZXRlYXNlOwpwdWIgbW9kIHR0bWw7Cgp1c2Ugc2VyZGU6OntEZXNlcmlhbGl6ZSwgU2VyaWFsaXplfTsKCiNbZGVyaXZlKERlYnVnLCBDbG9uZSwgUGFydGlhbEVxLCBTZXJpYWxpemUsIERlc2VyaWFsaXplKV0KcHViIHN0cnVjdCBXb3JkVG9rZW4gewogICAgcHViIHN0YXJ0OiBmNjQsCiAgICBwdWIgZW5kOiBmNjQsCiAgICBwdWIgdGV4dDogU3RyaW5nLAp9CgojW2Rlcml2ZShEZWJ1ZywgQ2xvbmUsIFBhcnRpYWxFcSwgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCnB1YiBzdHJ1Y3QgTHlyaWNMaW5lIHsKICAgIHB1YiBzdGFydDogZjY0LAogICAgcHViIGVuZDogZjY0LAogICAgcHViIHRleHQ6IFN0cmluZywKICAgIC8vLyBFbXB0eSBmb3IgbGluZS1sZXZlbCBzb3VyY2VzIChMUkMpLiBUaGUgcmVuZGVyZXIgdGhlbiBsaWdodHMgdGhlIHdob2xlIGxpbmUuCiAgICBwdWIgd29yZHM6IFZlYzxXb3JkVG9rZW4+LAp9CgojW2Rlcml2ZShEZWJ1ZywgQ2xvbmUsIENvcHksIFBhcnRpYWxFcSwgRXEsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQojW3NlcmRlKHJlbmFtZV9hbGwgPSAic25ha2VfY2FzZSIpXQpwdWIgZW51bSBMeXJpY0xldmVsIHsKICAgIFdvcmQsCiAgICBMaW5lLAogICAgTm9uZSwKfQoKI1tkZXJpdmUoRGVidWcsIENsb25lLCBQYXJ0aWFsRXEsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQpwdWIgc3RydWN0IEx5cmljU2V0IHsKICAgIHB1YiBsZXZlbDogTHlyaWNMZXZlbCwKICAgIHB1YiBsaW5lczogVmVjPEx5cmljTGluZT4sCiAgICBwdWIgb2Zmc2V0X21zOiBpNjQsCiAgICAvLy8gV2hpY2ggdGllciBwcm9kdWNlZCB0aGlzOiAidHRtbCIgfCAibHJjbGliIiB8ICJtYW51YWwiIHwgIm5vbmUiCiAgICBwdWIgb3JpZ2luOiBTdHJpbmcsCn0KCmltcGwgTHlyaWNTZXQgewogICAgcHViIGZuIGVtcHR5KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IGxldmVsOiBMeXJpY0xldmVsOjpOb25lLCBsaW5lczogVmVjOjpuZXcoKSwgb2Zmc2V0X21zOiAwLCBvcmlnaW46ICJub25lIi5pbnRvKCkgfQogICAgfQoKICAgIHB1YiBmbiBmcm9tX2xyYyh0ZXh0OiAmc3RyLCBvcmlnaW46ICZzdHIpIC0+IFNlbGYgewogICAgICAgIGxldCBsaW5lcyA9IGxyYzo6cGFyc2UodGV4dCk7CiAgICAgICAgU2VsZiB7CiAgICAgICAgICAgIGxldmVsOiBpZiBsaW5lcy5pc19lbXB0eSgpIHsgTHlyaWNMZXZlbDo6Tm9uZSB9IGVsc2UgeyBMeXJpY0xldmVsOjpMaW5lIH0sCiAgICAgICAgICAgIGxpbmVzLAogICAgICAgICAgICBvZmZzZXRfbXM6IGxyYzo6b2Zmc2V0X21zKHRleHQpLAogICAgICAgICAgICBvcmlnaW46IG9yaWdpbi5pbnRvKCksCiAgICAgICAgfQogICAgfQoKICAgIC8vLyBSZWNvbXB1dGUgYGVuZGAgZm9yIGxpbmVzIHRoYXQgbGFjayBvbmUgKExSQyBnaXZlcyBzdGFydHMgb25seSkuCiAgICBwdWIgZm4gbm9ybWFsaXplKCZtdXQgc2VsZiwgZmFsbGJhY2tfdGFpbDogZjY0KSB7CiAgICAgICAgZm9yIGkgaW4gMC4uc2VsZi5saW5lcy5sZW4oKSB7CiAgICAgICAgICAgIGxldCBuZXh0X3N0YXJ0ID0gc2VsZi5saW5lcy5nZXQoaSArIDEpLm1hcCh8bHwgbC5zdGFydCk7CiAgICAgICAgICAgIGxldCBlbmQgPSBzZWxmLmxpbmVzW2ldLmVuZDsKICAgICAgICAgICAgaWYgZW5kIDw9IHNlbGYubGluZXNbaV0uc3RhcnQgewogICAgICAgICAgICAgICAgc2VsZi5saW5lc1tpXS5lbmQgPSBuZXh0X3N0YXJ0LnVud3JhcF9vcihzZWxmLmxpbmVzW2ldLnN0YXJ0ICsgZmFsbGJhY2tfdGFpbCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8vLyBFdmVyeXRoaW5nIG5lZWRlZCB0byByZXNvbHZlIGEgdHJhY2ssIGluZGVwZW5kZW50IG9mIHRoZSBwcm92aWRlci4KI1tkZXJpdmUoRGVidWcsIENsb25lKV0KcHViIHN0cnVjdCBRdWVyeSB7CiAgICBwdWIgdGl0bGU6IFN0cmluZywKICAgIHB1YiBhcnRpc3Q6IFN0cmluZywKICAgIHB1YiBhbGJ1bTogU3RyaW5nLAogICAgcHViIGR1cmF0aW9uX3NlY3M6IGY2NCwKICAgIHB1YiBhcHBfaWQ6IFN0cmluZywKfQoKLy8vIEF1dG9tYXRpYyB0aWVycywgaW4gb3JkZXIuIE5ldEVhc2UgZmlyc3QgYmVjYXVzZSBscmNsaWIubmV0IGlzIGJlaGluZCBDbG91ZGZsYXJlCi8vLyBhbmQgaW50ZXJtaXR0ZW50bHkgdW5yZWFjaGFibGUgZnJvbSBtYWlubGFuZCBuZXR3b3JrczsgbHJjbGliIHN0YXlzIGFzIHRoZQovLy8gZmFsbGJhY2sgZm9yIHRyYWNrcyBOZXRFYXNlIGRvZXMgbm90IGNhcnJ5LgpwdWIgZm4gcmVzb2x2ZV9hdXRvbWF0aWMocXVlcnk6ICZRdWVyeSwgYWxsb3dfbmV0d29yazogYm9vbCkgLT4gTHlyaWNTZXQgewogICAgaWYgIWFsbG93X25ldHdvcmsgewogICAgICAgIHJldHVybiBMeXJpY1NldDo6ZW1wdHkoKTsKICAgIH0KCiAgICBpZiBsZXQgU29tZSh0ZXh0KSA9IG5ldGVhc2U6OmZldGNoX3N5bmNlZChxdWVyeSkgewogICAgICAgIGlmICF0ZXh0LnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIEx5cmljU2V0Ojpmcm9tX2xyYygmdGV4dCwgIm5ldGVhc2UiKTsKICAgICAgICB9CiAgICB9CgogICAgaWYgbGV0IFNvbWUodGV4dCkgPSBscmNsaWI6OmZldGNoX3N5bmNlZChxdWVyeSkgewogICAgICAgIGlmICF0ZXh0LnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgcmV0dXJuIEx5cmljU2V0Ojpmcm9tX2xyYygmdGV4dCwgImxyY2xpYiIpOwogICAgICAgIH0KICAgIH0KCiAgICBMeXJpY1NldDo6ZW1wdHkoKQp9Cg==
+//! Lyrics model + the three-tier waterfall (Apple TTML -> lrclib -> manual).
+
+pub mod lrc;
+pub mod lrclib;
+pub mod netease;
+pub mod ttml;
+
+use serde::{Deserialize, Serialize};
+
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+pub struct WordToken {
+    pub start: f64,
+    pub end: f64,
+    pub text: String,
+}
+
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+pub struct LyricLine {
+    pub start: f64,
+    pub end: f64,
+    pub text: String,
+    /// Empty for line-level sources (LRC). The renderer then lights the whole line.
+    pub words: Vec<WordToken>,
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
+pub enum LyricLevel {
+    Word,
+    Line,
+    None,
+}
+
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+pub struct LyricSet {
+    pub level: LyricLevel,
+    pub lines: Vec<LyricLine>,
+    pub offset_ms: i64,
+    /// Which tier produced this: "ttml" | "lrclib" | "manual" | "none"
+    pub origin: String,
+}
+
+impl LyricSet {
+    pub fn empty() -> Self {
+        Self { level: LyricLevel::None, lines: Vec::new(), offset_ms: 0, origin: "none".into() }
+    }
+
+    pub fn from_lrc(text: &str, origin: &str) -> Self {
+        let lines = lrc::parse(text);
+        Self {
+            level: if lines.is_empty() { LyricLevel::None } else { LyricLevel::Line },
+            lines,
+            offset_ms: lrc::offset_ms(text),
+            origin: origin.into(),
+        }
+    }
+
+    /// Recompute `end` for lines that lack one (LRC gives starts only).
+    pub fn normalize(&mut self, fallback_tail: f64) {
+        for i in 0..self.lines.len() {
+            let next_start = self.lines.get(i + 1).map(|l| l.start);
+            let end = self.lines[i].end;
+            if end <= self.lines[i].start {
+                self.lines[i].end = next_start.unwrap_or(self.lines[i].start + fallback_tail);
+            }
+        }
+    }
+}
+
+/// Everything needed to resolve a track, independent of the provider.
+#[derive(Debug, Clone)]
+pub struct Query {
+    pub title: String,
+    pub artist: String,
+    pub album: String,
+    pub duration_secs: f64,
+    pub app_id: String,
+}
+
+/// Automatic tiers, in order. NetEase first because lrclib.net is behind Cloudflare
+/// and intermittently unreachable from mainland networks; lrclib stays as the
+/// fallback for tracks NetEase does not carry.
+pub fn resolve_automatic(query: &Query, allow_network: bool) -> LyricSet {
+    if !allow_network {
+        return LyricSet::empty();
+    }
+
+    if let Some(text) = netease::fetch_synced(query) {
+        if !text.trim().is_empty() {
+            return LyricSet::from_lrc(&text, "netease");
+        }
+    }
+
+    if let Some(text) = lrclib::fetch_synced(query) {
+        if !text.trim().is_empty() {
+            return LyricSet::from_lrc(&text, "lrclib");
+        }
+    }
+
+    LyricSet::empty()
+}

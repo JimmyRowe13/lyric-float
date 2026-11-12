@@ -1,1 +1,130 @@
-IyBMeXJpY0Zsb2F0IC8g5rWu6K+NCgrnu5kqKue9kemhteeJiCBBcHBsZSBNdXNpYyoq77yI5Lul5Y+K5Lu75L2V5Lya5ZCRIFdpbmRvd3Mg5oql5ZGK5aqS5L2T5Lya6K+d55qE5pKt5pS+5Zmo77yJ5Yqg5LiA5bGC5qGM6Z2i5q2M6K+N5rWu56qX44CCCumAj+aYjuOAgee9rumhtuOAgem8oOagh+epv+mAj+OAgeWFqOWxgOeDremUru+8jOmAkOWtl+a4kOWPmOmrmOS6ruOAggoKPiDnirbmgIHvvJoqKk0zIOaJk+mAmioq4oCU4oCUQ0RQIOivu+mhtemdouWGhSBgYXVkaW8uY3VycmVudFRpbWVgIOaLv+avq+enkue6p+i/m+W6pu+8jOeUqCBBcHBsZSDoh6rlt7HnmoQKPiBgc3lsbGFibGUtbHlyaWNzYCDmjqXlj6Plj5YgVFRNTCDmrYzor43vvIzmta7nqpfkuIrlt7Log73pgJDooYzmu5rliqjjgIHpnZLoibLloavlhYUgKyDpu5Hmj4/ovrnjgIIKPiDljZXmtYsgMTkvMTnjgILop4EgW2RvY3MvbTAtc210Yy1wcm9iZS5tZF0oZG9jcy9tMC1zbXRjLXByb2JlLm1kKeOAgQo+IFtkb2NzL20xLWJ1aWxkLW5vdGVzLm1kXShkb2NzL20xLWJ1aWxkLW5vdGVzLm1kKeOAgVtkb2NzL20yLXNlc3Npb24tbm90ZXMubWRdKGRvY3MvbTItc2Vzc2lvbi1ub3Rlcy5tZCnjgIEKPiBbZG9jcy9tMy1hcHBsZS1seXJpY3MubWRdKGRvY3MvbTMtYXBwbGUtbHlyaWNzLm1kKSDkuI4gW2RvY3MvZGVjaXNpb25zLm1kXShkb2NzL2RlY2lzaW9ucy5tZCnjgIIKCiMjIOWug+aAjuS5iOW3peS9nAoKYGBgCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCDkvpvmlpnlsYLvvIjlj6/mj5Lmi5TvvInilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgICAgICAgIOKUjOKUgOKUgOKUgOKUgCDmuLLmn5PlsYIg4pSA4pSA4pSA4pSA4pSQCuKUgiBTTVRDICAgV2luZG93cyDlqpLkvZPkvJror53vvIzpm7bphY3nva4gICAgICAgICDilIIgICAgICAgIOKUgiBUYXVyaSArIFdlYlZpZXcyIOKUggrilIIgQ0RQICAgIENocm9tZSDosIPor5Xnq6/lj6PvvIzmr6vnp5LnuqcgKyBUVE1MICAg4pSC4pSA4pSA4pSA4pSA4pSA4pSA4pa2IOKUgiDpgI/mmI7nva7pobbnqpcgICAgICAgIOKUggrilIIg5omL5YqoICAg55So5oi36LS05LiA5Lu9IExSQyAgICAgICAgICAgICAgICAgICDilIIg5LqL5Lu2ICAg4pSCIOWPjOihjOmAkOWtl+a4kOWPmCAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJggICAgICAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmApgYGAKCuatjOivjeS4iee6p+eAkeW4g++8mioqQXBwbGUgVFRNTO+8iOmAkOWtl++8ieKGkiBscmNsaWLvvIjpgJDooYzvvInihpIg5omL5Yqo57KY6LS0KirjgIIKCiMjIOWunua1i+Wumuiuuu+8iE0w77yJCgp8IOiDveWKmyB8IOe7k+aenCB8CnwtLS18LS0tfAp8IOabsuWQjSAvIOatjOaJiyAvIOS4k+i+kSB8IOKchSB8Cnwg5pKt5pS+54q25oCBIC8g5puy6ZW/IHwg4pyFIHwKfCDlvZPliY3ov5vluqYgfCDinIUg5LiK5oql5bm06b6EIDE34oCTMjQzIG1z77yM6YCf546H5q+UIDAuOTkxIHwKfCDmnaXmupDln5/lkI0gfCDinYwgQVVNSUQg5Y+q5pyJIGBDaHJvbWUuPGhhc2g+YO+8jOayoeaciSBVUkwgfAoK57uT6K6677yaU01UQyDlpJ/pgJDooYzmrYzor43nlKjvvIzpgJDlrZfpnIDopoEgQ0RQ44CC6K+m6KeBIFtkb2NzL20wLXNtdGMtcHJvYmUubWRdKGRvY3MvbTAtc210Yy1wcm9iZS5tZCnjgIIKCiMjIOiHquW3semqjOS4gOmBje+8iDEg5YiG6ZKf77yM5LiN6ZyA6KaB6KOF5Lu75L2V5Lic6KW/77yJCgrmiZPlvIDnvZHpobXniYggQXBwbGUgTXVzaWMg5pKt5LiA6aaW5q2M77yM54S25ZCO77yaCgpgYGBwb3dlcnNoZWxsCnBvd2Vyc2hlbGwuZXhlIC1Ob1Byb2ZpbGUgLUV4ZWN1dGlvblBvbGljeSBCeXBhc3MgLUZpbGUgdG9vbHNcc210Yy1wcm9iZVxwcm9iZS5wczEgLVNhbXBsZXMgNCAtSW50ZXJ2YWxNcyAxMDAwCmBgYAoK55yL5YiwIGBTVEFUVVMgUGxheWluZ2DjgIFgcG9zYCDpgJDmrKHpgJLlop7jgIFgbGFzdFVwZGF0ZWQg6Led5LuKIDwgMXNgIOWwseivtOaYjuS9oOi/mei+ueiDvei3keOAggoK5Y+X5o6n5a+554Wn5a6e6aqM77yI5Lya55+t5pqC5Ye65aOw77yM6Ieq5Yqo5riF55CG77yJ77yaCgpgYGBwb3dlcnNoZWxsCnBvd2Vyc2hlbGwuZXhlIC1Ob1Byb2ZpbGUgLUV4ZWN1dGlvblBvbGljeSBCeXBhc3MgLUZpbGUgdG9vbHNcc210Yy1wcm9iZVxydW4tbG9jYWwtcGxheWVyLnBzMQpgYGAKCiMjIOWuieijhSAvIOi/kOihjAoK5Lik56eN5b2i5oCB77yM5Lqn54mp5YiG5byA77yaCgp8IOW9ouaAgSB8IOmcgOimgeS7gOS5iCB8IOS6p+eJqSB8CnwtLS18LS0tfC0tLXwKfCAqKkEuIOeLrOeri+a1j+iniOWZqOeJiO+8iDAuMS5477yJKiogfCDnlKjoh6rluKblkK/liqjlmajotbfnmoQgQ2hyb21l77yI54us56uLIHByb2ZpbGXvvIznmbvlvZXkuIDmrKHplb/mnJ/mnInmlYjvvIkgfCBgTHlyaWNGbG9hdF8wLjEuMF94NjQtc2V0dXAuZXhlYCArIGBsYXVuY2gucHMxYCB8CnwgKipCLiDmianlsZXniYjvvIgwLjIueO+8jOaOqOiNkO+8iSoqIHwg6KOF5LiA5LiqIENocm9tZSDmianlsZXvvIznlKgqKuS9oOiHquW3seeahCBDaHJvbWUqKiDlkKzmrYwgfCBgbHlyaWMtZmxvYXQtMC4yLjAtZXh0LXdpbjY0LmV4ZWAgKyBgbHlyaWMtZmxvYXQtZXh0ZW5zaW9uLTAuMi4wLnppcGAgfAoKIyMjIEIuIOaJqeWxleeJiOaAjuS5iOeUqAoKMS4gQ2hyb21lIOaJk+W8gCBgY2hyb21lOi8vZXh0ZW5zaW9uc2Ag4oaSIOWPs+S4iuinkuW8gOOAjOW8gOWPkeiAheaooeW8j+OAjeKGkuOAjOWKoOi9veW3suino+WOi+eahOaJqeWxleeoi+W6j+OAjeKGkiDpgInkuK3mnKzku5PlupPnmoQgYGV4dGVuc2lvbi9gIOebruW9le+8iOaIluino+WOiyB6aXAg5ZCO55qE55uu5b2V77yJ44CCCjIuIOeUqOS9oOaXpeW4uOeahCBDaHJvbWUg5omT5byAIGBtdXNpYy5hcHBsZS5jb21gIOaSreatjOOAggozLiDlkK/liqggTHlyaWNGbG9hdO+8iGBjb25maWcuanNvbmAg6YeMIGBleHRfZW5hYmxlZGAg6buY6K6kIGB0cnVlYO+8jOerr+WPoyBgODc4N2DvvInjgIIKCua1rueql+aUueaIkOaOpeaUtuaJqeWxleaOqOadpeeahOaSreaUvueKtuaAgeWSjOatjOivje+8jCoq5LiN5YaN6ZyA6KaB6LCD6K+V56uv5Y+j44CB5Lmf5LiN5YaN6ZyA6KaB56ys5LqM5Liq5rWP6KeI5ZmoKirjgIIK5omp5bGV5ZKM5rWu56qX5LmL6Ze055qE57qm5a6a77yaYHdzOi8vMTI3LjAuMC4xOjg3ODcvPHRva2VuPmDvvIx0b2tlbiDpu5jorqQgYGx5cmljZmxvYXRg77yMCuWcqCBgZXh0ZW5zaW9uL2JyaWRnZS5qc2Ag5LiOIGBjb25maWcuanNvbmAg55qEIGBleHRfdG9rZW5gIOS4pOWkhOS/neaMgeS4gOiHtOWNs+WPr+OAggoKQSDnmoTmnIDlsI/nlKjms5XmmK/lj4zlh7sgYGRlcGxveVxsYXVuY2gucHMxYCDnmoTmoYzpnaLlv6vmjbfmlrnlvI/vvJrlroPlhYjnoa7orqTosIPor5Xnq6/lj6PlnKjlkKzvvIzmsqHmnInlsLHnlKjni6znq4sKcHJvZmlsZSDotbcgQ2hyb21l77yM54S25ZCO5ZCv5Yqo5rWu56qX44CCCgotIOWuieijheWMhe+8mmBzcmMtdGF1cmkvdGFyZ2V0L3JlbGVhc2UvYnVuZGxlL25zaXMvTHlyaWNGbG9hdF8wLjIuMF94NjQtc2V0dXAuZXhlYO+8iOe6piAxLjQgTULvvIkKLSDlhY3lronoo4XvvJpgc3JjLXRhdXJpL3RhcmdldC9yZWxlYXNlL2x5cmljLWZsb2F0LmV4ZWDvvIjnuqYgMy45IE1C77yJCi0gcmVsZWFzZSDniYjmsqHmnInmjqfliLblj7Dnqpflj6PvvJtkZWJ1ZyDniYjkvJrluKbkuIDkuKrpu5HmoYbvvIhgd2luZG93c19zdWJzeXN0ZW1gIOeahOWMuuWIq++8ieOAggoK6aaW5qyh6L+Q6KGM5YmN77yM56Gu5L+dIGAlQVBQREFUQSVcbHlyaWMtZmxvYXRcY29uZmlnLmpzb25gIOmHjOeahCBgd2Vidmlld19kYXRhX2RpcmAg5oyH5ZCR5LiA5Liq5Y+v5YaZ55uu5b2VCu+8iOingeS4i+aWueW3suefpemXrumimCAy77yJ77yM5bm25oqKIGBjZHBfZW5hYmxlZGAg6K6+5Li6IGB0cnVlYOOAgWBjZHBfcG9ydGAg5LiO5ZCv5Yqo5Zmo5LiA6Ie044CCCgojIyDlvIDlj5EKCuWJjee9ru+8mlJ1c3TvvIhgcnVzdHVwYCArIE1TVkMg55Sf5oiQ5bel5YW377yJ44CBTm9kZSAyMCvjgIFwbnBt44CBV2ViVmlldzIg6L+Q6KGM5pe277yIV2luMTAvMTEg5LiA6Iis6Ieq5bim77yJ44CCCgpgYGBiYXNoCnBucG0gaW5zdGFsbApwbnBtIGFwcDpkZXYgICAgICAjIOW8gOWPkei/kOihjApwbnBtIGFwcDpidWlsZCAgICAjIOWHuuWuieijheWMhe+8iE5TSVMgKyBNU0nvvIkKY2FyZ28gdGVzdCAtLW1hbmlmZXN0LXBhdGggc3JjLXRhdXJpL0NhcmdvLnRvbWwgICAjIExSQy9UVE1MIOino+aekOWZqOWNlea1iwpgYGAKCuWbvuagh++8iOS7k+W6k+mHjOayoeacieS6jOi/m+WItuWbvuagh++8jOmmluasoemcgOimgeeUn+aIkO+8ie+8mgoKYGBgcG93ZXJzaGVsbApwb3dlcnNoZWxsLmV4ZSAtTm9Qcm9maWxlIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlIHRvb2xzXG1ha2UtaWNvbnMucHMxCnBucG0gdGF1cmkgaWNvbiBhc3NldHMvbG9nby5wbmcKYGBgCgojIyDng63plK7vvIjpu5jorqTvvIxgY29uZmlnLmpzb25gIOmHjOWPr+aUue+8iQoKfCDplK4gfCDkvZznlKggfAp8LS0tfC0tLXwKfCBgQWx0K1xgYCB8IOaYvuekuiAvIOmakOiXjyB8CnwgYEFsdCtNYCB8IOi/m+WFpSAvIOmAgOWHuuOAjOiwg+aVtOS9jee9ruOAjeaooeW8j++8iDUg56eS5ZCO6Ieq5Yqo6YCA5Ye677yJIHwKfCBgQWx0K+KGkOKGkuKGkeKGk2AgfCAqKuiwg+aVtOS9jee9rioq77yI5LuF5ZyoIGBBbHQrTWAg5qih5byP6YeM55Sf5pWI77yM5q+P5qyhIDEycHgg5bm256uL5Y2z5a2Y55uY77yJIHwKfCBgQWx0K1tgIC8gYEFsdCtdYCB8IOWtl+WPtyB8CnwgYEFsdCssYCAvIGBBbHQrLmAgfCDmrYzor43lgY/np7sgwrEwLjFzIHwKCumFjee9ru+8mmAlQVBQREFUQSVcbHlyaWMtZmxvYXRcY29uZmlnLmpzb25g77yM5omL5pS55Y2z5Y+v77yM5LiN55So6YeN57yW6K+R44CCCgojIyDlt7Lnn6Xpl67popgKCjEuICoqQXBwbGUgTXVzaWMg572R6aG154mI5piv5ZCm6LCD55SoIGBzZXRQb3NpdGlvblN0YXRlYCDlsJrmnKrpqozor4HjgIIqKiDov5nmmK8gTTAg5ZSv5LiA5Ymp5LiL55qE5pyq55+l77ybCiAgIOiLpeS4jeiwg+eUqO+8jFNNVEMg5qih5byP55qE6L+b5bqm5bCx5piv5q2755qE77yM5b+F6aG76LWwIENEUOOAggoyLiAqKldlYlZpZXcyIOeahCBwcm9maWxlIOebruW9leW/hemhu+aYr+WPr+WGmei3r+W+hOOAgioqIFRhdXJpIOWcqCBXaW5kb3dzIOS4iuW8uuWItuaKiuWug+iuvuaIkAogICBgJUxPQ0FMQVBQREFUQSVcPGlkZW50aWZpZXI+YO+8m+ivpei3r+W+hOS4jeWPr+eUqOaXtiBXZWJWaWV3MiDliJvlu7rljbPltKnvvIhgMHg4MDAwRkZGRmDvvIzkuovku7bml6Xlv5fph4zmmK8KICAgYG1zZWRnZS5kbGxgIOeahCBgU1RBVFVTX0JSRUFLUE9JTlRg77yJ44CC55SoIGBjb25maWcuanNvbmAg55qEIGB3ZWJ2aWV3X2RhdGFfZGlyYCDmjIfliLDlj6/lhpnnm67lvZXljbPlj6/jgIIKMy4gKipgQWx0K1xgYCDluLjooqvliKvnmoTnqIvluo/ljaDnlKgqKu+8iFV0b29scyAvIOi+k+WFpeazlSAvIOW9leWxj+W3peWFt+mDveS8muaKou+8ieOAgueoi+W6j+S8muiHquWKqOWbnumAgOWIsCBgQWx0K0xg77yMCiAgIOW5tuWcqOaOp+WItuWPsOaJk+WHuuWunumZhee7keWumueahOmUruOAggo0LiDnqpflj6Plj6/og73lh7rnjrDlnKggQWx0K1RhYiDliJfooajph4zvvIhgV1NfRVhfVE9PTFdJTkRPV2Ag5pyq572u5L2N77yJ44CC5b6F5L+u44CCCjUuICoq54K55Ye756m/6YCP5b+F6aG75L2c55So5Yiw5a2Q56qX5Y+jKirvvJpXZWJWaWV3MiDmiorlhoXlrrnmlL7lnKjni6znq4vlrZDnqpflj6Pph4zvvIzlj6rnu5npobblsYLnqpflj6Porr4KICAgYFdTX0VYX1RSQU5TUEFSRU5UYCDmmK/ml6DmlYjnmoTjgILnjrDlnKjkvJrmiormoLflvI/liLfliLDmlbTmo7Xnqpflj6PmoJHvvIzlubbmr48gNzAwbXMg6YeN5Yi35LiA5qyhCiAgIO+8iFdlYlZpZXcyIOWvvOiIquS8mumHjeW7uuWtkOeql+WPo++8ieOAggo2LiAqKui/meS4qumAj+aYjueql+WPo+S4gOaXpuWOu+aOiSBgV1NfRVhfVFJBTlNQQVJFTlRgIOWwseWBnOatouWQiOaIkCoq77ya6aG16Z2i54Wn5bi45riy5p+T77yIQ0RQIOaIquWbvuiDveeci+WIsOaWh+Wtl++8ie+8jAogICDkvYblsY/luZXkuIrlrozlhajpgI/mmI7jgILmiYDku6XjgIzlj5bmtojnqb/pgI8gKyDmi5bliqjjgI3ov5nmnaHot6/otbDkuI3pgJrvvIzkvY3nva7mlLnnlKggYEFsdCtNYCArIOaWueWQkemUruiwg+aVtO+8mwogICDnqpflj6PlnKjku7vkvZXnirbmgIHkuIvpg73kv53mjIHnqb/pgI/jgIIKNS4gV2ViVmlldzIg6YCP5piO56qX5Zyo6YOo5YiG5qC45pi+5LiK5Lya6buR5bqV5oiW6Zeq54OB77yM6ZyA6KaBIEdQVSDlkIjmiJDlm57pgIDlvIDlhbPjgIIKCiMjIOiuuOWPrwoKTUlU44CC6aG555uu5ZCN5pWF5oSP5LiN5ZCrICJBcHBsZSBNdXNpYyLvvJtBcHBsZSBNdXNpYyDmmK8gQXBwbGUgSW5jLiDnmoTllYbmoIfvvIzmnKzpobnnm67kuI7lhbbml6DlhbPogZTjgIIK
+# LyricFloat / 浮词
+
+给**网页版 Apple Music**（以及任何会向 Windows 报告媒体会话的播放器）加一层桌面歌词浮窗。
+透明、置顶、鼠标穿透、全局热键，逐字渐变高亮。
+
+> 状态：**M3 打通**——CDP 读页面内 `audio.currentTime` 拿毫秒级进度，用 Apple 自己的
+> `syllable-lyrics` 接口取 TTML 歌词，浮窗上已能逐行滚动、青色填充 + 黑描边。
+> 单测 19/19。见 [docs/m0-smtc-probe.md](docs/m0-smtc-probe.md)、
+> [docs/m1-build-notes.md](docs/m1-build-notes.md)、[docs/m2-session-notes.md](docs/m2-session-notes.md)、
+> [docs/m3-apple-lyrics.md](docs/m3-apple-lyrics.md) 与 [docs/decisions.md](docs/decisions.md)。
+
+## 它怎么工作
+
+```
+┌──────────── 供料层（可插拔）────────────┐        ┌──── 渲染层 ────┐
+│ SMTC   Windows 媒体会话，零配置         │        │ Tauri + WebView2 │
+│ CDP    Chrome 调试端口，毫秒级 + TTML   │──────▶ │ 透明置顶窗        │
+│ 手动   用户贴一份 LRC                   │ 事件   │ 双行逐字渐变      │
+└──────────────────────────────────────┘        └──────────────────┘
+```
+
+歌词三级瀑布：**Apple TTML（逐字）→ lrclib（逐行）→ 手动粘贴**。
+
+## 实测定论（M0）
+
+| 能力 | 结果 |
+|---|---|
+| 曲名 / 歌手 / 专辑 | ✅ |
+| 播放状态 / 曲长 | ✅ |
+| 当前进度 | ✅ 上报年龄 17–243 ms，速率比 0.991 |
+| 来源域名 | ❌ AUMID 只有 `Chrome.<hash>`，没有 URL |
+
+结论：SMTC 够逐行歌词用，逐字需要 CDP。详见 [docs/m0-smtc-probe.md](docs/m0-smtc-probe.md)。
+
+## 自己验一遍（1 分钟，不需要装任何东西）
+
+打开网页版 Apple Music 播一首歌，然后：
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools\smtc-probe\probe.ps1 -Samples 4 -IntervalMs 1000
+```
+
+看到 `STATUS Playing`、`pos` 逐次递增、`lastUpdated 距今 < 1s` 就说明你这边能跑。
+
+受控对照实验（会短暂出声，自动清理）：
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools\smtc-probe\run-local-player.ps1
+```
+
+## 安装 / 运行
+
+两种形态，产物分开：
+
+| 形态 | 需要什么 | 产物 |
+|---|---|---|
+| **A. 独立浏览器版（0.1.x）** | 用自带启动器起的 Chrome（独立 profile，登录一次长期有效） | `LyricFloat_0.1.0_x64-setup.exe` + `launch.ps1` |
+| **B. 扩展版（0.2.x，推荐）** | 装一个 Chrome 扩展，用**你自己的 Chrome** 听歌 | `lyric-float-0.2.0-ext-win64.exe` + `lyric-float-extension-0.2.0.zip` |
+
+### B. 扩展版怎么用
+
+1. Chrome 打开 `chrome://extensions` → 右上角开「开发者模式」→「加载已解压的扩展程序」→ 选中本仓库的 `extension/` 目录（或解压 zip 后的目录）。
+2. 用你日常的 Chrome 打开 `music.apple.com` 播歌。
+3. 启动 LyricFloat（`config.json` 里 `ext_enabled` 默认 `true`，端口 `8787`）。
+
+浮窗改成接收扩展推来的播放状态和歌词，**不再需要调试端口、也不再需要第二个浏览器**。
+扩展和浮窗之间的约定：`ws://127.0.0.1:8787/<token>`，token 默认 `lyricfloat`，
+在 `extension/bridge.js` 与 `config.json` 的 `ext_token` 两处保持一致即可。
+
+A 的最小用法是双击 `deploy\launch.ps1` 的桌面快捷方式：它先确认调试端口在听，没有就用独立
+profile 起 Chrome，然后启动浮窗。
+
+- 安装包：`src-tauri/target/release/bundle/nsis/LyricFloat_0.2.0_x64-setup.exe`（约 1.4 MB）
+- 免安装：`src-tauri/target/release/lyric-float.exe`（约 3.9 MB）
+- release 版没有控制台窗口；debug 版会带一个黑框（`windows_subsystem` 的区别）。
+
+首次运行前，确保 `%APPDATA%\lyric-float\config.json` 里的 `webview_data_dir` 指向一个可写目录
+（见下方已知问题 2），并把 `cdp_enabled` 设为 `true`、`cdp_port` 与启动器一致。
+
+## 开发
+
+前置：Rust（`rustup` + MSVC 生成工具）、Node 20+、pnpm、WebView2 运行时（Win10/11 一般自带）。
+
+```bash
+pnpm install
+pnpm app:dev      # 开发运行
+pnpm app:build    # 出安装包（NSIS + MSI）
+cargo test --manifest-path src-tauri/Cargo.toml   # LRC/TTML 解析器单测
+```
+
+图标（仓库里没有二进制图标，首次需要生成）：
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools\make-icons.ps1
+pnpm tauri icon assets/logo.png
+```
+
+## 热键（默认，`config.json` 里可改）
+
+| 键 | 作用 |
+|---|---|
+| `Alt+\`` | 显示 / 隐藏 |
+| `Alt+M` | 进入 / 退出「调整位置」模式（5 秒后自动退出） |
+| `Alt+←→↑↓` | **调整位置**（仅在 `Alt+M` 模式里生效，每次 12px 并立即存盘） |
+| `Alt+[` / `Alt+]` | 字号 |
+| `Alt+,` / `Alt+.` | 歌词偏移 ±0.1s |
+
+配置：`%APPDATA%\lyric-float\config.json`，手改即可，不用重编译。
+
+## 已知问题
+
+1. **Apple Music 网页版是否调用 `setPositionState` 尚未验证。** 这是 M0 唯一剩下的未知；
+   若不调用，SMTC 模式的进度就是死的，必须走 CDP。
+2. **WebView2 的 profile 目录必须是可写路径。** Tauri 在 Windows 上强制把它设成
+   `%LOCALAPPDATA%\<identifier>`；该路径不可用时 WebView2 创建即崩（`0x8000FFFF`，事件日志里是
+   `msedge.dll` 的 `STATUS_BREAKPOINT`）。用 `config.json` 的 `webview_data_dir` 指到可写目录即可。
+3. **`Alt+\`` 常被别的程序占用**（Utools / 输入法 / 录屏工具都会抢）。程序会自动回退到 `Alt+L`，
+   并在控制台打出实际绑定的键。
+4. 窗口可能出现在 Alt+Tab 列表里（`WS_EX_TOOLWINDOW` 未置位）。待修。
+5. **点击穿透必须作用到子窗口**：WebView2 把内容放在独立子窗口里，只给顶层窗口设
+   `WS_EX_TRANSPARENT` 是无效的。现在会把样式刷到整棵窗口树，并每 700ms 重刷一次
+   （WebView2 导航会重建子窗口）。
+6. **这个透明窗口一旦去掉 `WS_EX_TRANSPARENT` 就停止合成**：页面照常渲染（CDP 截图能看到文字），
+   但屏幕上完全透明。所以「取消穿透 + 拖动」这条路走不通，位置改用 `Alt+M` + 方向键调整；
+   窗口在任何状态下都保持穿透。
+5. WebView2 透明窗在部分核显上会黑底或闪烁，需要 GPU 合成回退开关。
+
+## 许可
+
+MIT。项目名故意不含 "Apple Music"；Apple Music 是 Apple Inc. 的商标，本项目与其无关联。

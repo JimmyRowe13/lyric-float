@@ -1,1 +1,57 @@
-Ly8gTHlyaWNGbG9hdCBCcmlkZ2Ug4oCUIGlzb2xhdGVkIHdvcmxkLiBPd25zIHRoZSBsb2NhbCBXZWJTb2NrZXQuCi8vCi8vIEtlcHQgb3V0IG9mIHRoZSBwYWdlIHdvcmxkIG9uIHB1cnBvc2U6IHRoaXMgc2NyaXB0IHJ1bnMgdW5kZXIgdGhlIGV4dGVuc2lvbidzCi8vIHNlY3VyaXR5IGNvbnRleHQsIHNvIG11c2ljLmFwcGxlLmNvbSdzIENTUCBjYW5ub3QgYmxvY2sgd3M6Ly8xMjcuMC4wLjEgaGVyZS4KLy8KLy8gQ2hhbmdlIHRoZSBwb3J0L3Rva2VuIGhlcmUgYW5kIGluIHRoZSBvdmVybGF5J3MgJUFQUERBVEElXGx5cmljLWZsb2F0XGNvbmZpZy5qc29uLgoKKCgpID0+IHsKICBjb25zdCBQT1JUID0gODc4NzsKICBjb25zdCBUT0tFTiA9ICJseXJpY2Zsb2F0IjsKICBjb25zdCBSRVRSWV9NUyA9IDMwMDA7CgogIGlmICh3aW5kb3cuX19sZkJyaWRnZUluc3RhbGxlZCkgcmV0dXJuOwogIHdpbmRvdy5fX2xmQnJpZGdlSW5zdGFsbGVkID0gdHJ1ZTsKCiAgbGV0IHNvY2tldCA9IG51bGw7CiAgbGV0IGNvbm5lY3RlZCA9IGZhbHNlOwoKICBmdW5jdGlvbiBjb25uZWN0KCkgewogICAgdHJ5IHsKICAgICAgc29ja2V0ID0gbmV3IFdlYlNvY2tldCgid3M6Ly8xMjcuMC4wLjE6IiArIFBPUlQgKyAiLyIgKyBUT0tFTik7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHNldFRpbWVvdXQoY29ubmVjdCwgUkVUUllfTVMpOwogICAgICByZXR1cm47CiAgICB9CiAgICBzb2NrZXQuYWRkRXZlbnRMaXN0ZW5lcigib3BlbiIsICgpID0+IHsKICAgICAgY29ubmVjdGVkID0gdHJ1ZTsKICAgICAgY29uc29sZS5pbmZvKCJbTHlyaWNGbG9hdF0gb3ZlcmxheSBjb25uZWN0ZWQiKTsKICAgICAgLy8gVGVsbCB0aGUgcGFnZSB3b3JsZCB0byByZS1zZW5kIGx5cmljczogdGhlIG92ZXJsYXkgbWF5IGhhdmUganVzdCByZXN0YXJ0ZWQgYW5kCiAgICAgIC8vIGhhcyBub3RoaW5nIGNhY2hlZC4KICAgICAgdHJ5IHsKICAgICAgICB3aW5kb3cucG9zdE1lc3NhZ2UoeyBfX2xmQnJpZGdlQ29ubmVjdGVkOiB0cnVlIH0sICIqIik7CiAgICAgIH0gY2F0Y2ggKGUpIHsgLyogaWdub3JlICovIH0KICAgIH0pOwogICAgc29ja2V0LmFkZEV2ZW50TGlzdGVuZXIoImNsb3NlIiwgKCkgPT4gewogICAgICBjb25uZWN0ZWQgPSBmYWxzZTsKICAgICAgc29ja2V0ID0gbnVsbDsKICAgICAgc2V0VGltZW91dChjb25uZWN0LCBSRVRSWV9NUyk7CiAgICB9KTsKICAgIHNvY2tldC5hZGRFdmVudExpc3RlbmVyKCJlcnJvciIsICgpID0+IHsKICAgICAgdHJ5IHsgc29ja2V0ICYmIHNvY2tldC5jbG9zZSgpOyB9IGNhdGNoIChlKSB7IC8qIGlnbm9yZSAqLyB9CiAgICB9KTsKICB9CgogIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJtZXNzYWdlIiwgKGV2ZW50KSA9PiB7CiAgICBpZiAoZXZlbnQuc291cmNlICE9PSB3aW5kb3cpIHJldHVybjsKICAgIGNvbnN0IGRhdGEgPSBldmVudC5kYXRhOwogICAgaWYgKCFkYXRhIHx8ICFkYXRhLl9fbGZCcmlkZ2UgfHwgIWRhdGEubXNnKSByZXR1cm47CiAgICBpZiAoIWNvbm5lY3RlZCB8fCAhc29ja2V0KSByZXR1cm47CiAgICB0cnkgewogICAgICBzb2NrZXQuc2VuZChKU09OLnN0cmluZ2lmeShkYXRhLm1zZykpOwogICAgfSBjYXRjaCAoZSkgeyAvKiBpZ25vcmUgKi8gfQogIH0pOwoKICBjb25uZWN0KCk7CiAgY29uc29sZS5pbmZvKCJbTHlyaWNGbG9hdF0gdHJhbnNwb3J0IGJyaWRnZSBpbnN0YWxsZWQiKTsKfSkoKTsK
+// LyricFloat Bridge — isolated world. Owns the local WebSocket.
+//
+// Kept out of the page world on purpose: this script runs under the extension's
+// security context, so music.apple.com's CSP cannot block ws://127.0.0.1 here.
+//
+// Change the port/token here and in the overlay's %APPDATA%\lyric-float\config.json.
+
+(() => {
+  const PORT = 8787;
+  const TOKEN = "lyricfloat";
+  const RETRY_MS = 3000;
+
+  if (window.__lfBridgeInstalled) return;
+  window.__lfBridgeInstalled = true;
+
+  let socket = null;
+  let connected = false;
+
+  function connect() {
+    try {
+      socket = new WebSocket("ws://127.0.0.1:" + PORT + "/" + TOKEN);
+    } catch (e) {
+      setTimeout(connect, RETRY_MS);
+      return;
+    }
+    socket.addEventListener("open", () => {
+      connected = true;
+      console.info("[LyricFloat] overlay connected");
+      // Tell the page world to re-send lyrics: the overlay may have just restarted and
+      // has nothing cached.
+      try {
+        window.postMessage({ __lfBridgeConnected: true }, "*");
+      } catch (e) { /* ignore */ }
+    });
+    socket.addEventListener("close", () => {
+      connected = false;
+      socket = null;
+      setTimeout(connect, RETRY_MS);
+    });
+    socket.addEventListener("error", () => {
+      try { socket && socket.close(); } catch (e) { /* ignore */ }
+    });
+  }
+
+  window.addEventListener("message", (event) => {
+    if (event.source !== window) return;
+    const data = event.data;
+    if (!data || !data.__lfBridge || !data.msg) return;
+    if (!connected || !socket) return;
+    try {
+      socket.send(JSON.stringify(data.msg));
+    } catch (e) { /* ignore */ }
+  });
+
+  connect();
+  console.info("[LyricFloat] transport bridge installed");
+})();

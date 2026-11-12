@@ -1,1 +1,207 @@
-Ly8hIFdpbmRvd3MgU3lzdGVtIE1lZGlhIFRyYW5zcG9ydCBDb250cm9scyBwcm92aWRlci4KLy8hCi8vISBWZXJpZmllZCBiZWhhdmlvdXIgKGRvY3MvbTAtc210Yy1wcm9iZS5tZCk6Ci8vISAgICogbWV0YWRhdGEsIHBsYXliYWNrIHN0YXR1cyBhbmQgZHVyYXRpb24gYWx3YXlzIHdvcms7Ci8vISAgICogcG9zaXRpb24gaXMgb25seSB0cnVzdHdvcnRoeSB3aGlsZSB0aGUgcGFnZSBrZWVwcyBwdWJsaXNoaW5nIGl0IOKAlAovLyEgICAgIGEgbGVmdG92ZXIgc2Vzc2lvbiBjYW4ga2VlcCBhIDI1LWhvdXItb2xkIGBMYXN0VXBkYXRlZFRpbWVgIGZvcmV2ZXI7Ci8vISAgICogZXh0cmFwb2xhdGluZyBieSBgcmVwb3J0X2FnZWAgb3ZlcnNob290cyB3aGVuIHRoZSByZXBvcnQgaXMgZnJlc2gKLy8hICAgICAocXVhbnRpc2F0aW9uIH4yNTAgbXMpLCBzbyB3ZSBvbmx5IGV4dHJhcG9sYXRlIHBhc3QgYSB0aHJlc2hvbGQuCi8vIQovLyEgTk9URTogd3JpdHRlbiB3aXRob3V0IGEgbG9jYWwgUnVzdCB0b29sY2hhaW47IGV4cGVjdGVkIHRvIG5lZWQgc21hbGwgQVBJCi8vISBmaXhlcyBvbiBmaXJzdCBgY2FyZ28gY2hlY2tgICh3aW5kb3dzLXJzIG5hbWluZyBjaHVybikuCgp1c2Ugc3VwZXI6OntQbGF5YmFja1N0YXRlLCBQbGF5YmFja1NuYXBzaG90LCBQcm92aWRlciwgVHJhY2tJbmZvfTsKCi8vLyBPbmx5IGZvbGxvdyBicm93c2VyIHNlc3Npb25zOyBhIG5hdGl2ZSBtdXNpYyBhcHAgaXMgYSBkaWZmZXJlbnQgcHJvZHVjdC4KY29uc3QgQlJPV1NFUl9QUkVGSVhFUzogJlsmc3RyXSA9ICZbIkNocm9tZS4iLCAiTXNFZGdlLiIsICJGaXJlZm94IiwgIkJyYXZlLiIsICJPcGVyYS4iXTsKCi8vLyBBIHBhdXNlZC9zdG9wcGVkIHNlc3Npb24ga2VlcHMgaXRzIGxhc3QgdGltZWxpbmUgZm9yZXZlcjsgdGhhdCBpcyBmaW5lIGJlY2F1c2UKLy8vIGEgZnJvemVuIHBvc2l0aW9uIGlzIHRoZSBjb3JyZWN0IG9uZS4gV2hpbGUgcGxheWluZywgdGhlIGFnZSBvZiB0aGUgcmVwb3J0IGlzCi8vLyBlbGFwc2VkIHBsYXliYWNrIHRpbWUgKHNlZSB0aGUgTTAvTTIgbm90ZXMpLCBzbyB3ZSBhbHdheXMgZXh0cmFwb2xhdGUuCmNvbnN0IEVYVFJBUE9MQVRFX0FGVEVSX01TOiB1NjQgPSAwOwoKcHViIHN0cnVjdCBTbXRjUHJvdmlkZXIgewogICAgZm9sbG93ZWQ6IHN0ZDo6c3luYzo6TXV0ZXg8T3B0aW9uPFN0cmluZz4+LAp9CgppbXBsIERlZmF1bHQgZm9yIFNtdGNQcm92aWRlciB7CiAgICBmbiBkZWZhdWx0KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IGZvbGxvd2VkOiBzdGQ6OnN5bmM6Ok11dGV4OjpuZXcoTm9uZSkgfQogICAgfQp9CgppbXBsIFNtdGNQcm92aWRlciB7CiAgICBwdWIgZm4gbmV3KCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZjo6ZGVmYXVsdCgpCiAgICB9CgogICAgLy8vIFBpbiB0byBhIHNwZWNpZmljIGFwcCBpZCAodHJheSBtZW51KSwgb3IgYE5vbmVgIHRvIGF1dG8tcmFuay4KICAgIHB1YiBmbiBwaW4oJnNlbGYsIGFwcF9pZDogT3B0aW9uPFN0cmluZz4pIHsKICAgICAgICAqc2VsZi5mb2xsb3dlZC5sb2NrKCkudW53cmFwKCkgPSBhcHBfaWQ7CiAgICB9Cn0KCmltcGwgUHJvdmlkZXIgZm9yIFNtdGNQcm92aWRlciB7CiAgICBmbiBpZCgmc2VsZikgLT4gJidzdGF0aWMgc3RyIHsKICAgICAgICAic210YyIKICAgIH0KCiAgICBmbiBwcmVjaXNpb24oJnNlbGYpIC0+IHU4IHsKICAgICAgICAwCiAgICB9CgogICAgZm4gcG9sbCgmc2VsZikgLT4gT3B0aW9uPFBsYXliYWNrU25hcHNob3Q+IHsKICAgICAgICBwbGF0Zm9ybTo6cG9sbChzZWxmLmZvbGxvd2VkLmxvY2soKS51bndyYXAoKS5jbG9uZSgpKQogICAgfQp9CgojW2NmZyh3aW5kb3dzKV0KbW9kIHBsYXRmb3JtIHsKICAgIHVzZSBzdXBlcjo6KjsKICAgIHVzZSB3aW5kb3dzOjpjb3JlOjpIU1RSSU5HOwogICAgdXNlIHdpbmRvd3M6OkZvdW5kYXRpb246OkRhdGVUaW1lOwogICAgdXNlIHdpbmRvd3M6Ok1lZGlhOjpDb250cm9sOjp7CiAgICAgICAgR2xvYmFsU3lzdGVtTWVkaWFUcmFuc3BvcnRDb250cm9sc1Nlc3Npb24gYXMgU2Vzc2lvbiwKICAgICAgICBHbG9iYWxTeXN0ZW1NZWRpYVRyYW5zcG9ydENvbnRyb2xzU2Vzc2lvbk1hbmFnZXIgYXMgU2Vzc2lvbk1hbmFnZXIsCiAgICAgICAgR2xvYmFsU3lzdGVtTWVkaWFUcmFuc3BvcnRDb250cm9sc1Nlc3Npb25QbGF5YmFja1N0YXR1cyBhcyBTdGF0dXMsCiAgICB9OwoKICAgIC8vLyAxMDAtbnMgdGlja3Mgc2luY2UgMTYwMS0wMS0wMSwgdGhlIGVwb2NoIFdpblJUIHVzZXMuCiAgICBmbiBub3dfdGlja3MoKSAtPiBpNjQgewogICAgICAgIHVzZSBzdGQ6OnRpbWU6OntTeXN0ZW1UaW1lLCBVTklYX0VQT0NIfTsKICAgICAgICBsZXQgdW5peCA9IFN5c3RlbVRpbWU6Om5vdygpCiAgICAgICAgICAgIC5kdXJhdGlvbl9zaW5jZShVTklYX0VQT0NIKQogICAgICAgICAgICAubWFwKHxkfCBkLmFzX25hbm9zKCkgYXMgaTY0KQogICAgICAgICAgICAudW53cmFwX29yKDApOwogICAgICAgIHVuaXggLyAxMDAgKyAxMTZfNDQ0XzczNl8wMDBfMDAwXzAwMAogICAgfQoKICAgIGZuIHRpY2tzX3RvX3NlY3ModHM6IHdpbmRvd3M6OkZvdW5kYXRpb246OlRpbWVTcGFuKSAtPiBmNjQgewogICAgICAgIHRzLkR1cmF0aW9uIGFzIGY2NCAvIDEwXzAwMF8wMDAuMAogICAgfQoKICAgIGZuIGhzdHJpbmcoaDogSFNUUklORykgLT4gU3RyaW5nIHsKICAgICAgICBoLnRvX3N0cmluZygpCiAgICB9CgogICAgc3RydWN0IENhbmRpZGF0ZSB7CiAgICAgICAgc2Vzc2lvbjogU2Vzc2lvbiwKICAgICAgICBhcHBfaWQ6IFN0cmluZywKICAgICAgICBzdGF0ZTogUGxheWJhY2tTdGF0ZSwKICAgICAgICBhZ2VfbXM6IHU2NCwKICAgICAgICBkdXJhdGlvbjogZjY0LAogICAgICAgIHRyYWNrOiBPcHRpb248VHJhY2tJbmZvPiwKICAgICAgICBwb3NpdGlvbjogZjY0LAogICAgICAgIGxhc3RfdXBkYXRlZDogRGF0ZVRpbWUsCiAgICB9CgogICAgZm4gZGVzY3JpYmUoc2Vzc2lvbjogJlNlc3Npb24pIC0+IE9wdGlvbjxDYW5kaWRhdGU+IHsKICAgICAgICBsZXQgYXBwX2lkID0gaHN0cmluZyhzZXNzaW9uLlNvdXJjZUFwcFVzZXJNb2RlbElkKCkub2soKT8pOwogICAgICAgIGlmICFCUk9XU0VSX1BSRUZJWEVTLml0ZXIoKS5hbnkofHB8IGFwcF9pZC5zdGFydHNfd2l0aChwKSkgewogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CgogICAgICAgIGxldCBpbmZvID0gc2Vzc2lvbi5HZXRQbGF5YmFja0luZm8oKS5vaygpPzsKICAgICAgICBsZXQgc3RhdGUgPSBtYXRjaCBpbmZvLlBsYXliYWNrU3RhdHVzKCkub2soKT8gewogICAgICAgICAgICBTdGF0dXM6OlBsYXlpbmcgPT4gUGxheWJhY2tTdGF0ZTo6UGxheWluZywKICAgICAgICAgICAgU3RhdHVzOjpQYXVzZWQgPT4gUGxheWJhY2tTdGF0ZTo6UGF1c2VkLAogICAgICAgICAgICBTdGF0dXM6OlN0b3BwZWQgfCBTdGF0dXM6OkNsb3NlZCA9PiBQbGF5YmFja1N0YXRlOjpTdG9wcGVkLAogICAgICAgICAgICBfID0+IFBsYXliYWNrU3RhdGU6OlVua25vd24sCiAgICAgICAgfTsKCiAgICAgICAgbGV0IHRyYWNrID0gc2Vzc2lvbgogICAgICAgICAgICAuVHJ5R2V0TWVkaWFQcm9wZXJ0aWVzQXN5bmMoKQogICAgICAgICAgICAub2soKQogICAgICAgICAgICAuYW5kX3RoZW4ofG9wfCBvcC5nZXQoKS5vaygpKQogICAgICAgICAgICAuYW5kX3RoZW4ofHByb3BzfCB7CiAgICAgICAgICAgICAgICBsZXQgdGl0bGUgPSBoc3RyaW5nKHByb3BzLlRpdGxlKCkub2soKT8pOwogICAgICAgICAgICAgICAgaWYgdGl0bGUuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIE5vbmU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTb21lKFRyYWNrSW5mbyB7CiAgICAgICAgICAgICAgICAgICAgdGl0bGUsCiAgICAgICAgICAgICAgICAgICAgYXJ0aXN0OiBoc3RyaW5nKHByb3BzLkFydGlzdCgpLnVud3JhcF9vcl9kZWZhdWx0KCkpLAogICAgICAgICAgICAgICAgICAgIGFsYnVtOiBoc3RyaW5nKHByb3BzLkFsYnVtVGl0bGUoKS51bndyYXBfb3JfZGVmYXVsdCgpKSwKICAgICAgICAgICAgICAgICAgICBhcHBfaWQ6IGFwcF9pZC5jbG9uZSgpLAogICAgICAgICAgICAgICAgICAgIHNvbmdfaWQ6IE5vbmUsIC8vIFNNVEMgZXhwb3NlcyBubyBjYXRhbG9nIGlkCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICB9KTsKCiAgICAgICAgbGV0IHRsID0gc2Vzc2lvbi5HZXRUaW1lbGluZVByb3BlcnRpZXMoKS5vaygpPzsKICAgICAgICBsZXQgbGFzdF91cGRhdGVkID0gdGwuTGFzdFVwZGF0ZWRUaW1lKCkub2soKT87CiAgICAgICAgbGV0IHBvc2l0aW9uID0gdGlja3NfdG9fc2Vjcyh0bC5Qb3NpdGlvbigpLm9rKCk/KTsKICAgICAgICBsZXQgZHVyYXRpb24gPSB0aWNrc190b19zZWNzKHRsLkVuZFRpbWUoKS5vaygpPyk7CiAgICAgICAgbGV0IGFnZV90aWNrcyA9IG5vd190aWNrcygpLnNhdHVyYXRpbmdfc3ViKGxhc3RfdXBkYXRlZC5Vbml2ZXJzYWxUaW1lKTsKICAgICAgICBsZXQgYWdlX21zID0gKGFnZV90aWNrcyAvIDEwXzAwMCkubWF4KDApIGFzIHU2NDsKCiAgICAgICAgU29tZShDYW5kaWRhdGUgewogICAgICAgICAgICBzZXNzaW9uOiBzZXNzaW9uLmNsb25lKCksCiAgICAgICAgICAgIGFwcF9pZCwKICAgICAgICAgICAgc3RhdGUsCiAgICAgICAgICAgIGFnZV9tcywKICAgICAgICAgICAgZHVyYXRpb24sCiAgICAgICAgICAgIHRyYWNrLAogICAgICAgICAgICBwb3NpdGlvbiwKICAgICAgICAgICAgbGFzdF91cGRhdGVkLAogICAgICAgIH0pCiAgICB9CgogICAgcHViIGZuIHBvbGwocGlubmVkOiBPcHRpb248U3RyaW5nPikgLT4gT3B0aW9uPFBsYXliYWNrU25hcHNob3Q+IHsKICAgICAgICBsZXQgbWFuYWdlcjogU2Vzc2lvbk1hbmFnZXIgPSBTZXNzaW9uTWFuYWdlcjo6UmVxdWVzdEFzeW5jKCkub2soKT8uZ2V0KCkub2soKT87CiAgICAgICAgbGV0IHNlc3Npb25zID0gbWFuYWdlci5HZXRTZXNzaW9ucygpLm9rKCk/OwoKICAgICAgICBsZXQgbXV0IGNhbmRpZGF0ZXM6IFZlYzxDYW5kaWRhdGU+ID0gVmVjOjpuZXcoKTsKICAgICAgICBmb3IgaSBpbiAwLi5zZXNzaW9ucy5TaXplKCkudW53cmFwX29yKDApIHsKICAgICAgICAgICAgaWYgbGV0IE9rKHNlc3Npb24pID0gc2Vzc2lvbnMuR2V0QXQoaSkgewogICAgICAgICAgICAgICAgaWYgbGV0IFNvbWUoYykgPSBkZXNjcmliZSgmc2Vzc2lvbikgewogICAgICAgICAgICAgICAgICAgIGNhbmRpZGF0ZXMucHVzaChjKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgbGV0IGNob3NlbiA9IGlmIGxldCBTb21lKGlkKSA9IHBpbm5lZCB7CiAgICAgICAgICAgIGNhbmRpZGF0ZXMuaW50b19pdGVyKCkuZmluZCh8Y3wgYy5hcHBfaWQgPT0gaWQpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbGV0IHNjb3JlZDogVmVjPCgmQ2FuZGlkYXRlLCBQbGF5YmFja1N0YXRlLCB1NjQsIGY2NCk+ID0KICAgICAgICAgICAgICAgIGNhbmRpZGF0ZXMuaXRlcigpLm1hcCh8Y3wgKGMsIGMuc3RhdGUsIGMuYWdlX21zLCBjLmR1cmF0aW9uKSkuY29sbGVjdCgpOwogICAgICAgICAgICBsZXQgcGlja2VkID0gc3VwZXI6OnN1cGVyOjpyYW5rKHNjb3JlZCk/OwogICAgICAgICAgICAvLyByYW5rKCkgYm9ycm93cywgc28gcmUtZmluZCBieSBhcHAgaWQgKyBpbmRleC4KICAgICAgICAgICAgbGV0IGlkID0gcGlja2VkLmFwcF9pZC5jbG9uZSgpOwogICAgICAgICAgICBsZXQgbXV0IGZvdW5kID0gTm9uZTsKICAgICAgICAgICAgZm9yIGMgaW4gY2FuZGlkYXRlcy5pbnRvX2l0ZXIoKSB7CiAgICAgICAgICAgICAgICBpZiBjLmFwcF9pZCA9PSBpZCB7CiAgICAgICAgICAgICAgICAgICAgZm91bmQgPSBTb21lKGMpOwogICAgICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGZvdW5kCiAgICAgICAgfT87CgogICAgICAgIGxldCBtdXQgcG9zaXRpb24gPSBjaG9zZW4ucG9zaXRpb247CiAgICAgICAgaWYgY2hvc2VuLnN0YXRlLmlzX3BsYXlpbmcoKSAmJiBjaG9zZW4uYWdlX21zID4gRVhUUkFQT0xBVEVfQUZURVJfTVMgewogICAgICAgICAgICAvLyBBcHBsZSBNdXNpYyB3ZWIgcHVibGlzaGVzIHRoZSB0aW1lbGluZSBvbmNlIGFuZCBuZXZlciByZWZyZXNoZXMgaXQsIHNvCiAgICAgICAgICAgIC8vIGBsYXN0VXBkYXRlZGAgaXMgb3VyIGFuY2hvciBhbmQgdGhlIGFnZSBpcyBlbGFwc2VkIHBsYXliYWNrIHRpbWUuCiAgICAgICAgICAgIHBvc2l0aW9uICs9IGNob3Nlbi5hZ2VfbXMgYXMgZjY0IC8gMTAwMC4wOwogICAgICAgIH0KICAgICAgICBpZiBjaG9zZW4uZHVyYXRpb24gPiAwLjAgewogICAgICAgICAgICBwb3NpdGlvbiA9IHBvc2l0aW9uLmNsYW1wKDAuMCwgY2hvc2VuLmR1cmF0aW9uKTsKICAgICAgICB9CgogICAgICAgIFNvbWUoUGxheWJhY2tTbmFwc2hvdCB7CiAgICAgICAgICAgIHRyYWNrOiBjaG9zZW4udHJhY2ssCiAgICAgICAgICAgIHN0YXRlOiBjaG9zZW4uc3RhdGUsCiAgICAgICAgICAgIHBvc2l0aW9uX3NlY3M6IHBvc2l0aW9uLAogICAgICAgICAgICBkdXJhdGlvbl9zZWNzOiBjaG9zZW4uZHVyYXRpb24sCiAgICAgICAgICAgIHJlcG9ydF9hZ2VfbXM6IGNob3Nlbi5hZ2VfbXMsCiAgICAgICAgICAgIHNvdXJjZTogInNtdGMiLmludG8oKSwKICAgICAgICB9KQogICAgfQp9CgojW2NmZyhub3Qod2luZG93cykpXQptb2QgcGxhdGZvcm0gewogICAgdXNlIHN1cGVyOjoqOwogICAgcHViIGZuIHBvbGwoX3Bpbm5lZDogT3B0aW9uPFN0cmluZz4pIC0+IE9wdGlvbjxQbGF5YmFja1NuYXBzaG90PiB7CiAgICAgICAgTm9uZQogICAgfQp9Cg==
+//! Windows System Media Transport Controls provider.
+//!
+//! Verified behaviour (docs/m0-smtc-probe.md):
+//!   * metadata, playback status and duration always work;
+//!   * position is only trustworthy while the page keeps publishing it —
+//!     a leftover session can keep a 25-hour-old `LastUpdatedTime` forever;
+//!   * extrapolating by `report_age` overshoots when the report is fresh
+//!     (quantisation ~250 ms), so we only extrapolate past a threshold.
+//!
+//! NOTE: written without a local Rust toolchain; expected to need small API
+//! fixes on first `cargo check` (windows-rs naming churn).
+
+use super::{PlaybackState, PlaybackSnapshot, Provider, TrackInfo};
+
+/// Only follow browser sessions; a native music app is a different product.
+const BROWSER_PREFIXES: &[&str] = &["Chrome.", "MsEdge.", "Firefox", "Brave.", "Opera."];
+
+/// A paused/stopped session keeps its last timeline forever; that is fine because
+/// a frozen position is the correct one. While playing, the age of the report is
+/// elapsed playback time (see the M0/M2 notes), so we always extrapolate.
+const EXTRAPOLATE_AFTER_MS: u64 = 0;
+
+pub struct SmtcProvider {
+    followed: std::sync::Mutex<Option<String>>,
+}
+
+impl Default for SmtcProvider {
+    fn default() -> Self {
+        Self { followed: std::sync::Mutex::new(None) }
+    }
+}
+
+impl SmtcProvider {
+    pub fn new() -> Self {
+        Self::default()
+    }
+
+    /// Pin to a specific app id (tray menu), or `None` to auto-rank.
+    pub fn pin(&self, app_id: Option<String>) {
+        *self.followed.lock().unwrap() = app_id;
+    }
+}
+
+impl Provider for SmtcProvider {
+    fn id(&self) -> &'static str {
+        "smtc"
+    }
+
+    fn precision(&self) -> u8 {
+        0
+    }
+
+    fn poll(&self) -> Option<PlaybackSnapshot> {
+        platform::poll(self.followed.lock().unwrap().clone())
+    }
+}
+
+#[cfg(windows)]
+mod platform {
+    use super::*;
+    use windows::core::HSTRING;
+    use windows::Foundation::DateTime;
+    use windows::Media::Control::{
+        GlobalSystemMediaTransportControlsSession as Session,
+        GlobalSystemMediaTransportControlsSessionManager as SessionManager,
+        GlobalSystemMediaTransportControlsSessionPlaybackStatus as Status,
+    };
+
+    /// 100-ns ticks since 1601-01-01, the epoch WinRT uses.
+    fn now_ticks() -> i64 {
+        use std::time::{SystemTime, UNIX_EPOCH};
+        let unix = SystemTime::now()
+            .duration_since(UNIX_EPOCH)
+            .map(|d| d.as_nanos() as i64)
+            .unwrap_or(0);
+        unix / 100 + 116_444_736_000_000_000
+    }
+
+    fn ticks_to_secs(ts: windows::Foundation::TimeSpan) -> f64 {
+        ts.Duration as f64 / 10_000_000.0
+    }
+
+    fn hstring(h: HSTRING) -> String {
+        h.to_string()
+    }
+
+    struct Candidate {
+        session: Session,
+        app_id: String,
+        state: PlaybackState,
+        age_ms: u64,
+        duration: f64,
+        track: Option<TrackInfo>,
+        position: f64,
+        last_updated: DateTime,
+    }
+
+    fn describe(session: &Session) -> Option<Candidate> {
+        let app_id = hstring(session.SourceAppUserModelId().ok()?);
+        if !BROWSER_PREFIXES.iter().any(|p| app_id.starts_with(p)) {
+            return None;
+        }
+
+        let info = session.GetPlaybackInfo().ok()?;
+        let state = match info.PlaybackStatus().ok()? {
+            Status::Playing => PlaybackState::Playing,
+            Status::Paused => PlaybackState::Paused,
+            Status::Stopped | Status::Closed => PlaybackState::Stopped,
+            _ => PlaybackState::Unknown,
+        };
+
+        let track = session
+            .TryGetMediaPropertiesAsync()
+            .ok()
+            .and_then(|op| op.get().ok())
+            .and_then(|props| {
+                let title = hstring(props.Title().ok()?);
+                if title.is_empty() {
+                    return None;
+                }
+                Some(TrackInfo {
+                    title,
+                    artist: hstring(props.Artist().unwrap_or_default()),
+                    album: hstring(props.AlbumTitle().unwrap_or_default()),
+                    app_id: app_id.clone(),
+                    song_id: None, // SMTC exposes no catalog id
+                })
+            });
+
+        let tl = session.GetTimelineProperties().ok()?;
+        let last_updated = tl.LastUpdatedTime().ok()?;
+        let position = ticks_to_secs(tl.Position().ok()?);
+        let duration = ticks_to_secs(tl.EndTime().ok()?);
+        let age_ticks = now_ticks().saturating_sub(last_updated.UniversalTime);
+        let age_ms = (age_ticks / 10_000).max(0) as u64;
+
+        Some(Candidate {
+            session: session.clone(),
+            app_id,
+            state,
+            age_ms,
+            duration,
+            track,
+            position,
+            last_updated,
+        })
+    }
+
+    pub fn poll(pinned: Option<String>) -> Option<PlaybackSnapshot> {
+        let manager: SessionManager = SessionManager::RequestAsync().ok()?.get().ok()?;
+        let sessions = manager.GetSessions().ok()?;
+
+        let mut candidates: Vec<Candidate> = Vec::new();
+        for i in 0..sessions.Size().unwrap_or(0) {
+            if let Ok(session) = sessions.GetAt(i) {
+                if let Some(c) = describe(&session) {
+                    candidates.push(c);
+                }
+            }
+        }
+
+        let chosen = if let Some(id) = pinned {
+            candidates.into_iter().find(|c| c.app_id == id)
+        } else {
+            let scored: Vec<(&Candidate, PlaybackState, u64, f64)> =
+                candidates.iter().map(|c| (c, c.state, c.age_ms, c.duration)).collect();
+            let picked = super::super::rank(scored)?;
+            // rank() borrows, so re-find by app id + index.
+            let id = picked.app_id.clone();
+            let mut found = None;
+            for c in candidates.into_iter() {
+                if c.app_id == id {
+                    found = Some(c);
+                    break;
+                }
+            }
+            found
+        }?;
+
+        let mut position = chosen.position;
+        if chosen.state.is_playing() && chosen.age_ms > EXTRAPOLATE_AFTER_MS {
+            // Apple Music web publishes the timeline once and never refreshes it, so
+            // `lastUpdated` is our anchor and the age is elapsed playback time.
+            position += chosen.age_ms as f64 / 1000.0;
+        }
+        if chosen.duration > 0.0 {
+            position = position.clamp(0.0, chosen.duration);
+        }
+
+        Some(PlaybackSnapshot {
+            track: chosen.track,
+            state: chosen.state,
+            position_secs: position,
+            duration_secs: chosen.duration,
+            report_age_ms: chosen.age_ms,
+            source: "smtc".into(),
+        })
+    }
+}
+
+#[cfg(not(windows))]
+mod platform {
+    use super::*;
+    pub fn poll(_pinned: Option<String>) -> Option<PlaybackSnapshot> {
+        None
+    }
+}

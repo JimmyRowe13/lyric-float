@@ -1,1 +1,24 @@
-ewogICJuYW1lIjogImx5cmljLWZsb2F0IiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInZlcnNpb24iOiAiMC4yLjAiLAogICJ0eXBlIjogIm1vZHVsZSIsCiAgImRlc2NyaXB0aW9uIjogIkRlc2t0b3AgbHlyaWNzIG92ZXJsYXkgZm9yIEFwcGxlIE11c2ljIHdlYiAoYW5kIGFueSBwbGF5ZXIgdGhhdCBwdWJsaXNoZXMgYSBXaW5kb3dzIG1lZGlhIHNlc3Npb24pIiwKICAibGljZW5zZSI6ICJNSVQiLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJ2aXRlIiwKICAgICJidWlsZCI6ICJ0c2MgLS1ub0VtaXQgJiYgdml0ZSBidWlsZCIsCiAgICAicHJldmlldyI6ICJ2aXRlIHByZXZpZXciLAogICAgInRhdXJpIjogInRhdXJpIiwKICAgICJhcHA6ZGV2IjogInRhdXJpIGRldiIsCiAgICAiYXBwOmJ1aWxkIjogInRhdXJpIGJ1aWxkIgogIH0sCiAgImRlcGVuZGVuY2llcyI6IHsKICAgICJAdGF1cmktYXBwcy9hcGkiOiAiXjIuMS4xIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdGF1cmktYXBwcy9jbGkiOiAiXjIuMS4wIiwKICAgICJ0eXBlc2NyaXB0IjogIl41LjYuMyIsCiAgICAidml0ZSI6ICJeNS40LjExIgogIH0KfQo=
+{
+  "name": "lyric-float",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Desktop lyrics overlay for Apple Music web (and any player that publishes a Windows media session)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "app:dev": "tauri dev",
+    "app:build": "tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.1.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.1.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

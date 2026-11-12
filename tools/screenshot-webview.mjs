@@ -1,1 +1,42 @@
-Ly8gQ2FwdHVyZXMgd2hhdCB0aGUgb3ZlcmxheSBwYWdlIGl0c2VsZiByZW5kZXJzLCB2aWEgdGhlIFdlYlZpZXcyIERldlRvb2xzIHBvcnQuCi8vIFNlcGFyYXRlcyAidGhlIHBhZ2UgZHJhd3Mgbm90aGluZyIgZnJvbSAidGhlIHdpbmRvdyBkb2VzIG5vdCBjb21wb3NpdGUiLgovLwovLyBVc2FnZTogbm9kZSB0b29scy9zY3JlZW5zaG90LXdlYnZpZXcubWpzIFtvdXQucG5nXSBbcG9ydF0KCmltcG9ydCB7IHdyaXRlRmlsZVN5bmMgfSBmcm9tICJub2RlOmZzIjsKCmNvbnN0IG91dCA9IHByb2Nlc3MuYXJndlsyXSA/PyAid2Vidmlldy5wbmciOwpjb25zdCBwb3J0ID0gcHJvY2Vzcy5hcmd2WzNdID8/ICI5MzMzIjsKCmNvbnN0IHRhcmdldHMgPSBhd2FpdCAoYXdhaXQgZmV0Y2goYGh0dHA6Ly8xMjcuMC4wLjE6JHtwb3J0fS9qc29uYCkpLmpzb24oKTsKY29uc3QgcGFnZSA9IHRhcmdldHMuZmluZCgodCkgPT4gdC50eXBlID09PSAicGFnZSIpOwppZiAoIXBhZ2UpIHsKICBjb25zb2xlLmxvZygibm8gcGFnZSB0YXJnZXQiKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnN0IHdzID0gbmV3IFdlYlNvY2tldChwYWdlLndlYlNvY2tldERlYnVnZ2VyVXJsKTsKd3MuYWRkRXZlbnRMaXN0ZW5lcigib3BlbiIsICgpID0+IHsKICB3cy5zZW5kKEpTT04uc3RyaW5naWZ5KHsgaWQ6IDEsIG1ldGhvZDogIlBhZ2UuZW5hYmxlIiB9KSk7CiAgd3Muc2VuZCgKICAgIEpTT04uc3RyaW5naWZ5KHsKICAgICAgaWQ6IDIsCiAgICAgIG1ldGhvZDogIlBhZ2UuY2FwdHVyZVNjcmVlbnNob3QiLAogICAgICBwYXJhbXM6IHsgZm9ybWF0OiAicG5nIiwgZnJvbVN1cmZhY2U6IHRydWUsIGNhcHR1cmVCZXlvbmRWaWV3cG9ydDogZmFsc2UgfSwKICAgIH0pLAogICk7Cn0pOwp3cy5hZGRFdmVudExpc3RlbmVyKCJtZXNzYWdlIiwgKGV2ZW50KSA9PiB7CiAgY29uc3QgbXNnID0gSlNPTi5wYXJzZShldmVudC5kYXRhKTsKICBpZiAobXNnLmlkICE9PSAyKSByZXR1cm47CiAgY29uc3QgZGF0YSA9IG1zZy5yZXN1bHQ/LmRhdGE7CiAgaWYgKCFkYXRhKSB7CiAgICBjb25zb2xlLmxvZygiY2FwdHVyZSBmYWlsZWQ6IiwgSlNPTi5zdHJpbmdpZnkobXNnKS5zbGljZSgwLCAzMDApKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9CiAgd3JpdGVGaWxlU3luYyhvdXQsIEJ1ZmZlci5mcm9tKGRhdGEsICJiYXNlNjQiKSk7CiAgY29uc29sZS5sb2coIndyb3RlIiwgb3V0KTsKICB3cy5jbG9zZSgpOwogIHByb2Nlc3MuZXhpdCgwKTsKfSk7CnNldFRpbWVvdXQoKCkgPT4gcHJvY2Vzcy5leGl0KDApLCA4MDAwKTsK
+// Captures what the overlay page itself renders, via the WebView2 DevTools port.
+// Separates "the page draws nothing" from "the window does not composite".
+//
+// Usage: node tools/screenshot-webview.mjs [out.png] [port]
+
+import { writeFileSync } from "node:fs";
+
+const out = process.argv[2] ?? "webview.png";
+const port = process.argv[3] ?? "9333";
+
+const targets = await (await fetch(`http://127.0.0.1:${port}/json`)).json();
+const page = targets.find((t) => t.type === "page");
+if (!page) {
+  console.log("no page target");
+  process.exit(1);
+}
+
+const ws = new WebSocket(page.webSocketDebuggerUrl);
+ws.addEventListener("open", () => {
+  ws.send(JSON.stringify({ id: 1, method: "Page.enable" }));
+  ws.send(
+    JSON.stringify({
+      id: 2,
+      method: "Page.captureScreenshot",
+      params: { format: "png", fromSurface: true, captureBeyondViewport: false },
+    }),
+  );
+});
+ws.addEventListener("message", (event) => {
+  const msg = JSON.parse(event.data);
+  if (msg.id !== 2) return;
+  const data = msg.result?.data;
+  if (!data) {
+    console.log("capture failed:", JSON.stringify(msg).slice(0, 300));
+    process.exit(1);
+  }
+  writeFileSync(out, Buffer.from(data, "base64"));
+  console.log("wrote", out);
+  ws.close();
+  process.exit(0);
+});
+setTimeout(() => process.exit(0), 8000);

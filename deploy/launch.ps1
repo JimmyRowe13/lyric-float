@@ -1,1 +1,60 @@
-IyBMeXJpY0Zsb2F0IGxhdW5jaGVyLgojCiMgU3RhcnRzIHRoZSBkZWJ1ZyBicm93c2VyIGZpcnN0IChpdHMgb3duIHByb2ZpbGUsIHNvIHRoZSBBcHBsZSBNdXNpYyBsb2dpbiBwZXJzaXN0cyksCiMgdGhlbiB0aGUgb3ZlcmxheS4gQm90aCBzdGVwcyBhcmUgaWRlbXBvdGVudDogaWYgc29tZXRoaW5nIGlzIGFscmVhZHkgbGlzdGVuaW5nIG9uIHRoZQojIHBvcnQsIENocm9tZSBqdXN0IGZvcndhcmRzIHRoZSBuZXcgd2luZG93IGludG8gdGhlIHJ1bm5pbmcgaW5zdGFuY2UuCiMKIyBQb2ludCBhIGRlc2t0b3Agc2hvcnRjdXQgYXQ6CiMgICBwb3dlcnNoZWxsLmV4ZSAtTm9Qcm9maWxlIC1XaW5kb3dTdHlsZSBIaWRkZW4gLUV4ZWN1dGlvblBvbGljeSBCeXBhc3MgLUZpbGUgbGF1bmNoLnBzMQoKcGFyYW0oCiAgICBbaW50XSRQb3J0ID0gOTIyMiwKICAgIFtzdHJpbmddJFByb2ZpbGVEaXIgPSAiIiwKICAgIFtzdHJpbmddJFVybCA9ICJodHRwczovL211c2ljLmFwcGxlLmNvbS8iLAogICAgW3N3aXRjaF0kRm9yY2VCcm93c2VyCikKCiRFcnJvckFjdGlvblByZWZlcmVuY2UgPSAnU3RvcCcKJHJvb3QgPSBTcGxpdC1QYXRoIC1QYXJlbnQgJE15SW52b2NhdGlvbi5NeUNvbW1hbmQuUGF0aAoKaWYgKFtzdHJpbmddOjpJc051bGxPcldoaXRlU3BhY2UoJFByb2ZpbGVEaXIpKSB7CiAgICAkUHJvZmlsZURpciA9IEpvaW4tUGF0aCAkZW52OkFQUERBVEEgJ2x5cmljLWZsb2F0XGNocm9tZS1jZHAtcHJvZmlsZScKfQoKJGNhbmRpZGF0ZXMgPSBAKAogICAgIiRlbnY6TE9DQUxBUFBEQVRBXEdvb2dsZVxDaHJvbWVcQXBwbGljYXRpb25cY2hyb21lLmV4ZSIsCiAgICAiJGVudjpQcm9ncmFtRmlsZXNcR29vZ2xlXENocm9tZVxBcHBsaWNhdGlvblxjaHJvbWUuZXhlIiwKICAgICIke2VudjpQcm9ncmFtRmlsZXMoeDg2KX1cR29vZ2xlXENocm9tZVxBcHBsaWNhdGlvblxjaHJvbWUuZXhlIiwKICAgICIke2VudjpQcm9ncmFtRmlsZXMoeDg2KX1cTWljcm9zb2Z0XEVkZ2VcQXBwbGljYXRpb25cbXNlZGdlLmV4ZSIKKQokYnJvd3NlciA9ICRjYW5kaWRhdGVzIHwgV2hlcmUtT2JqZWN0IHsgVGVzdC1QYXRoICRfIH0gfCBTZWxlY3QtT2JqZWN0IC1GaXJzdCAxCgokbGlzdGVuaW5nID0gJGZhbHNlCnRyeSB7CiAgICAkbGlzdGVuaW5nID0gKFRlc3QtTmV0Q29ubmVjdGlvbiAtQ29tcHV0ZXJOYW1lIDEyNy4wLjAuMSAtUG9ydCAkUG9ydCAtSW5mb3JtYXRpb25MZXZlbCBRdWlldCAtV2FybmluZ0FjdGlvbiBTaWxlbnRseUNvbnRpbnVlKQp9IGNhdGNoIHsgfQoKaWYgKCRGb3JjZUJyb3dzZXIgLW9yIC1ub3QgJGxpc3RlbmluZykgewogICAgaWYgKC1ub3QgJGJyb3dzZXIpIHsKICAgICAgICBXcml0ZS1PdXRwdXQgIltsYXVuY2hlcl0gbm8gY2hyb21lL2VkZ2UgZm91bmQiCiAgICB9IGVsc2UgewogICAgICAgIGlmICgtbm90IChUZXN0LVBhdGggJFByb2ZpbGVEaXIpKSB7IE5ldy1JdGVtIC1JdGVtVHlwZSBEaXJlY3RvcnkgLUZvcmNlIC1QYXRoICRQcm9maWxlRGlyIHwgT3V0LU51bGwgfQogICAgICAgIFN0YXJ0LVByb2Nlc3MgLUZpbGVQYXRoICRicm93c2VyIC1Bcmd1bWVudExpc3QgQCgKICAgICAgICAgICAgIi0tcmVtb3RlLWRlYnVnZ2luZy1wb3J0PSRQb3J0IiwKICAgICAgICAgICAgIi0tdXNlci1kYXRhLWRpcj0kUHJvZmlsZURpciIsCiAgICAgICAgICAgICctLW5vLWZpcnN0LXJ1bicsCiAgICAgICAgICAgICctLW5vLWRlZmF1bHQtYnJvd3Nlci1jaGVjaycsCiAgICAgICAgICAgICctLW5ldy13aW5kb3cnLAogICAgICAgICAgICAkVXJsCiAgICAgICAgKQogICAgICAgICMgZ2l2ZSB0aGUgZW5kcG9pbnQgYSBtb21lbnQ7IHRoZSBvdmVybGF5IHJldHJpZXMgYW55d2F5CiAgICAgICAgU3RhcnQtU2xlZXAgLVNlY29uZHMgMgogICAgfQp9CgokZXhlID0gSm9pbi1QYXRoICRyb290ICdseXJpYy1mbG9hdC5leGUnCmlmIChUZXN0LVBhdGggJGV4ZSkgewogICAgU3RhcnQtUHJvY2VzcyAtRmlsZVBhdGggJGV4ZQp9IGVsc2UgewogICAgV3JpdGUtT3V0cHV0ICJbbGF1bmNoZXJdIGx5cmljLWZsb2F0LmV4ZSBub3QgZm91bmQgbmV4dCB0byBsYXVuY2gucHMxIgp9Cg==
+# LyricFloat launcher.
+#
+# Starts the debug browser first (its own profile, so the Apple Music login persists),
+# then the overlay. Both steps are idempotent: if something is already listening on the
+# port, Chrome just forwards the new window into the running instance.
+#
+# Point a desktop shortcut at:
+#   powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File launch.ps1
+
+param(
+    [int]$Port = 9222,
+    [string]$ProfileDir = "",
+    [string]$Url = "https://music.apple.com/",
+    [switch]$ForceBrowser
+)
+
+$ErrorActionPreference = 'Stop'
+$root = Split-Path -Parent $MyInvocation.MyCommand.Path
+
+if ([string]::IsNullOrWhiteSpace($ProfileDir)) {
+    $ProfileDir = Join-Path $env:APPDATA 'lyric-float\chrome-cdp-profile'
+}
+
+$candidates = @(
+    "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe",
+    "$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
+    "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe",
+    "${env:ProgramFiles(x86)}\Microsoft\Edge\Application\msedge.exe"
+)
+$browser = $candidates | Where-Object { Test-Path $_ } | Select-Object -First 1
+
+$listening = $false
+try {
+    $listening = (Test-NetConnection -ComputerName 127.0.0.1 -Port $Port -InformationLevel Quiet -WarningAction SilentlyContinue)
+} catch { }
+
+if ($ForceBrowser -or -not $listening) {
+    if (-not $browser) {
+        Write-Output "[launcher] no chrome/edge found"
+    } else {
+        if (-not (Test-Path $ProfileDir)) { New-Item -ItemType Directory -Force -Path $ProfileDir | Out-Null }
+        Start-Process -FilePath $browser -ArgumentList @(
+            "--remote-debugging-port=$Port",
+            "--user-data-dir=$ProfileDir",
+            '--no-first-run',
+            '--no-default-browser-check',
+            '--new-window',
+            $Url
+        )
+        # give the endpoint a moment; the overlay retries anyway
+        Start-Sleep -Seconds 2
+    }
+}
+
+$exe = Join-Path $root 'lyric-float.exe'
+if (Test-Path $exe) {
+    Start-Process -FilePath $exe
+} else {
+    Write-Output "[launcher] lyric-float.exe not found next to launch.ps1"
+}

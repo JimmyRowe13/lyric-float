@@ -1,1 +1,280 @@
-Ly8hIEFwcGxlIE11c2ljIFRUTUwgcGFyc2VyICh0aWVyIDEsIHdvcmQtbGV2ZWwpLgovLyEKLy8hIEFwcGxlJ3MgbHlyaWNzIHBheWxvYWQgaXMgVFRNTDogYDxwPmAgZWxlbWVudHMgYXJlIGRpc3BsYXkgbGluZXMsIG5lc3RlZCBgPHNwYW4+YAovLyEgZWxlbWVudHMgY2FycnkgdGhlaXIgb3duIGBiZWdpbmAvYGVuZGAsIGFuZCB0aGUgbGVhdmVzIGFyZSBzeWxsYWJsZXMgb3Igd29yZHMuCi8vISBgdHRtOmFnZW50PSJ2MSJgIGlzIHRoZSBsZWFkIHZvY2FsLCBgdjJgIGJhY2tncm91bmQg4oCUIHdlIGtlZXAgYHYxYCBieSBkZWZhdWx0LgovLyEKLy8hIFBhcnNpbmcgcnVsZXMgdGhhdCBtYXR0ZXIgaW4gcHJhY3RpY2U6Ci8vISAgICogd2hpdGVzcGFjZS1vbmx5IHRleHQgYmV0d2VlbiB0d28gc3BhbnMgaXMgZm9ybWF0dGluZywgbm90IGNvbnRlbnQ7Ci8vISAgICogYSBgPHA+YCB3aXRob3V0IGNoaWxkIHNwYW5zIHN0aWxsIGhhcyB0byBiZWNvbWUgYSBsaW5lIChhbmQgYSBzaW5nbGUgdG9rZW4pOwovLyEgICAqIGEgc3BhbiB3aXRob3V0IGl0cyBvd24gdGltaW5nIGluaGVyaXRzIHRoZSBwYXJlbnQncy4KCnVzZSBzdXBlcjo6e0x5cmljTGluZSwgV29yZFRva2VufTsKdXNlIHF1aWNrX3htbDo6ZXZlbnRzOjpFdmVudDsKdXNlIHF1aWNrX3htbDo6UmVhZGVyOwoKZm4gcGFyc2VfdGltZShyYXc6ICZzdHIpIC0+IE9wdGlvbjxmNjQ+IHsKICAgIGxldCB2ID0gcmF3LnRyaW0oKTsKICAgIGlmIHYuaXNfZW1wdHkoKSB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CiAgICBpZiBsZXQgU29tZShtcykgPSB2LnN0cmlwX3N1ZmZpeCgibXMiKSB7CiAgICAgICAgcmV0dXJuIG1zLnBhcnNlOjo8ZjY0PigpLm9rKCkubWFwKHxufCBuIC8gMTAwMC4wKTsKICAgIH0KICAgIGlmIGxldCBTb21lKHNlY3MpID0gdi5zdHJpcF9zdWZmaXgoJ3MnKSB7CiAgICAgICAgcmV0dXJuIHNlY3MucGFyc2U6OjxmNjQ+KCkub2soKTsKICAgIH0KICAgIGxldCBwYXJ0czogVmVjPCZzdHI+ID0gdi5zcGxpdCgnOicpLmNvbGxlY3QoKTsKICAgIG1hdGNoIHBhcnRzLmxlbigpIHsKICAgICAgICAzID0+IFNvbWUoCiAgICAgICAgICAgIHBhcnRzWzBdLnBhcnNlOjo8ZjY0PigpLm9rKCk/ICogMzYwMC4wCiAgICAgICAgICAgICAgICArIHBhcnRzWzFdLnBhcnNlOjo8ZjY0PigpLm9rKCk/ICogNjAuMAogICAgICAgICAgICAgICAgKyBwYXJ0c1syXS5wYXJzZTo6PGY2ND4oKS5vaygpPywKICAgICAgICApLAogICAgICAgIDIgPT4gU29tZShwYXJ0c1swXS5wYXJzZTo6PGY2ND4oKS5vaygpPyAqIDYwLjAgKyBwYXJ0c1sxXS5wYXJzZTo6PGY2ND4oKS5vaygpPyksCiAgICAgICAgMSA9PiB2LnBhcnNlOjo8ZjY0PigpLm9rKCksCiAgICAgICAgXyA9PiBOb25lLAogICAgfQp9CgpzdHJ1Y3QgT3BlblNwYW4gewogICAgYmVnaW46IE9wdGlvbjxmNjQ+LAogICAgZW5kOiBPcHRpb248ZjY0PiwKICAgIHRleHQ6IFN0cmluZywKICAgIGNoaWxkcmVuOiB1c2l6ZSwKfQoKcHViIGZuIHBhcnNlKHhtbDogJnN0ciwga2VlcF9hZ2VudHM6ICZbJnN0cl0pIC0+IFZlYzxMeXJpY0xpbmU+IHsKICAgIGxldCBtdXQgcmVhZGVyID0gUmVhZGVyOjpmcm9tX3N0cih4bWwpOwogICAgcmVhZGVyLmNvbmZpZ19tdXQoKS50cmltX3RleHQoZmFsc2UpOwoKICAgIGxldCBtdXQgbGluZXM6IFZlYzxMeXJpY0xpbmU+ID0gVmVjOjpuZXcoKTsKCiAgICBsZXQgbXV0IGluX3BhcmEgPSBmYWxzZTsKICAgIGxldCBtdXQgcGFyYV9zdGFydCA9IDAuMGY2NDsKICAgIGxldCBtdXQgcGFyYV9lbmQgPSAwLjBmNjQ7CiAgICBsZXQgbXV0IHBhcmFfd29yZHM6IFZlYzxXb3JkVG9rZW4+ID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgcGFyYV90ZXh0ID0gU3RyaW5nOjpuZXcoKTsKICAgIGxldCBtdXQgc3RhY2s6IFZlYzxPcGVuU3Bhbj4gPSBWZWM6Om5ldygpOwogICAgLy8gV2hpdGVzcGFjZSAqYmV0d2VlbiogdHdvIHNwYW5zIGlzIGEgcmVhbCBzZXBhcmF0b3IgaW4gTGF0aW4gbHlyaWNzLCBidXQgbXVzdAogICAgLy8gbm90IGJlIGludmVudGVkIGZvciBDSksgbHlyaWNzICh3aGljaCBhcmUgc3BsaXQgcGVyIGNoYXJhY3RlcikuIFNvIHdlIHJlY29yZAogICAgLy8gaXQgb25seSB3aGVuIHRoZSBzb3VyY2UgYWN0dWFsbHkgaGFzIGl0LgogICAgbGV0IG11dCBwZW5kaW5nX3NwYWNlID0gZmFsc2U7CgogICAgbG9vcCB7CiAgICAgICAgbWF0Y2ggcmVhZGVyLnJlYWRfZXZlbnQoKSB7CiAgICAgICAgICAgIE9rKEV2ZW50OjpTdGFydChlKSkgPT4gewogICAgICAgICAgICAgICAgbGV0IG5hbWUgPSBlLm5hbWUoKTsKICAgICAgICAgICAgICAgIGxldCBsb2NhbCA9IFN0cmluZzo6ZnJvbV91dGY4X2xvc3N5KG5hbWUubG9jYWxfbmFtZSgpLmFzX3JlZigpKS50b19zdHJpbmcoKTsKICAgICAgICAgICAgICAgIGlmIGxvY2FsID09ICJwIiB8fCBsb2NhbCA9PSAiZGl2IiB7CiAgICAgICAgICAgICAgICAgICAgaWYgbG9jYWwgPT0gInAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IG11dCBiZWdpbiA9IE5vbmU7CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBtdXQgZW5kID0gTm9uZTsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IG11dCBhZ2VudF9vayA9IGtlZXBfYWdlbnRzLmlzX2VtcHR5KCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGZvciBhdHRyIGluIGUuYXR0cmlidXRlcygpLmZsYXR0ZW4oKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXQga2V5ID0gU3RyaW5nOjpmcm9tX3V0ZjhfbG9zc3koYXR0ci5rZXkuYXNfcmVmKCkpLnRvX3N0cmluZygpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IHZhbCA9IGF0dHIudW5lc2NhcGVfdmFsdWUoKS51bndyYXBfb3JfZGVmYXVsdCgpLnRvX3N0cmluZygpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF0Y2gga2V5LmFzX3N0cigpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYmVnaW4iID0+IGJlZ2luID0gcGFyc2VfdGltZSgmdmFsKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZW5kIiA9PiBlbmQgPSBwYXJzZV90aW1lKCZ2YWwpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0dG06YWdlbnQiIHwgImFnZW50IiA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIGtlZXBfYWdlbnRzLml0ZXIoKS5hbnkofGF8ICphID09IHZhbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWdlbnRfb2sgPSB0cnVlOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF8gPT4ge30KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBpZiAhYWdlbnRfb2sgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gU2tpcCBiYWNrZ3JvdW5kLXZvY2FsIHBhcmFncmFwaHMgZW50aXJlbHkuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBpbl9wYXJhID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYV9zdGFydCA9IGJlZ2luLnVud3JhcF9vcigwLjApOwogICAgICAgICAgICAgICAgICAgICAgICBwYXJhX2VuZCA9IGVuZC51bndyYXBfb3IoMC4wKTsKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYV93b3Jkcy5jbGVhcigpOwogICAgICAgICAgICAgICAgICAgICAgICBwYXJhX3RleHQuY2xlYXIoKTsKICAgICAgICAgICAgICAgICAgICAgICAgcGVuZGluZ19zcGFjZSA9IGZhbHNlOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIGluX3BhcmEgJiYgbG9jYWwgPT0gInNwYW4iIHsKICAgICAgICAgICAgICAgICAgICBsZXQgbXV0IGJlZ2luID0gTm9uZTsKICAgICAgICAgICAgICAgICAgICBsZXQgbXV0IGVuZCA9IE5vbmU7CiAgICAgICAgICAgICAgICAgICAgZm9yIGF0dHIgaW4gZS5hdHRyaWJ1dGVzKCkuZmxhdHRlbigpIHsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGtleSA9IFN0cmluZzo6ZnJvbV91dGY4X2xvc3N5KGF0dHIua2V5LmFzX3JlZigpKS50b19zdHJpbmcoKTsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IHZhbCA9IGF0dHIudW5lc2NhcGVfdmFsdWUoKS51bndyYXBfb3JfZGVmYXVsdCgpLnRvX3N0cmluZygpOwogICAgICAgICAgICAgICAgICAgICAgICBtYXRjaCBrZXkuYXNfc3RyKCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJlZ2luIiA9PiBiZWdpbiA9IHBhcnNlX3RpbWUoJnZhbCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZW5kIiA9PiBlbmQgPSBwYXJzZV90aW1lKCZ2YWwpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgXyA9PiB7fQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHRvcCkgPSBzdGFjay5sYXN0X211dCgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdG9wLmNoaWxkcmVuICs9IDE7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHN0YWNrLnB1c2goT3BlblNwYW4geyBiZWdpbiwgZW5kLCB0ZXh0OiBTdHJpbmc6Om5ldygpLCBjaGlsZHJlbjogMCB9KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBPayhFdmVudDo6VGV4dCh0KSkgPT4gewogICAgICAgICAgICAgICAgbGV0IHJhdyA9IHQudW5lc2NhcGUoKS51bndyYXBfb3JfZGVmYXVsdCgpLnRvX3N0cmluZygpOwogICAgICAgICAgICAgICAgaWYgcmF3LnRyaW0oKS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgICAgICAvLyBTZXBhcmF0b3IgYmV0d2VlbiB0d28gc3BhbnMsIG5vdCBjb250ZW50LgogICAgICAgICAgICAgICAgICAgIGlmIGluX3BhcmEgJiYgc3RhY2suaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHBlbmRpbmdfc3BhY2UgPSB0cnVlOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsgLy8gZm9ybWF0dGluZyB3aGl0ZXNwYWNlIGJldHdlZW4gZWxlbWVudHMKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIGxldCBTb21lKHRvcCkgPSBzdGFjay5sYXN0X211dCgpIHsKICAgICAgICAgICAgICAgICAgICB0b3AudGV4dC5wdXNoX3N0cigmcmF3KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIGluX3BhcmEgewogICAgICAgICAgICAgICAgICAgIHBhcmFfdGV4dC5wdXNoX3N0cigmcmF3KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBPayhFdmVudDo6RW5kKGUpKSA9PiB7CiAgICAgICAgICAgICAgICBsZXQgbmFtZSA9IGUubmFtZSgpOwogICAgICAgICAgICAgICAgbGV0IGxvY2FsID0gU3RyaW5nOjpmcm9tX3V0ZjhfbG9zc3kobmFtZS5sb2NhbF9uYW1lKCkuYXNfcmVmKCkpLnRvX3N0cmluZygpOwogICAgICAgICAgICAgICAgaWYgbG9jYWwgPT0gInAiIHx8IGxvY2FsID09ICJkaXYiIHsKICAgICAgICAgICAgICAgICAgICBpZiBsb2NhbCA9PSAicCIgJiYgaW5fcGFyYSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGluX3BhcmEgPSBmYWxzZTsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IG11dCB3b3JkcyA9IHN0ZDo6bWVtOjp0YWtlKCZtdXQgcGFyYV93b3Jkcyk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIHdvcmRzLmlzX2VtcHR5KCkgJiYgIXBhcmFfdGV4dC50cmltKCkuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3b3Jkcy5wdXNoKFdvcmRUb2tlbiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhcnQ6IHBhcmFfc3RhcnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5kOiBwYXJhX2VuZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0OiBwYXJhX3RleHQuY2xvbmUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGxldCB0ZXh0ID0gaWYgd29yZHMuaXNfZW1wdHkoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJhX3RleHQudHJpbSgpLnRvX3N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3b3Jkcy5pdGVyKCkubWFwKHx3fCB3LnRleHQuYXNfc3RyKCkpLmNvbGxlY3Q6OjxTdHJpbmc+KCkudHJpbSgpLnRvX3N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAgICAgICAgIGxpbmVzLnB1c2goTHlyaWNMaW5lIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXJ0OiBwYXJhX3N0YXJ0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5kOiBwYXJhX2VuZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3b3JkcywKICAgICAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFfdGV4dC5jbGVhcigpOwogICAgICAgICAgICAgICAgICAgICAgICBwZW5kaW5nX3NwYWNlID0gZmFsc2U7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgbG9jYWwgPT0gInNwYW4iIHsKICAgICAgICAgICAgICAgICAgICBpZiBsZXQgU29tZShzcGFuKSA9IHN0YWNrLnBvcCgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gTGVhdmVzIGJlY29tZSB0b2tlbnM7IHBhcmVudHMgYWxyZWFkeSBhZ2dyZWdhdGVkIHRoZWlyIGNoaWxkcmVuJ3MgdGV4dC4KICAgICAgICAgICAgICAgICAgICAgICAgaWYgc3Bhbi5jaGlsZHJlbiA9PSAwICYmICFzcGFuLnRleHQudHJpbSgpLmlzX2VtcHR5KCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IG11dCB0ZXh0ID0gc3Bhbi50ZXh0OwogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgcGVuZGluZ19zcGFjZSAmJiAhcGFyYV93b3Jkcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0Lmluc2VydCgwLCAnICcpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGVuZGluZ19zcGFjZSA9IGZhbHNlOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYV93b3Jkcy5wdXNoKFdvcmRUb2tlbiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhcnQ6IHNwYW4uYmVnaW4udW53cmFwX29yKHBhcmFfc3RhcnQpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuZDogc3Bhbi5lbmQudW53cmFwX29yKHBhcmFfZW5kKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgT2soRXZlbnQ6OkVvZikgPT4gYnJlYWssCiAgICAgICAgICAgIEVycihfKSA9PiBicmVhaywKICAgICAgICAgICAgXyA9PiB7fQogICAgICAgIH0KICAgIH0KCiAgICBsaW5lcy5yZXRhaW4ofGx8IGwuZW5kID4gbC5zdGFydCB8fCAhbC53b3Jkcy5pc19lbXB0eSgpKTsKICAgIGxpbmVzLnNvcnRfYnkofGEsIGJ8IGEuc3RhcnQucGFydGlhbF9jbXAoJmIuc3RhcnQpLnVud3JhcF9vcihzdGQ6OmNtcDo6T3JkZXJpbmc6OkVxdWFsKSk7CiAgICBsaW5lcwp9CgovLy8gRmFsbGJhY2sgZW5kIHRpbWVzOiBhIHBhcmFncmFwaCBtYXkgb21pdCBgZW5kYC4KcHViIGZuIG5vcm1hbGl6ZShsaW5lczogJm11dCBbTHlyaWNMaW5lXSwgdGFpbDogZjY0KSB7CiAgICBmb3IgaSBpbiAwLi5saW5lcy5sZW4oKSB7CiAgICAgICAgaWYgbGluZXNbaV0uZW5kIDw9IGxpbmVzW2ldLnN0YXJ0IHsKICAgICAgICAgICAgbGluZXNbaV0uZW5kID0gbGluZXMKICAgICAgICAgICAgICAgIC5nZXQoaSArIDEpCiAgICAgICAgICAgICAgICAubWFwKHxsfCBsLnN0YXJ0KQogICAgICAgICAgICAgICAgLnVud3JhcF9vcihsaW5lc1tpXS5zdGFydCArIHRhaWwpOwogICAgICAgIH0KICAgIH0KfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgY29uc3QgU0FNUExFOiAmc3RyID0gciMiPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHR0IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy9ucy90dG1sIiB4bWxuczp0dG09Imh0dHA6Ly93d3cudzMub3JnL25zL3R0bWwjbWV0YWRhdGEiPgogIDxib2R5PjxkaXY+CiAgICA8cCBiZWdpbj0iMDA6MDA6MTIuMDAwIiBlbmQ9IjAwOjAwOjE0LjAwMCIgdHRtOmFnZW50PSJ2MSI+CiAgICAgIDxzcGFuIGJlZ2luPSIwMDowMDoxMi4wMDAiIGVuZD0iMDA6MDA6MTIuODAwIj5IZWxsbzwvc3Bhbj4KICAgICAgPHNwYW4gYmVnaW49IjAwOjAwOjEyLjgwMCIgZW5kPSIwMDowMDoxNC4wMDAiPndvcmxkPC9zcGFuPgogICAgPC9wPgogICAgPHAgYmVnaW49IjAwOjAwOjE0LjAwMCIgZW5kPSIwMDowMDoxNi4wMDAiIHR0bTphZ2VudD0idjEiPnBsYWluIGxpbmU8L3A+CiAgICA8cCBiZWdpbj0iMDA6MDA6MTYuMDAwIiBlbmQ9IjAwOjAwOjE4LjAwMCIgdHRtOmFnZW50PSJ2MiI+YmFja2luZzwvcD4KICA8L2Rpdj48L2JvZHk+CjwvdHQ+IiM7CgogICAgI1t0ZXN0XQogICAgZm4gcGFyc2VzX3dvcmRzX2FuZF9za2lwc19iYWNrZ3JvdW5kKCkgewogICAgICAgIGxldCBsaW5lcyA9IHBhcnNlKFNBTVBMRSwgJlsidjEiXSk7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lcy5sZW4oKSwgMik7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lc1swXS50ZXh0LCAiSGVsbG8gd29ybGQiKTsKICAgICAgICBhc3NlcnRfZXEhKGxpbmVzWzBdLndvcmRzLmxlbigpLCAyKTsKICAgICAgICBhc3NlcnQhKChsaW5lc1swXS53b3Jkc1sxXS5zdGFydCAtIDEyLjgpLmFicygpIDwgMWUtNik7CiAgICAgICAgLy8gc2Vjb25kIHBhcmFncmFwaCBoYXMgbm8gY2hpbGQgc3BhbnMgLT4gc2luZ2xlIHRva2VuIGZyb20gdGhlIHBhcmFncmFwaCB0aW1pbmcKICAgICAgICBhc3NlcnRfZXEhKGxpbmVzWzFdLndvcmRzLmxlbigpLCAxKTsKICAgICAgICBhc3NlcnRfZXEhKGxpbmVzWzFdLnRleHQsICJwbGFpbiBsaW5lIik7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4ga2VlcHNfZXZlcnl0aGluZ193aGVuX25vX2FnZW50X2ZpbHRlcigpIHsKICAgICAgICBsZXQgbGluZXMgPSBwYXJzZShTQU1QTEUsICZbXSk7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lcy5sZW4oKSwgMyk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gZG9lc19ub3RfaW5qZWN0X3NwYWNlc19iZXR3ZWVuX2Nqa19zeWxsYWJsZXMoKSB7CiAgICAgICAgLy8gQ0pLIFRUTUwgc3BsaXRzIHBlciBjaGFyYWN0ZXIgd2l0aCBubyB3aGl0ZXNwYWNlIG5vZGUgaW4gYmV0d2VlbjsKICAgICAgICAvLyBqb2luaW5nIHdpdGggc3BhY2VzIHdvdWxkIGNvcnJ1cHQgdGhlIGxpbmUuCiAgICAgICAgbGV0IHhtbCA9IHIjIjx0dD48Ym9keT48ZGl2PgogICAgPHAgYmVnaW49IjBzIiBlbmQ9IjJzIiB0dG06YWdlbnQ9InYxIj48c3BhbiBiZWdpbj0iMHMiIGVuZD0iMC41cyI+5pmaPC9zcGFuPjxzcGFuIGJlZ2luPSIwLjVzIiBlbmQ9IjFzIj7po448L3NwYW4+PHNwYW4gYmVnaW49IjFzIiBlbmQ9IjEuNXMiPuWQuTwvc3Bhbj48L3A+CiAgPC9kaXY+PC9ib2R5PjwvdHQ+IiM7CiAgICAgICAgbGV0IGxpbmVzID0gcGFyc2UoeG1sLCAmWyJ2MSJdKTsKICAgICAgICBhc3NlcnRfZXEhKGxpbmVzLmxlbigpLCAxKTsKICAgICAgICBhc3NlcnRfZXEhKGxpbmVzWzBdLnRleHQsICLmmZrpo47lkLkiKTsKICAgICAgICBhc3NlcnRfZXEhKGxpbmVzWzBdLndvcmRzLmxlbigpLCAzKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBwYXJzZXNfYXBwbGVfbGluZV90aW1pbmdfc2hhcGUoKSB7CiAgICAgICAgLy8gU2hhcGUgdmVyaWZpZWQgYWdhaW5zdCBhIHJlYWwgY2FwdHVyZSBmcm9tIGFtcC1hcGkgKGRvY3MvbTMtYXBwbGUtbHlyaWNzLm1kKToKICAgICAgICAvLyBhIDxkaXY+IHdyYXBwZXIsIGBpdHVuZXM6a2V5YCBvbiBlYWNoIDxwPiwgYGl0dW5lczp0aW1pbmc9IkxpbmUiYCwgYW5kCiAgICAgICAgLy8gdGltZXN0YW1wcyB0aGF0IG1heSBiZSBgTTpTUy5tbW1gIHJhdGhlciB0aGFuIGBNTTpTUy5tbW1gLgogICAgICAgIGxldCB4bWwgPSByIyI8dHQgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnL25zL3R0bWwiIHhtbG5zOml0dW5lcz0iaHR0cDovL211c2ljLmFwcGxlLmNvbS9seXJpYy10dG1sLWludGVybmFsIiB4bWxuczp0dG09Imh0dHA6Ly93d3cudzMub3JnL25zL3R0bWwjbWV0YWRhdGEiIGl0dW5lczp0aW1pbmc9IkxpbmUiIHhtbDpsYW5nPSJ6aC1IYW5zIj4KICA8Ym9keSBkdXI9IjM6MTYuNTg3Ij48ZGl2IGJlZ2luPSI0MC4zMTIiIGVuZD0iNTkuNDgwIiBpdHVuZXM6c29uZ1BhcnQ9IlZlcnNlIj4KICAgIDxwIGJlZ2luPSI0MC4zMTIiIGVuZD0iNDIuMTEwIiBpdHVuZXM6a2V5PSJMMSIgdHRtOmFnZW50PSJ2MSI+Zmlyc3QgbGluZTwvcD4KICAgIDxwIGJlZ2luPSIxOjAzLjgzNiIgZW5kPSIxOjA5LjAyNCIgaXR1bmVzOmtleT0iTDIiIHR0bTphZ2VudD0idjEiPnNlY29uZCBsaW5lPC9wPgogIDwvZGl2PjwvYm9keT48L3R0PiIjOwogICAgICAgIGxldCBsaW5lcyA9IHBhcnNlKHhtbCwgJlsidjEiXSk7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lcy5sZW4oKSwgMik7CiAgICAgICAgYXNzZXJ0ISgobGluZXNbMF0uc3RhcnQgLSA0MC4zMTIpLmFicygpIDwgMWUtNik7CiAgICAgICAgYXNzZXJ0ISgobGluZXNbMV0uc3RhcnQgLSA2My44MzYpLmFicygpIDwgMWUtNik7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lc1sxXS50ZXh0LCAic2Vjb25kIGxpbmUiKTsKICAgICAgICAvLyBObyBzcGFuczogb25lIHN5bnRoZXRpYyB0b2tlbiBjb3ZlcnMgdGhlIHdob2xlIGxpbmUuCiAgICAgICAgYXNzZXJ0X2VxIShsaW5lc1sxXS53b3Jkcy5sZW4oKSwgMSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcGFyc2VzX3RpbWVfc2hhcGVzKCkgewogICAgICAgIGFzc2VydF9lcSEocGFyc2VfdGltZSgiMDA6MDE6MDIuNTAwIiksIFNvbWUoNjIuNSkpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfdGltZSgiMDE6MDIuNTAwIiksIFNvbWUoNjIuNSkpOwogICAgICAgIGFzc2VydF9lcSEocGFyc2VfdGltZSgiMTUwMG1zIiksIFNvbWUoMS41KSk7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV90aW1lKCIxLjVzIiksIFNvbWUoMS41KSk7CiAgICAgICAgYXNzZXJ0X2VxIShwYXJzZV90aW1lKCJub3BlIiksIE5vbmUpOwogICAgfQp9Cg==
+//! Apple Music TTML parser (tier 1, word-level).
+//!
+//! Apple's lyrics payload is TTML: `<p>` elements are display lines, nested `<span>`
+//! elements carry their own `begin`/`end`, and the leaves are syllables or words.
+//! `ttm:agent="v1"` is the lead vocal, `v2` background — we keep `v1` by default.
+//!
+//! Parsing rules that matter in practice:
+//!   * whitespace-only text between two spans is formatting, not content;
+//!   * a `<p>` without child spans still has to become a line (and a single token);
+//!   * a span without its own timing inherits the parent's.
+
+use super::{LyricLine, WordToken};
+use quick_xml::events::Event;
+use quick_xml::Reader;
+
+fn parse_time(raw: &str) -> Option<f64> {
+    let v = raw.trim();
+    if v.is_empty() {
+        return None;
+    }
+    if let Some(ms) = v.strip_suffix("ms") {
+        return ms.parse::<f64>().ok().map(|n| n / 1000.0);
+    }
+    if let Some(secs) = v.strip_suffix('s') {
+        return secs.parse::<f64>().ok();
+    }
+    let parts: Vec<&str> = v.split(':').collect();
+    match parts.len() {
+        3 => Some(
+            parts[0].parse::<f64>().ok()? * 3600.0
+                + parts[1].parse::<f64>().ok()? * 60.0
+                + parts[2].parse::<f64>().ok()?,
+        ),
+        2 => Some(parts[0].parse::<f64>().ok()? * 60.0 + parts[1].parse::<f64>().ok()?),
+        1 => v.parse::<f64>().ok(),
+        _ => None,
+    }
+}
+
+struct OpenSpan {
+    begin: Option<f64>,
+    end: Option<f64>,
+    text: String,
+    children: usize,
+}
+
+pub fn parse(xml: &str, keep_agents: &[&str]) -> Vec<LyricLine> {
+    let mut reader = Reader::from_str(xml);
+    reader.config_mut().trim_text(false);
+
+    let mut lines: Vec<LyricLine> = Vec::new();
+
+    let mut in_para = false;
+    let mut para_start = 0.0f64;
+    let mut para_end = 0.0f64;
+    let mut para_words: Vec<WordToken> = Vec::new();
+    let mut para_text = String::new();
+    let mut stack: Vec<OpenSpan> = Vec::new();
+    // Whitespace *between* two spans is a real separator in Latin lyrics, but must
+    // not be invented for CJK lyrics (which are split per character). So we record
+    // it only when the source actually has it.
+    let mut pending_space = false;
+
+    loop {
+        match reader.read_event() {
+            Ok(Event::Start(e)) => {
+                let name = e.name();
+                let local = String::from_utf8_lossy(name.local_name().as_ref()).to_string();
+                if local == "p" || local == "div" {
+                    if local == "p" {
+                        let mut begin = None;
+                        let mut end = None;
+                        let mut agent_ok = keep_agents.is_empty();
+                        for attr in e.attributes().flatten() {
+                            let key = String::from_utf8_lossy(attr.key.as_ref()).to_string();
+                            let val = attr.unescape_value().unwrap_or_default().to_string();
+                            match key.as_str() {
+                                "begin" => begin = parse_time(&val),
+                                "end" => end = parse_time(&val),
+                                "ttm:agent" | "agent" => {
+                                    if keep_agents.iter().any(|a| *a == val) {
+                                        agent_ok = true;
+                                    }
+                                }
+                                _ => {}
+                            }
+                        }
+                        if !agent_ok {
+                            // Skip background-vocal paragraphs entirely.
+                            continue;
+                        }
+                        in_para = true;
+                        para_start = begin.unwrap_or(0.0);
+                        para_end = end.unwrap_or(0.0);
+                        para_words.clear();
+                        para_text.clear();
+                        pending_space = false;
+                    }
+                    continue;
+                }
+                if in_para && local == "span" {
+                    let mut begin = None;
+                    let mut end = None;
+                    for attr in e.attributes().flatten() {
+                        let key = String::from_utf8_lossy(attr.key.as_ref()).to_string();
+                        let val = attr.unescape_value().unwrap_or_default().to_string();
+                        match key.as_str() {
+                            "begin" => begin = parse_time(&val),
+                            "end" => end = parse_time(&val),
+                            _ => {}
+                        }
+                    }
+                    if let Some(top) = stack.last_mut() {
+                        top.children += 1;
+                    }
+                    stack.push(OpenSpan { begin, end, text: String::new(), children: 0 });
+                }
+            }
+            Ok(Event::Text(t)) => {
+                let raw = t.unescape().unwrap_or_default().to_string();
+                if raw.trim().is_empty() {
+                    // Separator between two spans, not content.
+                    if in_para && stack.is_empty() {
+                        pending_space = true;
+                    }
+                    continue; // formatting whitespace between elements
+                }
+                if let Some(top) = stack.last_mut() {
+                    top.text.push_str(&raw);
+                }
+                if in_para {
+                    para_text.push_str(&raw);
+                }
+            }
+            Ok(Event::End(e)) => {
+                let name = e.name();
+                let local = String::from_utf8_lossy(name.local_name().as_ref()).to_string();
+                if local == "p" || local == "div" {
+                    if local == "p" && in_para {
+                        in_para = false;
+                        let mut words = std::mem::take(&mut para_words);
+                        if words.is_empty() && !para_text.trim().is_empty() {
+                            words.push(WordToken {
+                                start: para_start,
+                                end: para_end,
+                                text: para_text.clone(),
+                            });
+                        }
+                        let text = if words.is_empty() {
+                            para_text.trim().to_string()
+                        } else {
+                            words.iter().map(|w| w.text.as_str()).collect::<String>().trim().to_string()
+                        };
+                        lines.push(LyricLine {
+                            start: para_start,
+                            end: para_end,
+                            text,
+                            words,
+                        });
+                        para_text.clear();
+                        pending_space = false;
+                    }
+                    continue;
+                }
+                if local == "span" {
+                    if let Some(span) = stack.pop() {
+                        // Leaves become tokens; parents already aggregated their children's text.
+                        if span.children == 0 && !span.text.trim().is_empty() {
+                            let mut text = span.text;
+                            if pending_space && !para_words.is_empty() {
+                                text.insert(0, ' ');
+                            }
+                            pending_space = false;
+                            para_words.push(WordToken {
+                                start: span.begin.unwrap_or(para_start),
+                                end: span.end.unwrap_or(para_end),
+                                text,
+                            });
+                        }
+                    }
+                }
+            }
+            Ok(Event::Eof) => break,
+            Err(_) => break,
+            _ => {}
+        }
+    }
+
+    lines.retain(|l| l.end > l.start || !l.words.is_empty());
+    lines.sort_by(|a, b| a.start.partial_cmp(&b.start).unwrap_or(std::cmp::Ordering::Equal));
+    lines
+}
+
+/// Fallback end times: a paragraph may omit `end`.
+pub fn normalize(lines: &mut [LyricLine], tail: f64) {
+    for i in 0..lines.len() {
+        if lines[i].end <= lines[i].start {
+            lines[i].end = lines
+                .get(i + 1)
+                .map(|l| l.start)
+                .unwrap_or(lines[i].start + tail);
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    const SAMPLE: &str = r#"<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <body><div>
+    <p begin="00:00:12.000" end="00:00:14.000" ttm:agent="v1">
+      <span begin="00:00:12.000" end="00:00:12.800">Hello</span>
+      <span begin="00:00:12.800" end="00:00:14.000">world</span>
+    </p>
+    <p begin="00:00:14.000" end="00:00:16.000" ttm:agent="v1">plain line</p>
+    <p begin="00:00:16.000" end="00:00:18.000" ttm:agent="v2">backing</p>
+  </div></body>
+</tt>"#;
+
+    #[test]
+    fn parses_words_and_skips_background() {
+        let lines = parse(SAMPLE, &["v1"]);
+        assert_eq!(lines.len(), 2);
+        assert_eq!(lines[0].text, "Hello world");
+        assert_eq!(lines[0].words.len(), 2);
+        assert!((lines[0].words[1].start - 12.8).abs() < 1e-6);
+        // second paragraph has no child spans -> single token from the paragraph timing
+        assert_eq!(lines[1].words.len(), 1);
+        assert_eq!(lines[1].text, "plain line");
+    }
+
+    #[test]
+    fn keeps_everything_when_no_agent_filter() {
+        let lines = parse(SAMPLE, &[]);
+        assert_eq!(lines.len(), 3);
+    }
+
+    #[test]
+    fn does_not_inject_spaces_between_cjk_syllables() {
+        // CJK TTML splits per character with no whitespace node in between;
+        // joining with spaces would corrupt the line.
+        let xml = r#"<tt><body><div>
+    <p begin="0s" end="2s" ttm:agent="v1"><span begin="0s" end="0.5s">晚</span><span begin="0.5s" end="1s">风</span><span begin="1s" end="1.5s">吹</span></p>
+  </div></body></tt>"#;
+        let lines = parse(xml, &["v1"]);
+        assert_eq!(lines.len(), 1);
+        assert_eq!(lines[0].text, "晚风吹");
+        assert_eq!(lines[0].words.len(), 3);
+    }
+
+    #[test]
+    fn parses_apple_line_timing_shape() {
+        // Shape verified against a real capture from amp-api (docs/m3-apple-lyrics.md):
+        // a <div> wrapper, `itunes:key` on each <p>, `itunes:timing="Line"`, and
+        // timestamps that may be `M:SS.mmm` rather than `MM:SS.mmm`.
+        let xml = r#"<tt xmlns="http://www.w3.org/ns/ttml" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Line" xml:lang="zh-Hans">
+  <body dur="3:16.587"><div begin="40.312" end="59.480" itunes:songPart="Verse">
+    <p begin="40.312" end="42.110" itunes:key="L1" ttm:agent="v1">first line</p>
+    <p begin="1:03.836" end="1:09.024" itunes:key="L2" ttm:agent="v1">second line</p>
+  </div></body></tt>"#;
+        let lines = parse(xml, &["v1"]);
+        assert_eq!(lines.len(), 2);
+        assert!((lines[0].start - 40.312).abs() < 1e-6);
+        assert!((lines[1].start - 63.836).abs() < 1e-6);
+        assert_eq!(lines[1].text, "second line");
+        // No spans: one synthetic token covers the whole line.
+        assert_eq!(lines[1].words.len(), 1);
+    }
+
+    #[test]
+    fn parses_time_shapes() {
+        assert_eq!(parse_time("00:01:02.500"), Some(62.5));
+        assert_eq!(parse_time("01:02.500"), Some(62.5));
+        assert_eq!(parse_time("1500ms"), Some(1.5));
+        assert_eq!(parse_time("1.5s"), Some(1.5));
+        assert_eq!(parse_time("nope"), None);
+    }
+}

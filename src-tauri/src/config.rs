@@ -1,1 +1,166 @@
-Ly8hIFBlcnNpc3RlZCBzZXR0aW5nczogYCVBUFBEQVRBJVxseXJpYy1mbG9hdFxjb25maWcuanNvbmAsIGhhbmQtZWRpdGFibGUgb24gcHVycG9zZQovLyEgKGRlY2lzaW9uICMxMSkgc28gaG90a2V5cyBhbmQgc3R5bGluZyBjYW4gY2hhbmdlIHdpdGhvdXQgYSByZWJ1aWxkLgoKdXNlIHNlcmRlOjp7RGVzZXJpYWxpemUsIFNlcmlhbGl6ZX07CnVzZSBzdGQ6OnBhdGg6OlBhdGhCdWY7CgojW2Rlcml2ZShEZWJ1ZywgQ2xvbmUsIFNlcmlhbGl6ZSwgRGVzZXJpYWxpemUpXQojW3NlcmRlKGRlZmF1bHQpXQpwdWIgc3RydWN0IEhvdGtleXMgewogICAgcHViIHRvZ2dsZV92aXNpYmxlOiBTdHJpbmcsCiAgICBwdWIgdG9nZ2xlX2VkaXQ6IFN0cmluZywKICAgIHB1YiBmb250X3VwOiBTdHJpbmcsCiAgICBwdWIgZm9udF9kb3duOiBTdHJpbmcsCiAgICBwdWIgb2Zmc2V0X2VhcmxpZXI6IFN0cmluZywKICAgIHB1YiBvZmZzZXRfbGF0ZXI6IFN0cmluZywKICAgIC8vLyBXaW5kb3cgbnVkZ2luZyB3aGlsZSBlZGl0IG1vZGUgaXMgb24uIFRoZSBvdmVybGF5IGlzIHBlcm1hbmVudGx5IGNsaWNrLXRocm91Z2gKICAgIC8vLyAoY2xlYXJpbmcgdGhhdCBzdHlsZSBiaXQgc3RvcHMgdGhpcyB3aW5kb3cgZnJvbSBjb21wb3NpdGluZyBhdCBhbGwpLCBzbyB0aGUKICAgIC8vLyBwb3NpdGlvbiBpcyBhZGp1c3RlZCBmcm9tIHRoZSBrZXlib2FyZCBpbnN0ZWFkIG9mIGJ5IGRyYWdnaW5nLgogICAgcHViIG1vdmVfbGVmdDogU3RyaW5nLAogICAgcHViIG1vdmVfcmlnaHQ6IFN0cmluZywKICAgIHB1YiBtb3ZlX3VwOiBTdHJpbmcsCiAgICBwdWIgbW92ZV9kb3duOiBTdHJpbmcsCiAgICAvLy8gUHV0IHRoZSBvdmVybGF5IGJhY2sgb24gdGhlIG1vbml0b3IgdW5kZXIgdGhlIGN1cnNvciAobXVsdGktbW9uaXRvciByZXNjdWUpLgogICAgcHViIHJlc2V0X3Bvc2l0aW9uOiBTdHJpbmcsCiAgICBwdWIgcGxheV9wYXVzZTogU3RyaW5nLAp9CgppbXBsIERlZmF1bHQgZm9yIEhvdGtleXMgewogICAgZm4gZGVmYXVsdCgpIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICB0b2dnbGVfdmlzaWJsZTogIkFsdCtCYWNrcXVvdGUiLmludG8oKSwKICAgICAgICAgICAgdG9nZ2xlX2VkaXQ6ICJBbHQrTSIuaW50bygpLAogICAgICAgICAgICBmb250X3VwOiAiQWx0K0JyYWNrZXRSaWdodCIuaW50bygpLAogICAgICAgICAgICBmb250X2Rvd246ICJBbHQrQnJhY2tldExlZnQiLmludG8oKSwKICAgICAgICAgICAgb2Zmc2V0X2VhcmxpZXI6ICJBbHQrQ29tbWEiLmludG8oKSwKICAgICAgICAgICAgb2Zmc2V0X2xhdGVyOiAiQWx0K1BlcmlvZCIuaW50bygpLAogICAgICAgICAgICBtb3ZlX2xlZnQ6ICJBbHQrTGVmdCIuaW50bygpLAogICAgICAgICAgICBtb3ZlX3JpZ2h0OiAiQWx0K1JpZ2h0Ii5pbnRvKCksCiAgICAgICAgICAgIG1vdmVfdXA6ICJBbHQrVXAiLmludG8oKSwKICAgICAgICAgICAgbW92ZV9kb3duOiAiQWx0K0Rvd24iLmludG8oKSwKICAgICAgICAgICAgcmVzZXRfcG9zaXRpb246ICJBbHQrMCIuaW50bygpLAogICAgICAgICAgICBwbGF5X3BhdXNlOiAiQWx0K1AiLmludG8oKSwKICAgICAgICB9CiAgICB9Cn0KCiNbZGVyaXZlKERlYnVnLCBDbG9uZSwgU2VyaWFsaXplLCBEZXNlcmlhbGl6ZSldCiNbc2VyZGUoZGVmYXVsdCldCnB1YiBzdHJ1Y3QgQ29uZmlnIHsKICAgIHB1YiBmb250X3NpemU6IHUzMiwKICAgIHB1YiBmb250X2ZhbWlseTogU3RyaW5nLAogICAgcHViIGZpbGxfY29sb3I6IFN0cmluZywKICAgIHB1YiBiYXNlX2NvbG9yOiBTdHJpbmcsCiAgICBwdWIgc3Ryb2tlX3dpZHRoOiB1MzIsCiAgICBwdWIgc3Ryb2tlX2NvbG9yOiBTdHJpbmcsCiAgICBwdWIgb3BhY2l0eTogZjMyLAoKICAgIHB1YiB3aW5kb3dfeDogaTMyLAogICAgcHViIHdpbmRvd195OiBpMzIsCiAgICBwdWIgd2luZG93X3dpZHRoOiB1MzIsCiAgICBwdWIgd2luZG93X2hlaWdodDogdTMyLAoKICAgIHB1YiBvZmZzZXRfbXM6IGk2NCwKICAgIHB1YiBlZGl0X2dyYWNlX21zOiB1NjQsCgogICAgLy8vIE5vbmUgPSBhdXRvLXJhbmsgc2Vzc2lvbnMgKHNlZSBwcm92aWRlcjo6cmFuaykuCiAgICBwdWIgcGlubmVkX2FwcF9pZDogT3B0aW9uPFN0cmluZz4sCiAgICAvLy8gQWxsb3cgdGhlIGxyY2xpYiB0aWVyIHRvIGdvIG9ubGluZS4KICAgIHB1YiBhbGxvd19uZXR3b3JrOiBib29sLAogICAgLy8vIDAgPSBUVE1MIG9ubHksIDEgPSBscmNsaWIgKGRlZmF1bHQpLCAyID0ga2VlcCBnb2luZyBpbnRvIG1hbnVhbCB0aWVyLgogICAgcHViIGx5cmljc190aWVyOiB1OCwKCiAgICBwdWIgY2RwX2VuYWJsZWQ6IGJvb2wsCiAgICBwdWIgY2RwX3BvcnQ6IHUxNiwKICAgIC8vLyBTdGFydCB0aGUgZGVidWcgYnJvd3NlciBvdXJzZWx2ZXMgd2hlbiBub3RoaW5nIGlzIGxpc3RlbmluZy4gVGhpcyBpcyB3aGF0CiAgICAvLy8gcmVtb3ZlcyB0aGUgInJlbWVtYmVyIHRvIHJ1biB0aGUgc2NyaXB0IiBzdGVwOiB0aGUgb3ZlcmxheSBvcGVucywgdGhlIGJyb3dzZXIKICAgIC8vLyBjb21lcyB1cCB3aXRoIGl0LgogICAgcHViIGNkcF9hdXRvbGF1bmNoOiBib29sLAogICAgLy8vIEV4cGxpY2l0IGNocm9tZS5leGUgcGF0aDsgZW1wdHkgPSBsb29rIGluIHRoZSB1c3VhbCBpbnN0YWxsIGxvY2F0aW9ucy4KICAgIHB1YiBjZHBfY2hyb21lX3BhdGg6IE9wdGlvbjxTdHJpbmc+LAogICAgLy8vIENocm9tZSB1c2VyLWRhdGEgZGlyIGZvciB0aGUgb3ZlcmxheSdzIGRlZGljYXRlZCBwcm9maWxlLiBFbXB0eSA9IGRlZmF1bHQKICAgIC8vLyAoYCVBUFBEQVRBJVxseXJpYy1mbG9hdFxjaHJvbWUtY2RwLXByb2ZpbGVgKS4KICAgIHB1YiBjZHBfcHJvZmlsZV9kaXI6IE9wdGlvbjxTdHJpbmc+LAogICAgcHViIGNkcF91cmw6IFN0cmluZywKCiAgICAvLy8gQWNjZXB0IHBsYXliYWNrIGRhdGEgZnJvbSB0aGUgTHlyaWNGbG9hdCBCcmlkZ2UgYnJvd3NlciBleHRlbnNpb24uCiAgICBwdWIgZXh0X2VuYWJsZWQ6IGJvb2wsCiAgICBwdWIgZXh0X3BvcnQ6IHUxNiwKICAgIC8vLyBTaGFyZWQgc2VjcmV0IGluIHRoZSBXZWJTb2NrZXQgcGF0aCAoYHdzOi8vMTI3LjAuMC4xOjxwb3J0Pi88dG9rZW4+YCkuCiAgICBwdWIgZXh0X3Rva2VuOiBTdHJpbmcsCgogICAgcHViIGF1dG9fc3RhcnQ6IGJvb2wsCiAgICAvLy8gT3ZlcnJpZGUgd2hlcmUgV2ViVmlldzIga2VlcHMgaXRzIHByb2ZpbGUuIEVtcHR5ID0gVGF1cmkgZGVmYXVsdAogICAgLy8vIChgJUxPQ0FMQVBQREFUQSVcPGlkZW50aWZpZXI+YCkuIFNvbWUgaGFyZGVuZWQgV2luZG93cyBzZXR1cHMgbWFrZSB0aGF0CiAgICAvLy8gcGF0aCB1bnVzYWJsZSwgaW4gd2hpY2ggY2FzZSBwb2ludGluZyB0aGlzIGF0IGEgd3JpdGFibGUgZm9sZGVyIGlzIHRoZSBmaXguCiAgICBwdWIgd2Vidmlld19kYXRhX2RpcjogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgaG90a2V5czogSG90a2V5cywKfQoKaW1wbCBEZWZhdWx0IGZvciBDb25maWcgewogICAgZm4gZGVmYXVsdCgpIC0+IFNlbGYgewogICAgICAgIFNlbGYgewogICAgICAgICAgICBmb250X3NpemU6IDM0LAogICAgICAgICAgICBmb250X2ZhbWlseTogIlwiU291cmNlIEhhbiBTYW5zIFNDXCIsIFwiTWljcm9zb2Z0IFlhSGVpXCIsIHNhbnMtc2VyaWYiLmludG8oKSwKICAgICAgICAgICAgZmlsbF9jb2xvcjogIiM3Y2UzZmYiLmludG8oKSwKICAgICAgICAgICAgYmFzZV9jb2xvcjogInJnYmEoMjU1LDI1NSwyNTUsMC4zMCkiLmludG8oKSwKICAgICAgICAgICAgc3Ryb2tlX3dpZHRoOiAyLAogICAgICAgICAgICBzdHJva2VfY29sb3I6ICJyZ2JhKDAsMCwwLDAuODUpIi5pbnRvKCksCiAgICAgICAgICAgIG9wYWNpdHk6IDAuODUsCiAgICAgICAgICAgIHdpbmRvd194OiA1MDAsCiAgICAgICAgICAgIHdpbmRvd195OiA3NjAsCiAgICAgICAgICAgIHdpbmRvd193aWR0aDogOTAwLAogICAgICAgICAgICB3aW5kb3dfaGVpZ2h0OiAyMDAsCiAgICAgICAgICAgIG9mZnNldF9tczogMCwKICAgICAgICAgICAgZWRpdF9ncmFjZV9tczogNTAwMCwKICAgICAgICAgICAgcGlubmVkX2FwcF9pZDogTm9uZSwKICAgICAgICAgICAgYWxsb3dfbmV0d29yazogdHJ1ZSwKICAgICAgICAgICAgbHlyaWNzX3RpZXI6IDEsCiAgICAgICAgICAgIGNkcF9lbmFibGVkOiBmYWxzZSwKICAgICAgICAgICAgY2RwX3BvcnQ6IDkyMjIsCiAgICAgICAgICAgIGNkcF9hdXRvbGF1bmNoOiB0cnVlLAogICAgICAgICAgICBjZHBfY2hyb21lX3BhdGg6IE5vbmUsCiAgICAgICAgICAgIGNkcF9wcm9maWxlX2RpcjogTm9uZSwKICAgICAgICAgICAgY2RwX3VybDogImh0dHBzOi8vbXVzaWMuYXBwbGUuY29tLyIuaW50bygpLAogICAgICAgICAgICBleHRfZW5hYmxlZDogdHJ1ZSwKICAgICAgICAgICAgZXh0X3BvcnQ6IDg3ODcsCiAgICAgICAgICAgIGV4dF90b2tlbjogImx5cmljZmxvYXQiLmludG8oKSwKICAgICAgICAgICAgYXV0b19zdGFydDogZmFsc2UsCiAgICAgICAgICAgIHdlYnZpZXdfZGF0YV9kaXI6IE5vbmUsCiAgICAgICAgICAgIGhvdGtleXM6IEhvdGtleXM6OmRlZmF1bHQoKSwKICAgICAgICB9CiAgICB9Cn0KCnB1YiBmbiBjb25maWdfcGF0aCgpIC0+IFBhdGhCdWYgewogICAgbGV0IGJhc2UgPSBzdGQ6OmVudjo6dmFyX29zKCJBUFBEQVRBIikKICAgICAgICAubWFwKFBhdGhCdWY6OmZyb20pCiAgICAgICAgLnVud3JhcF9vcl9lbHNlKHx8IFBhdGhCdWY6OmZyb20oIi4iKSk7CiAgICBiYXNlLmpvaW4oImx5cmljLWZsb2F0Iikuam9pbigiY29uZmlnLmpzb24iKQp9CgppbXBsIENvbmZpZyB7CiAgICBwdWIgZm4gbG9hZCgpIC0+IFNlbGYgewogICAgICAgIGxldCBwYXRoID0gY29uZmlnX3BhdGgoKTsKICAgICAgICBtYXRjaCBzdGQ6OmZzOjpyZWFkX3RvX3N0cmluZygmcGF0aCkgewogICAgICAgICAgICBPayh0ZXh0KSA9PiBzZXJkZV9qc29uOjpmcm9tX3N0cigmdGV4dCkudW53cmFwX29yX2Vsc2UofGVycnwgewogICAgICAgICAgICAgICAgZXByaW50bG4hKCJbY29uZmlnXSB7fSBpcyBpbnZhbGlkICh7ZXJyfSksIHVzaW5nIGRlZmF1bHRzIiwgcGF0aC5kaXNwbGF5KCkpOwogICAgICAgICAgICAgICAgQ29uZmlnOjpkZWZhdWx0KCkKICAgICAgICAgICAgfSksCiAgICAgICAgICAgIEVycihfKSA9PiB7CiAgICAgICAgICAgICAgICBsZXQgY2ZnID0gQ29uZmlnOjpkZWZhdWx0KCk7CiAgICAgICAgICAgICAgICBsZXQgXyA9IGNmZy5zYXZlKCk7CiAgICAgICAgICAgICAgICBjZmcKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwdWIgZm4gc2F2ZSgmc2VsZikgLT4gc3RkOjppbzo6UmVzdWx0PCgpPiB7CiAgICAgICAgbGV0IHBhdGggPSBjb25maWdfcGF0aCgpOwogICAgICAgIGlmIGxldCBTb21lKGRpcikgPSBwYXRoLnBhcmVudCgpIHsKICAgICAgICAgICAgc3RkOjpmczo6Y3JlYXRlX2Rpcl9hbGwoZGlyKT87CiAgICAgICAgfQogICAgICAgIGxldCB0ZXh0ID0gc2VyZGVfanNvbjo6dG9fc3RyaW5nX3ByZXR0eShzZWxmKT87CiAgICAgICAgc3RkOjpmczo6d3JpdGUocGF0aCwgdGV4dCkKICAgIH0KfQo=
+//! Persisted settings: `%APPDATA%\lyric-float\config.json`, hand-editable on purpose
+//! (decision #11) so hotkeys and styling can change without a rebuild.
+
+use serde::{Deserialize, Serialize};
+use std::path::PathBuf;
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(default)]
+pub struct Hotkeys {
+    pub toggle_visible: String,
+    pub toggle_edit: String,
+    pub font_up: String,
+    pub font_down: String,
+    pub offset_earlier: String,
+    pub offset_later: String,
+    /// Window nudging while edit mode is on. The overlay is permanently click-through
+    /// (clearing that style bit stops this window from compositing at all), so the
+    /// position is adjusted from the keyboard instead of by dragging.
+    pub move_left: String,
+    pub move_right: String,
+    pub move_up: String,
+    pub move_down: String,
+    /// Put the overlay back on the monitor under the cursor (multi-monitor rescue).
+    pub reset_position: String,
+    pub play_pause: String,
+}
+
+impl Default for Hotkeys {
+    fn default() -> Self {
+        Self {
+            toggle_visible: "Alt+Backquote".into(),
+            toggle_edit: "Alt+M".into(),
+            font_up: "Alt+BracketRight".into(),
+            font_down: "Alt+BracketLeft".into(),
+            offset_earlier: "Alt+Comma".into(),
+            offset_later: "Alt+Period".into(),
+            move_left: "Alt+Left".into(),
+            move_right: "Alt+Right".into(),
+            move_up: "Alt+Up".into(),
+            move_down: "Alt+Down".into(),
+            reset_position: "Alt+0".into(),
+            play_pause: "Alt+P".into(),
+        }
+    }
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(default)]
+pub struct Config {
+    pub font_size: u32,
+    pub font_family: String,
+    pub fill_color: String,
+    pub base_color: String,
+    pub stroke_width: u32,
+    pub stroke_color: String,
+    pub opacity: f32,
+
+    pub window_x: i32,
+    pub window_y: i32,
+    pub window_width: u32,
+    pub window_height: u32,
+
+    pub offset_ms: i64,
+    pub edit_grace_ms: u64,
+
+    /// None = auto-rank sessions (see provider::rank).
+    pub pinned_app_id: Option<String>,
+    /// Allow the lrclib tier to go online.
+    pub allow_network: bool,
+    /// 0 = TTML only, 1 = lrclib (default), 2 = keep going into manual tier.
+    pub lyrics_tier: u8,
+
+    pub cdp_enabled: bool,
+    pub cdp_port: u16,
+    /// Start the debug browser ourselves when nothing is listening. This is what
+    /// removes the "remember to run the script" step: the overlay opens, the browser
+    /// comes up with it.
+    pub cdp_autolaunch: bool,
+    /// Explicit chrome.exe path; empty = look in the usual install locations.
+    pub cdp_chrome_path: Option<String>,
+    /// Chrome user-data dir for the overlay's dedicated profile. Empty = default
+    /// (`%APPDATA%\lyric-float\chrome-cdp-profile`).
+    pub cdp_profile_dir: Option<String>,
+    pub cdp_url: String,
+
+    /// Accept playback data from the LyricFloat Bridge browser extension.
+    pub ext_enabled: bool,
+    pub ext_port: u16,
+    /// Shared secret in the WebSocket path (`ws://127.0.0.1:<port>/<token>`).
+    pub ext_token: String,
+
+    pub auto_start: bool,
+    /// Override where WebView2 keeps its profile. Empty = Tauri default
+    /// (`%LOCALAPPDATA%\<identifier>`). Some hardened Windows setups make that
+    /// path unusable, in which case pointing this at a writable folder is the fix.
+    pub webview_data_dir: Option<String>,
+    pub hotkeys: Hotkeys,
+}
+
+impl Default for Config {
+    fn default() -> Self {
+        Self {
+            font_size: 34,
+            font_family: "\"Source Han Sans SC\", \"Microsoft YaHei\", sans-serif".into(),
+            fill_color: "#7ce3ff".into(),
+            base_color: "rgba(255,255,255,0.30)".into(),
+            stroke_width: 2,
+            stroke_color: "rgba(0,0,0,0.85)".into(),
+            opacity: 0.85,
+            window_x: 500,
+            window_y: 760,
+            window_width: 900,
+            window_height: 200,
+            offset_ms: 0,
+            edit_grace_ms: 5000,
+            pinned_app_id: None,
+            allow_network: true,
+            lyrics_tier: 1,
+            cdp_enabled: false,
+            cdp_port: 9222,
+            cdp_autolaunch: true,
+            cdp_chrome_path: None,
+            cdp_profile_dir: None,
+            cdp_url: "https://music.apple.com/".into(),
+            ext_enabled: true,
+            ext_port: 8787,
+            ext_token: "lyricfloat".into(),
+            auto_start: false,
+            webview_data_dir: None,
+            hotkeys: Hotkeys::default(),
+        }
+    }
+}
+
+pub fn config_path() -> PathBuf {
+    let base = std::env::var_os("APPDATA")
+        .map(PathBuf::from)
+        .unwrap_or_else(|| PathBuf::from("."));
+    base.join("lyric-float").join("config.json")
+}
+
+impl Config {
+    pub fn load() -> Self {
+        let path = config_path();
+        match std::fs::read_to_string(&path) {
+            Ok(text) => serde_json::from_str(&text).unwrap_or_else(|err| {
+                eprintln!("[config] {} is invalid ({err}), using defaults", path.display());
+                Config::default()
+            }),
+            Err(_) => {
+                let cfg = Config::default();
+                let _ = cfg.save();
+                cfg
+            }
+        }
+    }
+
+    pub fn save(&self) -> std::io::Result<()> {
+        let path = config_path();
+        if let Some(dir) = path.parent() {
+            std::fs::create_dir_all(dir)?;
+        }
+        let text = serde_json::to_string_pretty(self)?;
+        std::fs::write(path, text)
+    }
+}

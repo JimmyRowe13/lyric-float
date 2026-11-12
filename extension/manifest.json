@@ -1,1 +1,26 @@
-ewogICJtYW5pZmVzdF92ZXJzaW9uIjogMywKICAibmFtZSI6ICJMeXJpY0Zsb2F0IEJyaWRnZSIsCiAgInZlcnNpb24iOiAiMC4yLjAiLAogICJkZXNjcmlwdGlvbiI6ICJTdHJlYW1zIEFwcGxlIE11c2ljIHBsYXliYWNrIHN0YXRlIGFuZCBseXJpY3MgdG8gdGhlIEx5cmljRmxvYXQgZGVza3RvcCBvdmVybGF5LiIsCiAgIm1pbmltdW1fY2hyb21lX3ZlcnNpb24iOiAiMTExIiwKICAiaG9zdF9wZXJtaXNzaW9ucyI6IFsKICAgICJodHRwczovL211c2ljLmFwcGxlLmNvbS8qIgogIF0sCiAgImNvbnRlbnRfc2NyaXB0cyI6IFsKICAgIHsKICAgICAgIm1hdGNoZXMiOiBbImh0dHBzOi8vbXVzaWMuYXBwbGUuY29tLyoiXSwKICAgICAgImpzIjogWyJjb250ZW50LW1haW4uanMiXSwKICAgICAgInJ1bl9hdCI6ICJkb2N1bWVudF9pZGxlIiwKICAgICAgIndvcmxkIjogIk1BSU4iCiAgICB9LAogICAgewogICAgICAibWF0Y2hlcyI6IFsiaHR0cHM6Ly9tdXNpYy5hcHBsZS5jb20vKiJdLAogICAgICAianMiOiBbImJyaWRnZS5qcyJdLAogICAgICAicnVuX2F0IjogImRvY3VtZW50X2lkbGUiCiAgICB9CiAgXSwKICAiaWNvbnMiOiB7CiAgICAiMTI4IjogImljb24xMjgucG5nIgogIH0KfQo=
+{
+  "manifest_version": 3,
+  "name": "LyricFloat Bridge",
+  "version": "0.2.0",
+  "description": "Streams Apple Music playback state and lyrics to the LyricFloat desktop overlay.",
+  "minimum_chrome_version": "111",
+  "host_permissions": [
+    "https://music.apple.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://music.apple.com/*"],
+      "js": ["content-main.js"],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://music.apple.com/*"],
+      "js": ["bridge.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+}

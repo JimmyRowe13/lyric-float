@@ -1,1 +1,17 @@
-bm9kZV9tb2R1bGVzLwpkaXN0LwpzcmMtdGF1cmkvdGFyZ2V0LwpzcmMtdGF1cmkvZ2VuLwoqLmxvZwouRFNfU3RvcmUKVGh1bWJzLmRiCgojIGxvY2FsIGxhdW5jaGVyIHBheWxvYWRzICh0aGUgYnJvd3NlciBiaW5hcnkgYW5kIHNob3J0Y3V0cyBhcmUgbm90IHNvdXJjZSkKZGVwbG95LyouZXhlCioubG5rCgojIHByb2JlIGFydGlmYWN0cwp0b29scy9zbXRjLXByb2JlL3NhbmRib3gvdG9uZS53YXYKCiMgc2NyYXRjaCBwcm9iZXMgYW5kIG9uZS1vZmYgc2NyaXB0cwoudG1wLw0K
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+*.log
+.DS_Store
+Thumbs.db
+
+# local launcher payloads (the browser binary and shortcuts are not source)
+deploy/*.exe
+*.lnk
+
+# probe artifacts
+tools/smtc-probe/sandbox/tone.wav
+
+# scratch probes and one-off scripts
+.tmp/

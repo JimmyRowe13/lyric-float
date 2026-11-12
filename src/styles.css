@@ -1,1 +1,156 @@
-OnJvb3QgewogIC0tZm9udC1zaXplOiAzNHB4OwogIC0tZm9udC1mYW1pbHk6ICJTb3VyY2UgSGFuIFNhbnMgU0MiLCAi5oCd5rqQ6buR5L2TIiwgIk1pY3Jvc29mdCBZYUhlaSIsICJTZWdvZSBVSSIsIHNhbnMtc2VyaWY7CiAgLS1maWxsOiAjN2NlM2ZmOwogIC0tYmFzZTogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjMwKTsKICAtLXN0cm9rZS13aWR0aDogMS4ycHg7CiAgLS1zdHJva2UtY29sb3I6IHJnYmEoMCwgMCwgMCwgMC44NSk7CiAgLS1vcGFjaXR5OiAwLjg1OwogIC0taG92ZXItZWFzaW5nOiBjdWJpYy1iZXppZXIoMC4yMiwgMC42MSwgMC4zNiwgMSk7Cn0KCiogewogIGJveC1zaXppbmc6IGJvcmRlci1ib3g7Cn0KCmh0bWwsCmJvZHkgewogIG1hcmdpbjogMDsKICBwYWRkaW5nOiAwOwogIGhlaWdodDogMTAwJTsKICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsKICBvdmVyZmxvdzogaGlkZGVuOwogIHVzZXItc2VsZWN0OiBub25lOwogIGN1cnNvcjogZGVmYXVsdDsKICAtd2Via2l0LXVzZXItZHJhZzogbm9uZTsKfQoKI3N0YWdlIHsKICBoZWlnaHQ6IDEwMCU7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIGp1c3RpZnktY29udGVudDogY2VudGVyOwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiAwLjM1ZW07CiAgcGFkZGluZzogMC4zNWVtIDAuOGVtOwogIG9wYWNpdHk6IHZhcigtLW9wYWNpdHkpOwogIHRyYW5zaXRpb246IG9wYWNpdHkgMTYwbXMgdmFyKC0taG92ZXItZWFzaW5nKTsKfQoKLyogRWRpdGluZyBtb2RlIChob3RrZXkgaGFzIHRha2VuIG92ZXIgdGhlIG1vdXNlKSBnZXRzIGEgdmlzaWJsZSBhZmZvcmRhbmNlLiAqLwojc3RhZ2VbZGF0YS1tb2RlPSJlZGl0Il0gewogIG91dGxpbmU6IDFweCBkYXNoZWQgcmdiYSgxMjQsIDIyNywgMjU1LCAwLjU1KTsKICBvdXRsaW5lLW9mZnNldDogLTRweDsKICBjdXJzb3I6IGdyYWI7CiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjI1KTsKfQoKI3N0YWdlW2RhdGEtbW9kZT0iaWRsZSJdIHsKICBvcGFjaXR5OiAwOwp9CgoubGluZSB7CiAgZm9udC1mYW1pbHk6IHZhcigtLWZvbnQtZmFtaWx5KTsKICBsaW5lLWhlaWdodDogMS4yNTsKICB3aGl0ZS1zcGFjZTogbm93cmFwOwogIHRleHQtYWxpZ246IGNlbnRlcjsKICBvdmVyZmxvdzogaGlkZGVuOwogIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzOwogIHdpZHRoOiAxMDAlOwp9CgoubGluZS5jdXJyZW50IHsKICBmb250LXNpemU6IHZhcigtLWZvbnQtc2l6ZSk7CiAgZm9udC13ZWlnaHQ6IDcwMDsKICBsZXR0ZXItc3BhY2luZzogMC4wMmVtOwp9CgovKiBUd28gc3RhY2tlZCBjb3BpZXMgb2YgdGhlIHNhbWUgbGluZTogYSBzdHJva2VkIG91dGxpbmUgdW5kZXJuZWF0aCBhbmQgdGhlCiAgIGdyYWRpZW50IGZpbGwgb24gdG9wLiBDaHJvbWl1bSBkcm9wcyB0aGUgZ3JhZGllbnQgYXMgc29vbiBhcyB0ZXh0LXNoYWRvdyBpcwogICBwcmVzZW50IG9uIHRoZSBjbGlwcGVkIGVsZW1lbnQsIHNvIHRoZSBvdXRsaW5lIGNhbm5vdCBiZSBhIHNoYWRvdy4gKi8KLnN0YWNrIHsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgZGlzcGxheTogZ3JpZDsKICBwbGFjZS1pdGVtczogY2VudGVyOwogIHdpZHRoOiAxMDAlOwp9CgoubGF5ZXIgewogIGdyaWQtYXJlYTogMSAvIDE7CiAgd2hpdGUtc3BhY2U6IG5vd3JhcDsKICBvdmVyZmxvdzogaGlkZGVuOwogIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzOwogIG1heC13aWR0aDogMTAwJTsKfQoKLmxheWVyLnN0cm9rZSB7CiAgY29sb3I6ICMwMDA7CiAgLXdlYmtpdC10ZXh0LXN0cm9rZTogY2FsYyh2YXIoLS1zdHJva2Utd2lkdGgpICogMikgdmFyKC0tc3Ryb2tlLWNvbG9yKTsKICBwYWludC1vcmRlcjogc3Ryb2tlIGZpbGw7Cn0KCi5saW5lLm5leHQgewogIGZvbnQtc2l6ZTogY2FsYyh2YXIoLS1mb250LXNpemUpICogMC42Mik7CiAgZm9udC13ZWlnaHQ6IDUwMDsKICBjb2xvcjogdmFyKC0tYmFzZSk7CiAgdGV4dC1zaGFkb3c6CiAgICBjYWxjKHZhcigtLXN0cm9rZS13aWR0aCkgKiAtMSkgMCAwIHZhcigtLXN0cm9rZS1jb2xvciksCiAgICB2YXIoLS1zdHJva2Utd2lkdGgpIDAgMCB2YXIoLS1zdHJva2UtY29sb3IpLAogICAgMCBjYWxjKHZhcigtLXN0cm9rZS13aWR0aCkgKiAtMSkgMCB2YXIoLS1zdHJva2UtY29sb3IpLAogICAgMCB2YXIoLS1zdHJva2Utd2lkdGgpIDAgdmFyKC0tc3Ryb2tlLWNvbG9yKTsKfQoKLmxpbmUuY3VycmVudCAudyB7CiAgLyogRWFjaCB3b3JkL3N5bGxhYmxlIGlzIGl0cyBvd24gZ3JhZGllbnQgd2luZG93OyAtLXAgZ29lcyAwIC0+IDEuICovCiAgY29sb3I6IHRyYW5zcGFyZW50OwogIC13ZWJraXQtdGV4dC1maWxsLWNvbG9yOiB0cmFuc3BhcmVudDsKICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoCiAgICA5MGRlZywKICAgIHZhcigtLWZpbGwpIDAlLAogICAgdmFyKC0tZmlsbCkgY2FsYyh2YXIoLS1wLCAwKSAqIDEwMCUpLAogICAgdmFyKC0tYmFzZSkgY2FsYyh2YXIoLS1wLCAwKSAqIDEwMCUpLAogICAgdmFyKC0tYmFzZSkgMTAwJQogICk7CiAgLXdlYmtpdC1iYWNrZ3JvdW5kLWNsaXA6IHRleHQ7CiAgYmFja2dyb3VuZC1jbGlwOiB0ZXh0OwogIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7Cn0KCi5saW5lLmN1cnJlbnRbZGF0YS1sZXZlbD0ibGluZSJdIC53IHsKICAvKiBObyB3b3JkIHRpbWluZyBhdmFpbGFibGU6IGxpZ2h0IHRoZSB3aG9sZSBsaW5lIGF0IG9uY2UuICovCiAgYmFja2dyb3VuZC1pbWFnZTogbm9uZTsKICBjb2xvcjogdmFyKC0tYmFzZSk7CiAgLXdlYmtpdC10ZXh0LWZpbGwtY29sb3I6IHZhcigtLWJhc2UpOwogIHRyYW5zaXRpb246IGNvbG9yIDEyMG1zIGxpbmVhcjsKfQoKLmxpbmUuY3VycmVudFtkYXRhLWxldmVsPSJsaW5lIl1bZGF0YS1saXQ9IjEiXSAudyB7CiAgY29sb3I6IHZhcigtLWZpbGwpOwogIC13ZWJraXQtdGV4dC1maWxsLWNvbG9yOiB2YXIoLS1maWxsKTsKfQoKI2hpbnQgewogIHBvc2l0aW9uOiBmaXhlZDsKICBsZWZ0OiA4cHg7CiAgYm90dG9tOiA2cHg7CiAgZm9udDogMTFweC8xLjIgdmFyKC0tZm9udC1mYW1pbHkpOwogIGNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNTUpOwogIHRleHQtc2hhZG93OiAwIDAgMnB4ICMwMDA7CiAgcG9pbnRlci1ldmVudHM6IG5vbmU7CiAgb3BhY2l0eTogMDsKICB0cmFuc2l0aW9uOiBvcGFjaXR5IDIwMG1zIHZhcigtLWhvdmVyLWVhc2luZyk7Cn0KCiNoaW50LnNob3cgewogIG9wYWNpdHk6IDE7Cn0KCi8qIFRoZSBvdXRsaW5lIGxheWVyIG11c3Qgc3RheSBhIHNvbGlkIGJsYWNrIGdseXBoIGV2ZW4gdGhvdWdoIGl0IHNoYXJlcyB0aGUgYC53YAogICBjbGFzcyB3aXRoIHRoZSBncmFkaWVudCBsYXllciwgc28gaXQgd2lucyBkZWNpc2l2ZWx5IG92ZXIgdGhvc2UgcnVsZXMuICovCi5saW5lLmN1cnJlbnQgLnN0YWNrIC5sYXllci5zdHJva2UgLncgewogIGNvbG9yOiAjMDAwICFpbXBvcnRhbnQ7CiAgLXdlYmtpdC10ZXh0LWZpbGwtY29sb3I6ICMwMDAgIWltcG9ydGFudDsKICBiYWNrZ3JvdW5kLWltYWdlOiBub25lICFpbXBvcnRhbnQ7CiAgLXdlYmtpdC1iYWNrZ3JvdW5kLWNsaXA6IGJvcmRlci1ib3ggIWltcG9ydGFudDsKICBiYWNrZ3JvdW5kLWNsaXA6IGJvcmRlci1ib3ggIWltcG9ydGFudDsKfQo=
+:root {
+  --font-size: 34px;
+  --font-family: "Source Han Sans SC", "思源黑体", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --fill: #7ce3ff;
+  --base: rgba(255, 255, 255, 0.30);
+  --stroke-width: 1.2px;
+  --stroke-color: rgba(0, 0, 0, 0.85);
+  --opacity: 0.85;
+  --hover-easing: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+  user-select: none;
+  cursor: default;
+  -webkit-user-drag: none;
+}
+
+#stage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.35em 0.8em;
+  opacity: var(--opacity);
+  transition: opacity 160ms var(--hover-easing);
+}
+
+/* Editing mode (hotkey has taken over the mouse) gets a visible affordance. */
+#stage[data-mode="edit"] {
+  outline: 1px dashed rgba(124, 227, 255, 0.55);
+  outline-offset: -4px;
+  cursor: grab;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+#stage[data-mode="idle"] {
+  opacity: 0;
+}
+
+.line {
+  font-family: var(--font-family);
+  line-height: 1.25;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.line.current {
+  font-size: var(--font-size);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Two stacked copies of the same line: a stroked outline underneath and the
+   gradient fill on top. Chromium drops the gradient as soon as text-shadow is
+   present on the clipped element, so the outline cannot be a shadow. */
+.stack {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.layer {
+  grid-area: 1 / 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.layer.stroke {
+  color: #000;
+  -webkit-text-stroke: calc(var(--stroke-width) * 2) var(--stroke-color);
+  paint-order: stroke fill;
+}
+
+.line.next {
+  font-size: calc(var(--font-size) * 0.62);
+  font-weight: 500;
+  color: var(--base);
+  text-shadow:
+    calc(var(--stroke-width) * -1) 0 0 var(--stroke-color),
+    var(--stroke-width) 0 0 var(--stroke-color),
+    0 calc(var(--stroke-width) * -1) 0 var(--stroke-color),
+    0 var(--stroke-width) 0 var(--stroke-color);
+}
+
+.line.current .w {
+  /* Each word/syllable is its own gradient window; --p goes 0 -> 1. */
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    var(--fill) 0%,
+    var(--fill) calc(var(--p, 0) * 100%),
+    var(--base) calc(var(--p, 0) * 100%),
+    var(--base) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-repeat: no-repeat;
+}
+
+.line.current[data-level="line"] .w {
+  /* No word timing available: light the whole line at once. */
+  background-image: none;
+  color: var(--base);
+  -webkit-text-fill-color: var(--base);
+  transition: color 120ms linear;
+}
+
+.line.current[data-level="line"][data-lit="1"] .w {
+  color: var(--fill);
+  -webkit-text-fill-color: var(--fill);
+}
+
+#hint {
+  position: fixed;
+  left: 8px;
+  bottom: 6px;
+  font: 11px/1.2 var(--font-family);
+  color: rgba(255, 255, 255, 0.55);
+  text-shadow: 0 0 2px #000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 200ms var(--hover-easing);
+}
+
+#hint.show {
+  opacity: 1;
+}
+
+/* The outline layer must stay a solid black glyph even though it shares the `.w`
+   class with the gradient layer, so it wins decisively over those rules. */
+.line.current .stack .layer.stroke .w {
+  color: #000 !important;
+  -webkit-text-fill-color: #000 !important;
+  background-image: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+}

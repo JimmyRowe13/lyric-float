@@ -1,1 +1,4 @@
-IyBwbnBtIDExLzEyIHJlYWQgYnVpbGQtc2NyaXB0IHBvbGljeSBmcm9tIGhlcmUsIG5vdCBmcm9tIHBhY2thZ2UuanNvbi4KIyBgYWxsb3dCdWlsZHNgIGlzIGEgbWFwIChuYW1lIC0+IGJvb2wpOyBgb25seUJ1aWx0RGVwZW5kZW5jaWVzYCBpcyBub3QgcmVhZC4KYWxsb3dCdWlsZHM6CiAgZXNidWlsZDogdHJ1ZQo=
+# pnpm 11/12 read build-script policy from here, not from package.json.
+# `allowBuilds` is a map (name -> bool); `onlyBuiltDependencies` is not read.
+allowBuilds:
+  esbuild: true

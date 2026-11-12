@@ -1,1 +1,159 @@
-IyBNMyDigJQgQXBwbGUg6Ieq5a625q2M6K+N5omT6YCaCgojIyDkuovlkI7kv67mraPvvJrkuKTkuKrmiorml7bluo/mkJ7plJnnmoQgYnVn77yI5bey5L+u77yJCgrnrKzkuIDmrKHot5HpgJrlkI7nlKjmiLflj43ppogi5q2M6K+N5Yi35paw5LiN5a+544CB5pe25bqP5a+55LiN5LiKIuOAguafpeWHuuS4pOS4queLrOeri+mXrumimO+8mgoKIyMjIEEuIOa8lOWUseS8muS4k+i+keaYryoq5LiA5pW05p2hIEhMUyDmtYEqKu+8jOWqkuS9k+WFg+e0oOeahCBjdXJyZW50VGltZSDmmK8i5ryU5Ye65pe26Ze0IuS4jeaYryLmrYzmm7Lml7bpl7QiCgpgYGAKYXVkaW9bNl0gIHNlZWthYmxlPVswLCA4MTkuNzI2XSAgIGN1cnJlbnRUaW1lPTU1NC4xMiAgIGR1cmF0aW9uPW51bGwKYGBgCgrkuIDpppYgMjk3IOenkueahOatjO+8jOaSreaUvuS9jee9ruWNtOWIsOS6hiA1NTQg56eS4oCU4oCU5Zug5Li65pW05Zy65ryU5ZSx5Lya5piv5LiA5p2hIDgxOSDnp5LnmoTmtYHjgIIKCuadg+WogeaXtumSn+WcqOaSreaUvuWZqOWGhemDqO+8mgoKYGBganMKa2l0Ll9wbGF5YmFja0NvbnRyb2xsZXIuc2VydmljZXMubWVkaWFJdGVtUGxheWJhY2suX2N1cnJlbnRQbGF5ZXIuX2J1ZmZlcgogIC5fY3VycmVudFRpbWUgICAgICAgICAgICAgLy8gNjA3LjMyMjQ0NiAg5ryU5Ye65pe26Ze0CiAgLmN1cnJlbnRUaW1lc3RhbXBPZmZzZXQgICAvLyA1MDIuMzIyNDQ2ICDmnKzmm7LlnKjmtYHph4znmoTotbfngrkKICAuZHVyYXRpb24gICAgICAgICAgICAgICAgIC8vIDI5Ny4zODcgICAgIOacrOabsuaXtumVvwpgYGAKCmBzb25nUG9zID0gX2N1cnJlbnRUaW1lIC0gY3VycmVudFRpbWVzdGFtcE9mZnNldGDjgILlrp7mtYsgNjA3LjMyMjQ0NiAtIDUwMi4zMjI0NDYgPSAxMDUuMDAw77yMCuS4ieenkuWQjiA2MTYuMzIgLSA1MDIuMzIgPSAxMTQg4oaSIDExN++8jOmAkOenkuaOqOi/m+OAggoKIyMjIEIuIOeUqOaQnOe0ouWPjeafpSBjYXRhbG9nIGlkIOS8muaMkemUmeeJiOacrAoK44CK5LiN6IO96K+055qE56eY5a+G44CL5ZyoIEFwcGxlIOS4iuaciSBMaXZlKOmtlOWkqeS8pinjgIFMaXZlKDIwMDcg5beh5ZueKeOAgeW9lemfs+WupOS4ieS4queJiOacrO+8jArlkI3lrZflkozmrYzmiYvlrozlhajnm7jlkIzvvIzml7bplb/lj6rlt64gMC4xIOenkuOAguaMiSLmoIfpopgr5q2M5omLK2hhc0x5cmljcyLmiZPliIblhajpg6jmiZPlubMg4oaSIOWPluWIsOWIl+ihqOesrOS4gOS4qgrvvIjprZTlpKnkvKbniYjvvInvvIzogIzlrp7pmYXmkq3nmoTmmK8gMjAwNyDlt6Hlm57niYgg4oaSIOatjOivjeaVtOmmlumUmeS9jeOAggoK55yf5q2j5YeG56Gu55qEIGlkIOWwseWcqOaSreaUvuWZqOmHjO+8mmBtZWRpYUl0ZW1QbGF5YmFjay5jdXJyZW50UGxheWJhY2suYXNzZXQuaWRgCu+8iOWunua1iyBgNTM2NzQzNjI3YO+8jOato+aYryAyMDA3IOW3oeWbnueJiO+8ieOAgueOsOWcqOebtOaOpeeUqOWug++8jOaQnOe0ouWPquS9nOS4uuWFnOW6leOAggoKIyMjIEMuIOaSreaUvuWZqOaXtumSn+aYryAxIOenkueykuW6pu+8jOavjyAyMDBtcyDph43mlrDlr7nplJrlsLHkvJoi6ay855WcIgoK5L+u5a6MIEEvQiDkuYvlkI7ku43nhLbkuI3mtYHnlYXjgILlrp7mtYsgYF9jdXJyZW50VGltZWAg55qE57KS5bqm77yaCgpgYGAKdD0yNTE2NjM3ICBjdXI9ODA3Ljc1NyAgIOKGkCDov57nu60gMTEg5qyh6YeH5qC36YO95LiN5YqoCnQ9MjUxNzc0NyAgY3VyPTgwOC43NTcgICDihpAg6LezIDEg56eSCnQ9MjUxODU1MyAgY3VyPTgwOC43NTcgICDihpAg5Y+I5LiN5Yqo5LqGCmBgYAoK5Y2z77ya5rqQ5pe26Ze05pivKirmlbTnp5Lot7Plj5gqKueahOOAguWOn+WunueOsOavj+aUtuWIsOW/q+eFp+WwseaKiuaXtumSn+mHjee9ruWIsOivpeWAvO+8jOS6juaYrwrjgIzlpJbmjqggMjAwbXMg4oaSIOiiq+aLieWbnuacgOWkmiAxIOenkiDihpIg5YaN5aSW5o6o44CN77yM6KeG6KeJ5LiK5bCx5piv5p2l5Zue5oq95pCQ44CCCgrkv67lpI3vvIhgc3JjL21haW4udHNgIOeahCBgUGxheUNsb2NrYO+8ie+8muiHquW3see7tOaKpOWNleiwg+aXtumSn++8jOWPquaKiuivr+W3rueahCAzNSXvvIjkuJTljZXmrKEK5pyA5aSaIDAuMTJz77yJ57yT6YeK6L+b5Y6777yb6K+v5beuID4gMnMg5omN5Yik5a6a5Li6IHNlZWsv5o2i5puy5bm255u05o6l6Lez6L2s44CCCgrpqozor4HvvIjmr48gODBtcyDph4fmoLcgMjUg5qyh77yJ77yaCgpgYGAKMzAuMDA0IOKGkiAzMC4wODUg4oaSIDMwLjE2NyDihpIg4oCmIOKGkiAzMS45MzYg4oaSIDMyLjAyMCAgICAg5Zue6YCA5qyh5pWwIDAKYGBgCgojIyDpqozor4Hnu5PmnpwKCuWQjOWIu+avlOWvue+8mgoKYGBgCua1rueql+aXtumSnyBwb3MgPSAyMDkuMDM4CkFwcGxlIHNvbmdQb3MgPSAyMDkuMDAwICAgICDihpIg6K+v5beuIDM4IG1zCuW9k+WJjeihjCA9IOWPiOS9leW/heWOu+aUueiuiuW3sumMr+mBjueahOaZgumWkwpgYGAKCgrml6XmnJ/vvJoyMDI2LTExLTEwIDIzOjF44oCTMjM6NXggKFVUQys4KQrnjq/looPvvJpDRFAgQ2hyb21l77yI54us56uLIHByb2ZpbGXvvIzlt7LnmbvlvZXvvIzorqLpmIXmnInmlYjvvIxzdG9yZWZyb250PWNu77yJCgojIyDnu5PmnpwKCnwg6aG5IHwg57uT5p6cIHwKfC0tLXwtLS18CnwgQ0RQIOi/nuS4iiBBcHBsZSBNdXNpYyDpobXpnaIgfCDinIUgYHdzOi8vMTI3LjAuMC4xOjkyMjIvZGV2dG9vbHMvcGFnZS8uLi5gIHwKfCDku47pobXpnaLor7vliLDlrp7ml7bmkq3mlL7kvY3nva4gfCDinIUgYGF1ZGlvLmN1cnJlbnRUaW1lYO+8iOavq+enkue6p++8iSB8Cnwg5ou/5YiwIEFwcGxlIOiHquWutuatjOivjSB8IOKchSA0NyDooYzvvIxgb3JpZ2luPWFwcGxlIGxldmVsPUxpbmVgIHwKfCDmta7nqpfmuLLmn5MgfCDinIUg6Z2S6Imy5aGr5YWFICsg6buR5o+P6L6577yM5Y+M6KGM57uT5p6EIHwKCiMjIDEuIOatjOivjeerr+eCueaYryBgc3lsbGFibGUtbHlyaWNzYO+8jOS4jeaYryBgbHlyaWNzYAoK55uy54yc5LqG5LiA5aCG5b2i5oCB5YWo6YOoIDQwNO+8iGAvbHlyaWNzYOOAgWA/bFtseXJpY3NdPWRlZmF1bHRg44CBYGFtcC1hcGktZWRnZWAg5Z+f5ZCN44CB5bimCmBtZWRpYS11c2VyLXRva2VuYCDkuZ/kuIDmoLfvvInvvIzplJnor6/noIHlm7rlrprmmK/vvJoKCmBgYGpzb24KeyJlcnJvcnMiOlt7InRpdGxlIjoiTm8gcmVsYXRlZCByZXNvdXJjZXMiLCJkZXRhaWwiOiJObyByZWxhdGVkIHJlc291cmNlcyBmb3VuZCBmb3IgbHlyaWNzIiwic3RhdHVzIjo0MDQsImNvZGUiOiI0MDQwMyJ9XX0KYGBgCgrnnJ/mraPog73nlKjnmoTot6/lvoTmmK8qKuS7juaSreaUvuWZqOiHquW3seeahOa1gemHj+mHjOaKk+WIsOeahCoq77yIYHRvb2xzL2NkcC1uZXRsb2cubWpzYO+8ie+8mgoKYGBgCkdFVCBodHRwczovL2FtcC1hcGkubXVzaWMuYXBwbGUuY29tL3YxL2NhdGFsb2cve3NmfS9zb25ncy97aWR9L3N5bGxhYmxlLWx5cmljcwogICAgP2wlNUJseXJpY3MlNUQ9emgtaGFucy1jbiZsJTVCc2NyaXB0JTVEPXpoLUhhbnMmZXh0ZW5kPXR0bWxMb2NhbGl6YXRpb25zCkhlYWRlcnM6IEF1dGhvcml6YXRpb246IEJlYXJlciA8ZGV2ZWxvcGVyVG9rZW4+CiAgICAgICAgIG1lZGlhLXVzZXItdG9rZW46IDxtdXNpY1VzZXJUb2tlbj4KICAgICAgICAgT3JpZ2luOiBodHRwczovL211c2ljLmFwcGxlLmNvbQpgYGAKCuWTjeW6lO+8mgoKYGBganNvbgp7ICJkYXRhIjogWyB7ICJpZCI6ICIuLi4iLCAidHlwZSI6ICJzb25ncyIsCiAgImF0dHJpYnV0ZXMiOiB7ICJwbGF5UGFyYW1zIjogey4uLn0sICJ0dG1sTG9jYWxpemF0aW9ucyI6ICI8dHQgLi4uPi4uLjwvdHQ+IiB9IH0gXSB9CmBgYAoKYHR0bWxMb2NhbGl6YXRpb25zYCAqKuacrOi6q+WwseaYr+S4gOS4quWtl+espuS4sioq77yI5LiN5piv5a+56LGh77yJ77yM55u05o6l5b2TIFRUTUwg5aGe6L+b6Kej5p6Q5Zmo44CCCgojIyAyLiBhbXAtd2ViIOeahCBNdXNpY0tpdCDmsqHmnIkgYC5wbGF5ZXJgCgpgTXVzaWNLaXQuZ2V0SW5zdGFuY2UoKWAg5a2Y5Zyo44CBYGRldmVsb3BlclRva2VuYCDlj6/or7vjgIFgbXVzaWNVc2VyVG9rZW5gIOWPr+ivu++8jOS9hgpgaW5zdC5wbGF5ZXJgIOaYryBgdW5kZWZpbmVkYOKAlOKAlOWug+eUqOeahOaYryBgc2VydmljZXMucGxheWVyYCAvIGBfcGxheWJhY2tDb250cm9sbGVyYCDpgqPlpZflhoXpg6jnu5PmnoTjgIIK5omA5Lul77yaCgoqIOabsuWQjS/mrYzmiYvmlLnor7sgYG5hdmlnYXRvci5tZWRpYVNlc3Npb24ubWV0YWRhdGFg77yI6aG16Z2i6Ieq5bex5Lya6K6+77yMU01UQyDkuZ/mmK/ku47ov5nmnaXnmoTvvInvvJsKKiBjYXRhbG9nIGlkIOS4jeWBmuWGhemDqOe7k+aehOaMluaOmO+8jOaUueeUqCoq5pCc57Si5o6l5Y+j5Y+N5p+lKirvvJoKCmBgYApHRVQgL3YxL2NhdGFsb2cve3NmfS9zZWFyY2g/dGVybT08dGl0bGUgYXJ0aXN0PiZ0eXBlcz1zb25ncyZsaW1pdD0xMApgYGAKCuaMieOAjOagh+mimOWujOWFqOebuOWQjCA+IOagh+mimOWMheWQq+OAjSvjgIzmrYzmiYvljIXlkKvjgI0r44CMaGFzTHlyaWNz44CN5omT5YiG6YCJ5pyA5L2z77yM5YaN5Y+WIGBzeWxsYWJsZS1seXJpY3Ng44CCCgojIyAzLiDpobXpnaLph4zmnIkgNyDkuKogYDxhdWRpbz5g77yM5Y+q5pyJ5LiA5Liq5piv55yf5pKtCgo2IOS4quaYr+i0p+aetuS4iueahCAzMCDnp5Lor5XlkKzvvIhgZHVyPTMwLjAwMDk5OCwgcGF1c2VkPXRydWVg77yJ77yM56ysIDcg5Liq5omN5piv55yf5rWB77yaCgpgYGAKeyJ0YWciOiJBVURJTyIsImN1ciI6NjYuMTU1NTU5LCJkdXIiOm51bGwsInBhdXNlZCI6ZmFsc2V9CmBgYAoKYGR1cmAg5pivIGBudWxsYCDigJTigJQgTVNFIOa1geayoeacieaciemZkCBkdXJhdGlvbuOAguaJgOS7peWPluWqkuS9k+WFg+e0oOS4jeiDveWPluesrOS4gOS4qu+8jOimgeWPluOAjOato+WcqOaSreS4lApjdXJyZW50VGltZSA+IDDjgI3nmoTpgqPkuKrvvIzmjInml7bplb/pmY3luo/lj5bmnIDlpKfjgIIKCiMjIDQuIOa4suafk+i4qeWdke+8mmB0ZXh0LXNoYWRvd2Ag5Lya5ZCD5o6JIGBiYWNrZ3JvdW5kLWNsaXA6IHRleHRgIOeahOWhq+WFhQoK546w6LGh77ya566X5Ye65p2l55qE5qC35byP5YWo5a+577yIYGJnQ2xpcD10ZXh0YOOAgea4kOWPmOWcqOOAgWAtLXA9MWDvvInvvIzkvYblsY/luZXkuIrlj6rmnInkuIDlnajpu5HjgIIKCumalOemu+WunumqjO+8iOWQjOS4gOmhtemdouazqOWFpeS4ieauteaWh+Wtl++8ie+8mgoKfCDmtYvor5UgfCDnu5PmnpwgfAp8LS0tfC0tLXwKfCDmuJDlj5ggKyBgYmFja2dyb3VuZC1jbGlwOnRleHRg77yM5peg5o+P6L65IHwg4pyFIOe6ouKGkuiTnea4kOWPmOato+W4uCB8Cnwg57qv6ImyIHwg4pyFIHwKfCDmuJDlj5ggKyBgdGV4dC1zaGFkb3dgIOaPj+i+uSB8IOKdjCDlhajpu5HvvIzmuJDlj5jlrozlhajkuI3nlLsgfAoK5L+u5aSN77yaKirmi4bmiJDkuKTlsYIqKuKAlOKAlOW6leWxguaYr+e6r+m7kSBgLXdlYmtpdC10ZXh0LXN0cm9rZWDvvIzkuIrlsYLmmK/muJDlj5jloavlhYXvvIzkuKTlsYLnlKgKYGRpc3BsYXk6Z3JpZDsgZ3JpZC1hcmVhOjEvMWAg5Y+g5Zyo5LiA6LW344CC5ZCM5pe25oqK5o+P6L655LuOIDJweCDpmY3liLAgMS4ycHjvvIzlkKbliJnkuK3mlofnu4bnrJTnlLvkvJrooqvlkIPmjonjgIIKCiMjIDUuIOmHjei9veWQjuatjOivjeS4ouWksQoK5YmN56uv5piv5LqL5Lu26amx5Yqo55qE77yM6aG16Z2i5LiA6YeN6L2977yISE1SIOaIlumHjeW8gOeql+WPo++8ieS6i+S7tuWwseayoeS6hu+8jOatjOivjeawuOi/nOS4jeWbnuadpeOAguWKoOS6hgpgZ2V0X2x5cmljc2Ag5ZG95Luk77yM5YmN56uv5ZCv5Yqo5pe25Li75Yqo5ouJ5LiA5qyh5ZCO56uv57yT5a2Y55qE5q2M6K+N6ZuG44CCCgojIyDmnKrop6PlhrMKCi0gYGl0dW5lczp0aW1pbmc9IkxpbmUiYCDmmK/luLjop4Hmg4XlhrXvvJtgIldvcmQiYCDnmoTmoLfmnKzov5jmsqHpgYfliLDvvIzpgJDlrZfot6/lvoTmnKrpqozor4HjgIIKLSDmrYzor43mmK/nuYHkvZPljp/mlocgKyBgdHJhbnNsYXRpb25zYCDlnZfvvIhgemgtSGFuc2Ag5pu/5o2i5paH5pys77yJ77yM55uu5YmN5rKh5bqU55So57+76K+R77yM5pi+56S655qE5piv5Y6f5paH44CCCi0g5pKt5pS+5Zmo5a+56LGh55qEIGBkdXJhdGlvbmAg5ou/5LiN5Yiw77yITVNF77yJ77yM6L+b5bqm5p2h6ZW/5bqm5pqC5pe255So5LiN5LiK44CCCg==
+# M3 — Apple 自家歌词打通
+
+## 事后修正：两个把时序搞错的 bug（已修）
+
+第一次跑通后用户反馈"歌词刷新不对、时序对不上"。查出两个独立问题：
+
+### A. 演唱会专辑是**一整条 HLS 流**，媒体元素的 currentTime 是"演出时间"不是"歌曲时间"
+
+```
+audio[6]  seekable=[0, 819.726]   currentTime=554.12   duration=null
+```
+
+一首 297 秒的歌，播放位置却到了 554 秒——因为整场演唱会是一条 819 秒的流。
+
+权威时钟在播放器内部：
+
+```js
+kit._playbackController.services.mediaItemPlayback._currentPlayer._buffer
+  ._currentTime             // 607.322446  演出时间
+  .currentTimestampOffset   // 502.322446  本曲在流里的起点
+  .duration                 // 297.387     本曲时长
+```
+
+`songPos = _currentTime - currentTimestampOffset`。实测 607.322446 - 502.322446 = 105.000，
+三秒后 616.32 - 502.32 = 114 → 117，逐秒推进。
+
+### B. 用搜索反查 catalog id 会挑错版本
+
+《不能说的秘密》在 Apple 上有 Live(魔天伦)、Live(2007 巡回)、录音室三个版本，
+名字和歌手完全相同，时长只差 0.1 秒。按"标题+歌手+hasLyrics"打分全部打平 → 取到列表第一个
+（魔天伦版），而实际播的是 2007 巡回版 → 歌词整首错位。
+
+真正准确的 id 就在播放器里：`mediaItemPlayback.currentPlayback.asset.id`
+（实测 `536743627`，正是 2007 巡回版）。现在直接用它，搜索只作为兜底。
+
+### C. 播放器时钟是 1 秒粒度，每 200ms 重新对锚就会"鬼畜"
+
+修完 A/B 之后仍然不流畅。实测 `_currentTime` 的粒度：
+
+```
+t=2516637  cur=807.757   ← 连续 11 次采样都不动
+t=2517747  cur=808.757   ← 跳 1 秒
+t=2518553  cur=808.757   ← 又不动了
+```
+
+即：源时间是**整秒跳变**的。原实现每收到快照就把时钟重置到该值，于是
+「外推 200ms → 被拉回最多 1 秒 → 再外推」，视觉上就是来回抽搐。
+
+修复（`src/main.ts` 的 `PlayClock`）：自己维护单调时钟，只把误差的 35%（且单次
+最多 0.12s）缓释进去；误差 > 2s 才判定为 seek/换曲并直接跳转。
+
+验证（每 80ms 采样 25 次）：
+
+```
+30.004 → 30.085 → 30.167 → … → 31.936 → 32.020     回退次数 0
+```
+
+## 验证结果
+
+同刻比对：
+
+```
+浮窗时钟 pos = 209.038
+Apple songPos = 209.000     → 误差 38 ms
+当前行 = 又何必去改變已錯過的時間
+```
+
+
+日期：2026-11-10 23:1x–23:5x (UTC+8)
+环境：CDP Chrome（独立 profile，已登录，订阅有效，storefront=cn）
+
+## 结果
+
+| 项 | 结果 |
+|---|---|
+| CDP 连上 Apple Music 页面 | ✅ `ws://127.0.0.1:9222/devtools/page/...` |
+| 从页面读到实时播放位置 | ✅ `audio.currentTime`（毫秒级） |
+| 拿到 Apple 自家歌词 | ✅ 47 行，`origin=apple level=Line` |
+| 浮窗渲染 | ✅ 青色填充 + 黑描边，双行结构 |
+
+## 1. 歌词端点是 `syllable-lyrics`，不是 `lyrics`
+
+盲猜了一堆形态全部 404（`/lyrics`、`?l[lyrics]=default`、`amp-api-edge` 域名、带
+`media-user-token` 也一样），错误码固定是：
+
+```json
+{"errors":[{"title":"No related resources","detail":"No related resources found for lyrics","status":404,"code":"40403"}]}
+```
+
+真正能用的路径是**从播放器自己的流量里抓到的**（`tools/cdp-netlog.mjs`）：
+
+```
+GET https://amp-api.music.apple.com/v1/catalog/{sf}/songs/{id}/syllable-lyrics
+    ?l%5Blyrics%5D=zh-hans-cn&l%5Bscript%5D=zh-Hans&extend=ttmlLocalizations
+Headers: Authorization: Bearer <developerToken>
+         media-user-token: <musicUserToken>
+         Origin: https://music.apple.com
+```
+
+响应：
+
+```json
+{ "data": [ { "id": "...", "type": "songs",
+  "attributes": { "playParams": {...}, "ttmlLocalizations": "<tt ...>...</tt>" } } ] }
+```
+
+`ttmlLocalizations` **本身就是一个字符串**（不是对象），直接当 TTML 塞进解析器。
+
+## 2. amp-web 的 MusicKit 没有 `.player`
+
+`MusicKit.getInstance()` 存在、`developerToken` 可读、`musicUserToken` 可读，但
+`inst.player` 是 `undefined`——它用的是 `services.player` / `_playbackController` 那套内部结构。
+所以：
+
+* 曲名/歌手改读 `navigator.mediaSession.metadata`（页面自己会设，SMTC 也是从这来的）；
+* catalog id 不做内部结构挖掘，改用**搜索接口反查**：
+
+```
+GET /v1/catalog/{sf}/search?term=<title artist>&types=songs&limit=10
+```
+
+按「标题完全相同 > 标题包含」+「歌手包含」+「hasLyrics」打分选最佳，再取 `syllable-lyrics`。
+
+## 3. 页面里有 7 个 `<audio>`，只有一个是真播
+
+6 个是货架上的 30 秒试听（`dur=30.000998, paused=true`），第 7 个才是真流：
+
+```
+{"tag":"AUDIO","cur":66.155559,"dur":null,"paused":false}
+```
+
+`dur` 是 `null` —— MSE 流没有有限 duration。所以取媒体元素不能取第一个，要取「正在播且
+currentTime > 0」的那个，按时长降序取最大。
+
+## 4. 渲染踩坑：`text-shadow` 会吃掉 `background-clip: text` 的填充
+
+现象：算出来的样式全对（`bgClip=text`、渐变在、`--p=1`），但屏幕上只有一坨黑。
+
+隔离实验（同一页面注入三段文字）：
+
+| 测试 | 结果 |
+|---|---|
+| 渐变 + `background-clip:text`，无描边 | ✅ 红→蓝渐变正常 |
+| 纯色 | ✅ |
+| 渐变 + `text-shadow` 描边 | ❌ 全黑，渐变完全不画 |
+
+修复：**拆成两层**——底层是纯黑 `-webkit-text-stroke`，上层是渐变填充，两层用
+`display:grid; grid-area:1/1` 叠在一起。同时把描边从 2px 降到 1.2px，否则中文细笔画会被吃掉。
+
+## 5. 重载后歌词丢失
+
+前端是事件驱动的，页面一重载（HMR 或重开窗口）事件就没了，歌词永远不回来。加了
+`get_lyrics` 命令，前端启动时主动拉一次后端缓存的歌词集。
+
+## 未解决
+
+- `itunes:timing="Line"` 是常见情况；`"Word"` 的样本还没遇到，逐字路径未验证。
+- 歌词是繁体原文 + `translations` 块（`zh-Hans` 替换文本），目前没应用翻译，显示的是原文。
+- 播放器对象的 `duration` 拿不到（MSE），进度条长度暂时用不上。

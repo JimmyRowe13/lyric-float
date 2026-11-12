@@ -1,1 +1,100 @@
-IyBNMCDigJQgU01UQyDkvpvmlpnog73lipvlrp7mtYsKCuaXpeacn++8mjIwMjYtMTEtMTAgMDA6NDTigJMwMDo0NiAoVVRDKzgpCuacuuWZqO+8mldpbmRvd3MgMTAgKDIyMDAwKeOAgUNocm9tZSAxMjguMC4yNzM5LjU044CBV2luZG93cyBQb3dlclNoZWxsIDUuMQrohJrmnKzvvJpgdG9vbHMvc210Yy1wcm9iZS9wcm9iZS5wczFg44CBYHRvb2xzL3NtdGMtcHJvYmUvcnVuLWxvY2FsLXBsYXllci5wczFgCgojIyDnu5PorroKCioqUEFTU+OAgioqIFdpbmRvd3MgU01UQ++8iGBHbG9iYWxTeXN0ZW1NZWRpYVRyYW5zcG9ydENvbnRyb2xzU2Vzc2lvbk1hbmFnZXJg77yJ6IO957uZ5Ye65LiA5p2h5q2j5Zyo5pKt5pS+55qECkNocm9taXVtIOS8muivneeahO+8mgoKfCDlrZfmrrUgfCDmmK/lkKblj6/nlKggfCDor7TmmI4gfAp8LS0tfC0tLXwtLS18Cnwg5puy5ZCNIC8g5q2M5omLIC8g5LiT6L6RIHwg4pyFIHwgYFRyeUdldE1lZGlhUHJvcGVydGllc0FzeW5jKClgIHwKfCDmkq3mlL7nirbmgIEgfCDinIUgfCBgR2V0UGxheWJhY2tJbmZvKCkuUGxheWJhY2tTdGF0dXNgIHwKfCDmm7Lplb8gfCDinIUgfCBgR2V0VGltZWxpbmVQcm9wZXJ0aWVzKCkuRW5kVGltZWAgfAp8IOW9k+WJjei/m+W6piB8IOKchSB8IGBHZXRUaW1lbGluZVByb3BlcnRpZXMoKS5Qb3NpdGlvbmAgfAp8IOi/m+W6puaWsOmynOW6piB8IOKchSB8IGBHZXRUaW1lbGluZVByb3BlcnRpZXMoKS5MYXN0VXBkYXRlZFRpbWVgIHwKfCDmnaXmupAgVVJMIC8g5Z+f5ZCNIHwg4p2MIHwg5Y+q5pyJIGBTb3VyY2VBcHBVc2VyTW9kZWxJZGDvvIzlvaLlpoIgYENocm9tZS5BQVpTM0E2VE1XWVBJN05CV0lNTkZVQUhTUWAgfAoK57K+5bqm77ya6L+b5bqm5LiK5oql5bm06b6EIDE34oCTMjQzIG1z77yM6YCf546H5q+UIDAuOTkx77yIzpRwb3MvzpR3YWxs77yJ77yM6YeP5YyW5LiO5aOw5Y2h5pe26ZKf5oqW5Yqo5ZCI6K6h57qmIMKxMjUwIG1z44CCCumAkOihjOatjOivje+8iOWuueW3riB+wrExNTAgbXPvvInlpJ/nlKjvvJvpgJDlrZfmrYzor43vvIjlrrnlt64gfsKxNTAgbXPvvInpnIAgQ0RQIOihpeeyvuW6puOAggoKIyMg5LiJ5qyh5a6e6aqMCgojIyMgMe+8ieiiq+WKqOivu+WPlueUqOaIt+eOsOacieS8muivne+8iOeOi+iPsuOAiue6puWumuOAi++8iQoKYGBgCkFQUCAgICAgIENocm9tZS5BQVpTM0E2VE1XWVBJN05CV0lNTkZVQUhTUQpTVEFUVVMgICBQYXVzZWQKcG9zPTAuMDAwIHN0YXJ0PTAuMDAwIGVuZD0yNjcuNjM1Cmxhc3RVcGRhdGVkIDIwMjYtMTEtMDhUMjM6MTk6NTNaKzA4ICAo6Led5LuKIDkxLDQ2MCBzKQpgYGAKCuabsumVv+ato+ehru+8jOS9huS8muivneaYryAyNSDlsI/ml7bliY3nmoTmrovnlZnvvJrov5vluqbkuI3liLfmlrDjgIFgUGxheWJhY2tTdGF0dXM9UGF1c2VkYOOAggoKIyMjIDLvvIlgVHJ5UGxheUFzeW5jKClgIOmpseWKqOWDteWwuOS8muivnSDigJTigJQg5aSx6LSlCgpgYGAKRFJJVkVfUExBWSBvaz1UcnVlClNBTVBMRSBpPTAuLjIgc3RhdHVzPVBhdXNlZCAgIHBvcz0wLjAwMApTQU1QTEUgaT0zLi43IHN0YXR1cz1DbG9zZWQgICBlbmQ9MC4wMDAgIGxhc3RVcGRhdGVkPTE2MDEtMDEtMDEKYGBgCgpgVHJ5UGxheUFzeW5jKClgIOi/lOWbniBgVHJ1ZWAg5L2G5Lya6K+d55u05o6l5raI5Lqh44CCKirmlZnorq3vvJrlkb3ku6Tov5Tlm57lgLzkuI3lj6/kv6HvvIzlv4Xpobvlm57or7vnirbmgIHnoa7orqTjgIIqKgoKIyMjIDPvvInlj5fmjqfmnKzlnLDmkq3mlL7pobXvvIjpmpTnprsgcHJvZmlsZe+8jOWGs+WumuaAp+WunumqjO+8iQoKYHRvb2xzL3NtdGMtcHJvYmUvc2FuZGJveC9wbGF5ZXIuaHRtbGDvvJpgPGF1ZGlvPmAgKyBgbmF2aWdhdG9yLm1lZGlhU2Vzc2lvbi5tZXRhZGF0YWAKKyDmr48gMjUwIG1zIOiwg+S4gOasoSBgc2V0UG9zaXRpb25TdGF0ZSh7ZHVyYXRpb24sIHBsYXliYWNrUmF0ZSwgcG9zaXRpb259KWAg4oCU4oCUIOS4juecn+Wunue9kemhteaSreaUvuWZqOWQjOaehOOAggoKYGBgClNUQVRVUyBQbGF5aW5nICAgUkFURSAxLjAgICBlbmQ9MTUuMDAwCmk9MCAgcG9zPTQuNzMyICAgbGFzdFVwZGF0ZWQg6Led5LuKIDAuMDQ2cwppPTEgIHBvcz01LjQ3NyAgIGxhc3RVcGRhdGVkIOi3neS7iiAwLjAxN3MKaT0yICBwb3M9NS45OTIgICBsYXN0VXBkYXRlZCDot53ku4ogMC4yMjZzCi4uLgppPTExIHBvcz0xMi40ODkgIGxhc3RVcGRhdGVkIOi3neS7iiAwLjEyNHMKYGBgCgrov5vluqbpmo/mkq3mlL7mjqjov5vvvIxgTGFzdFVwZGF0ZWRUaW1lYCDmjIHnu63liLfmlrDjgIIqKkNocm9tZSDnoa7lrp7mioogTWVkaWFTZXNzaW9uIOeahApgc2V0UG9zaXRpb25TdGF0ZWAg6L2s5Y+R6L+b5LqGIFNNVEPjgIIqKgoKIyMg55Sx5q2k56Gu5a6a55qE5LiJ5p2h5a6e546w57qm5p2fCgoxLiAqKuS4jeiDvemdoOWfn+WQjea2iOatp+OAgioqIEFVTUlEIOmHjOayoeaciSBVUkzvvIzogIzkuJTkuLsgQ2hyb21lIOS4jumalOemuyBwcm9maWxlIOeahCBDaHJvbWUg5ou/5Yiw55qE5pivCiAgICoq5ZCM5LiA5LiqKiogYENocm9tZS5BQVpTM0E2VE1XWVBJN05CV0lNTkZVQUhTUWDjgILln5/lkI3nuqfor4bliKvlj6rlnKggQ0RQIOaooeW8j+S4i+aIkOeri+OAggogICBTTVRDIOaooeW8j+S4i+eahOa2iOatp+WPquiDvemdoO+8muabsuWQjS/mrYzmiYsv5LiT6L6RICsg55So5oi35omL5Yqo6ZKJ5L2PICsg5Y+v6YCJ55uu5b2V5qCh6aqM44CCCjIuICoq5b+F6aG75YGa5paw6bKc5bqm6Zeo5o6n44CCKiog6aG16Z2i5YGc5q2i5LiK5oql5ZCOIFNNVEMg5Lya5L+d55WZ5pen5YC877yI5a6e6aqMIDEg6YeM6Laz6Laz5pS+5LqGIDI1IOWwj+aXtu+8ieOAggogICDop4TliJnvvJpg54q25oCBICE9IFBsYXlpbmdgIOaXtuebtOaOpeeUqOWOn+WniyBgUG9zaXRpb25g77yM5LiN5aSW5o6o77ybYOeKtuaAgSA9PSBQbGF5aW5nYCDkuJQKICAgYGFnZSA+IDQwMG1zYCDmiY3lpJbmjqggYHBvcyArIGFnZSDDlyByYXRlYO+8m2BhZ2UgPiAzMDAwbXNgIOWIpOS4uuWkseiBlO+8jOa1rueql+aYvuekuiLmnKrov57mjqUi6ICM5LiN5pivCiAgIOWcqOmUmeivr+eahOatjOivjeS4iue7p+e7rei1sOOAggozLiAqKuWRveS7pOimgeWbnuivu+OAgioqIOS7u+S9lSBgVHJ5UGxheUFzeW5jYCAvIGBUcnlQYXVzZUFzeW5jYCAvIGBUcnlTa2lwTmV4dEFzeW5jYCDkuYvlkI7lv4Xpobvph43mlrAKICAgYEdldFBsYXliYWNrSW5mbygpYCDnoa7orqTnirbmgIHnnJ/nmoTlj5jkuobjgIIKCiMjIOWwmuacqumqjOivgeeahOacgOWQjuS4gOS4quacquefpQoKKipBcHBsZSBNdXNpYyDnvZHpobXniYjoh6rlt7HliLDlupXosIPkuI3osIMgYHNldFBvc2l0aW9uU3RhdGVg44CCKiog5a6e6aqMIDMg55qE6aG16Z2i5piv5oiR5YaZ55qE77yM5oiR6K6p5a6D6LCD5a6D5bCx6LCD77ybCkFwcGxlIE11c2ljIOaYr+m7keebkuOAguiLpeWug+S4jeiwg++8jFNNVEMg5qih5byP5LiL6L+b5bqm5bCx5piv5q2755qE77yM5b+F6aG75YiHIENEUOOAggoK6aqM6K+B5pa55rOV77yIMSDliIbpkp/vvInvvJrmiZPlvIAgbXVzaWMuYXBwbGUuY29tIOaSreS4gOmmlu+8jOeEtuWQjgoKYGBgcG93ZXJzaGVsbApwb3dlcnNoZWxsLmV4ZSAtTm9Qcm9maWxlIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlIHRvb2xzXHNtdGMtcHJvYmVccHJvYmUucHMxIC1TYW1wbGVzIDQgLUludGVydmFsTXMgMTAwMApgYGAKCuWIpOWumu+8mmBTVEFUVVMgUGxheWluZ2Ag5LiUIGBsYXN0VXBkYXRlZCDot53ku4ogPCAxc2Ag5LiUIGBwb3NgIOmAkOasoemAkuWiniDihpIg6YCa6L+H44CCCgojIyDlpI3njrAKCmBgYHBvd2Vyc2hlbGwKIyDooqvliqjop4LmtYvlvZPliY3ns7vnu5/ph4zmiYDmnInlqpLkvZPkvJror50KcG93ZXJzaGVsbC5leGUgLU5vUHJvZmlsZSAtRXhlY3V0aW9uUG9saWN5IEJ5cGFzcyAtRmlsZSB0b29sc1xzbXRjLXByb2JlXHByb2JlLnBzMSAtU2FtcGxlcyA0CgojIOWPl+aOp+WunumqjO+8mui1t+malOemuyBwcm9maWxlIOeahCBDaHJvbWUg5pKtIDE1cyDmraPlvKbpn7PvvIzph4fmoLfvvIznhLblkI7mnYDlubLlh4AKcG93ZXJzaGVsbC5leGUgLU5vUHJvZmlsZSAtRXhlY3V0aW9uUG9saWN5IEJ5cGFzcyAtRmlsZSB0b29sc1xzbXRjLXByb2JlXHJ1bi1sb2NhbC1wbGF5ZXIucHMxCmBgYAoKYHJ1bi1sb2NhbC1wbGF5ZXIucHMxYCDnlKggYEdldC1DaW1JbnN0YW5jZSBXaW4zMl9Qcm9jZXNzYCDmjIkgYC0tdXNlci1kYXRhLWRpcmAg57K+56Gu5Yy56YWN5p2l5riF55CG77yMCuS4jeS8mueisOWIsOS9oOaXpeW4uOWcqOeUqOeahCBDaHJvbWXjgIIK
+# M0 — SMTC 供料能力实测
+
+日期：2026-11-10 00:44–00:46 (UTC+8)
+机器：Windows 10 (22000)、Chrome 128.0.2739.54、Windows PowerShell 5.1
+脚本：`tools/smtc-probe/probe.ps1`、`tools/smtc-probe/run-local-player.ps1`
+
+## 结论
+
+**PASS。** Windows SMTC（`GlobalSystemMediaTransportControlsSessionManager`）能给出一条正在播放的
+Chromium 会话的：
+
+| 字段 | 是否可用 | 说明 |
+|---|---|---|
+| 曲名 / 歌手 / 专辑 | ✅ | `TryGetMediaPropertiesAsync()` |
+| 播放状态 | ✅ | `GetPlaybackInfo().PlaybackStatus` |
+| 曲长 | ✅ | `GetTimelineProperties().EndTime` |
+| 当前进度 | ✅ | `GetTimelineProperties().Position` |
+| 进度新鲜度 | ✅ | `GetTimelineProperties().LastUpdatedTime` |
+| 来源 URL / 域名 | ❌ | 只有 `SourceAppUserModelId`，形如 `Chrome.AAZS3A6TMWYPI7NBWIMNFUAHSQ` |
+
+精度：进度上报年龄 17–243 ms，速率比 0.991（Δpos/Δwall），量化与声卡时钟抖动合计约 ±250 ms。
+逐行歌词（容差 ~±150 ms）够用；逐字歌词（容差 ~±50 ms）需 CDP 补精度。
+
+## 三次实验
+
+### 1）被动读取用户现有会话（王菲《约定》）
+
+```
+APP      Chrome.AAZS3A6TMWYPI7NBWIMNFUAHSQ
+STATUS   Paused
+pos=0.000 start=0.000 end=267.635
+lastUpdated 2026-11-08T23:19:53Z+08  (距今 91,460 s)
+```
+
+曲长正确，但会话是 25 小时前的残留：进度不刷新、`PlaybackStatus=Paused`。
+
+### 2）`TryPlayAsync()` 驱动僵尸会话 —— 失败
+
+```
+DRIVE_PLAY ok=True
+SAMPLE i=0..2 status=Paused   pos=0.000
+SAMPLE i=3..7 status=Closed   end=0.000  lastUpdated=1601-01-01
+```
+
+`TryPlayAsync()` 返回 `True` 但会话直接消亡。**教训：命令返回值不可信，必须回读状态确认。**
+
+### 3）受控本地播放页（隔离 profile，决定性实验）
+
+`tools/smtc-probe/sandbox/player.html`：`<audio>` + `navigator.mediaSession.metadata`
++ 每 250 ms 调一次 `setPositionState({duration, playbackRate, position})` —— 与真实网页播放器同构。
+
+```
+STATUS Playing   RATE 1.0   end=15.000
+i=0  pos=4.732   lastUpdated 距今 0.046s
+i=1  pos=5.477   lastUpdated 距今 0.017s
+i=2  pos=5.992   lastUpdated 距今 0.226s
+...
+i=11 pos=12.489  lastUpdated 距今 0.124s
+```
+
+进度随播放推进，`LastUpdatedTime` 持续刷新。**Chrome 确实把 MediaSession 的
+`setPositionState` 转发进了 SMTC。**
+
+## 由此确定的三条实现约束
+
+1. **不能靠域名消歧。** AUMID 里没有 URL，而且主 Chrome 与隔离 profile 的 Chrome 拿到的是
+   **同一个** `Chrome.AAZS3A6TMWYPI7NBWIMNFUAHSQ`。域名级识别只在 CDP 模式下成立。
+   SMTC 模式下的消歧只能靠：曲名/歌手/专辑 + 用户手动钉住 + 可选目录校验。
+2. **必须做新鲜度门控。** 页面停止上报后 SMTC 会保留旧值（实验 1 里足足放了 25 小时）。
+   规则：`状态 != Playing` 时直接用原始 `Position`，不外推；`状态 == Playing` 且
+   `age > 400ms` 才外推 `pos + age × rate`；`age > 3000ms` 判为失联，浮窗显示"未连接"而不是
+   在错误的歌词上继续走。
+3. **命令要回读。** 任何 `TryPlayAsync` / `TryPauseAsync` / `TrySkipNextAsync` 之后必须重新
+   `GetPlaybackInfo()` 确认状态真的变了。
+
+## 尚未验证的最后一个未知
+
+**Apple Music 网页版自己到底调不调 `setPositionState`。** 实验 3 的页面是我写的，我让它调它就调；
+Apple Music 是黑盒。若它不调，SMTC 模式下进度就是死的，必须切 CDP。
+
+验证方法（1 分钟）：打开 music.apple.com 播一首，然后
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools\smtc-probe\probe.ps1 -Samples 4 -IntervalMs 1000
+```
+
+判定：`STATUS Playing` 且 `lastUpdated 距今 < 1s` 且 `pos` 逐次递增 → 通过。
+
+## 复现
+
+```powershell
+# 被动观测当前系统里所有媒体会话
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools\smtc-probe\probe.ps1 -Samples 4
+
+# 受控实验：起隔离 profile 的 Chrome 播 15s 正弦音，采样，然后杀干净
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools\smtc-probe\run-local-player.ps1
+```
+
+`run-local-player.ps1` 用 `Get-CimInstance Win32_Process` 按 `--user-data-dir` 精确匹配来清理，
+不会碰到你日常在用的 Chrome。

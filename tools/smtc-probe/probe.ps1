@@ -1,1 +1,125 @@
-IyBseXJpYy1mbG9hdCBNMCBwcm9iZQojIFJlYWRzIFdpbmRvd3MgU3lzdGVtIE1lZGlhIFRyYW5zcG9ydCBDb250cm9scyAoU01UQykgc2Vzc2lvbnMgYW5kIHNhbXBsZXMgdGhlCiMgdGltZWxpbmUgcmVwZWF0ZWRseSwgdG8gYW5zd2VyIG9uZSBxdWVzdGlvbjogZG9lcyBhIENocm9taXVtIGJyb3dzZXIgcmVwb3J0IGEKIyB1c2FibGUgcGxheWJhY2sgcG9zaXRpb24sIGFuZCBkb2VzIGl0IGFkdmFuY2Ugb3ZlciB0aW1lPwojCiMgQVNDSUktb25seSBvbiBwdXJwb3NlOiBXaW5kb3dzIFBvd2VyU2hlbGwgNS4xIGRlY29kZXMgQk9NLWxlc3Mgc2NyaXB0cyBhcyBBTlNJLgojIFJ1biB3aXRoIFdpbmRvd3MgUG93ZXJTaGVsbCAocG93ZXJzaGVsbC5leGUpLCBub3QgcHdzaCA3IChubyBXaW5SVCBwcm9qZWN0aW9uKS4KCnBhcmFtKAogICAgW2ludF0kU2FtcGxlcyA9IDUsCiAgICBbaW50XSRJbnRlcnZhbE1zID0gMjAwMCwKICAgIFtzd2l0Y2hdJERyaXZlCikKCiRFcnJvckFjdGlvblByZWZlcmVuY2UgPSAnU3RvcCcKCkFkZC1UeXBlIC1Bc3NlbWJseU5hbWUgU3lzdGVtLlJ1bnRpbWUuV2luZG93c1J1bnRpbWUgfCBPdXQtTnVsbAoKJGFzVGFza0dlbmVyaWMgPSAoW1N5c3RlbS5XaW5kb3dzUnVudGltZVN5c3RlbUV4dGVuc2lvbnNdLkdldE1ldGhvZHMoKSB8IFdoZXJlLU9iamVjdCB7CiAgICAgICAgJF8uTmFtZSAtZXEgJ0FzVGFzaycgLWFuZAogICAgICAgICRfLkdldFBhcmFtZXRlcnMoKS5Db3VudCAtZXEgMSAtYW5kCiAgICAgICAgJF8uR2V0UGFyYW1ldGVycygpWzBdLlBhcmFtZXRlclR5cGUuTmFtZSAtZXEgJ0lBc3luY09wZXJhdGlvbmAxJwogICAgfSlbMF0KCmZ1bmN0aW9uIEF3YWl0KCRvcCwgJHJlc3VsdFR5cGUpIHsKICAgICR0YXNrID0gJGFzVGFza0dlbmVyaWMuTWFrZUdlbmVyaWNNZXRob2QoJHJlc3VsdFR5cGUpLkludm9rZSgkbnVsbCwgQCgkb3ApKQogICAgJHRhc2suV2FpdCgtMSkgfCBPdXQtTnVsbAogICAgJHRhc2suUmVzdWx0Cn0KCiRzZXNzaW9uTWdyVHlwZSA9IFtXaW5kb3dzLk1lZGlhLkNvbnRyb2wuR2xvYmFsU3lzdGVtTWVkaWFUcmFuc3BvcnRDb250cm9sc1Nlc3Npb25NYW5hZ2VyLCBXaW5kb3dzLk1lZGlhLkNvbnRyb2wsIENvbnRlbnRUeXBlID0gV2luZG93c1J1bnRpbWVdCiRtZWRpYVByb3BzVHlwZSA9IFtXaW5kb3dzLk1lZGlhLkNvbnRyb2wuR2xvYmFsU3lzdGVtTWVkaWFUcmFuc3BvcnRDb250cm9sc1Nlc3Npb25NZWRpYVByb3BlcnRpZXMsIFdpbmRvd3MuTWVkaWEuQ29udHJvbCwgQ29udGVudFR5cGUgPSBXaW5kb3dzUnVudGltZV0KCiRtZ3IgPSBBd2FpdCAoJHNlc3Npb25NZ3JUeXBlOjpSZXF1ZXN0QXN5bmMoKSkgKFtXaW5kb3dzLk1lZGlhLkNvbnRyb2wuR2xvYmFsU3lzdGVtTWVkaWFUcmFuc3BvcnRDb250cm9sc1Nlc3Npb25NYW5hZ2VyXSkKJHNlc3Npb25zID0gJG1nci5HZXRTZXNzaW9ucygpCgpXcml0ZS1PdXRwdXQgIlBST0JFIHZlcnNpb249MSIKV3JpdGUtT3V0cHV0ICgiU0VTU0lPTl9DT1VOVCAiICsgJHNlc3Npb25zLkNvdW50KQoKZnVuY3Rpb24gRm9ybWF0LVNwYW4oJHRzKSB7CiAgICBpZiAoJG51bGwgLWVxICR0cykgeyByZXR1cm4gJ251bGwnIH0KICAgIHJldHVybiAoJ3swOjAuMDAwfScgLWYgJHRzLlRvdGFsU2Vjb25kcykKfQoKZm9yZWFjaCAoJHMgaW4gJHNlc3Npb25zKSB7CiAgICAkYXBwID0gJHMuU291cmNlQXBwVXNlck1vZGVsSWQKICAgICR0aXRsZSA9ICcnCiAgICAkYXJ0aXN0ID0gJycKICAgICRhbGJ1bSA9ICcnCiAgICB0cnkgewogICAgICAgICRwcm9wcyA9IEF3YWl0ICgkcy5UcnlHZXRNZWRpYVByb3BlcnRpZXNBc3luYygpKSAoJG1lZGlhUHJvcHNUeXBlKQogICAgICAgICR0aXRsZSA9ICRwcm9wcy5UaXRsZQogICAgICAgICRhcnRpc3QgPSAkcHJvcHMuQXJ0aXN0CiAgICAgICAgJGFsYnVtID0gJHByb3BzLkFsYnVtVGl0bGUKICAgIH0KICAgIGNhdGNoIHsKICAgICAgICAkdGl0bGUgPSAoJzxlcnI6JyArICRfLkV4Y2VwdGlvbi5NZXNzYWdlICsgJz4nKQogICAgfQoKICAgICRpbmZvID0gJHMuR2V0UGxheWJhY2tJbmZvKCkKICAgICRzdGF0dXMgPSAkaW5mby5QbGF5YmFja1N0YXR1cwogICAgJHJhdGUgPSAkaW5mby5QbGF5YmFja1JhdGUKCiAgICBXcml0ZS1PdXRwdXQgIi0tLSIKICAgIFdyaXRlLU91dHB1dCAoIkFQUCAiICsgJGFwcCkKICAgIFdyaXRlLU91dHB1dCAoIlRJVExFICIgKyAkdGl0bGUpCiAgICBXcml0ZS1PdXRwdXQgKCJBUlRJU1QgIiArICRhcnRpc3QpCiAgICBXcml0ZS1PdXRwdXQgKCJBTEJVTSAiICsgJGFsYnVtKQogICAgV3JpdGUtT3V0cHV0ICgiU1RBVFVTICIgKyAkc3RhdHVzKQogICAgV3JpdGUtT3V0cHV0ICgiUkFURSAiICsgJHJhdGUpCgogICAgJHdlU3RhcnRlZCA9ICRmYWxzZQogICAgaWYgKCREcml2ZSAtYW5kICRzdGF0dXMgLW5lICdQbGF5aW5nJykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgICRvayA9IEF3YWl0ICgkcy5UcnlQbGF5QXN5bmMoKSkgKFtib29sXSkKICAgICAgICAgICAgV3JpdGUtT3V0cHV0ICgiRFJJVkVfUExBWSBvaz0iICsgJG9rKQogICAgICAgICAgICAkd2VTdGFydGVkID0gJG9rCiAgICAgICAgICAgIFN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgMTUwMAogICAgICAgIH0KICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgIFdyaXRlLU91dHB1dCAoIkRSSVZFX1BMQVkgRVJST1IgIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgICAgIH0KICAgIH0KCiAgICBmb3IgKCRpID0gMDsgJGkgLWx0ICRTYW1wbGVzOyAkaSsrKSB7CiAgICAgICAgJHNhbXBsZXNfb2sgPSAkZmFsc2UKICAgICAgICB0cnkgewogICAgICAgICAgICAkdGwgPSAkcy5HZXRUaW1lbGluZVByb3BlcnRpZXMoKQogICAgICAgICAgICAkcG9zID0gJHRsLlBvc2l0aW9uCiAgICAgICAgICAgICRzdGFydCA9ICR0bC5TdGFydFRpbWUKICAgICAgICAgICAgJGVuZCA9ICR0bC5FbmRUaW1lCiAgICAgICAgICAgICRsdVJhdyA9ICR0bC5MYXN0VXBkYXRlZFRpbWUKICAgICAgICAgICAgJGx1VHlwZSA9IGlmICgkbnVsbCAtZXEgJGx1UmF3KSB7ICdudWxsJyB9IGVsc2UgeyAkbHVSYXcuR2V0VHlwZSgpLkZ1bGxOYW1lIH0KICAgICAgICAgICAgJGx1VGV4dCA9IGlmICgkbnVsbCAtZXEgJGx1UmF3KSB7ICdudWxsJyB9IGVsc2VpZiAoJGx1UmF3IC1pcyBbZGF0ZXRpbWVvZmZzZXRdKSB7ICRsdVJhdy5Ub1N0cmluZygnbycpIH0gZWxzZWlmICgkbHVSYXcgLWlzIFtkYXRldGltZV0pIHsgJGx1UmF3LlRvU3RyaW5nKCdvJykgfSBlbHNlIHsgW3N0cmluZ10kbHVSYXcgfQogICAgICAgICAgICAkZHJpZnQgPSAnbi9hJwogICAgICAgICAgICBpZiAoJGx1UmF3IC1pcyBbZGF0ZXRpbWVvZmZzZXRdKSB7CiAgICAgICAgICAgICAgICAkZHJpZnQgPSAoJ3swOjAuMDAwfScgLWYgKChHZXQtRGF0ZSkgLSAkbHVSYXcuTG9jYWxEYXRlVGltZSkuVG90YWxTZWNvbmRzKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2VpZiAoJGx1UmF3IC1pcyBbZGF0ZXRpbWVdKSB7CiAgICAgICAgICAgICAgICAkZHJpZnQgPSAoJ3swOjAuMDAwfScgLWYgKChHZXQtRGF0ZSkgLSAkbHVSYXcpLlRvdGFsU2Vjb25kcykKICAgICAgICAgICAgfQogICAgICAgICAgICAkbGl2ZVN0YXR1cyA9ICRzLkdldFBsYXliYWNrSW5mbygpLlBsYXliYWNrU3RhdHVzCiAgICAgICAgICAgICRub3cgPSAoR2V0LURhdGUpLlRvU3RyaW5nKCdISDptbTpzcy5mZmYnKQogICAgICAgICAgICBXcml0ZS1PdXRwdXQgKCJTQU1QTEUgaT0kaSB3YWxsPSRub3cgc3RhdHVzPSRsaXZlU3RhdHVzIHBvcz0iICsgKEZvcm1hdC1TcGFuICRwb3MpICsgIiBzdGFydD0iICsgKEZvcm1hdC1TcGFuICRzdGFydCkgKyAiIGVuZD0iICsgKEZvcm1hdC1TcGFuICRlbmQpICsgIiBsYXN0VXBkYXRlZFR5cGU9JGx1VHlwZSBsYXN0VXBkYXRlZD0kbHVUZXh0IHNlY29uZHNTaW5jZVVwZGF0ZT0kZHJpZnQiKQogICAgICAgICAgICAkc2FtcGxlc19vayA9ICR0cnVlCiAgICAgICAgfQogICAgICAgIGNhdGNoIHsKICAgICAgICAgICAgV3JpdGUtT3V0cHV0ICgiU0FNUExFIGk9JGkgRVJST1IgIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgICAgIH0KICAgICAgICBpZiAoJGkgLWx0ICgkU2FtcGxlcyAtIDEpKSB7IFN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgJEludGVydmFsTXMgfQogICAgfQoKICAgIGlmICgkd2VTdGFydGVkKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgJG9rID0gQXdhaXQgKCRzLlRyeVBhdXNlQXN5bmMoKSkgKFtib29sXSkKICAgICAgICAgICAgV3JpdGUtT3V0cHV0ICgiRFJJVkVfUEFVU0VfUkVTVE9SRSBvaz0iICsgJG9rKQogICAgICAgIH0KICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgIFdyaXRlLU91dHB1dCAoIkRSSVZFX1BBVVNFX1JFU1RPUkUgRVJST1IgIiArICRfLkV4Y2VwdGlvbi5NZXNzYWdlKQogICAgICAgIH0KICAgIH0KfQoKV3JpdGUtT3V0cHV0ICItLS0iCldyaXRlLU91dHB1dCAiRE9ORSIK
+# lyric-float M0 probe
+# Reads Windows System Media Transport Controls (SMTC) sessions and samples the
+# timeline repeatedly, to answer one question: does a Chromium browser report a
+# usable playback position, and does it advance over time?
+#
+# ASCII-only on purpose: Windows PowerShell 5.1 decodes BOM-less scripts as ANSI.
+# Run with Windows PowerShell (powershell.exe), not pwsh 7 (no WinRT projection).
+
+param(
+    [int]$Samples = 5,
+    [int]$IntervalMs = 2000,
+    [switch]$Drive
+)
+
+$ErrorActionPreference = 'Stop'
+
+Add-Type -AssemblyName System.Runtime.WindowsRuntime | Out-Null
+
+$asTaskGeneric = ([System.WindowsRuntimeSystemExtensions].GetMethods() | Where-Object {
+        $_.Name -eq 'AsTask' -and
+        $_.GetParameters().Count -eq 1 -and
+        $_.GetParameters()[0].ParameterType.Name -eq 'IAsyncOperation`1'
+    })[0]
+
+function Await($op, $resultType) {
+    $task = $asTaskGeneric.MakeGenericMethod($resultType).Invoke($null, @($op))
+    $task.Wait(-1) | Out-Null
+    $task.Result
+}
+
+$sessionMgrType = [Windows.Media.Control.GlobalSystemMediaTransportControlsSessionManager, Windows.Media.Control, ContentType = WindowsRuntime]
+$mediaPropsType = [Windows.Media.Control.GlobalSystemMediaTransportControlsSessionMediaProperties, Windows.Media.Control, ContentType = WindowsRuntime]
+
+$mgr = Await ($sessionMgrType::RequestAsync()) ([Windows.Media.Control.GlobalSystemMediaTransportControlsSessionManager])
+$sessions = $mgr.GetSessions()
+
+Write-Output "PROBE version=1"
+Write-Output ("SESSION_COUNT " + $sessions.Count)
+
+function Format-Span($ts) {
+    if ($null -eq $ts) { return 'null' }
+    return ('{0:0.000}' -f $ts.TotalSeconds)
+}
+
+foreach ($s in $sessions) {
+    $app = $s.SourceAppUserModelId
+    $title = ''
+    $artist = ''
+    $album = ''
+    try {
+        $props = Await ($s.TryGetMediaPropertiesAsync()) ($mediaPropsType)
+        $title = $props.Title
+        $artist = $props.Artist
+        $album = $props.AlbumTitle
+    }
+    catch {
+        $title = ('<err:' + $_.Exception.Message + '>')
+    }
+
+    $info = $s.GetPlaybackInfo()
+    $status = $info.PlaybackStatus
+    $rate = $info.PlaybackRate
+
+    Write-Output "---"
+    Write-Output ("APP " + $app)
+    Write-Output ("TITLE " + $title)
+    Write-Output ("ARTIST " + $artist)
+    Write-Output ("ALBUM " + $album)
+    Write-Output ("STATUS " + $status)
+    Write-Output ("RATE " + $rate)
+
+    $weStarted = $false
+    if ($Drive -and $status -ne 'Playing') {
+        try {
+            $ok = Await ($s.TryPlayAsync()) ([bool])
+            Write-Output ("DRIVE_PLAY ok=" + $ok)
+            $weStarted = $ok
+            Start-Sleep -Milliseconds 1500
+        }
+        catch {
+            Write-Output ("DRIVE_PLAY ERROR " + $_.Exception.Message)
+        }
+    }
+
+    for ($i = 0; $i -lt $Samples; $i++) {
+        $samples_ok = $false
+        try {
+            $tl = $s.GetTimelineProperties()
+            $pos = $tl.Position
+            $start = $tl.StartTime
+            $end = $tl.EndTime
+            $luRaw = $tl.LastUpdatedTime
+            $luType = if ($null -eq $luRaw) { 'null' } else { $luRaw.GetType().FullName }
+            $luText = if ($null -eq $luRaw) { 'null' } elseif ($luRaw -is [datetimeoffset]) { $luRaw.ToString('o') } elseif ($luRaw -is [datetime]) { $luRaw.ToString('o') } else { [string]$luRaw }
+            $drift = 'n/a'
+            if ($luRaw -is [datetimeoffset]) {
+                $drift = ('{0:0.000}' -f ((Get-Date) - $luRaw.LocalDateTime).TotalSeconds)
+            }
+            elseif ($luRaw -is [datetime]) {
+                $drift = ('{0:0.000}' -f ((Get-Date) - $luRaw).TotalSeconds)
+            }
+            $liveStatus = $s.GetPlaybackInfo().PlaybackStatus
+            $now = (Get-Date).ToString('HH:mm:ss.fff')
+            Write-Output ("SAMPLE i=$i wall=$now status=$liveStatus pos=" + (Format-Span $pos) + " start=" + (Format-Span $start) + " end=" + (Format-Span $end) + " lastUpdatedType=$luType lastUpdated=$luText secondsSinceUpdate=$drift")
+            $samples_ok = $true
+        }
+        catch {
+            Write-Output ("SAMPLE i=$i ERROR " + $_.Exception.Message)
+        }
+        if ($i -lt ($Samples - 1)) { Start-Sleep -Milliseconds $IntervalMs }
+    }
+
+    if ($weStarted) {
+        try {
+            $ok = Await ($s.TryPauseAsync()) ([bool])
+            Write-Output ("DRIVE_PAUSE_RESTORE ok=" + $ok)
+        }
+        catch {
+            Write-Output ("DRIVE_PAUSE_RESTORE ERROR " + $_.Exception.Message)
+        }
+    }
+}
+
+Write-Output "---"
+Write-Output "DONE"

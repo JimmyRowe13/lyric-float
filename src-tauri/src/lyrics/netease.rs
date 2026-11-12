@@ -1,1 +1,257 @@
-Ly8hIFRpZXIgMmE6IE5ldEVhc2UgQ2xvdWQgTXVzaWMgKG11c2ljLjE2My5jb20pIGx5cmljIGxvb2t1cC4KLy8hCi8vISBXaHkgdGhpcyB0aWVyIGV4aXN0czogbHJjbGliLm5ldCBzaXRzIGJlaGluZCBDbG91ZGZsYXJlIGFuZCBpcyBpbnRlcm1pdHRlbnRseQovLyEgdW5yZWFjaGFibGUgZnJvbSBtYWlubGFuZCBuZXR3b3JrcyAob2JzZXJ2ZWQ6IDIwMCBPSyBvbmUgbWludXRlLCBUQ1AgY29ubmVjdAovLyEgdGltZW91dCB0aGUgbmV4dCkuIE5ldEVhc2UncyBwdWJsaWMgc2VhcmNoICsgbHlyaWMgZW5kcG9pbnRzIGFuc3dlciByZWxpYWJseQovLyEgdGhlcmUsIGFuZCBjYXJyeSB0aGUgQ2hpbmVzZSByZXBlcnRvaXJlIHRoYXQgbWF0dGVycyBmb3IgdGhpcyB1c2VyLgovLyEKLy8hIEJvdGggZW5kcG9pbnRzIGFyZSB1bmF1dGhlbnRpY2F0ZWQgYW5kIHJlcXVpcmUgb25seSBhIGJyb3dzZXItaXNoIFVBIHBsdXMgYQovLyEgYFJlZmVyZXJgLCB3aGljaCBpcyB3aHkgdGhpcyBpcyBhIHBsYWluIGJsb2NraW5nIEhUVFAgY2FsbCBhbmQgbm90IGEgc2VydmljZS4KCnVzZSBzdXBlcjo6UXVlcnk7CnVzZSBzZXJkZTo6RGVzZXJpYWxpemU7CnVzZSBzdGQ6OnRpbWU6OkR1cmF0aW9uOwoKY29uc3QgU0VBUkNIOiAmc3RyID0gImh0dHBzOi8vbXVzaWMuMTYzLmNvbS9hcGkvc2VhcmNoL2dldC93ZWIiOwpjb25zdCBMWVJJQzogJnN0ciA9ICJodHRwczovL211c2ljLjE2My5jb20vYXBpL3NvbmcvbHlyaWMiOwpjb25zdCBVQTogJnN0ciA9ICJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgXAogICAgICAgICAgICAgICAgICAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMjguMC4wLjAgU2FmYXJpLzUzNy4zNiI7CgojW2Rlcml2ZShEZWJ1ZywgRGVzZXJpYWxpemUpXQpzdHJ1Y3QgU2VhcmNoUmVzcCB7CiAgICByZXN1bHQ6IE9wdGlvbjxTZWFyY2hSZXN1bHQ+LAp9CgojW2Rlcml2ZShEZWJ1ZywgRGVzZXJpYWxpemUpXQpzdHJ1Y3QgU2VhcmNoUmVzdWx0IHsKICAgIHNvbmdzOiBPcHRpb248VmVjPFNvbmc+PiwKfQoKI1tkZXJpdmUoRGVidWcsIERlc2VyaWFsaXplKV0Kc3RydWN0IFNvbmcgewogICAgaWQ6IGk2NCwKICAgIG5hbWU6IFN0cmluZywKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBhcnRpc3RzOiBWZWM8QXJ0aXN0PiwKICAgIC8vLyBtaWxsaXNlY29uZHMKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBkdXJhdGlvbjogZjY0LAp9CgojW2Rlcml2ZShEZWJ1ZywgRGVzZXJpYWxpemUpXQpzdHJ1Y3QgQXJ0aXN0IHsKICAgIG5hbWU6IFN0cmluZywKfQoKI1tkZXJpdmUoRGVidWcsIERlc2VyaWFsaXplKV0Kc3RydWN0IEx5cmljUmVzcCB7CiAgICBscmM6IE9wdGlvbjxMcmNCb2R5PiwKfQoKI1tkZXJpdmUoRGVidWcsIERlc2VyaWFsaXplKV0Kc3RydWN0IExyY0JvZHkgewogICAgbHlyaWM6IE9wdGlvbjxTdHJpbmc+LAp9CgpmbiBjbGllbnQoKSAtPiBPcHRpb248cmVxd2VzdDo6YmxvY2tpbmc6OkNsaWVudD4gewogICAgcmVxd2VzdDo6YmxvY2tpbmc6OkNsaWVudDo6YnVpbGRlcigpCiAgICAgICAgLnRpbWVvdXQoRHVyYXRpb246OmZyb21fc2Vjcyg4KSkKICAgICAgICAudXNlcl9hZ2VudChVQSkKICAgICAgICAuYnVpbGQoKQogICAgICAgIC5vaygpCn0KCmZuIG5vcm0oczogJnN0cikgLT4gU3RyaW5nIHsKICAgIHMuY2hhcnMoKQogICAgICAgIC5maWx0ZXIofGN8ICFjLmlzX3doaXRlc3BhY2UoKSAmJiAqYyAhPSAnKCcgJiYgKmMgIT0gJyknICYmICpjICE9ICfvvIgnICYmICpjICE9ICfvvIknKQogICAgICAgIC5jb2xsZWN0Ojo8U3RyaW5nPigpCiAgICAgICAgLnRvX2xvd2VyY2FzZSgpCn0KCi8vLyBSZXR1cm5zIGEgc2NvcmUgd2hlbiB0aGUgY2FuZGlkYXRlIHBsYXVzaWJseSBpcyB0aGUgdHJhY2sgd2UgYXJlIHBsYXlpbmcuCmZuIHNjb3JlKHNvbmc6ICZTb25nLCBxdWVyeTogJlF1ZXJ5KSAtPiBPcHRpb248aTMyPiB7CiAgICBsZXQgd2FudF90aXRsZSA9IG5vcm0oJnF1ZXJ5LnRpdGxlKTsKICAgIGxldCBnb3RfdGl0bGUgPSBub3JtKCZzb25nLm5hbWUpOwogICAgbGV0IHRpdGxlX2V4YWN0ID0gZ290X3RpdGxlID09IHdhbnRfdGl0bGU7CiAgICBsZXQgdGl0bGVfb2sgPSBnb3RfdGl0bGUuY29udGFpbnMoJndhbnRfdGl0bGUpIHx8IHdhbnRfdGl0bGUuY29udGFpbnMoJmdvdF90aXRsZSk7CiAgICBpZiAhdGl0bGVfb2sgewogICAgICAgIHJldHVybiBOb25lOwogICAgfQoKICAgIGxldCB3YW50X2FydGlzdCA9IG5vcm0oJnF1ZXJ5LmFydGlzdCk7CiAgICBsZXQgYXJ0aXN0X29rID0gIXdhbnRfYXJ0aXN0LmlzX2VtcHR5KCkKICAgICAgICAmJiBzb25nCiAgICAgICAgICAgIC5hcnRpc3RzCiAgICAgICAgICAgIC5pdGVyKCkKICAgICAgICAgICAgLmFueSh8YXwgbm9ybSgmYS5uYW1lKS5jb250YWlucygmd2FudF9hcnRpc3QpIHx8IHdhbnRfYXJ0aXN0LmNvbnRhaW5zKCZub3JtKCZhLm5hbWUpKSk7CgogICAgbGV0IGR1cmF0aW9uX2RlbHRhID0gaWYgc29uZy5kdXJhdGlvbiA+IDAuMCAmJiBxdWVyeS5kdXJhdGlvbl9zZWNzID4gMC4wIHsKICAgICAgICAoc29uZy5kdXJhdGlvbiAvIDEwMDAuMCAtIHF1ZXJ5LmR1cmF0aW9uX3NlY3MpLmFicygpCiAgICB9IGVsc2UgewogICAgICAgIGY2NDo6TUFYIC8gMi4wCiAgICB9OwoKICAgIC8vIEFydGlzdCBpcyB0aGUgcmVsaWFibGUgZGlzY3JpbWluYXRvci4gQSBkaWZmZXJlbnQgYXJ0aXN0IGlzIG9ubHkgYWNjZXB0YWJsZQogICAgLy8gd2hlbiB0aGUgdGl0bGUgbWF0Y2hlcyBleGFjdGx5ICphbmQqIHRoZSBsZW5ndGggaXMgd2l0aGluIGEgc2Vjb25kIOKAlCB0aGF0IGlzCiAgICAvLyBhIHJlLXVwbG9hZCBvZiB0aGUgc2FtZSByZWNvcmRpbmcsIG5vdCBhIGNvdmVyIHdpdGggaXRzIG93biB0aW1pbmcuCiAgICBsZXQgc2FtZV9yZWNvcmRpbmcgPSB0aXRsZV9leGFjdCAmJiBkdXJhdGlvbl9kZWx0YSA8PSAxLjA7CiAgICBpZiAhYXJ0aXN0X29rICYmICFzYW1lX3JlY29yZGluZyB7CiAgICAgICAgcmV0dXJuIE5vbmU7CiAgICB9CgogICAgbGV0IG11dCBwb2ludHMgPSAwOwogICAgaWYgdGl0bGVfZXhhY3QgewogICAgICAgIHBvaW50cyArPSAxMDA7CiAgICB9CiAgICBpZiBhcnRpc3Rfb2sgewogICAgICAgIHBvaW50cyArPSA2MDsKICAgIH0KICAgIGlmIGR1cmF0aW9uX2RlbHRhIDwgMS41IHsKICAgICAgICBwb2ludHMgKz0gMzA7CiAgICB9IGVsc2UgaWYgZHVyYXRpb25fZGVsdGEgPCA0LjAgewogICAgICAgIHBvaW50cyArPSAxMDsKICAgIH0KICAgIFNvbWUocG9pbnRzIC0gZHVyYXRpb25fZGVsdGEubWluKDYwLjApIGFzIGkzMikKfQoKcHViIGZuIGZldGNoX3N5bmNlZChxdWVyeTogJlF1ZXJ5KSAtPiBPcHRpb248U3RyaW5nPiB7CiAgICBsZXQgY2xpZW50ID0gY2xpZW50KCk/OwoKICAgIGxldCBmb3JtID0gWwogICAgICAgICgicyIsIGZvcm1hdCEoInt9IHt9IiwgcXVlcnkudGl0bGUsIHF1ZXJ5LmFydGlzdCkpLAogICAgICAgICgidHlwZSIsICIxIi50b19zdHJpbmcoKSksCiAgICAgICAgKCJvZmZzZXQiLCAiMCIudG9fc3RyaW5nKCkpLAogICAgICAgICgidG90YWwiLCAidHJ1ZSIudG9fc3RyaW5nKCkpLAogICAgICAgICgibGltaXQiLCAiMjAiLnRvX3N0cmluZygpKSwKICAgIF07CgogICAgbGV0IHJlc3BvbnNlID0gbWF0Y2ggY2xpZW50CiAgICAgICAgLnBvc3QoU0VBUkNIKQogICAgICAgIC5oZWFkZXIoIlJlZmVyZXIiLCAiaHR0cHM6Ly9tdXNpYy4xNjMuY29tLyIpCiAgICAgICAgLmhlYWRlcigiQ29va2llIiwgImFwcHZlcj0yLjAuMiIpCiAgICAgICAgLmZvcm0oJmZvcm0pCiAgICAgICAgLnNlbmQoKQogICAgewogICAgICAgIE9rKHIpID0+IHIsCiAgICAgICAgRXJyKGVycikgPT4gewogICAgICAgICAgICBlcHJpbnRsbiEoIltuZXRlYXNlXSBzZWFyY2ggZmFpbGVkOiB7ZXJyfSIpOwogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICB9OwoKICAgIGxldCBib2R5ID0gcmVzcG9uc2UudGV4dCgpLnVud3JhcF9vcl9kZWZhdWx0KCk7CiAgICBsZXQgcGFyc2VkOiBTZWFyY2hSZXNwID0gbWF0Y2ggc2VyZGVfanNvbjo6ZnJvbV9zdHIoJmJvZHkpIHsKICAgICAgICBPayh2KSA9PiB2LAogICAgICAgIEVycihlcnIpID0+IHsKICAgICAgICAgICAgZXByaW50bG4hKCJbbmV0ZWFzZV0gc2VhcmNoIGRlY29kZSBmYWlsZWQgKHtlcnJ9KTsgaGVhZD17Oj99IiwgJmJvZHkuY2hhcnMoKS50YWtlKDEyMCkuY29sbGVjdDo6PFN0cmluZz4oKSk7CiAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgIH0KICAgIH07CgogICAgbGV0IHNvbmdzID0gcGFyc2VkLnJlc3VsdC5hbmRfdGhlbih8cnwgci5zb25ncykudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBtdXQgYmVzdDogT3B0aW9uPChpMzIsICZTb25nKT4gPSBOb25lOwogICAgZm9yIHNvbmcgaW4gc29uZ3MuaXRlcigpIHsKICAgICAgICBpZiBsZXQgU29tZShwb2ludHMpID0gc2NvcmUoc29uZywgcXVlcnkpIHsKICAgICAgICAgICAgaWYgYmVzdC5tYXAofChiLCBfKXwgcG9pbnRzID4gYikudW53cmFwX29yKHRydWUpIHsKICAgICAgICAgICAgICAgIGJlc3QgPSBTb21lKChwb2ludHMsIHNvbmcpKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBsZXQgKHBvaW50cywgc29uZykgPSBtYXRjaCBiZXN0IHsKICAgICAgICBTb21lKHYpID0+IHYsCiAgICAgICAgTm9uZSA9PiB7CiAgICAgICAgICAgIGVwcmludGxuISgiW25ldGVhc2VdIG5vIHBsYXVzaWJsZSBtYXRjaCBhbW9uZyB7fSByZXN1bHRzIiwgc29uZ3MubGVuKCkpOwogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICB9OwoKICAgIGVwcmludGxuISgKICAgICAgICAiW25ldGVhc2VdIHBpY2tlZCBpZD17fSAne30nIC8gJ3t9JyAoc2NvcmUge3BvaW50c30pIiwKICAgICAgICBzb25nLmlkLAogICAgICAgIHNvbmcubmFtZSwKICAgICAgICBzb25nLmFydGlzdHMuaXRlcigpLm1hcCh8YXwgYS5uYW1lLmFzX3N0cigpKS5jb2xsZWN0Ojo8VmVjPF8+PigpLmpvaW4oIiwiKQogICAgKTsKCiAgICBsZXQgbHlyaWNfdXJsID0gZm9ybWF0ISgie0xZUklDfT9pZD17fSZsdj0xJmt2PTEmdHY9LTEiLCBzb25nLmlkKTsKICAgIGxldCByZXNwb25zZSA9IG1hdGNoIGNsaWVudAogICAgICAgIC5nZXQoJmx5cmljX3VybCkKICAgICAgICAuaGVhZGVyKCJSZWZlcmVyIiwgImh0dHBzOi8vbXVzaWMuMTYzLmNvbS8iKQogICAgICAgIC5oZWFkZXIoIkNvb2tpZSIsICJhcHB2ZXI9Mi4wLjIiKQogICAgICAgIC5zZW5kKCkKICAgIHsKICAgICAgICBPayhyKSA9PiByLAogICAgICAgIEVycihlcnIpID0+IHsKICAgICAgICAgICAgZXByaW50bG4hKCJbbmV0ZWFzZV0gbHlyaWMgcmVxdWVzdCBmYWlsZWQ6IHtlcnJ9Iik7CiAgICAgICAgICAgIHJldHVybiBOb25lOwogICAgICAgIH0KICAgIH07CgogICAgbGV0IGJvZHkgPSByZXNwb25zZS50ZXh0KCkudW53cmFwX29yX2RlZmF1bHQoKTsKICAgIGxldCBwYXJzZWQ6IEx5cmljUmVzcCA9IG1hdGNoIHNlcmRlX2pzb246OmZyb21fc3RyKCZib2R5KSB7CiAgICAgICAgT2sodikgPT4gdiwKICAgICAgICBFcnIoZXJyKSA9PiB7CiAgICAgICAgICAgIGVwcmludGxuISgiW25ldGVhc2VdIGx5cmljIGRlY29kZSBmYWlsZWQgKHtlcnJ9KSIpOwogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICB9OwoKICAgIGxldCBseXJpYyA9IHBhcnNlZC5scmMuYW5kX3RoZW4ofGx8IGwubHlyaWMpPzsKICAgIGlmIGx5cmljLnRyaW0oKS5pc19lbXB0eSgpIHx8ICFseXJpYy5jb250YWlucygnWycpIHsKICAgICAgICBlcHJpbnRsbiEoIltuZXRlYXNlXSBlbXB0eSBvciB1bnN5bmNlZCBseXJpYyIpOwogICAgICAgIHJldHVybiBOb25lOwogICAgfQogICAgU29tZShseXJpYykKfQoKI1tjZmcodGVzdCldCm1vZCB0ZXN0cyB7CiAgICB1c2Ugc3VwZXI6Oio7CgogICAgZm4gc29uZyhuYW1lOiAmc3RyLCBhcnRpc3Q6ICZzdHIsIHNlY29uZHM6IGY2NCkgLT4gU29uZyB7CiAgICAgICAgU29uZyB7CiAgICAgICAgICAgIGlkOiAxLAogICAgICAgICAgICBuYW1lOiBuYW1lLmludG8oKSwKICAgICAgICAgICAgYXJ0aXN0czogdmVjIVtBcnRpc3QgeyBuYW1lOiBhcnRpc3QuaW50bygpIH1dLAogICAgICAgICAgICBkdXJhdGlvbjogc2Vjb25kcyAqIDEwMDAuMCwKICAgICAgICB9CiAgICB9CgogICAgZm4gcXVlcnkodGl0bGU6ICZzdHIsIGFydGlzdDogJnN0ciwgc2Vjb25kczogZjY0KSAtPiBRdWVyeSB7CiAgICAgICAgUXVlcnkgewogICAgICAgICAgICB0aXRsZTogdGl0bGUuaW50bygpLAogICAgICAgICAgICBhcnRpc3Q6IGFydGlzdC5pbnRvKCksCiAgICAgICAgICAgIGFsYnVtOiBTdHJpbmc6Om5ldygpLAogICAgICAgICAgICBkdXJhdGlvbl9zZWNzOiBzZWNvbmRzLAogICAgICAgICAgICBhcHBfaWQ6ICJ0ZXN0Ii5pbnRvKCksCiAgICAgICAgfQogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlamVjdHNfY292ZXJfYnlfYXJ0aXN0X2FuZF9kdXJhdGlvbigpIHsKICAgICAgICBsZXQgcSA9IHF1ZXJ5KCLkuI3og73or7TnmoTnp5jlr4YiLCAi5ZGo5p2w5LymIiwgMjk2LjUpOwogICAgICAgIGxldCBjb3ZlciA9IHNvbmcoIuS4jeiDveivtOeahOenmOWvhiAo5aWz5aOw54mIKSIsICLkvZnkuI3kuI0iLCAyOTUuMCk7CiAgICAgICAgYXNzZXJ0IShzY29yZSgmY292ZXIsICZxKS5pc19ub25lKCksICJhIGNvdmVyIG11c3Qgbm90IHdpbiBvbiBkdXJhdGlvbiBhbG9uZSIpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGFjY2VwdHNfZXhhY3RfdHJhY2soKSB7CiAgICAgICAgbGV0IHEgPSBxdWVyeSgi5LiN6IO96K+055qE56eY5a+GIiwgIuWRqOadsOS8piIsIDI5Ni41KTsKICAgICAgICBsZXQgcmVhbCA9IHNvbmcoIuS4jeiDveivtOeahOenmOWvhiIsICLlkajmnbDkvKYiLCAyOTcuMCk7CiAgICAgICAgYXNzZXJ0IShzY29yZSgmcmVhbCwgJnEpLmlzX3NvbWUoKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gdG9sZXJhdGVzX3NsaWdodGx5X3dyb25nX2R1cmF0aW9uX3doZW5fYXJ0aXN0X21hdGNoZXMoKSB7CiAgICAgICAgbGV0IHEgPSBxdWVyeSgi5LiN6IO96K+055qE56eY5a+GIiwgIuWRqOadsOS8piIsIDI5Ni41KTsKICAgICAgICBsZXQgbGl2ZSA9IHNvbmcoIuS4jeiDveivtOeahOenmOWvhiIsICLlkajmnbDkvKYiLCAzNzYuNSk7CiAgICAgICAgYXNzZXJ0IShzY29yZSgmbGl2ZSwgJnEpLmlzX3NvbWUoKSk7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gcmVqZWN0c191bnJlbGF0ZWRfdGl0bGUoKSB7CiAgICAgICAgbGV0IHEgPSBxdWVyeSgi5pm05aSpIiwgIuWRqOadsOS8piIsIDI2OS4wKTsKICAgICAgICBsZXQgb3RoZXIgPSBzb25nKCLkuI3og73or7TnmoTnp5jlr4YiLCAi5ZGo5p2w5LymIiwgMjk3LjApOwogICAgICAgIGFzc2VydCEoc2NvcmUoJm90aGVyLCAmcSkuaXNfbm9uZSgpKTsKICAgIH0KfQo=
+//! Tier 2a: NetEase Cloud Music (music.163.com) lyric lookup.
+//!
+//! Why this tier exists: lrclib.net sits behind Cloudflare and is intermittently
+//! unreachable from mainland networks (observed: 200 OK one minute, TCP connect
+//! timeout the next). NetEase's public search + lyric endpoints answer reliably
+//! there, and carry the Chinese repertoire that matters for this user.
+//!
+//! Both endpoints are unauthenticated and require only a browser-ish UA plus a
+//! `Referer`, which is why this is a plain blocking HTTP call and not a service.
+
+use super::Query;
+use serde::Deserialize;
+use std::time::Duration;
+
+const SEARCH: &str = "https://music.163.com/api/search/get/web";
+const LYRIC: &str = "https://music.163.com/api/song/lyric";
+const UA: &str = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 \
+                  (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36";
+
+#[derive(Debug, Deserialize)]
+struct SearchResp {
+    result: Option<SearchResult>,
+}
+
+#[derive(Debug, Deserialize)]
+struct SearchResult {
+    songs: Option<Vec<Song>>,
+}
+
+#[derive(Debug, Deserialize)]
+struct Song {
+    id: i64,
+    name: String,
+    #[serde(default)]
+    artists: Vec<Artist>,
+    /// milliseconds
+    #[serde(default)]
+    duration: f64,
+}
+
+#[derive(Debug, Deserialize)]
+struct Artist {
+    name: String,
+}
+
+#[derive(Debug, Deserialize)]
+struct LyricResp {
+    lrc: Option<LrcBody>,
+}
+
+#[derive(Debug, Deserialize)]
+struct LrcBody {
+    lyric: Option<String>,
+}
+
+fn client() -> Option<reqwest::blocking::Client> {
+    reqwest::blocking::Client::builder()
+        .timeout(Duration::from_secs(8))
+        .user_agent(UA)
+        .build()
+        .ok()
+}
+
+fn norm(s: &str) -> String {
+    s.chars()
+        .filter(|c| !c.is_whitespace() && *c != '(' && *c != ')' && *c != '（' && *c != '）')
+        .collect::<String>()
+        .to_lowercase()
+}
+
+/// Returns a score when the candidate plausibly is the track we are playing.
+fn score(song: &Song, query: &Query) -> Option<i32> {
+    let want_title = norm(&query.title);
+    let got_title = norm(&song.name);
+    let title_exact = got_title == want_title;
+    let title_ok = got_title.contains(&want_title) || want_title.contains(&got_title);
+    if !title_ok {
+        return None;
+    }
+
+    let want_artist = norm(&query.artist);
+    let artist_ok = !want_artist.is_empty()
+        && song
+            .artists
+            .iter()
+            .any(|a| norm(&a.name).contains(&want_artist) || want_artist.contains(&norm(&a.name)));
+
+    let duration_delta = if song.duration > 0.0 && query.duration_secs > 0.0 {
+        (song.duration / 1000.0 - query.duration_secs).abs()
+    } else {
+        f64::MAX / 2.0
+    };
+
+    // Artist is the reliable discriminator. A different artist is only acceptable
+    // when the title matches exactly *and* the length is within a second — that is
+    // a re-upload of the same recording, not a cover with its own timing.
+    let same_recording = title_exact && duration_delta <= 1.0;
+    if !artist_ok && !same_recording {
+        return None;
+    }
+
+    let mut points = 0;
+    if title_exact {
+        points += 100;
+    }
+    if artist_ok {
+        points += 60;
+    }
+    if duration_delta < 1.5 {
+        points += 30;
+    } else if duration_delta < 4.0 {
+        points += 10;
+    }
+    Some(points - duration_delta.min(60.0) as i32)
+}
+
+pub fn fetch_synced(query: &Query) -> Option<String> {
+    let client = client()?;
+
+    let form = [
+        ("s", format!("{} {}", query.title, query.artist)),
+        ("type", "1".to_string()),
+        ("offset", "0".to_string()),
+        ("total", "true".to_string()),
+        ("limit", "20".to_string()),
+    ];
+
+    let response = match client
+        .post(SEARCH)
+        .header("Referer", "https://music.163.com/")
+        .header("Cookie", "appver=2.0.2")
+        .form(&form)
+        .send()
+    {
+        Ok(r) => r,
+        Err(err) => {
+            eprintln!("[netease] search failed: {err}");
+            return None;
+        }
+    };
+
+    let body = response.text().unwrap_or_default();
+    let parsed: SearchResp = match serde_json::from_str(&body) {
+        Ok(v) => v,
+        Err(err) => {
+            eprintln!("[netease] search decode failed ({err}); head={:?}", &body.chars().take(120).collect::<String>());
+            return None;
+        }
+    };
+
+    let songs = parsed.result.and_then(|r| r.songs).unwrap_or_default();
+    let mut best: Option<(i32, &Song)> = None;
+    for song in songs.iter() {
+        if let Some(points) = score(song, query) {
+            if best.map(|(b, _)| points > b).unwrap_or(true) {
+                best = Some((points, song));
+            }
+        }
+    }
+
+    let (points, song) = match best {
+        Some(v) => v,
+        None => {
+            eprintln!("[netease] no plausible match among {} results", songs.len());
+            return None;
+        }
+    };
+
+    eprintln!(
+        "[netease] picked id={} '{}' / '{}' (score {points})",
+        song.id,
+        song.name,
+        song.artists.iter().map(|a| a.name.as_str()).collect::<Vec<_>>().join(",")
+    );
+
+    let lyric_url = format!("{LYRIC}?id={}&lv=1&kv=1&tv=-1", song.id);
+    let response = match client
+        .get(&lyric_url)
+        .header("Referer", "https://music.163.com/")
+        .header("Cookie", "appver=2.0.2")
+        .send()
+    {
+        Ok(r) => r,
+        Err(err) => {
+            eprintln!("[netease] lyric request failed: {err}");
+            return None;
+        }
+    };
+
+    let body = response.text().unwrap_or_default();
+    let parsed: LyricResp = match serde_json::from_str(&body) {
+        Ok(v) => v,
+        Err(err) => {
+            eprintln!("[netease] lyric decode failed ({err})");
+            return None;
+        }
+    };
+
+    let lyric = parsed.lrc.and_then(|l| l.lyric)?;
+    if lyric.trim().is_empty() || !lyric.contains('[') {
+        eprintln!("[netease] empty or unsynced lyric");
+        return None;
+    }
+    Some(lyric)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn song(name: &str, artist: &str, seconds: f64) -> Song {
+        Song {
+            id: 1,
+            name: name.into(),
+            artists: vec![Artist { name: artist.into() }],
+            duration: seconds * 1000.0,
+        }
+    }
+
+    fn query(title: &str, artist: &str, seconds: f64) -> Query {
+        Query {
+            title: title.into(),
+            artist: artist.into(),
+            album: String::new(),
+            duration_secs: seconds,
+            app_id: "test".into(),
+        }
+    }
+
+    #[test]
+    fn rejects_cover_by_artist_and_duration() {
+        let q = query("不能说的秘密", "周杰伦", 296.5);
+        let cover = song("不能说的秘密 (女声版)", "余不不", 295.0);
+        assert!(score(&cover, &q).is_none(), "a cover must not win on duration alone");
+    }
+
+    #[test]
+    fn accepts_exact_track() {
+        let q = query("不能说的秘密", "周杰伦", 296.5);
+        let real = song("不能说的秘密", "周杰伦", 297.0);
+        assert!(score(&real, &q).is_some());
+    }
+
+    #[test]
+    fn tolerates_slightly_wrong_duration_when_artist_matches() {
+        let q = query("不能说的秘密", "周杰伦", 296.5);
+        let live = song("不能说的秘密", "周杰伦", 376.5);
+        assert!(score(&live, &q).is_some());
+    }
+
+    #[test]
+    fn rejects_unrelated_title() {
+        let q = query("晴天", "周杰伦", 269.0);
+        let other = song("不能说的秘密", "周杰伦", 297.0);
+        assert!(score(&other, &q).is_none());
+    }
+}

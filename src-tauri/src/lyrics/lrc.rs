@@ -1,1 +1,156 @@
-Ly8hIExSQyBwYXJzZXI6IGxpbmUtbGV2ZWwgdGltZXN0YW1wcywgbXVsdGktdGltZXN0YW1wIGxpbmVzLCBgW29mZnNldDpdYCB0YWcuCi8vIQovLyEgVGhpcyBpcyB0aGUgdGllci0yIGZvcm1hdCwgc28gdGhlIHBhcnNlciBpcyBkZWxpYmVyYXRlbHkgZm9yZ2l2aW5nOiByZWFsLXdvcmxkCi8vISBMUkMgZmlsZXMgYXJlIGhhbmQtZWRpdGVkIGFuZCBmdWxsIG9mIGBbbW06c3NdYCB3aXRob3V0IGZyYWN0aW9ucywgZnVsbC13aWR0aAovLyEgYnJhY2tldHMsIGFuZCBibGFuayBsaW5lcyBjYXJyeWluZyBhIHRpbWVzdGFtcC4KCnVzZSBzdXBlcjo6THlyaWNMaW5lOwoKLy8vIEV4dHJhY3RzIHRoZSBgW29mZnNldDorLy1tc11gIGdsb2JhbCB0YWcsIGRlZmF1bHRpbmcgdG8gMC4KcHViIGZuIG9mZnNldF9tcyh0ZXh0OiAmc3RyKSAtPiBpNjQgewogICAgZm9yIGxpbmUgaW4gdGV4dC5saW5lcygpIHsKICAgICAgICBsZXQgdCA9IGxpbmUudHJpbSgpOwogICAgICAgIGlmIGxldCBTb21lKHJlc3QpID0gdC5zdHJpcF9wcmVmaXgoIltvZmZzZXQ6IikgewogICAgICAgICAgICBpZiBsZXQgU29tZShudW0pID0gcmVzdC5zcGxpdCgnXScpLm5leHQoKSB7CiAgICAgICAgICAgICAgICBpZiBsZXQgT2sodikgPSBudW0udHJpbSgpLnBhcnNlOjo8aTY0PigpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdjsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIDAKfQoKZm4gcGFyc2Vfc3RhbXAoc3RhbXA6ICZzdHIpIC0+IE9wdGlvbjxmNjQ+IHsKICAgIC8vIEFjY2VwdCBtbTpzcywgbW06c3MueCwgbW06c3MueHh4LCBoaDptbTpzcy54eHgKICAgIGxldCBwYXJ0czogVmVjPCZzdHI+ID0gc3RhbXAuc3BsaXQoJzonKS5jb2xsZWN0KCk7CiAgICBsZXQgKGgsIG0sIHMpID0gbWF0Y2ggcGFydHMubGVuKCkgewogICAgICAgIDIgPT4gKDAuMCwgcGFydHNbMF0ucGFyc2U6OjxmNjQ+KCkub2soKT8sIHBhcnRzWzFdKSwKICAgICAgICAzID0+ICgKICAgICAgICAgICAgcGFydHNbMF0ucGFyc2U6OjxmNjQ+KCkub2soKT8sCiAgICAgICAgICAgIHBhcnRzWzFdLnBhcnNlOjo8ZjY0PigpLm9rKCk/LAogICAgICAgICAgICBwYXJ0c1syXSwKICAgICAgICApLAogICAgICAgIF8gPT4gcmV0dXJuIE5vbmUsCiAgICB9OwogICAgbGV0IHNlYzogZjY0ID0gcy5wYXJzZSgpLm9rKCk/OwogICAgU29tZShoICogMzYwMC4wICsgbSAqIDYwLjAgKyBzZWMpCn0KCmZuIHN0YW1wcyhsaW5lOiAmc3RyKSAtPiAoVmVjPGY2ND4sICZzdHIpIHsKICAgIGxldCBtdXQgb3V0ID0gVmVjOjpuZXcoKTsKICAgIGxldCBtdXQgcmVzdCA9IGxpbmU7CiAgICBsb29wIHsKICAgICAgICBsZXQgdCA9IHJlc3QudHJpbV9zdGFydCgpOwogICAgICAgIGlmICF0LnN0YXJ0c193aXRoKCdbJykgewogICAgICAgICAgICByZXR1cm4gKG91dCwgdCk7CiAgICAgICAgfQogICAgICAgIGxldCBTb21lKGNsb3NlKSA9IHQuZmluZCgnXScpIGVsc2UgeyByZXR1cm4gKG91dCwgdCkgfTsKICAgICAgICBsZXQgaW5uZXIgPSAmdFsxLi5jbG9zZV07CiAgICAgICAgbWF0Y2ggcGFyc2Vfc3RhbXAoaW5uZXIudHJpbSgpKSB7CiAgICAgICAgICAgIFNvbWUodikgPT4gewogICAgICAgICAgICAgICAgb3V0LnB1c2godik7CiAgICAgICAgICAgICAgICByZXN0ID0gJnRbY2xvc2UgKyAxLi5dOwogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIEEgbm9uLXRpbWVzdGFtcCB0YWcgbGlrZSBbYXI6Li4uXSBvciBbdGk6Li4uXQogICAgICAgICAgICBOb25lID0+IHJldHVybiAob3V0LCB0W2Nsb3NlICsgMS4uXS50cmltX3N0YXJ0KCkpLAogICAgICAgIH0KICAgIH0KfQoKcHViIGZuIHBhcnNlKHRleHQ6ICZzdHIpIC0+IFZlYzxMeXJpY0xpbmU+IHsKICAgIGxldCBtdXQgbGluZXM6IFZlYzxMeXJpY0xpbmU+ID0gVmVjOjpuZXcoKTsKCiAgICBmb3IgcmF3IGluIHRleHQubGluZXMoKSB7CiAgICAgICAgbGV0IHJhdyA9IHJhdy50cmltX3N0YXJ0X21hdGNoZXMoJ1x1e2ZlZmZ9Jyk7CiAgICAgICAgbGV0ICh0aW1lcywgY29udGVudCkgPSBzdGFtcHMocmF3KTsKICAgICAgICBpZiB0aW1lcy5pc19lbXB0eSgpIHsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIGxldCBjb250ZW50ID0gY29udGVudC50cmltKCkudG9fc3RyaW5nKCk7CiAgICAgICAgLy8gS2VlcCBpbnN0cnVtZW50YWwgZ2FwcyAoZW1wdHkgY29udGVudCkgc28gdGhlIHJlbmRlcmVyIGNhbiBibGFuayB0aGUgbGluZS4KICAgICAgICBmb3Igc3RhcnQgaW4gdGltZXMgewogICAgICAgICAgICBsaW5lcy5wdXNoKEx5cmljTGluZSB7IHN0YXJ0LCBlbmQ6IDAuMCwgdGV4dDogY29udGVudC5jbG9uZSgpLCB3b3JkczogVmVjOjpuZXcoKSB9KTsKICAgICAgICB9CiAgICB9CgogICAgbGluZXMuc29ydF9ieSh8YSwgYnwgYS5zdGFydC5wYXJ0aWFsX2NtcCgmYi5zdGFydCkudW53cmFwX29yKHN0ZDo6Y21wOjpPcmRlcmluZzo6RXF1YWwpKTsKCiAgICAvLyBFbmQgb2YgZWFjaCBsaW5lID0gc3RhcnQgb2YgdGhlIG5leHQgKG9yIHN0YXJ0ICsgNXMgZm9yIHRoZSBsYXN0IG9uZSkuCiAgICBmb3IgaSBpbiAwLi5saW5lcy5sZW4oKSB7CiAgICAgICAgbGV0IG5leHQgPSBsaW5lcy5nZXQoaSArIDEpLm1hcCh8bHwgbC5zdGFydCk7CiAgICAgICAgbGluZXNbaV0uZW5kID0gbmV4dC51bndyYXBfb3IobGluZXNbaV0uc3RhcnQgKyA1LjApOwogICAgfQogICAgbGluZXMKfQoKLy8vIFNoaWZ0IGV2ZXJ5IHRpbWVzdGFtcCBieSBgZGVsdGFfbXNgLCBrZWVwaW5nIG9yZGVyLgpwdWIgZm4gYXBwbHlfb2Zmc2V0KGxpbmVzOiAmbXV0IFtMeXJpY0xpbmVdLCBkZWx0YV9tczogaTY0KSB7CiAgICBsZXQgZCA9IGRlbHRhX21zIGFzIGY2NCAvIDEwMDAuMDsKICAgIGZvciBsaW5lIGluIGxpbmVzLml0ZXJfbXV0KCkgewogICAgICAgIGxpbmUuc3RhcnQgPSAobGluZS5zdGFydCArIGQpLm1heCgwLjApOwogICAgICAgIGxpbmUuZW5kID0gKGxpbmUuZW5kICsgZCkubWF4KDAuMCk7CiAgICAgICAgZm9yIHcgaW4gbGluZS53b3Jkcy5pdGVyX211dCgpIHsKICAgICAgICAgICAgdy5zdGFydCA9ICh3LnN0YXJ0ICsgZCkubWF4KDAuMCk7CiAgICAgICAgICAgIHcuZW5kID0gKHcuZW5kICsgZCkubWF4KDAuMCk7CiAgICAgICAgfQogICAgfQp9CgojW2NmZyh0ZXN0KV0KbW9kIHRlc3RzIHsKICAgIHVzZSBzdXBlcjo6KjsKCiAgICAjW3Rlc3RdCiAgICBmbiBwYXJzZXNfYmFzaWNfYW5kX2NvbXB1dGVzX2VuZHMoKSB7CiAgICAgICAgbGV0IHRleHQgPSAiW3RpOlRlc3RdXG5bMDA6MTIuNTBdZmlyc3RcblswMDoxNS4wMF1zZWNvbmRcbiI7CiAgICAgICAgbGV0IGxpbmVzID0gcGFyc2UodGV4dCk7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lcy5sZW4oKSwgMik7CiAgICAgICAgYXNzZXJ0ISgobGluZXNbMF0uc3RhcnQgLSAxMi41KS5hYnMoKSA8IDFlLTYpOwogICAgICAgIGFzc2VydF9lcSEobGluZXNbMF0udGV4dCwgImZpcnN0Iik7CiAgICAgICAgYXNzZXJ0ISgobGluZXNbMF0uZW5kIC0gMTUuMCkuYWJzKCkgPCAxZS02KTsKICAgICAgICBhc3NlcnQhKChsaW5lc1sxXS5lbmQgLSAyMC4wKS5hYnMoKSA8IDFlLTYpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIGhhbmRsZXNfbXVsdGlwbGVfdGltZXN0YW1wc19vbl9vbmVfbGluZSgpIHsKICAgICAgICBsZXQgbGluZXMgPSBwYXJzZSgiWzAwOjAxLjAwXVswMDowNS4wMF1jaG9ydXNcbiIpOwogICAgICAgIGFzc2VydF9lcSEobGluZXMubGVuKCksIDIpOwogICAgICAgIGFzc2VydF9lcSEobGluZXNbMV0uc3RhcnQsIDUuMCk7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lc1sxXS50ZXh0LCAiY2hvcnVzIik7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gaGFuZGxlc19ob3Vyc19hbmRfbm9fZnJhY3Rpb24oKSB7CiAgICAgICAgbGV0IGxpbmVzID0gcGFyc2UoIlsxOjAyOjAzXWxvbmdcbiIpOwogICAgICAgIGFzc2VydF9lcSEobGluZXMubGVuKCksIDEpOwogICAgICAgIGFzc2VydCEoKGxpbmVzWzBdLnN0YXJ0IC0gMzcyMy4wKS5hYnMoKSA8IDFlLTYpOwogICAgfQoKICAgICNbdGVzdF0KICAgIGZuIHJlYWRzX29mZnNldF90YWcoKSB7CiAgICAgICAgYXNzZXJ0X2VxIShvZmZzZXRfbXMoIltvZmZzZXQ6LTI1MF1cblswMDowMV14IiksIC0yNTApOwogICAgICAgIGFzc2VydF9lcSEob2Zmc2V0X21zKCJbMDA6MDFdeCIpLCAwKTsKICAgIH0KCiAgICAjW3Rlc3RdCiAgICBmbiBrZWVwc19lbXB0eV9pbnN0cnVtZW50YWxfbGluZXMoKSB7CiAgICAgICAgbGV0IGxpbmVzID0gcGFyc2UoIlswMDowMV1zaW5nXG5bMDA6MTBdXG5bMDA6MjBdc2luZyBhZ2FpblxuIik7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lcy5sZW4oKSwgMyk7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lc1sxXS50ZXh0LCAiIik7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gc29ydHNfb3V0X29mX29yZGVyX2lucHV0KCkgewogICAgICAgIGxldCBsaW5lcyA9IHBhcnNlKCJbMDA6MjBdYlxuWzAwOjEwXWFcbiIpOwogICAgICAgIGFzc2VydF9lcSEobGluZXNbMF0udGV4dCwgImEiKTsKICAgICAgICBhc3NlcnRfZXEhKGxpbmVzWzFdLnRleHQsICJiIik7CiAgICB9CgogICAgI1t0ZXN0XQogICAgZm4gb2Zmc2V0X3NoaWZ0c19hbmRfY2xhbXBzKCkgewogICAgICAgIGxldCBtdXQgbGluZXMgPSBwYXJzZSgiWzAwOjAxLjAwXXhcbiIpOwogICAgICAgIGFwcGx5X29mZnNldCgmbXV0IGxpbmVzLCAtMjAwMCk7CiAgICAgICAgYXNzZXJ0X2VxIShsaW5lc1swXS5zdGFydCwgMC4wKTsKICAgIH0KfQo=
+//! LRC parser: line-level timestamps, multi-timestamp lines, `[offset:]` tag.
+//!
+//! This is the tier-2 format, so the parser is deliberately forgiving: real-world
+//! LRC files are hand-edited and full of `[mm:ss]` without fractions, full-width
+//! brackets, and blank lines carrying a timestamp.
+
+use super::LyricLine;
+
+/// Extracts the `[offset:+/-ms]` global tag, defaulting to 0.
+pub fn offset_ms(text: &str) -> i64 {
+    for line in text.lines() {
+        let t = line.trim();
+        if let Some(rest) = t.strip_prefix("[offset:") {
+            if let Some(num) = rest.split(']').next() {
+                if let Ok(v) = num.trim().parse::<i64>() {
+                    return v;
+                }
+            }
+        }
+    }
+    0
+}
+
+fn parse_stamp(stamp: &str) -> Option<f64> {
+    // Accept mm:ss, mm:ss.x, mm:ss.xxx, hh:mm:ss.xxx
+    let parts: Vec<&str> = stamp.split(':').collect();
+    let (h, m, s) = match parts.len() {
+        2 => (0.0, parts[0].parse::<f64>().ok()?, parts[1]),
+        3 => (
+            parts[0].parse::<f64>().ok()?,
+            parts[1].parse::<f64>().ok()?,
+            parts[2],
+        ),
+        _ => return None,
+    };
+    let sec: f64 = s.parse().ok()?;
+    Some(h * 3600.0 + m * 60.0 + sec)
+}
+
+fn stamps(line: &str) -> (Vec<f64>, &str) {
+    let mut out = Vec::new();
+    let mut rest = line;
+    loop {
+        let t = rest.trim_start();
+        if !t.starts_with('[') {
+            return (out, t);
+        }
+        let Some(close) = t.find(']') else { return (out, t) };
+        let inner = &t[1..close];
+        match parse_stamp(inner.trim()) {
+            Some(v) => {
+                out.push(v);
+                rest = &t[close + 1..];
+            }
+            // A non-timestamp tag like [ar:...] or [ti:...]
+            None => return (out, t[close + 1..].trim_start()),
+        }
+    }
+}
+
+pub fn parse(text: &str) -> Vec<LyricLine> {
+    let mut lines: Vec<LyricLine> = Vec::new();
+
+    for raw in text.lines() {
+        let raw = raw.trim_start_matches('\u{feff}');
+        let (times, content) = stamps(raw);
+        if times.is_empty() {
+            continue;
+        }
+        let content = content.trim().to_string();
+        // Keep instrumental gaps (empty content) so the renderer can blank the line.
+        for start in times {
+            lines.push(LyricLine { start, end: 0.0, text: content.clone(), words: Vec::new() });
+        }
+    }
+
+    lines.sort_by(|a, b| a.start.partial_cmp(&b.start).unwrap_or(std::cmp::Ordering::Equal));
+
+    // End of each line = start of the next (or start + 5s for the last one).
+    for i in 0..lines.len() {
+        let next = lines.get(i + 1).map(|l| l.start);
+        lines[i].end = next.unwrap_or(lines[i].start + 5.0);
+    }
+    lines
+}
+
+/// Shift every timestamp by `delta_ms`, keeping order.
+pub fn apply_offset(lines: &mut [LyricLine], delta_ms: i64) {
+    let d = delta_ms as f64 / 1000.0;
+    for line in lines.iter_mut() {
+        line.start = (line.start + d).max(0.0);
+        line.end = (line.end + d).max(0.0);
+        for w in line.words.iter_mut() {
+            w.start = (w.start + d).max(0.0);
+            w.end = (w.end + d).max(0.0);
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn parses_basic_and_computes_ends() {
+        let text = "[ti:Test]\n[00:12.50]first\n[00:15.00]second\n";
+        let lines = parse(text);
+        assert_eq!(lines.len(), 2);
+        assert!((lines[0].start - 12.5).abs() < 1e-6);
+        assert_eq!(lines[0].text, "first");
+        assert!((lines[0].end - 15.0).abs() < 1e-6);
+        assert!((lines[1].end - 20.0).abs() < 1e-6);
+    }
+
+    #[test]
+    fn handles_multiple_timestamps_on_one_line() {
+        let lines = parse("[00:01.00][00:05.00]chorus\n");
+        assert_eq!(lines.len(), 2);
+        assert_eq!(lines[1].start, 5.0);
+        assert_eq!(lines[1].text, "chorus");
+    }
+
+    #[test]
+    fn handles_hours_and_no_fraction() {
+        let lines = parse("[1:02:03]long\n");
+        assert_eq!(lines.len(), 1);
+        assert!((lines[0].start - 3723.0).abs() < 1e-6);
+    }
+
+    #[test]
+    fn reads_offset_tag() {
+        assert_eq!(offset_ms("[offset:-250]\n[00:01]x"), -250);
+        assert_eq!(offset_ms("[00:01]x"), 0);
+    }
+
+    #[test]
+    fn keeps_empty_instrumental_lines() {
+        let lines = parse("[00:01]sing\n[00:10]\n[00:20]sing again\n");
+        assert_eq!(lines.len(), 3);
+        assert_eq!(lines[1].text, "");
+    }
+
+    #[test]
+    fn sorts_out_of_order_input() {
+        let lines = parse("[00:20]b\n[00:10]a\n");
+        assert_eq!(lines[0].text, "a");
+        assert_eq!(lines[1].text, "b");
+    }
+
+    #[test]
+    fn offset_shifts_and_clamps() {
+        let mut lines = parse("[00:01.00]x\n");
+        apply_offset(&mut lines, -2000);
+        assert_eq!(lines[0].start, 0.0);
+    }
+}

@@ -1,1 +1,192 @@
-Ly8hIEV4dGVuc2lvbiBmZWVkOiB0aGUgb3ZlcmxheSBhcyBhIFdlYlNvY2tldCAqKnNlcnZlcioqLgovLyEKLy8hIFRoZSBicmlkZ2UgZXh0ZW5zaW9uIChleHRlbnNpb24vKSBydW5zIGluc2lkZSBtdXNpYy5hcHBsZS5jb20sIHJlYWRzIHRoZSBwbGF5ZXIKLy8hIGludGVybmFscyB0aGVyZSBhbmQgY29ubmVjdHMgdG8gYHdzOi8vMTI3LjAuMC4xOjxwb3J0Pi88dG9rZW4+YC4KLy8hCi8vISBXaHkgYSBzZXJ2ZXIgb24gb3VyIHNpZGU6IGEgQ2hyb21lIGV4dGVuc2lvbiBjYW5ub3Qgd3JpdGUgaW50byBvdXIgcHJvY2VzcywgYW5kCi8vISBwb2xsaW5nIGEgbG9jYWwgSFRUUCBlbmRwb2ludCBmcm9tIGEgY29udGVudCBzY3JpcHQgcnVucyBpbnRvIENTUCBhbmQgQ09SUzsgYQovLyEgV2ViU29ja2V0IGluaXRpYXRlZCBmcm9tIHRoZSBleHRlbnNpb24ncyBpc29sYXRlZCB3b3JsZCBpcyBjbGVhbi4KLy8hCi8vISBFdmVyeXRoaW5nIGlzIGxvb3BiYWNrLW9ubHkgYW5kIGdhdGVkIGJ5IGEgdG9rZW4gaW4gdGhlIHBhdGgsIGJlY2F1c2UgYW55IGxvY2FsCi8vISBwcm9jZXNzIGNvdWxkIG90aGVyd2lzZSBmZWVkIHVzIGJvZ3VzIHBsYXliYWNrIGRhdGEuCgp1c2Ugc3VwZXI6OntQbGF5YmFja1NuYXBzaG90LCBQbGF5YmFja1N0YXRlLCBQcm92aWRlciwgVHJhY2tJbmZvfTsKdXNlIHNlcmRlOjpEZXNlcmlhbGl6ZTsKdXNlIHN0ZDo6bmV0OjpUY3BMaXN0ZW5lcjsKdXNlIHN0ZDo6c3luYzo6e0FyYywgTXV0ZXh9Owp1c2Ugc3RkOjp0aW1lOjp7RHVyYXRpb24sIEluc3RhbnR9Owp1c2UgdHVuZ3N0ZW5pdGU6Ok1lc3NhZ2U7CgojW2Rlcml2ZShEZWJ1ZywgQ2xvbmUsIERlc2VyaWFsaXplKV0KcHViIHN0cnVjdCBTdGF0ZVBheWxvYWQgewogICAgcHViIHBsYXlpbmc6IGJvb2wsCiAgICBwdWIgcG9zaXRpb246IE9wdGlvbjxmNjQ+LAogICAgcHViIGR1cmF0aW9uOiBPcHRpb248ZjY0PiwKICAgIHB1YiB0aXRsZTogT3B0aW9uPFN0cmluZz4sCiAgICBwdWIgYXJ0aXN0OiBPcHRpb248U3RyaW5nPiwKICAgIHB1YiBhbGJ1bTogT3B0aW9uPFN0cmluZz4sCiAgICAjW3NlcmRlKHJlbmFtZSA9ICJzb25nSWQiKV0KICAgIHB1YiBzb25nX2lkOiBPcHRpb248U3RyaW5nPiwKICAgICNbc2VyZGUoZGVmYXVsdCldCiAgICBwdWIgc3RvcmVmcm9udDogT3B0aW9uPFN0cmluZz4sCn0KCiNbZGVyaXZlKERlYnVnLCBDbG9uZSwgRGVzZXJpYWxpemUpXQojW3NlcmRlKHRhZyA9ICJ0eXBlIiwgcmVuYW1lX2FsbCA9ICJsb3dlcmNhc2UiKV0KcHViIGVudW0gTWVzc2FnZTIgewogICAgU3RhdGUgeyBwYXlsb2FkOiBTdGF0ZVBheWxvYWQgfSwKICAgIEx5cmljcyB7ICNbc2VyZGUocmVuYW1lID0gInNvbmdJZCIpXSBzb25nX2lkOiBPcHRpb248U3RyaW5nPiwgdHRtbDogU3RyaW5nIH0sCn0KCiNbZGVyaXZlKERlZmF1bHQpXQpwdWIgc3RydWN0IEZlZWQgewogICAgcHViIHNuYXBzaG90OiBPcHRpb248UGxheWJhY2tTbmFwc2hvdD4sCiAgICBwdWIgc2Vlbl9hdDogT3B0aW9uPEluc3RhbnQ+LAogICAgLy8vIChzb25nIGlkLCBUVE1MKSBhcyBkZWxpdmVyZWQgYnkgdGhlIHBhZ2UuCiAgICBwdWIgbHlyaWNzOiBPcHRpb248KFN0cmluZywgU3RyaW5nKT4sCiAgICBwdWIgbHlyaWNfc2VxOiB1NjQsCiAgICBwdWIgY29ubmVjdGVkOiBib29sLAp9CgpwdWIgdHlwZSBTaGFyZWRGZWVkID0gQXJjPE11dGV4PEZlZWQ+PjsKCnB1YiBmbiBuZXdfZmVlZCgpIC0+IFNoYXJlZEZlZWQgewogICAgQXJjOjpuZXcoTXV0ZXg6Om5ldyhGZWVkOjpkZWZhdWx0KCkpKQp9CgovLy8gQmluZCBvbmNlIGFuZCBzZXJ2ZSBjbGllbnRzIGZvcmV2ZXIuIFJlY29ubmVjdHMgZnJvbSB0aGUgcGFnZSBhcmUgbm9ybWFsICh0aGUKLy8vIGV4dGVuc2lvbiByZWNvbm5lY3RzIG9uIG5hdmlnYXRpb24pLCBzbyB0aGUgbG9vcCBhY2NlcHRzIHJlcGVhdGVkbHkuCnB1YiBmbiBzdGFydF9zZXJ2ZXIocG9ydDogdTE2LCB0b2tlbjogU3RyaW5nLCBmZWVkOiBTaGFyZWRGZWVkKSB7CiAgICBzdGQ6OnRocmVhZDo6c3Bhd24obW92ZSB8fCB7CiAgICAgICAgbGV0IGxpc3RlbmVyID0gbWF0Y2ggVGNwTGlzdGVuZXI6OmJpbmQoKCIxMjcuMC4wLjEiLCBwb3J0KSkgewogICAgICAgICAgICBPayhsKSA9PiBsLAogICAgICAgICAgICBFcnIoZXJyKSA9PiB7CiAgICAgICAgICAgICAgICBlcHJpbnRsbiEoIltleHRdIGNhbm5vdCBiaW5kIDEyNy4wLjAuMTp7cG9ydH06IHtlcnJ9Iik7CiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIH0KICAgICAgICB9OwogICAgICAgIHByaW50bG4hKCJbZXh0XSBsaXN0ZW5pbmcgb24gd3M6Ly8xMjcuMC4wLjE6e3BvcnR9Lzx0b2tlbj4iKTsKCiAgICAgICAgZm9yIHN0cmVhbSBpbiBsaXN0ZW5lci5pbmNvbWluZygpIHsKICAgICAgICAgICAgbGV0IE9rKHN0cmVhbSkgPSBzdHJlYW0gZWxzZSB7IGNvbnRpbnVlIH07CiAgICAgICAgICAgIGxldCBmZWVkID0gZmVlZC5jbG9uZSgpOwogICAgICAgICAgICBsZXQgZXhwZWN0ZWRfcGF0aCA9IGZvcm1hdCEoIi97dG9rZW59Iik7CiAgICAgICAgICAgIHN0ZDo6dGhyZWFkOjpzcGF3bihtb3ZlIHx8IHsKICAgICAgICAgICAgICAgIGxldCBoYW5kc2hha2UgPSB0dW5nc3Rlbml0ZTo6YWNjZXB0X2hkcigKICAgICAgICAgICAgICAgICAgICBzdHJlYW0sCiAgICAgICAgICAgICAgICAgICAgfHJlcTogJnR1bmdzdGVuaXRlOjpoYW5kc2hha2U6OnNlcnZlcjo6UmVxdWVzdCwgcmVzcDogdHVuZ3N0ZW5pdGU6OmhhbmRzaGFrZTo6c2VydmVyOjpSZXNwb25zZXwgewogICAgICAgICAgICAgICAgICAgICAgICBpZiByZXEudXJpKCkucGF0aCgpICE9IGV4cGVjdGVkX3BhdGggewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IG11dCBlcnJvciA9IHR1bmdzdGVuaXRlOjpoYW5kc2hha2U6OnNlcnZlcjo6RXJyb3JSZXNwb25zZTo6bmV3KFNvbWUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhZCB0b2tlbiIudG9fc3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICplcnJvci5zdGF0dXNfbXV0KCkgPSB0dW5nc3Rlbml0ZTo6aHR0cDo6U3RhdHVzQ29kZTo6Rk9SQklEREVOOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEVycihlcnJvcik7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgT2socmVzcCkKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIGxldCBtdXQgc29ja2V0ID0gbWF0Y2ggaGFuZHNoYWtlIHsKICAgICAgICAgICAgICAgICAgICBPayh3cykgPT4gd3MsCiAgICAgICAgICAgICAgICAgICAgRXJyKGVycikgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBlcHJpbnRsbiEoIltleHRdIGhhbmRzaGFrZSByZWplY3RlZDoge2Vycn0iKTsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICBwcmludGxuISgiW2V4dF0gZXh0ZW5zaW9uIGNvbm5lY3RlZCIpOwogICAgICAgICAgICAgICAgaWYgbGV0IE9rKG11dCBndWFyZCkgPSBmZWVkLmxvY2soKSB7CiAgICAgICAgICAgICAgICAgICAgZ3VhcmQuY29ubmVjdGVkID0gdHJ1ZTsKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBsb29wIHsKICAgICAgICAgICAgICAgICAgICBtYXRjaCBzb2NrZXQucmVhZCgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgT2soTWVzc2FnZTo6VGV4dCh0ZXh0KSkgPT4gYXBwbHkoJmZlZWQsIHRleHQuYXNfc3RyKCkpLAogICAgICAgICAgICAgICAgICAgICAgICBPayhNZXNzYWdlOjpCaW5hcnkoYnl0ZXMpKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcHBseSgmZmVlZCwgJlN0cmluZzo6ZnJvbV91dGY4X2xvc3N5KCZieXRlcykpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIE9rKE1lc3NhZ2U6OkNsb3NlKF8pKSA9PiBicmVhaywKICAgICAgICAgICAgICAgICAgICAgICAgT2soXykgPT4gY29udGludWUsCiAgICAgICAgICAgICAgICAgICAgICAgIEVycihfKSA9PiBicmVhaywKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiBsZXQgT2sobXV0IGd1YXJkKSA9IGZlZWQubG9jaygpIHsKICAgICAgICAgICAgICAgICAgICBndWFyZC5jb25uZWN0ZWQgPSBmYWxzZTsKICAgICAgICAgICAgICAgICAgICBndWFyZC5zbmFwc2hvdCA9IE5vbmU7CiAgICAgICAgICAgICAgICAgICAgZ3VhcmQuc2Vlbl9hdCA9IE5vbmU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBwcmludGxuISgiW2V4dF0gZXh0ZW5zaW9uIGRpc2Nvbm5lY3RlZCIpOwogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICB9KTsKfQoKZm4gYXBwbHkoZmVlZDogJlNoYXJlZEZlZWQsIHRleHQ6ICZzdHIpIHsKICAgIGxldCBPayhtZXNzYWdlKSA9IHNlcmRlX2pzb246OmZyb21fc3RyOjo8TWVzc2FnZTI+KHRleHQpIGVsc2UgewogICAgICAgIHJldHVybjsKICAgIH07CiAgICBsZXQgT2sobXV0IGd1YXJkKSA9IGZlZWQubG9jaygpIGVsc2UgeyByZXR1cm4gfTsKCiAgICBtYXRjaCBtZXNzYWdlIHsKICAgICAgICBNZXNzYWdlMjo6U3RhdGUgeyBwYXlsb2FkIH0gPT4gewogICAgICAgICAgICBpZiBwYXlsb2FkLnRpdGxlLmFzX2RlcmVmKCkudW53cmFwX29yKCIiKS5pc19lbXB0eSgpIHsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgICAgICBndWFyZC5zbmFwc2hvdCA9IFNvbWUoUGxheWJhY2tTbmFwc2hvdCB7CiAgICAgICAgICAgICAgICB0cmFjazogU29tZShUcmFja0luZm8gewogICAgICAgICAgICAgICAgICAgIHRpdGxlOiBwYXlsb2FkLnRpdGxlLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgICAgICAgICAgYXJ0aXN0OiBwYXlsb2FkLmFydGlzdC51bndyYXBfb3JfZGVmYXVsdCgpLAogICAgICAgICAgICAgICAgICAgIGFsYnVtOiBwYXlsb2FkLmFsYnVtLnVud3JhcF9vcl9kZWZhdWx0KCksCiAgICAgICAgICAgICAgICAgICAgYXBwX2lkOiAiZXh0ZW5zaW9uIi5pbnRvKCksCiAgICAgICAgICAgICAgICAgICAgc29uZ19pZDogcGF5bG9hZC5zb25nX2lkLAogICAgICAgICAgICAgICAgfSksCiAgICAgICAgICAgICAgICBzdGF0ZTogaWYgcGF5bG9hZC5wbGF5aW5nIHsgUGxheWJhY2tTdGF0ZTo6UGxheWluZyB9IGVsc2UgeyBQbGF5YmFja1N0YXRlOjpQYXVzZWQgfSwKICAgICAgICAgICAgICAgIHBvc2l0aW9uX3NlY3M6IHBheWxvYWQucG9zaXRpb24udW53cmFwX29yKDAuMCksCiAgICAgICAgICAgICAgICBkdXJhdGlvbl9zZWNzOiBwYXlsb2FkLmR1cmF0aW9uLnVud3JhcF9vcigwLjApLAogICAgICAgICAgICAgICAgLy8gVGhlIHBhZ2UgcmVwb3J0cyBsaXZlIHZhbHVlcyBvbiBldmVyeSB0aWNrLgogICAgICAgICAgICAgICAgcmVwb3J0X2FnZV9tczogMCwKICAgICAgICAgICAgICAgIHNvdXJjZTogImV4dGVuc2lvbiIuaW50bygpLAogICAgICAgICAgICB9KTsKICAgICAgICAgICAgZ3VhcmQuc2Vlbl9hdCA9IFNvbWUoSW5zdGFudDo6bm93KCkpOwogICAgICAgIH0KICAgICAgICBNZXNzYWdlMjo6THlyaWNzIHsgc29uZ19pZCwgdHRtbCB9ID0+IHsKICAgICAgICAgICAgaWYgdHRtbC5sZW4oKSA8IDMyIHsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgICAgICBndWFyZC5seXJpY3MgPSBTb21lKChzb25nX2lkLnVud3JhcF9vcl9kZWZhdWx0KCksIHR0bWwpKTsKICAgICAgICAgICAgZ3VhcmQubHlyaWNfc2VxICs9IDE7CiAgICAgICAgfQogICAgfQp9CgpwdWIgc3RydWN0IEV4dGVuc2lvblByb3ZpZGVyIHsKICAgIGZlZWQ6IFNoYXJlZEZlZWQsCiAgICBlbmFibGVkOiBib29sLAp9CgppbXBsIEV4dGVuc2lvblByb3ZpZGVyIHsKICAgIHB1YiBmbiBuZXcoZmVlZDogU2hhcmVkRmVlZCwgZW5hYmxlZDogYm9vbCkgLT4gU2VsZiB7CiAgICAgICAgU2VsZiB7IGZlZWQsIGVuYWJsZWQgfQogICAgfQp9CgppbXBsIFByb3ZpZGVyIGZvciBFeHRlbnNpb25Qcm92aWRlciB7CiAgICBmbiBpZCgmc2VsZikgLT4gJidzdGF0aWMgc3RyIHsKICAgICAgICAiZXh0ZW5zaW9uIgogICAgfQoKICAgIGZuIHByZWNpc2lvbigmc2VsZikgLT4gdTggewogICAgICAgIDIKICAgIH0KCiAgICBmbiBwb2xsKCZzZWxmKSAtPiBPcHRpb248UGxheWJhY2tTbmFwc2hvdD4gewogICAgICAgIGlmICFzZWxmLmVuYWJsZWQgewogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICAgICAgbGV0IGd1YXJkID0gc2VsZi5mZWVkLmxvY2soKS5vaygpPzsKICAgICAgICBsZXQgc2VlbiA9IGd1YXJkLnNlZW5fYXQ/OwogICAgICAgIC8vIFRoZSBwYWdlIHNlbmRzIGV2ZXJ5IDIwMCBtczsgYW55dGhpbmcgb2xkZXIgdGhhbiAyIHMgbWVhbnMgaXQgc3RvcHBlZC4KICAgICAgICBpZiBzZWVuLmVsYXBzZWQoKSA+IER1cmF0aW9uOjpmcm9tX3NlY3MoMikgewogICAgICAgICAgICByZXR1cm4gTm9uZTsKICAgICAgICB9CiAgICAgICAgZ3VhcmQuc25hcHNob3QuY2xvbmUoKQogICAgfQp9Cg==
+//! Extension feed: the overlay as a WebSocket **server**.
+//!
+//! The bridge extension (extension/) runs inside music.apple.com, reads the player
+//! internals there and connects to `ws://127.0.0.1:<port>/<token>`.
+//!
+//! Why a server on our side: a Chrome extension cannot write into our process, and
+//! polling a local HTTP endpoint from a content script runs into CSP and CORS; a
+//! WebSocket initiated from the extension's isolated world is clean.
+//!
+//! Everything is loopback-only and gated by a token in the path, because any local
+//! process could otherwise feed us bogus playback data.
+
+use super::{PlaybackSnapshot, PlaybackState, Provider, TrackInfo};
+use serde::Deserialize;
+use std::net::TcpListener;
+use std::sync::{Arc, Mutex};
+use std::time::{Duration, Instant};
+use tungstenite::Message;
+
+#[derive(Debug, Clone, Deserialize)]
+pub struct StatePayload {
+    pub playing: bool,
+    pub position: Option<f64>,
+    pub duration: Option<f64>,
+    pub title: Option<String>,
+    pub artist: Option<String>,
+    pub album: Option<String>,
+    #[serde(rename = "songId")]
+    pub song_id: Option<String>,
+    #[serde(default)]
+    pub storefront: Option<String>,
+}
+
+#[derive(Debug, Clone, Deserialize)]
+#[serde(tag = "type", rename_all = "lowercase")]
+pub enum Message2 {
+    State { payload: StatePayload },
+    Lyrics { #[serde(rename = "songId")] song_id: Option<String>, ttml: String },
+}
+
+#[derive(Default)]
+pub struct Feed {
+    pub snapshot: Option<PlaybackSnapshot>,
+    pub seen_at: Option<Instant>,
+    /// (song id, TTML) as delivered by the page.
+    pub lyrics: Option<(String, String)>,
+    pub lyric_seq: u64,
+    pub connected: bool,
+}
+
+pub type SharedFeed = Arc<Mutex<Feed>>;
+
+pub fn new_feed() -> SharedFeed {
+    Arc::new(Mutex::new(Feed::default()))
+}
+
+/// Bind once and serve clients forever. Reconnects from the page are normal (the
+/// extension reconnects on navigation), so the loop accepts repeatedly.
+pub fn start_server(port: u16, token: String, feed: SharedFeed) {
+    std::thread::spawn(move || {
+        let listener = match TcpListener::bind(("127.0.0.1", port)) {
+            Ok(l) => l,
+            Err(err) => {
+                eprintln!("[ext] cannot bind 127.0.0.1:{port}: {err}");
+                return;
+            }
+        };
+        println!("[ext] listening on ws://127.0.0.1:{port}/<token>");
+
+        for stream in listener.incoming() {
+            let Ok(stream) = stream else { continue };
+            let feed = feed.clone();
+            let expected_path = format!("/{token}");
+            std::thread::spawn(move || {
+                let handshake = tungstenite::accept_hdr(
+                    stream,
+                    |req: &tungstenite::handshake::server::Request, resp: tungstenite::handshake::server::Response| {
+                        if req.uri().path() != expected_path {
+                            let mut error = tungstenite::handshake::server::ErrorResponse::new(Some(
+                                "bad token".to_string(),
+                            ));
+                            *error.status_mut() = tungstenite::http::StatusCode::FORBIDDEN;
+                            return Err(error);
+                        }
+                        Ok(resp)
+                    },
+                );
+                let mut socket = match handshake {
+                    Ok(ws) => ws,
+                    Err(err) => {
+                        eprintln!("[ext] handshake rejected: {err}");
+                        return;
+                    }
+                };
+                println!("[ext] extension connected");
+                if let Ok(mut guard) = feed.lock() {
+                    guard.connected = true;
+                }
+
+                loop {
+                    match socket.read() {
+                        Ok(Message::Text(text)) => apply(&feed, text.as_str()),
+                        Ok(Message::Binary(bytes)) => {
+                            apply(&feed, &String::from_utf8_lossy(&bytes));
+                        }
+                        Ok(Message::Close(_)) => break,
+                        Ok(_) => continue,
+                        Err(_) => break,
+                    }
+                }
+                if let Ok(mut guard) = feed.lock() {
+                    guard.connected = false;
+                    guard.snapshot = None;
+                    guard.seen_at = None;
+                }
+                println!("[ext] extension disconnected");
+            });
+        }
+    });
+}
+
+fn apply(feed: &SharedFeed, text: &str) {
+    let Ok(message) = serde_json::from_str::<Message2>(text) else {
+        return;
+    };
+    let Ok(mut guard) = feed.lock() else { return };
+
+    match message {
+        Message2::State { payload } => {
+            if payload.title.as_deref().unwrap_or("").is_empty() {
+                return;
+            }
+            guard.snapshot = Some(PlaybackSnapshot {
+                track: Some(TrackInfo {
+                    title: payload.title.unwrap_or_default(),
+                    artist: payload.artist.unwrap_or_default(),
+                    album: payload.album.unwrap_or_default(),
+                    app_id: "extension".into(),
+                    song_id: payload.song_id,
+                }),
+                state: if payload.playing { PlaybackState::Playing } else { PlaybackState::Paused },
+                position_secs: payload.position.unwrap_or(0.0),
+                duration_secs: payload.duration.unwrap_or(0.0),
+                // The page reports live values on every tick.
+                report_age_ms: 0,
+                source: "extension".into(),
+            });
+            guard.seen_at = Some(Instant::now());
+        }
+        Message2::Lyrics { song_id, ttml } => {
+            if ttml.len() < 32 {
+                return;
+            }
+            guard.lyrics = Some((song_id.unwrap_or_default(), ttml));
+            guard.lyric_seq += 1;
+        }
+    }
+}
+
+pub struct ExtensionProvider {
+    feed: SharedFeed,
+    enabled: bool,
+}
+
+impl ExtensionProvider {
+    pub fn new(feed: SharedFeed, enabled: bool) -> Self {
+        Self { feed, enabled }
+    }
+}
+
+impl Provider for ExtensionProvider {
+    fn id(&self) -> &'static str {
+        "extension"
+    }
+
+    fn precision(&self) -> u8 {
+        2
+    }
+
+    fn poll(&self) -> Option<PlaybackSnapshot> {
+        if !self.enabled {
+            return None;
+        }
+        let guard = self.feed.lock().ok()?;
+        let seen = guard.seen_at?;
+        // The page sends every 200 ms; anything older than 2 s means it stopped.
+        if seen.elapsed() > Duration::from_secs(2) {
+            return None;
+        }
+        guard.snapshot.clone()
+    }
+}

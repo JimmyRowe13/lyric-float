@@ -1,1 +1,45 @@
-ewogICIkc2NoZW1hIjogImh0dHBzOi8vc2NoZW1hLnRhdXJpLmFwcC9jb25maWcvMiIsCiAgInByb2R1Y3ROYW1lIjogIkx5cmljRmxvYXQiLAogICJ2ZXJzaW9uIjogIjAuMi4wIiwKICAiaWRlbnRpZmllciI6ICJkZXYubHlyaWNmbG9hdC5vdmVybGF5IiwKICAiYnVpbGQiOiB7CiAgICAiYmVmb3JlRGV2Q29tbWFuZCI6ICJwbnBtIGRldiIsCiAgICAiZGV2VXJsIjogImh0dHA6Ly8xMjcuMC4wLjE6MTQyMCIsCiAgICAiYmVmb3JlQnVpbGRDb21tYW5kIjogInBucG0gYnVpbGQiLAogICAgImZyb250ZW5kRGlzdCI6ICIuLi9kaXN0IgogIH0sCiAgImFwcCI6IHsKICAgICJ3aXRoR2xvYmFsVGF1cmkiOiBmYWxzZSwKICAgICJ3aW5kb3dzIjogWwogICAgICB7CiAgICAgICAgImxhYmVsIjogImx5cmljcyIsCiAgICAgICAgInRpdGxlIjogIkx5cmljRmxvYXQiLAogICAgICAgICJ3aWR0aCI6IDkwMCwKICAgICAgICAiaGVpZ2h0IjogMjAwLAogICAgICAgICJ4IjogNTAwLAogICAgICAgICJ5IjogNzYwLAogICAgICAgICJ2aXNpYmxlIjogdHJ1ZSwKICAgICAgICAiY3JlYXRlIjogZmFsc2UKICAgICAgfQogICAgXSwKICAgICJzZWN1cml0eSI6IHsKICAgICAgImNzcCI6ICJkZWZhdWx0LXNyYyAnc2VsZic7IHN0eWxlLXNyYyAnc2VsZicgJ3Vuc2FmZS1pbmxpbmUnOyBpbWctc3JjICdzZWxmJyBkYXRhOiIKICAgIH0KICB9LAogICJidW5kbGUiOiB7CiAgICAiYWN0aXZlIjogdHJ1ZSwKICAgICJ0YXJnZXRzIjogWyJuc2lzIiwgIm1zaSJdLAogICAgImljb24iOiBbCiAgICAgICJpY29ucy8zMngzMi5wbmciLAogICAgICAiaWNvbnMvMTI4eDEyOC5wbmciLAogICAgICAiaWNvbnMvMTI4eDEyOEAyeC5wbmciLAogICAgICAiaWNvbnMvaWNvbi5pY28iCiAgICBdLAogICAgIndpbmRvd3MiOiB7CiAgICAgICJuc2lzIjogewogICAgICAgICJpbnN0YWxsTW9kZSI6ICJjdXJyZW50VXNlciIKICAgICAgfQogICAgfQogIH0KfQo=
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "LyricFloat",
+  "version": "0.2.0",
+  "identifier": "dev.lyricfloat.overlay",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [
+      {
+        "label": "lyrics",
+        "title": "LyricFloat",
+        "width": 900,
+        "height": 200,
+        "x": 500,
+        "y": 760,
+        "visible": true,
+        "create": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis", "msi"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser"
+      }
+    }
+  }
+}
